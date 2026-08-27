@@ -10,8 +10,8 @@ is no server and no account.
 ## Download
 
 <!-- download-links:start (auto-updated by the release workflow — do not edit by hand) -->
-- **macOS (Apple Silicon):** [credit-card-manager-0.1.67-arm64.dmg](https://github.com/searchlightdev/credit-card-manager-releases/releases/download/v0.1.67/credit-card-manager-0.1.67-arm64.dmg)
-- **Windows:** [credit-card-manager-0.1.67-x64.exe](https://github.com/searchlightdev/credit-card-manager-releases/releases/download/v0.1.67/credit-card-manager-0.1.67-x64.exe)
+- **macOS (Apple Silicon):** [credit-card-manager-0.1.68-arm64.dmg](https://github.com/searchlightdev/credit-card-manager-releases/releases/download/v0.1.68/credit-card-manager-0.1.68-arm64.dmg)
+- **Windows:** [credit-card-manager-0.1.68-x64.exe](https://github.com/searchlightdev/credit-card-manager-releases/releases/download/v0.1.68/credit-card-manager-0.1.68-x64.exe)
 - **Linux:** not currently published
 <!-- download-links:end -->
 
