@@ -40,14 +40,21 @@ must have a field in every row. Invalid values and unknown headers reject the en
 - `monthly_spend_cents`, `spend_months`: safe nonnegative integers defining known purchase requirements; their product must be safe. Spending consumes capital and does not establish a deposit hold.
 - `maintenance_start_day`, `maintenance_end_day`: paired ordered nonnegative safe integers for the bank's inclusive balance-maintenance interval. Separate from the modeled interest interval: Capital One maintenance days 16–105 is 90 days but latest funding day 15 to withdrawal day 106 earns modeled interest for 91 days. BofA uses the explicitly requested 60-day model.
 
-The row-by-row audit and calculations are in `bank_account_bonuses.audit.json` and
-the readable summary in `bank_account_bonuses.audit.md`. The audited 24-row feed
+The original row-by-row audit and calculations are in `bank_account_bonuses.audit.json` and
+the readable summary in `bank_account_bonuses.audit.md`. That original 24-row audit
 has 21 promotional calculations and three precise unresolved denominators (Chase
 checking, Chase combined, Percapita). A calculated ROI is not certification of
 current enrollment availability. Higher BofA tiers preserve user-stated amounts
 with conspicuous current-campaign conflicts; the account's zero APY is verified.
 Ancillary opening funds and applicant-specific costs remain disclosed separately
 from the cumulative promotional capital model.
+
+The expanded 446-row snapshot and all 294 discovery dispositions are reconciled in
+`bank_account_bonuses.inventory.json`. It preserves the original audit as a regression
+baseline rather than rewriting its historical counts. First-party evidence determines
+new cash tiers, restrictions and known inputs; unresolved source values remain blank
+with diagnostics. Calendar endpoint columns already supported above are included in
+the expanded CSV header. No additional enum or client parser support is required.
 
 ### Calculation and ranking
 
