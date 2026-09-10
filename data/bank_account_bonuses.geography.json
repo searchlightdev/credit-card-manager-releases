@@ -1,0 +1,168 @@
+{
+  "verified_at_utc": "2026-09-10T14:19:02.058533+00:00",
+  "policy": "Only this explicitly verified personal-residency subset is structured. All other rows remain unknown; no runtime prose inference. Nationwide means 50 states and DC, not territories. Prior source-check dates and financial terms are unchanged.",
+  "entries": [
+    {
+      "offer_id": "capital-one-performance-savings-300",
+      "bank_name": "Capital One",
+      "account_name": "360 Performance Savings ($20,000 tier)",
+      "offer_url": "https://www.capitalone.com/bank/bonus1500/",
+      "geography_scope": "personal applicant residence / physical address; not business location",
+      "source_url": "https://www.capitalone.com/bank/disclosures/savings-accounts/online-performance-savings-account/",
+      "quoted_supporting_evidence": "Who can open an account: You must be a United States citizen or lawful permanent resident with a U.S. physical address located in one of the 50 United States or Washington, D.C., or with military addresses (APO or FPO).",
+      "evidence_method": "Live first-party browser DOM, no login; current campaign also read in live browser.",
+      "campaign_evidence": {
+        "source_url": "https://www.capitalone.com/bank/bonus1500/",
+        "quote": "Open a new 360 Performance Savings account with promo code BONUS1500. Review full offer details below.",
+        "linkage": "The live BONUS1500 page links to these full 360 Performance Savings account disclosures and explicitly lists $300/$750/$1,500 deposit tiers."
+      },
+      "caveats": [
+        "Nationwide classification is supported by explicit account-specific 50-state/DC address language, not by online opening or absence of a campaign restriction. The campaign links these account disclosures; nationwide wording is in the account disclosure rather than repeated in bonus terms.",
+        "United States citizenship or lawful permanent residency, age 18+, U.S.-based mobile, valid SSN or ITIN, linked U.S.-chartered-bank account and approval restrictions still apply.",
+        "APO/FPO addresses are an explicit additional route; the 51-code state list does not model military addresses. No blanket territory eligibility is asserted.",
+        "Prior savings-account ownership exclusions and BONUS1500 funding/holding conditions remain independent; offer can change before acceptance."
+      ],
+      "geography": "nationwide",
+      "geography_states": []
+    },
+    {
+      "offer_id": "capital-one-performance-savings-750",
+      "bank_name": "Capital One",
+      "account_name": "360 Performance Savings ($50,000 tier)",
+      "offer_url": "https://www.capitalone.com/bank/bonus1500/",
+      "geography_scope": "personal applicant residence / physical address; not business location",
+      "source_url": "https://www.capitalone.com/bank/disclosures/savings-accounts/online-performance-savings-account/",
+      "quoted_supporting_evidence": "Who can open an account: You must be a United States citizen or lawful permanent resident with a U.S. physical address located in one of the 50 United States or Washington, D.C., or with military addresses (APO or FPO).",
+      "evidence_method": "Live first-party browser DOM, no login; current campaign also read in live browser.",
+      "campaign_evidence": {
+        "source_url": "https://www.capitalone.com/bank/bonus1500/",
+        "quote": "Open a new 360 Performance Savings account with promo code BONUS1500. Review full offer details below.",
+        "linkage": "The live BONUS1500 page links to these full 360 Performance Savings account disclosures and explicitly lists $300/$750/$1,500 deposit tiers."
+      },
+      "caveats": [
+        "Nationwide classification is supported by explicit account-specific 50-state/DC address language, not by online opening or absence of a campaign restriction. The campaign links these account disclosures; nationwide wording is in the account disclosure rather than repeated in bonus terms.",
+        "United States citizenship or lawful permanent residency, age 18+, U.S.-based mobile, valid SSN or ITIN, linked U.S.-chartered-bank account and approval restrictions still apply.",
+        "APO/FPO addresses are an explicit additional route; the 51-code state list does not model military addresses. No blanket territory eligibility is asserted.",
+        "Prior savings-account ownership exclusions and BONUS1500 funding/holding conditions remain independent; offer can change before acceptance."
+      ],
+      "geography": "nationwide",
+      "geography_states": []
+    },
+    {
+      "offer_id": "capital-one-performance-savings-1500",
+      "bank_name": "Capital One",
+      "account_name": "360 Performance Savings ($100,000 tier)",
+      "offer_url": "https://www.capitalone.com/bank/bonus1500/",
+      "geography_scope": "personal applicant residence / physical address; not business location",
+      "source_url": "https://www.capitalone.com/bank/disclosures/savings-accounts/online-performance-savings-account/",
+      "quoted_supporting_evidence": "Who can open an account: You must be a United States citizen or lawful permanent resident with a U.S. physical address located in one of the 50 United States or Washington, D.C., or with military addresses (APO or FPO).",
+      "evidence_method": "Live first-party browser DOM, no login; current campaign also read in live browser.",
+      "campaign_evidence": {
+        "source_url": "https://www.capitalone.com/bank/bonus1500/",
+        "quote": "Open a new 360 Performance Savings account with promo code BONUS1500. Review full offer details below.",
+        "linkage": "The live BONUS1500 page links to these full 360 Performance Savings account disclosures and explicitly lists $300/$750/$1,500 deposit tiers."
+      },
+      "caveats": [
+        "Nationwide classification is supported by explicit account-specific 50-state/DC address language, not by online opening or absence of a campaign restriction. The campaign links these account disclosures; nationwide wording is in the account disclosure rather than repeated in bonus terms.",
+        "United States citizenship or lawful permanent residency, age 18+, U.S.-based mobile, valid SSN or ITIN, linked U.S.-chartered-bank account and approval restrictions still apply.",
+        "APO/FPO addresses are an explicit additional route; the 51-code state list does not model military addresses. No blanket territory eligibility is asserted.",
+        "Prior savings-account ownership exclusions and BONUS1500 funding/holding conditions remain independent; offer can change before acceptance."
+      ],
+      "geography": "nationwide",
+      "geography_states": []
+    },
+    {
+      "offer_id": "huntington-400",
+      "bank_name": "Huntington Bank",
+      "account_name": "Perks Checking",
+      "offer_url": "https://www.huntington.com/checking-account-promotions-bonuses-offers",
+      "geography_scope": "personal applicant residence / physical address; not business location",
+      "source_url": "https://www.huntington.com/checking-account-promotions-bonuses-offers",
+      "quoted_supporting_evidence": "This offer is only available to applicants residing in Alabama, Arkansas, Colorado, Florida, Georgia, Illinois, Indiana, Kentucky, Louisiana, Michigan, Minnesota, Mississippi, Missouri, North Carolina, Ohio, Pennsylvania, South Carolina, Tennessee, Texas, West Virginia or Wisconsin.",
+      "evidence_method": "Live first-party browser DOM, no login; current campaign also read in live browser.",
+      "campaign_evidence": {
+        "source_url": "https://www.huntington.com/checking-account-promotions-bonuses-offers",
+        "quote": "To get a Huntington checking account bonus, open a new Perks Checking\u00ae or Platinum Perks Checking\u00ae account using the promotional offer code by September 30, 2026.",
+        "linkage": "Same live campaign explicitly lists Perks Checking $400 and Platinum Perks Checking $600."
+      },
+      "caveats": [
+        "State residency is only one eligibility gate; new-customer, prior-account, promotion-code and funding rules still apply.",
+        "Complete personal-offer residency list, not a branch footprint. Do not reuse for Huntington business offers; those have independently stated terms.",
+        "DC and territories are not included by the explicit only-available list."
+      ],
+      "geography": "included_states",
+      "geography_states": [
+        "AL",
+        "AR",
+        "CO",
+        "FL",
+        "GA",
+        "IL",
+        "IN",
+        "KY",
+        "LA",
+        "MI",
+        "MN",
+        "MS",
+        "MO",
+        "NC",
+        "OH",
+        "PA",
+        "SC",
+        "TN",
+        "TX",
+        "WV",
+        "WI"
+      ]
+    },
+    {
+      "offer_id": "huntington-600",
+      "bank_name": "Huntington Bank",
+      "account_name": "Platinum Perks Checking",
+      "offer_url": "https://www.huntington.com/checking-account-promotions-bonuses-offers",
+      "geography_scope": "personal applicant residence / physical address; not business location",
+      "source_url": "https://www.huntington.com/checking-account-promotions-bonuses-offers",
+      "quoted_supporting_evidence": "This offer is only available to applicants residing in Alabama, Arkansas, Colorado, Florida, Georgia, Illinois, Indiana, Kentucky, Louisiana, Michigan, Minnesota, Mississippi, Missouri, North Carolina, Ohio, Pennsylvania, South Carolina, Tennessee, Texas, West Virginia or Wisconsin.",
+      "evidence_method": "Live first-party browser DOM, no login; current campaign also read in live browser.",
+      "campaign_evidence": {
+        "source_url": "https://www.huntington.com/checking-account-promotions-bonuses-offers",
+        "quote": "To get a Huntington checking account bonus, open a new Perks Checking\u00ae or Platinum Perks Checking\u00ae account using the promotional offer code by September 30, 2026.",
+        "linkage": "Same live campaign explicitly lists Perks Checking $400 and Platinum Perks Checking $600."
+      },
+      "caveats": [
+        "State residency is only one eligibility gate; new-customer, prior-account, promotion-code and funding rules still apply.",
+        "Complete personal-offer residency list, not a branch footprint. Do not reuse for Huntington business offers; those have independently stated terms.",
+        "DC and territories are not included by the explicit only-available list."
+      ],
+      "geography": "included_states",
+      "geography_states": [
+        "AL",
+        "AR",
+        "CO",
+        "FL",
+        "GA",
+        "IL",
+        "IN",
+        "KY",
+        "LA",
+        "MI",
+        "MN",
+        "MS",
+        "MO",
+        "NC",
+        "OH",
+        "PA",
+        "SC",
+        "TN",
+        "TX",
+        "WV",
+        "WI"
+      ]
+    }
+  ],
+  "notes": [
+    "Parent independently verified live browser disclosures. Huntington extraction was stale (June campaign / 13 states); the live September 30 campaign explicitly lists 21 states. Use live campaign evidence, not stale extraction.",
+    "Capital One campaign links account-specific disclosures; APO/FPO is an additional route not modeled by residence codes.",
+    "This file is provenance, not a runtime override; CSV fields are authoritative. Publish parser support before the companion feed."
+  ]
+}

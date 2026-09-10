@@ -8,6 +8,25 @@ Every added row was checked against first-party terms; Doctor of Credit is disco
 
 The public companion repository's `data/bank_account_bonuses.csv` remains the live source of truth; the app's copy is an offline seed, not an automatic publisher. Refreshing in the app downloads this CSV, not Doctor of Credit. Existing persistent caches are not overwritten by seeding: use **Refresh feed** for immediate updates, especially on web/iOS. Desktop checks age on startup when bank tracking is enabled. No parser/schema/UI extension was needed; the larger feed remains below the existing 2 MB limit.
 
+## Structured residence geography (2026-09-10)
+
+The geography-capable app adds explicit `geography` / `geography_states` columns.
+Only five rows are classified: three Capital One 360 Performance Savings tiers
+are nationwide (**50 states + DC, not territories**), and Huntington Perks $400 /
+Platinum Perks $600 use the live campaign's complete 21-state residence list.
+All remaining rows explicitly remain unknown; this is not an exhaustive new audit.
+See [`bank_account_bonuses.geography.json`](bank_account_bonuses.geography.json)
+for exact IDs, source URLs, live disclosure quotes and limitations. Huntington's
+extracted page was stale; the live September campaign supplied the current list.
+No financial terms or original `last_verified` dates were changed in this geography
+annotation. The original inventory/audits remain historical provenance for their
+original fields; the geography ledger records this additive extension separately.
+
+Publish new headers in the companion only **after both app channels ship parser
+support**. Older strict clients reject them and keep the prior cache. Do not
+overwrite persistent caches during seeding; users refresh to receive published
+rules. Unknown/branch-only/online text is not a geographic classification.
+
 ## Curation
 
 - Read the latest article update and the offer section, not just the discovery-page headline. Many articles retain old fine print. Where they conflict, explicitly warn in the row; do not infer a deadline, promo code, fee, or eligibility guarantee.
@@ -29,6 +48,15 @@ The public companion repository's `data/bank_account_bonuses.csv` remains the li
 - [Bank of America business](https://www.doctorofcredit.com/bank-of-america-400-750-business-checking-bonus/): five current tier amounts, offer-specific links and 12-month owner/signer restriction retained. Promotional fee waiver described as temporary, not a permanent zero fee.
 - [TruStone](https://www.doctorofcredit.com/wi-mn-only-trustone-financial-350-checking-bonus/): January 2026 extension and revised direct-deposit tiers plus $50 e-statement reward; no optional referral reward included.
 - [Percapita](https://www.doctorofcredit.com/percapita-fintech-300-checking-bonus-25-per-month-direct-deposit-not-required/): discovery-page summary only; enrollment cap and unknown eligibility/fees flagged.
+
+## Application channel (2026-09-09)
+
+All 446 offers classified from their offer pages' stated application flows: **353 online,
+75 branch_only, 18 unknown** (blank — the channel was not established by direct evidence and is
+never inferred from a bank's reputation). Branch-only concentrations are mostly regional credit
+unions and in-branch promo redemptions. Per-offer evidence quotes and URLs are recorded in
+[`bank_account_bonuses.channels.json`](bank_account_bonuses.channels.json); re-verify the channel
+alongside the offer terms when refreshing a row, since banks move promos between channels.
 
 ## Maintenance
 

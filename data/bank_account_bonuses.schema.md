@@ -18,6 +18,52 @@ quote embedded commas, quotes and newlines. Required columns:
 - `fee_waiver_note`, `eligibility_note`: text or blank. Unknown is not a guarantee of free banking or eligibility.
 - `requirements`: source terms, imported as a manual-confirmation requirement. ROI modeling does not create tracking deadlines or mark requirements met.
 
+## Optional geography columns (requires geography-capable clients)
+
+`geography` and `geography_states` are additive CSV columns. Legacy feeds without
+them remain readable as **unknown**, never nationwide. Old strict clients reject
+new headers: ship desktop and iOS parser support **before publishing these columns
+to the canonical companion feed**. A rejected refresh retains the prior cache.
+
+| `geography` | `geography_states` | Meaning |
+| --- | --- | --- |
+| `nationwide` | empty | Verified 50 states + DC. Territories are **needs review**, not automatically included or excluded. |
+| `included_states` | nonempty | Complete allowed residence list; a known residence outside it is unavailable. |
+| `excluded_states` | nonempty | Complete excluded residence list; all other supported US state/territory codes are allowed. Use only when this entire complement is verified. |
+| `unknown` (or absent/empty) | empty | No complete structured rule established. Review source terms. |
+
+Lists are semicolon-separated canonical uppercase USPS codes, e.g. `NY;NJ;PR`.
+Supported residence codes are the 50 states, DC, AS, GU, MP, PR and VI. No full
+names, lowercase, surrounding/internal whitespace, empty list items, duplicate
+codes, military mail codes or freely associated sovereign-country codes are
+accepted. A row has exactly one rule. Included/excluded without a list and
+nationwide/unknown with a list are contradictions; the entire refresh is rejected.
+
+No runtime inference from `eligibility_note`, bank footprint, application channel,
+online availability, or prose is permitted. County, ZIP, branch-radius, employment,
+membership and targeted conditions not fully represented by a state rule remain
+**unknown**; do not turn a necessary-but-insufficient state hint into confirmation.
+Preserve those restrictions in notes. Provenance for the initial verified subset
+is in `bank_account_bonuses.geography.json`; that ledger is documentation, not a
+runtime override. The five verified rows are three Capital One savings tiers
+(nationwide) and Huntington $400/$600 (21 included states); all other bundled
+rows explicitly remain unknown. Existing financial/source-check fields are unchanged.
+
+People may store nullable `residenceState`, edited in People and included in JSON
+backups. Older databases/JSON backups migrate or restore with null; unrelated
+updates do not erase residence. A missing residence needs review, even for a
+nationwide offer. Business offers always need geographic review because business
+location is not recorded; personal residence is never used as business location.
+
+The server reports `geographyStatus` (`eligible`, `unavailable`, `needs_review`)
+independently of account history. Confirmation is **geography only**, not a claim
+that all bank requirements are met. It evaluates each scoped owner, intersects
+with duplicate-history eligibility for actionable rows, and returns separately
+confirmed `eligibleEntities` and unconfirmed `reviewEntities`. Mixed-owner filters
+operate at candidate level. Unknowns remain browsable and manually trackable with
+warnings; a known geographic mismatch is rejected again when adding to tracking.
+No saved owners still allows browsing with needs-review labels and disabled tracking.
+
 ## Optional ROI columns (backward-compatible)
 
 All optional fields may be blank or absent: unknown is not zero. Included columns
@@ -32,9 +78,11 @@ must have a field in every row. Invalid values and unknown headers reject the en
 
 - `hold_start_day`, `hold_end_day`: nonnegative safe integer offsets defining an **inclusive interest interval**. Both must be present together. Start must be at or after `latest_deposit_day` when known; end must not precede start; `earliest_withdrawal_day`, when supplied, must equal end + 1. Unsafe arithmetic and periods over 36,500 days are rejected. Missing funding/withdrawal endpoints remain unknown, not inferred. Do not mix this interval with calendar endpoints.
 - `timeline_anchor`: `account_opening`, `coupon_enrollment`, or `membership_establishment`; never infer an anchor from prose. Applies to day offsets and qualifying DD windows; the UI labels the actual anchor.
-- `dd_min_deposit_cents`: nonnegative safe integer minimum per deposit; `dd_min_count`: positive safe integer count; `dd_window_days`: nonnegative safe integer qualifying-window days. All may be independently unknown. When minimum and count are supplied their product must be safe, and known required capital cannot be below that product. These fields never fill missing capital or replace the seven-day DD model.
+- `dd_min_deposit_cents`: nonnegative safe integer minimum per deposit; `dd_min_count`: positive safe integer count; `dd_window_days`: nonnegative safe integer qualifying-window days. All may be independently unknown. When minimum and count are supplied their product must be safe, and known required capital cannot be below that product. The fields stay descriptive; the ROI model (operator instruction 2026-09-09) fulfills a direct-deposit offer with the FEWEST allowed equal deposits — `required_funding_cents ÷ dd_min_count` (count 1 when unstated) — recycling the same funds between deposits, so that quotient is the tied-up capital denominator. Advertised per-deposit minimums never set the denominator when the cumulative total is known (a $5.01 minimum does not make $2,000 of deposits cost $5.01 of capital); with the total unknown, a known per-deposit minimum still bounds the capital.
 - `apy_source_url`: HTTPS URL or blank; `apy_as_of`: valid YYYY-MM-DD rate date or blank, not automatically the source-check date. Partial provenance remains partial; neither field invents an APY.
 - `audit_note`: text or blank, retained in `roi_input_notes` and shown visibly alongside the ROI. Explicit audited fields take precedence over legacy annotations.
+- `application_channel`: `online` (the account/offer can be opened online, even when a branch is also possible), `branch_only` (the bank or promo requires an in-branch visit), or blank when the channel is not established by direct evidence. Never inferred from a bank's general reputation; classify from the offer page's stated application flow.
+- `deferred_bonus_cents`: portion of the advertised `bonus_cash_cents` paid a year or more after opening (anniversary/installment payouts), stated by the offer's own terms; cannot exceed the advertised bonus. The ROI numerator and recommendation gate use only the immediate portion; the deferred amount is disclosed with the offer. Blank means no known deferred installments, never a guess about payout timing.
 - `required_balance_cents`: known balance leg, including mixed offers whose total capital is unresolved; never substituted for the total denominator.
 - `opening_deposit_cents`: known user-funded minimum opening amount. Bank-funded membership shares are zero user capital with payer explained in the audit note. Whether opening funds overlap a promotional DD is disclosed, not silently added or recycled.
 - `monthly_spend_cents`, `spend_months`: safe nonnegative integers defining known purchase requirements; their product must be safe. Spending consumes capital and does not establish a deposit hold.
@@ -54,7 +102,7 @@ The expanded 446-row snapshot and all 294 discovery dispositions are reconciled 
 baseline rather than rewriting its historical counts. First-party evidence determines
 new cash tiers, restrictions and known inputs; unresolved source values remain blank
 with diagnostics. Calendar endpoint columns already supported above are included in
-the expanded CSV header. No additional enum or client parser support is required.
+the expanded CSV header. The subsequent geography extension above does require new client parser support.
 
 ### Calculation and ranking
 
@@ -110,12 +158,12 @@ open/applied account excludes that entity; another eligible entity keeps the
 offer in the ranked list. If every compatible entity is excluded, the offer is
 blocked. Business identity is authoritative even if an account's stored owner is
 null or a former owner. Closed history warns for manual review; no cooldown is
-inferred. Expired offers are blocked. Row labels expose eligible entities, not
-guarantees about geography, targeting or prior-bonus restrictions.
+inferred. Expired offers are blocked. Row labels distinguish confirmed geography
+from needs-review entities, never guarantees about targeting or prior-bonus restrictions.
 
 With no compatible saved entities, browsing still works, but adding requires a
 valid person and (for business offers) a business owned by that person. Tracking
-revalidates ownership, duplicates, expiration and ROI server-side transactionally.
+revalidates ownership, duplicates, expiration, ROI and known geographic mismatches server-side transactionally.
 Personal offers stay personal even when the view includes a selected business.
 Filters are optional; missing-input offers are visible by default.
 
