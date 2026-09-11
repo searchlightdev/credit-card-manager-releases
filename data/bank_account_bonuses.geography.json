@@ -1,7 +1,72 @@
 {
   "verified_at_utc": "2026-09-10T14:19:02.058533+00:00",
-  "policy": "Only this explicitly verified personal-residency subset is structured. All other rows remain unknown; no runtime prose inference. Nationwide means 50 states and DC, not territories. Prior source-check dates and financial terms are unchanged.",
+  "policy": "Structured personal-residency rules with their supporting evidence. Entries marked verified_first_party were read on the first-party page; the rest were transcribed from the audited eligibility terms in the bundled feed. A state match with a narrower county, footprint or membership limit carries it in geography_note. Rows without an entry remain unknown. No runtime prose inference.",
   "entries": [
+    {
+      "offer_id": "wells-fargo-everyday-500",
+      "bank_name": "Wells Fargo",
+      "account_name": "Everyday Checking",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://accountoffers.wellsfargo.com/offerbonus/",
+      "quoted_supporting_evidence": "Nationwide.",
+      "evidence_method": "Transcribed from the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "nationwide",
+      "geography_states": [],
+      "geography_note": ""
+    },
+    {
+      "offer_id": "chase-total-checking-300",
+      "bank_name": "Chase",
+      "account_name": "Total Checking (checking-only tier)",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://account.chase.com/consumer/banking/checkingandsavingsoffer",
+      "quoted_supporting_evidence": "Nationwide.",
+      "evidence_method": "Transcribed from the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "nationwide",
+      "geography_states": [],
+      "geography_note": ""
+    },
+    {
+      "offer_id": "chase-savings-200",
+      "bank_name": "Chase",
+      "account_name": "Savings (savings-only tier)",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://account.chase.com/consumer/banking/checkingandsavingsoffer",
+      "quoted_supporting_evidence": "Nationwide.",
+      "evidence_method": "Transcribed from the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "nationwide",
+      "geography_states": [],
+      "geography_note": ""
+    },
+    {
+      "offer_id": "chase-checking-savings-900",
+      "bank_name": "Chase",
+      "account_name": "Total Checking + Savings (combined offer)",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://account.chase.com/consumer/banking/checkingandsavingsoffer",
+      "quoted_supporting_evidence": "Nationwide.",
+      "evidence_method": "Transcribed from the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "nationwide",
+      "geography_states": [],
+      "geography_note": ""
+    },
+    {
+      "offer_id": "psecu-checking-300",
+      "bank_name": "PSECU",
+      "account_name": "New member checking",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://go.psecu.com/promo",
+      "quoted_supporting_evidence": "individuals who are either a U.S. Citizen or permanent resident alien residing in the U.S.",
+      "evidence_method": "Read from the first-party offer or account disclosure page during transcription.",
+      "verified_first_party": true,
+      "geography": "nationwide",
+      "geography_states": [],
+      "geography_note": "Membership: PSECU membership eligibility required; route and any association cost vary by applicant."
+    },
     {
       "offer_id": "capital-one-performance-savings-300",
       "bank_name": "Capital One",
@@ -23,7 +88,8 @@
         "Prior savings-account ownership exclusions and BONUS1500 funding/holding conditions remain independent; offer can change before acceptance."
       ],
       "geography": "nationwide",
-      "geography_states": []
+      "geography_states": [],
+      "geography_note": ""
     },
     {
       "offer_id": "capital-one-performance-savings-750",
@@ -46,7 +112,8 @@
         "Prior savings-account ownership exclusions and BONUS1500 funding/holding conditions remain independent; offer can change before acceptance."
       ],
       "geography": "nationwide",
-      "geography_states": []
+      "geography_states": [],
+      "geography_note": ""
     },
     {
       "offer_id": "capital-one-performance-savings-1500",
@@ -69,7 +136,1049 @@
         "Prior savings-account ownership exclusions and BONUS1500 funding/holding conditions remain independent; offer can change before acceptance."
       ],
       "geography": "nationwide",
-      "geography_states": []
+      "geography_states": [],
+      "geography_note": ""
+    },
+    {
+      "offer_id": "wells-fargo-initiate-business-400",
+      "bank_name": "Wells Fargo",
+      "account_name": "Initiate Business Checking ($2,500 tier)",
+      "geography_scope": "business offer; business location is not recorded, so the app still asks for review",
+      "source_url": "https://accountoffers.wellsfargo.com/businesscheckinga",
+      "quoted_supporting_evidence": "Nationwide.",
+      "evidence_method": "Transcribed from the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "nationwide",
+      "geography_states": [],
+      "geography_note": ""
+    },
+    {
+      "offer_id": "wells-fargo-initiate-business-550",
+      "bank_name": "Wells Fargo",
+      "account_name": "Initiate Business Checking ($10,000 tier)",
+      "geography_scope": "business offer; business location is not recorded, so the app still asks for review",
+      "source_url": "https://accountoffers.wellsfargo.com/businesscheckinga",
+      "quoted_supporting_evidence": "Nationwide.",
+      "evidence_method": "Transcribed from the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "nationwide",
+      "geography_states": [],
+      "geography_note": ""
+    },
+    {
+      "offer_id": "wells-fargo-initiate-business-825",
+      "bank_name": "Wells Fargo",
+      "account_name": "Initiate Business Checking ($25,000 tier)",
+      "geography_scope": "business offer; business location is not recorded, so the app still asks for review",
+      "source_url": "https://accountoffers.wellsfargo.com/businesscheckinga",
+      "quoted_supporting_evidence": "Nationwide.",
+      "evidence_method": "Transcribed from the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "nationwide",
+      "geography_states": [],
+      "geography_note": ""
+    },
+    {
+      "offer_id": "bank-of-america-business-400",
+      "bank_name": "Bank of America",
+      "account_name": "Business Advantage Banking ($5,000 tier)",
+      "geography_scope": "business offer; business location is not recorded, so the app still asks for review",
+      "source_url": "https://promotions.bankofamerica.com/smallbusiness/biz2toffer",
+      "quoted_supporting_evidence": "Online offer only; nationwide.",
+      "evidence_method": "Transcribed from the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "nationwide",
+      "geography_states": [],
+      "geography_note": ""
+    },
+    {
+      "offer_id": "bank-of-america-business-750",
+      "bank_name": "Bank of America",
+      "account_name": "Business Advantage Banking ($15,000 tier)",
+      "geography_scope": "business offer; business location is not recorded, so the app still asks for review",
+      "source_url": "https://promotions.bankofamerica.com/smallbusiness/biz2toffer",
+      "quoted_supporting_evidence": "Online offer only; nationwide.",
+      "evidence_method": "Transcribed from the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "nationwide",
+      "geography_states": [],
+      "geography_note": ""
+    },
+    {
+      "offer_id": "bank-of-america-business-1000",
+      "bank_name": "Bank of America",
+      "account_name": "Business Advantage Banking ($50,000 tier)",
+      "geography_scope": "business offer; business location is not recorded, so the app still asks for review",
+      "source_url": "https://www.doctorofcredit.com/bank-of-america-400-750-business-checking-bonus/",
+      "quoted_supporting_evidence": "Online offer only; nationwide.",
+      "evidence_method": "Transcribed from the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "nationwide",
+      "geography_states": [],
+      "geography_note": ""
+    },
+    {
+      "offer_id": "bank-of-america-business-1500",
+      "bank_name": "Bank of America",
+      "account_name": "Business Advantage Banking ($100,000 tier)",
+      "geography_scope": "business offer; business location is not recorded, so the app still asks for review",
+      "source_url": "https://www.doctorofcredit.com/bank-of-america-400-750-business-checking-bonus/",
+      "quoted_supporting_evidence": "Online offer only; nationwide.",
+      "evidence_method": "Transcribed from the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "nationwide",
+      "geography_states": [],
+      "geography_note": ""
+    },
+    {
+      "offer_id": "bank-of-america-business-2500",
+      "bank_name": "Bank of America",
+      "account_name": "Business Advantage Banking ($250,000 tier)",
+      "geography_scope": "business offer; business location is not recorded, so the app still asks for review",
+      "source_url": "https://www.doctorofcredit.com/bank-of-america-400-750-business-checking-bonus/",
+      "quoted_supporting_evidence": "Online offer only; nationwide.",
+      "evidence_method": "Transcribed from the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "nationwide",
+      "geography_states": [],
+      "geography_note": ""
+    },
+    {
+      "offer_id": "trustone-checking-250",
+      "bank_name": "TruStone Financial",
+      "account_name": "Value Checking ($1,000 direct-deposit tier)",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://trustonefinancial.org/membership/",
+      "quoted_supporting_evidence": "Live, work, worship, volunteer, or attend school in an eligible Minnesota or Wisconsin county",
+      "evidence_method": "Read from the first-party offer or account disclosure page during transcription.",
+      "verified_first_party": true,
+      "geography": "included_states",
+      "geography_states": [
+        "MN",
+        "WI"
+      ],
+      "geography_note": "Membership: live, work, worship, volunteer or attend school in an eligible Minnesota or Wisconsin county, or belong to a listed TruStone education community or employer group."
+    },
+    {
+      "offer_id": "trustone-checking-350",
+      "bank_name": "TruStone Financial",
+      "account_name": "Value Checking ($2,500 direct-deposit tier)",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://trustonefinancial.org/membership/",
+      "quoted_supporting_evidence": "Live, work, worship, volunteer, or attend school in an eligible Minnesota or Wisconsin county",
+      "evidence_method": "Read from the first-party offer or account disclosure page during transcription.",
+      "verified_first_party": true,
+      "geography": "included_states",
+      "geography_states": [
+        "MN",
+        "WI"
+      ],
+      "geography_note": "Membership: live, work, worship, volunteer or attend school in an eligible Minnesota or Wisconsin county, or belong to a listed TruStone education community or employer group."
+    },
+    {
+      "offer_id": "trustone-checking-500",
+      "bank_name": "TruStone Financial",
+      "account_name": "Value Checking ($5,000 direct-deposit tier)",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://trustonefinancial.org/membership/",
+      "quoted_supporting_evidence": "Live, work, worship, volunteer, or attend school in an eligible Minnesota or Wisconsin county",
+      "evidence_method": "Read from the first-party offer or account disclosure page during transcription.",
+      "verified_first_party": true,
+      "geography": "included_states",
+      "geography_states": [
+        "MN",
+        "WI"
+      ],
+      "geography_note": "Membership: live, work, worship, volunteer or attend school in an eligible Minnesota or Wisconsin county, or belong to a listed TruStone education community or employer group."
+    },
+    {
+      "offer_id": "percapita-checking-300",
+      "bank_name": "Percapita",
+      "account_name": "Checking (monthly debit-spend promotion)",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://www.percapita.com/en/earn300",
+      "quoted_supporting_evidence": "DDA: US/DC/territory citizens or legal permanent residents, US residential address, valid SSN/ITIN",
+      "evidence_method": "Transcribed from the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "nationwide",
+      "geography_states": [],
+      "geography_note": ""
+    },
+    {
+      "offer_id": "bok-colorado-business-500",
+      "bank_name": "BOK Financial",
+      "account_name": "Business Access ($5,000 tier)",
+      "geography_scope": "business offer; business location is not recorded, so the app still asks for review",
+      "source_url": "https://www.bokfinancial.com/landing-pages/offers/colorado-business-checking-offer",
+      "quoted_supporting_evidence": "Colorado businesses, annual revenue at most$10million; new TIN not primary on existing affiliated-brand business checking.",
+      "evidence_method": "Transcribed from the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "included_states",
+      "geography_states": [
+        "CO"
+      ],
+      "geography_note": "Colorado businesses with annual revenue of at most $10 million."
+    },
+    {
+      "offer_id": "bok-colorado-business-1000",
+      "bank_name": "BOK Financial",
+      "account_name": "Business Advantage ($25,000 tier)",
+      "geography_scope": "business offer; business location is not recorded, so the app still asks for review",
+      "source_url": "https://www.bokfinancial.com/landing-pages/offers/colorado-business-checking-offer",
+      "quoted_supporting_evidence": "Colorado businesses, annual revenue at most$10million; new TIN not primary on existing affiliated-brand business checking.",
+      "evidence_method": "Transcribed from the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "included_states",
+      "geography_states": [
+        "CO"
+      ],
+      "geography_note": "Colorado businesses with annual revenue of at most $10 million."
+    },
+    {
+      "offer_id": "bok-colorado-business-1500",
+      "bank_name": "BOK Financial",
+      "account_name": "Business Advantage ($100,000 tier)",
+      "geography_scope": "business offer; business location is not recorded, so the app still asks for review",
+      "source_url": "https://www.bokfinancial.com/landing-pages/offers/colorado-business-checking-offer",
+      "quoted_supporting_evidence": "Colorado businesses, annual revenue at most$10million; new TIN not primary on existing affiliated-brand business checking.",
+      "evidence_method": "Transcribed from the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "included_states",
+      "geography_states": [
+        "CO"
+      ],
+      "geography_note": "Colorado businesses with annual revenue of at most $10 million."
+    },
+    {
+      "offer_id": "provident-business-seed475",
+      "bank_name": "Provident Credit Union",
+      "account_name": "Dividend Business Checking - SEED475",
+      "geography_scope": "business offer; business location is not recorded, so the app still asks for review",
+      "source_url": "https://providentcu.org/business/checking/dividend-checking/bonus",
+      "quoted_supporting_evidence": "New business member resident inCalifornia; no Provident business owner status now or past2 years.",
+      "evidence_method": "Transcribed from the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "included_states",
+      "geography_states": [
+        "CA"
+      ],
+      "geography_note": "Provident Credit Union business membership required."
+    },
+    {
+      "offer_id": "truist-simple-business-400",
+      "bank_name": "Truist",
+      "account_name": "Simple Business Checking 400",
+      "geography_scope": "business offer; business location is not recorded, so the app still asks for review",
+      "source_url": "https://www.truist.com/small-business/lp/promos/banking/checking-offer",
+      "quoted_supporting_evidence": "Businessphysical addressAL,AR,FL,GA,IN,KY,MD,MS,NC,NJ,OH,PA,SC,TN,TX,VA,WV,DC.",
+      "evidence_method": "Transcribed from the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "included_states",
+      "geography_states": [
+        "AL",
+        "AR",
+        "DC",
+        "FL",
+        "GA",
+        "IN",
+        "KY",
+        "MD",
+        "MS",
+        "NC",
+        "NJ",
+        "OH",
+        "PA",
+        "SC",
+        "TN",
+        "TX",
+        "VA",
+        "WV"
+      ],
+      "geography_note": "Business physical address must be in a listed state."
+    },
+    {
+      "offer_id": "truist-simple-business-800",
+      "bank_name": "Truist",
+      "account_name": "Simple Business Checking 800",
+      "geography_scope": "business offer; business location is not recorded, so the app still asks for review",
+      "source_url": "https://www.truist.com/small-business/lp/promos/banking/checking-offer",
+      "quoted_supporting_evidence": "Businessphysical addressAL,AR,FL,GA,IN,KY,MD,MS,NC,NJ,OH,PA,SC,TN,TX,VA,WV,DC.",
+      "evidence_method": "Transcribed from the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "included_states",
+      "geography_states": [
+        "AL",
+        "AR",
+        "DC",
+        "FL",
+        "GA",
+        "IN",
+        "KY",
+        "MD",
+        "MS",
+        "NC",
+        "NJ",
+        "OH",
+        "PA",
+        "SC",
+        "TN",
+        "TX",
+        "VA",
+        "WV"
+      ],
+      "geography_note": "Business physical address must be in a listed state."
+    },
+    {
+      "offer_id": "huntington-unlimited-business-400",
+      "bank_name": "Huntington Bank",
+      "account_name": "Unlimited Business Checking",
+      "geography_scope": "business offer; business location is not recorded, so the app still asks for review",
+      "source_url": "https://www.huntington.com/business-banking-promotions-offers",
+      "quoted_supporting_evidence": "StatesAL,AR,CO,FL,GA,IL,IN,KY,LA,MI,MN,MS,MO,NC,OH,OK,PA,SC,TN,TX,WV,WI.",
+      "evidence_method": "Transcribed from the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "included_states",
+      "geography_states": [
+        "AL",
+        "AR",
+        "CO",
+        "FL",
+        "GA",
+        "IL",
+        "IN",
+        "KY",
+        "LA",
+        "MI",
+        "MN",
+        "MO",
+        "MS",
+        "NC",
+        "OH",
+        "OK",
+        "PA",
+        "SC",
+        "TN",
+        "TX",
+        "WI",
+        "WV"
+      ],
+      "geography_note": ""
+    },
+    {
+      "offer_id": "huntington-unlimited-plus-business-1000",
+      "bank_name": "Huntington Bank",
+      "account_name": "Unlimited Plus Business Checking",
+      "geography_scope": "business offer; business location is not recorded, so the app still asks for review",
+      "source_url": "https://www.huntington.com/business-banking-promotions-offers",
+      "quoted_supporting_evidence": "Same newbusiness,12-monthclosure,24-monthownerincentive andgeographic restrictions as$400; no stacking.",
+      "evidence_method": "Transcribed from the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "included_states",
+      "geography_states": [
+        "AL",
+        "AR",
+        "CO",
+        "FL",
+        "GA",
+        "IL",
+        "IN",
+        "KY",
+        "LA",
+        "MI",
+        "MN",
+        "MO",
+        "MS",
+        "NC",
+        "OH",
+        "OK",
+        "PA",
+        "SC",
+        "TN",
+        "TX",
+        "WI",
+        "WV"
+      ],
+      "geography_note": "Same geographic restriction as the $400 Unlimited Business offer: AL, AR, CO, FL, GA, IL, IN, KY, LA, MI, MN, MS, MO, NC, OH, OK, PA, SC, TN, TX, WV, WI."
+    },
+    {
+      "offer_id": "broadway-business-300",
+      "bank_name": "Broadway Bank",
+      "account_name": "Advantage Business Checking ($2,000 tier)",
+      "geography_scope": "business offer; business location is not recorded, so the app still asks for review",
+      "source_url": "https://broadway.bank/landing-pages/1000-offer",
+      "quoted_supporting_evidence": "Texasbusinesses only.",
+      "evidence_method": "Transcribed from the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "included_states",
+      "geography_states": [
+        "TX"
+      ],
+      "geography_note": ""
+    },
+    {
+      "offer_id": "broadway-business-500",
+      "bank_name": "Broadway Bank",
+      "account_name": "Advantage Business Checking ($25,000 tier)",
+      "geography_scope": "business offer; business location is not recorded, so the app still asks for review",
+      "source_url": "https://broadway.bank/landing-pages/1000-offer",
+      "quoted_supporting_evidence": "Texasbusinesses only.",
+      "evidence_method": "Transcribed from the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "included_states",
+      "geography_states": [
+        "TX"
+      ],
+      "geography_note": ""
+    },
+    {
+      "offer_id": "broadway-business-1000",
+      "bank_name": "Broadway Bank",
+      "account_name": "Advantage Business Checking ($75,000 tier)",
+      "geography_scope": "business offer; business location is not recorded, so the app still asks for review",
+      "source_url": "https://broadway.bank/landing-pages/1000-offer",
+      "quoted_supporting_evidence": "Texasbusinesses only.",
+      "evidence_method": "Transcribed from the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "included_states",
+      "geography_states": [
+        "TX"
+      ],
+      "geography_note": ""
+    },
+    {
+      "offer_id": "fulton-business-500",
+      "bank_name": "Fulton Bank",
+      "account_name": "Business Checking - 26BIZ500",
+      "geography_scope": "business offer; business location is not recorded, so the app still asks for review",
+      "source_url": "https://www.fultonbank.com/offers/small-business-checking",
+      "quoted_supporting_evidence": "ServicearearestrictionDE/DC/MD/NJ/PA/VA.",
+      "evidence_method": "Transcribed from the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "included_states",
+      "geography_states": [
+        "DC",
+        "DE",
+        "MD",
+        "NJ",
+        "PA",
+        "VA"
+      ],
+      "geography_note": ""
+    },
+    {
+      "offer_id": "bell-business-baxbus500",
+      "bank_name": "Bell Bank",
+      "account_name": "Business Checking - BAXBUS500",
+      "geography_scope": "business offer; business location is not recorded, so the app still asks for review",
+      "source_url": "https://bell.bank/business/services/small-business-checking-baxter",
+      "quoted_supporting_evidence": "Offer valid only to businesses in Crow Wing County, Cass County, Morrison County, or Atkin County, Minn.",
+      "evidence_method": "Read from the first-party offer or account disclosure page during transcription.",
+      "verified_first_party": true,
+      "geography": "included_states",
+      "geography_states": [
+        "MN"
+      ],
+      "geography_note": "Business must be in Crow Wing, Cass, Morrison or Aitkin (bank spells 'Atkin') County, Minnesota"
+    },
+    {
+      "offer_id": "bar-harbor-personal-200",
+      "bank_name": "Bar Harbor Bank & Trust",
+      "account_name": "Simple Checking",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://www.barharbor.bank/cashbonus",
+      "quoted_supporting_evidence": "ME,NH,VTresidents.",
+      "evidence_method": "Transcribed from the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "included_states",
+      "geography_states": [
+        "ME",
+        "NH",
+        "VT"
+      ],
+      "geography_note": ""
+    },
+    {
+      "offer_id": "bar-harbor-personal-400",
+      "bank_name": "Bar Harbor Bank & Trust",
+      "account_name": "Relationship Rewards Checking",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://www.barharbor.bank/cashbonus",
+      "quoted_supporting_evidence": "ME,NH,VTresidents.",
+      "evidence_method": "Transcribed from the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "included_states",
+      "geography_states": [
+        "ME",
+        "NH",
+        "VT"
+      ],
+      "geography_note": ""
+    },
+    {
+      "offer_id": "bar-harbor-business-400",
+      "bank_name": "Bar Harbor Bank & Trust",
+      "account_name": "Easy Business Checking",
+      "geography_scope": "business offer; business location is not recorded, so the app still asks for review",
+      "source_url": "https://www.barharbor.bank/cashbonus",
+      "quoted_supporting_evidence": "ME,NH,VTresidents.",
+      "evidence_method": "Transcribed from the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "included_states",
+      "geography_states": [
+        "ME",
+        "NH",
+        "VT"
+      ],
+      "geography_note": ""
+    },
+    {
+      "offer_id": "hancock-whitney-freestyle-checking-300",
+      "bank_name": "Hancock Whitney",
+      "account_name": "Freestyle Checking",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://www.hancockwhitney.com/26-acq-1513100-600?utm_campaign=2026_Consumer_Prospect_%2524600_Freestyle_Combo&utm_source=banking&utm_medium=workforce-banker&utm_content=1015FC26",
+      "quoted_supporting_evidence": "Offeraddressedrecipientonly; TX,LA,MS,AL,FLresidents18+.",
+      "evidence_method": "Transcribed from the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "included_states",
+      "geography_states": [
+        "TX",
+        "LA",
+        "MS",
+        "AL",
+        "FL"
+      ],
+      "geography_note": ""
+    },
+    {
+      "offer_id": "hancock-whitney-freestyle-savings-100",
+      "bank_name": "Hancock Whitney",
+      "account_name": "Freestyle Savings",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://www.hancockwhitney.com/26-acq-1513100-600?utm_campaign=2026_Consumer_Prospect_%2524600_Freestyle_Combo&utm_source=banking&utm_medium=workforce-banker&utm_content=1015FC26",
+      "quoted_supporting_evidence": "Offeraddressedrecipientonly; TX,LA,MS,AL,FLresidents18+.",
+      "evidence_method": "Transcribed from the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "included_states",
+      "geography_states": [
+        "TX",
+        "LA",
+        "MS",
+        "AL",
+        "FL"
+      ],
+      "geography_note": ""
+    },
+    {
+      "offer_id": "hancock-whitney-freestyle-combined-600",
+      "bank_name": "Hancock Whitney",
+      "account_name": "Freestyle Checking + Savings",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://www.hancockwhitney.com/26-acq-1513100-600?utm_campaign=2026_Consumer_Prospect_%2524600_Freestyle_Combo&utm_source=banking&utm_medium=workforce-banker&utm_content=1015FC26",
+      "quoted_supporting_evidence": "Offeraddressedrecipientonly; TX,LA,MS,AL,FLresidents18+.",
+      "evidence_method": "Transcribed from the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "included_states",
+      "geography_states": [
+        "TX",
+        "LA",
+        "MS",
+        "AL",
+        "FL"
+      ],
+      "geography_note": ""
+    },
+    {
+      "offer_id": "secu-maryland-interest-earning-business-checking-350",
+      "bank_name": "SECU Maryland",
+      "account_name": "Interest-earning Business Checking",
+      "geography_scope": "business offer; business location is not recorded, so the app still asks for review",
+      "source_url": "https://www.secumd.org/promo/350-business-checking/",
+      "quoted_supporting_evidence": "Business located MD/PA/DE/WV/VA/DC",
+      "evidence_method": "Transcribed from the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "included_states",
+      "geography_states": [
+        "MD",
+        "PA",
+        "DE",
+        "WV",
+        "VA",
+        "DC"
+      ],
+      "geography_note": ""
+    },
+    {
+      "offer_id": "cambridge-savings-bank-simple-checking-one-time-reward-500",
+      "bank_name": "Cambridge Savings Bank",
+      "account_name": "Simple Checking one-time reward",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://www.cambridgesavings.com/checking-savings-bonus-offer",
+      "quoted_supporting_evidence": "You must live or work in Massachusetts or New Hampshire. If you live or work in Maine, please visit a branch or call us.",
+      "evidence_method": "Read from the first-party offer or account disclosure page during transcription.",
+      "verified_first_party": true,
+      "geography": "included_states",
+      "geography_states": [
+        "MA",
+        "NH",
+        "ME"
+      ],
+      "geography_note": "Live or work in MA or NH; Maine applicants must visit a branch or call."
+    },
+    {
+      "offer_id": "cambridge-savings-bank-simple-checking-debit-reward-300",
+      "bank_name": "Cambridge Savings Bank",
+      "account_name": "Simple Checking debit reward",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://www.cambridgesavings.com/checking-savings-bonus-offer",
+      "quoted_supporting_evidence": "You must live or work in Massachusetts or New Hampshire. If you live or work in Maine, please visit a branch or call us.",
+      "evidence_method": "Read from the first-party offer or account disclosure page during transcription.",
+      "verified_first_party": true,
+      "geography": "included_states",
+      "geography_states": [
+        "MA",
+        "NH",
+        "ME"
+      ],
+      "geography_note": "Live or work in MA or NH; Maine applicants must visit a branch or call."
+    },
+    {
+      "offer_id": "cambridge-savings-bank-relationship-high-yield-money-market-400",
+      "bank_name": "Cambridge Savings Bank",
+      "account_name": "Relationship High-Yield Money Market",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://www.cambridgesavings.com/checking-savings-bonus-offer",
+      "quoted_supporting_evidence": "You must live or work in Massachusetts or New Hampshire. If you live or work in Maine, please visit a branch or call us.",
+      "evidence_method": "Read from the first-party offer or account disclosure page during transcription.",
+      "verified_first_party": true,
+      "geography": "included_states",
+      "geography_states": [
+        "MA",
+        "NH",
+        "ME"
+      ],
+      "geography_note": "Live or work in MA or NH; Maine applicants must visit a branch or call."
+    },
+    {
+      "offer_id": "cambridge-savings-bank-800-combined",
+      "bank_name": "Cambridge Savings Bank",
+      "account_name": "Simple Checking combined cash rewards",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://www.cambridgesavings.com/checking-savings-bonus-offer",
+      "quoted_supporting_evidence": "You must live or work in Massachusetts or New Hampshire. If you live or work in Maine, please visit a branch or call us.",
+      "evidence_method": "Read from the first-party offer or account disclosure page during transcription.",
+      "verified_first_party": true,
+      "geography": "included_states",
+      "geography_states": [
+        "MA",
+        "NH",
+        "ME"
+      ],
+      "geography_note": "Live or work in MA or NH; Maine applicants must visit a branch or call."
+    },
+    {
+      "offer_id": "cambridge-savings-bank-1200-combined",
+      "bank_name": "Cambridge Savings Bank",
+      "account_name": "Checking and Money Market all cash rewards",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://www.cambridgesavings.com/checking-savings-bonus-offer",
+      "quoted_supporting_evidence": "You must live or work in Massachusetts or New Hampshire. If you live or work in Maine, please visit a branch or call us.",
+      "evidence_method": "Read from the first-party offer or account disclosure page during transcription.",
+      "verified_first_party": true,
+      "geography": "included_states",
+      "geography_states": [
+        "MA",
+        "NH",
+        "ME"
+      ],
+      "geography_note": "Live or work in MA or NH; Maine applicants must visit a branch or call."
+    },
+    {
+      "offer_id": "eastern-bank-free-checking-350",
+      "bank_name": "Eastern Bank",
+      "account_name": "Free Checking",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://www.easternbank.com/eastern-bank-combo-offer-2",
+      "quoted_supporting_evidence": "MA/NH/ME/RI residents 18+ valid tax ID.",
+      "evidence_method": "Transcribed from the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "included_states",
+      "geography_states": [
+        "MA",
+        "NH",
+        "ME",
+        "RI"
+      ],
+      "geography_note": ""
+    },
+    {
+      "offer_id": "eastern-bank-statement-savings-250",
+      "bank_name": "Eastern Bank",
+      "account_name": "Statement Savings",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://www.easternbank.com/eastern-bank-combo-offer-2",
+      "quoted_supporting_evidence": "MA/NH/ME/RI residents 18+ valid tax ID.",
+      "evidence_method": "Transcribed from the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "included_states",
+      "geography_states": [
+        "MA",
+        "NH",
+        "ME",
+        "RI"
+      ],
+      "geography_note": ""
+    },
+    {
+      "offer_id": "eastern-bank-free-checking-and-statement-savings-combined-750",
+      "bank_name": "Eastern Bank",
+      "account_name": "Free Checking and Statement Savings combined",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://www.easternbank.com/eastern-bank-combo-offer-2",
+      "quoted_supporting_evidence": "MA/NH/ME/RI residents 18+ valid tax ID.",
+      "evidence_method": "Transcribed from the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "included_states",
+      "geography_states": [
+        "MA",
+        "NH",
+        "ME",
+        "RI"
+      ],
+      "geography_note": ""
+    },
+    {
+      "offer_id": "associated-bank-access-checking-1000-balance-tier-300",
+      "bank_name": "Associated Bank",
+      "account_name": "Access Checking 1000 balance tier",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://www.associatedbank.com/growyourbonus",
+      "quoted_supporting_evidence": "Online: IA/IL/IN/KS/MI/MN/MO/OH/WI; age18+",
+      "evidence_method": "Transcribed from the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "included_states",
+      "geography_states": [
+        "IA",
+        "IL",
+        "IN",
+        "KS",
+        "MI",
+        "MN",
+        "MO",
+        "OH",
+        "WI"
+      ],
+      "geography_note": ""
+    },
+    {
+      "offer_id": "associated-bank-access-checking-5000-balance-tier-400",
+      "bank_name": "Associated Bank",
+      "account_name": "Access Checking 5000 balance tier",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://www.associatedbank.com/growyourbonus",
+      "quoted_supporting_evidence": "Online: IA/IL/IN/KS/MI/MN/MO/OH/WI; age18+",
+      "evidence_method": "Transcribed from the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "included_states",
+      "geography_states": [
+        "IA",
+        "IL",
+        "IN",
+        "KS",
+        "MI",
+        "MN",
+        "MO",
+        "OH",
+        "WI"
+      ],
+      "geography_note": ""
+    },
+    {
+      "offer_id": "associated-bank-access-checking-10000-balance-tier-600",
+      "bank_name": "Associated Bank",
+      "account_name": "Access Checking 10000 balance tier",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://www.associatedbank.com/growyourbonus",
+      "quoted_supporting_evidence": "Online: IA/IL/IN/KS/MI/MN/MO/OH/WI; age18+",
+      "evidence_method": "Transcribed from the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "included_states",
+      "geography_states": [
+        "IA",
+        "IL",
+        "IN",
+        "KS",
+        "MI",
+        "MN",
+        "MO",
+        "OH",
+        "WI"
+      ],
+      "geography_note": ""
+    },
+    {
+      "offer_id": "regions-bank-lifegreen-checking-400",
+      "bank_name": "Regions Bank",
+      "account_name": "LifeGreen Checking",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://www.regions.com/promo/pm/switch-to-regions?promo=EZV3F2M",
+      "quoted_supporting_evidence": "AL/AR/FL/GA/IL/IN/IA/KY/LA/MS/MO/NC/SC/TN/TX; no personal Regions checking in prior year",
+      "evidence_method": "Transcribed from the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "included_states",
+      "geography_states": [
+        "AL",
+        "AR",
+        "FL",
+        "GA",
+        "IL",
+        "IN",
+        "IA",
+        "KY",
+        "LA",
+        "MS",
+        "MO",
+        "NC",
+        "SC",
+        "TN",
+        "TX"
+      ],
+      "geography_note": ""
+    },
+    {
+      "offer_id": "old-national-bank-everyday-checking-3500-dd-tier-300",
+      "bank_name": "Old National Bank",
+      "account_name": "Everyday Checking 3500 DD tier",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://www.oldnational.com/personal/our-best-offers/#QUALIFYING",
+      "quoted_supporting_evidence": "Online IA/IL/IN/KY/MI/MN/ND/TN/WI.",
+      "evidence_method": "Transcribed from the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "included_states",
+      "geography_states": [
+        "IA",
+        "IL",
+        "IN",
+        "KY",
+        "MI",
+        "MN",
+        "ND",
+        "TN",
+        "WI"
+      ],
+      "geography_note": ""
+    },
+    {
+      "offer_id": "old-national-bank-everyday-checking-12000-dd-tier-600",
+      "bank_name": "Old National Bank",
+      "account_name": "Everyday Checking 12000 DD tier",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://www.oldnational.com/personal/our-best-offers/#QUALIFYING",
+      "quoted_supporting_evidence": "Online IA/IL/IN/KY/MI/MN/ND/TN/WI.",
+      "evidence_method": "Transcribed from the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "included_states",
+      "geography_states": [
+        "IA",
+        "IL",
+        "IN",
+        "KY",
+        "MI",
+        "MN",
+        "ND",
+        "TN",
+        "WI"
+      ],
+      "geography_note": ""
+    },
+    {
+      "offer_id": "bank-five-nine-grafton-performing-arts-mascot-checking-150",
+      "bank_name": "Bank Five Nine",
+      "account_name": "Grafton Performing Arts Mascot Checking",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://www.bankfivenine.com/grafton-performing-arts-mascot-banking/",
+      "quoted_supporting_evidence": "TARGETED WI resident with at least one owner employee of Grafton Performing Arts, parent of current student, or student with valid ID.",
+      "evidence_method": "Transcribed from the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "included_states",
+      "geography_states": [
+        "WI"
+      ],
+      "geography_note": "Targeted: at least one owner must be a Grafton Performing Arts employee, parent of a current student, or student with valid ID."
+    },
+    {
+      "offer_id": "secu-maryland-total-checking-and-rewards-350",
+      "bank_name": "SECU Maryland",
+      "account_name": "Total Checking and Rewards",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://www.secumd.org/promo/welcome_to_your_last_checking_account/",
+      "quoted_supporting_evidence": "MD/DC/DE/PA/VA/WV only",
+      "evidence_method": "Transcribed from the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "included_states",
+      "geography_states": [
+        "DC",
+        "DE",
+        "MD",
+        "PA",
+        "VA",
+        "WV"
+      ],
+      "geography_note": "SECU membership eligibility required."
+    },
+    {
+      "offer_id": "midfirst-bank-livefree-checking-350",
+      "bank_name": "MidFirst Bank",
+      "account_name": "LiveFree Checking",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://www.midfirst.com/checking-offer-az-wildcats",
+      "quoted_supporting_evidence": "AZ, Tulsa OK area and Houston TX area only",
+      "evidence_method": "Transcribed from the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "included_states",
+      "geography_states": [
+        "AZ",
+        "OK",
+        "TX"
+      ],
+      "geography_note": "Oklahoma limited to the Tulsa area and Texas to the Houston area."
+    },
+    {
+      "offer_id": "florida-credit-union-new-member-checking-300",
+      "bank_name": "Florida Credit Union",
+      "account_name": "New member Checking",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://flcu.org/resources/solutions/offers/",
+      "quoted_supporting_evidence": "48-county Florida membership footprint",
+      "evidence_method": "Transcribed from the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "included_states",
+      "geography_states": [
+        "FL"
+      ],
+      "geography_note": "Membership: 48-county Florida membership footprint."
+    },
+    {
+      "offer_id": "bok-financial-access-checking-450",
+      "bank_name": "BOK Financial",
+      "account_name": "Access Checking",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://www.bokfinancial.com/landing-pages/offers/colorado-access-premier-bonus",
+      "quoted_supporting_evidence": "Colorado primary physical address",
+      "evidence_method": "Transcribed from the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "included_states",
+      "geography_states": [
+        "CO"
+      ],
+      "geography_note": ""
+    },
+    {
+      "offer_id": "bok-financial-premier-checking-750",
+      "bank_name": "BOK Financial",
+      "account_name": "Premier Checking",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://www.bokfinancial.com/landing-pages/offers/colorado-access-premier-bonus",
+      "quoted_supporting_evidence": "Colorado primary physical address",
+      "evidence_method": "Transcribed from the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "included_states",
+      "geography_states": [
+        "CO"
+      ],
+      "geography_note": ""
+    },
+    {
+      "offer_id": "bok-financial-personal-savings-200",
+      "bank_name": "BOK Financial",
+      "account_name": "Personal Savings",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://www.bokfinancial.com/landing-pages/offers/colorado-access-premier-bonus",
+      "quoted_supporting_evidence": "Colorado primary physical address",
+      "evidence_method": "Transcribed from the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "included_states",
+      "geography_states": [
+        "CO"
+      ],
+      "geography_note": ""
+    },
+    {
+      "offer_id": "bok-financial-access-checking-and-personal-savings-combined-650",
+      "bank_name": "BOK Financial",
+      "account_name": "Access Checking and Personal Savings combined",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://www.bokfinancial.com/landing-pages/offers/colorado-access-premier-bonus",
+      "quoted_supporting_evidence": "Colorado primary physical address",
+      "evidence_method": "Transcribed from the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "included_states",
+      "geography_states": [
+        "CO"
+      ],
+      "geography_note": ""
+    },
+    {
+      "offer_id": "bok-financial-premier-checking-and-personal-savings-combined-950",
+      "bank_name": "BOK Financial",
+      "account_name": "Premier Checking and Personal Savings combined",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://www.bokfinancial.com/landing-pages/offers/colorado-access-premier-bonus",
+      "quoted_supporting_evidence": "Colorado primary physical address",
+      "evidence_method": "Transcribed from the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "included_states",
+      "geography_states": [
+        "CO"
+      ],
+      "geography_note": ""
+    },
+    {
+      "offer_id": "truist-one-checking-500",
+      "bank_name": "Truist",
+      "account_name": "Truist One Checking",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://www.truist.com/checking/lp/promos/open-checking",
+      "quoted_supporting_evidence": "physical address AL AR FL GA IN KY MD MS NC NJ OH PA SC TN TX VA WV DC",
+      "evidence_method": "Transcribed from the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "included_states",
+      "geography_states": [
+        "AL",
+        "AR",
+        "DC",
+        "FL",
+        "GA",
+        "IN",
+        "KY",
+        "MD",
+        "MS",
+        "NC",
+        "NJ",
+        "OH",
+        "PA",
+        "SC",
+        "TN",
+        "TX",
+        "VA",
+        "WV"
+      ],
+      "geography_note": ""
+    },
+    {
+      "offer_id": "clearview-absolute-checking-412",
+      "bank_name": "Clearview Federal Credit Union",
+      "account_name": "Absolute Checking",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://www.clearviewfcu.org/New-Checking-Account-Offer",
+      "quoted_supporting_evidence": "New members only; Southwestern Pennsylvania membership eligibility must be met.",
+      "evidence_method": "Transcribed from the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "included_states",
+      "geography_states": [
+        "PA"
+      ],
+      "geography_note": "Membership: Southwestern Pennsylvania membership eligibility."
     },
     {
       "offer_id": "huntington-400",
@@ -82,7 +1191,7 @@
       "evidence_method": "Live first-party browser DOM, no login; current campaign also read in live browser.",
       "campaign_evidence": {
         "source_url": "https://www.huntington.com/checking-account-promotions-bonuses-offers",
-        "quote": "To get a Huntington checking account bonus, open a new Perks Checking\u00ae or Platinum Perks Checking\u00ae account using the promotional offer code by September 30, 2026.",
+        "quote": "To get a Huntington checking account bonus, open a new Perks Checking® or Platinum Perks Checking® account using the promotional offer code by September 30, 2026.",
         "linkage": "Same live campaign explicitly lists Perks Checking $400 and Platinum Perks Checking $600."
       },
       "caveats": [
@@ -113,7 +1222,8 @@
         "TX",
         "WV",
         "WI"
-      ]
+      ],
+      "geography_note": ""
     },
     {
       "offer_id": "huntington-600",
@@ -126,7 +1236,7 @@
       "evidence_method": "Live first-party browser DOM, no login; current campaign also read in live browser.",
       "campaign_evidence": {
         "source_url": "https://www.huntington.com/checking-account-promotions-bonuses-offers",
-        "quote": "To get a Huntington checking account bonus, open a new Perks Checking\u00ae or Platinum Perks Checking\u00ae account using the promotional offer code by September 30, 2026.",
+        "quote": "To get a Huntington checking account bonus, open a new Perks Checking® or Platinum Perks Checking® account using the promotional offer code by September 30, 2026.",
         "linkage": "Same live campaign explicitly lists Perks Checking $400 and Platinum Perks Checking $600."
       },
       "caveats": [
@@ -157,12 +1267,847 @@
         "TX",
         "WV",
         "WI"
-      ]
+      ],
+      "geography_note": ""
+    },
+    {
+      "offer_id": "redstone-easy-checking-475",
+      "bank_name": "Redstone Federal Credit Union",
+      "account_name": "Easy Checking",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://redfcu.org/content/dam/rfcu/pdfs/2026_Summer_NewMbr_Promo_475_TCS.pdf",
+      "quoted_supporting_evidence": "Must remain in qualifying county through payout. AL Cullman Jackson Limestone Marshall DeKalb Lawrence Morgan; TN Bedford Cannon Lincoln Moore Rutherford Davidson Williamson; additional ZIP subsets in linked legal PDF.",
+      "evidence_method": "Transcribed from the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "included_states",
+      "geography_states": [
+        "AL",
+        "TN"
+      ],
+      "geography_note": "Must live in a qualifying county through payout: AL Cullman, Jackson, Limestone, Marshall, DeKalb, Lawrence, Morgan; TN Bedford, Cannon, Lincoln, Moore, Rutherford, Davidson, Williamson; additional ZIP subsets per legal PDF."
+    },
+    {
+      "offer_id": "redstone-rewards-checking-475",
+      "bank_name": "Redstone Federal Credit Union",
+      "account_name": "Rewards Checking",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://redfcu.org/content/dam/rfcu/pdfs/2026_Summer_NewMbr_Promo_475_TCS.pdf",
+      "quoted_supporting_evidence": "Must remain in qualifying county through payout. AL Cullman Jackson Limestone Marshall DeKalb Lawrence Morgan; TN Bedford Cannon Lincoln Moore Rutherford Davidson Williamson; additional ZIP subsets in linked legal PDF.",
+      "evidence_method": "Transcribed from the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "included_states",
+      "geography_states": [
+        "AL",
+        "TN"
+      ],
+      "geography_note": "Must live in a qualifying county through payout: AL Cullman, Jackson, Limestone, Marshall, DeKalb, Lawrence, Morgan; TN Bedford, Cannon, Lincoln, Moore, Rutherford, Davidson, Williamson; additional ZIP subsets per legal PDF."
+    },
+    {
+      "offer_id": "redstone-safeguard-checking-475",
+      "bank_name": "Redstone Federal Credit Union",
+      "account_name": "Safeguard Checking",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://redfcu.org/content/dam/rfcu/pdfs/2026_Summer_NewMbr_Promo_475_TCS.pdf",
+      "quoted_supporting_evidence": "Must remain in qualifying county through payout. AL Cullman Jackson Limestone Marshall DeKalb Lawrence Morgan; TN Bedford Cannon Lincoln Moore Rutherford Davidson Williamson; additional ZIP subsets in linked legal PDF.",
+      "evidence_method": "Transcribed from the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "included_states",
+      "geography_states": [
+        "AL",
+        "TN"
+      ],
+      "geography_note": "Must live in a qualifying county through payout: AL Cullman, Jackson, Limestone, Marshall, DeKalb, Lawrence, Morgan; TN Bedford, Cannon, Lincoln, Moore, Rutherford, Davidson, Williamson; additional ZIP subsets per legal PDF."
+    },
+    {
+      "offer_id": "redstone-youth-savings-200",
+      "bank_name": "Redstone Federal Credit Union",
+      "account_name": "Youth Savings (maximum matching bonus)",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://redfcu.org/content/dam/rfcu/pdfs/agreements/TC_Youth_fall_2026.pdf",
+      "quoted_supporting_evidence": "AL Madison,Cullman,Jackson,Limestone,Marshall,DeKalb,Lawrence,Morgan; TN Bedford,Cannon,Lincoln,Moore,Rutherford,Davidson,Williamson; additional ZIP subsets in legal PDF. Remain in eligible county through payout.",
+      "evidence_method": "Transcribed from the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "included_states",
+      "geography_states": [
+        "AL",
+        "TN"
+      ],
+      "geography_note": "Must live in an eligible county through payout: AL Madison, Cullman, Jackson, Limestone, Marshall, DeKalb, Lawrence, Morgan; TN Bedford, Cannon, Lincoln, Moore, Rutherford, Davidson, Williamson; additional ZIP subsets per legal PDF."
+    },
+    {
+      "offer_id": "first-merchants-mi-400",
+      "bank_name": "First Merchants Bank",
+      "account_name": "Prosper Checking",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://www.firstmerchants.com/switch-mi",
+      "quoted_supporting_evidence": "Michigan primary residence; age18+; new FMB personal checking.",
+      "evidence_method": "Transcribed from the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "included_states",
+      "geography_states": [
+        "MI"
+      ],
+      "geography_note": ""
+    },
+    {
+      "offer_id": "first-merchants-mi-600",
+      "bank_name": "First Merchants Bank",
+      "account_name": "Prosper Plus Checking",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://www.firstmerchants.com/switch-mi",
+      "quoted_supporting_evidence": "Michigan primary residence; age18+; new FMB personal checking.",
+      "evidence_method": "Transcribed from the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "included_states",
+      "geography_states": [
+        "MI"
+      ],
+      "geography_note": ""
+    },
+    {
+      "offer_id": "wsecu-cash-back-checking-500",
+      "bank_name": "WSECU",
+      "account_name": "Cash Back Checking",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://wsecu.org/seattle-movers",
+      "quoted_supporting_evidence": "Do you live, work, worship or study in WA? If so, you're in!",
+      "evidence_method": "Read from the first-party offer or account disclosure page during transcription.",
+      "verified_first_party": true,
+      "geography": "included_states",
+      "geography_states": [
+        "WA"
+      ],
+      "geography_note": "Membership: live, work, worship or study in WA; Greater Seattle campaign."
+    },
+    {
+      "offer_id": "oneaz-free-checking-375",
+      "bank_name": "OneAZ Credit Union",
+      "account_name": "Free Checking",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://www.oneazcu.com/300-checking/",
+      "quoted_supporting_evidence": "Permanent AZ resident,18+; new member, no membership closed within12 months",
+      "evidence_method": "Transcribed from the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "included_states",
+      "geography_states": [
+        "AZ"
+      ],
+      "geography_note": ""
+    },
+    {
+      "offer_id": "flagstar-ready-checking-400",
+      "bank_name": "Flagstar Bank",
+      "account_name": "Ready Checking",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://www.flagstar.com/personal/bank/promo/checking/cash-offer.html",
+      "quoted_supporting_evidence": "Primary address FL MI OH only.",
+      "evidence_method": "Transcribed from the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "included_states",
+      "geography_states": [
+        "FL",
+        "MI",
+        "OH"
+      ],
+      "geography_note": ""
+    },
+    {
+      "offer_id": "santander-simply-right-300",
+      "bank_name": "Santander",
+      "account_name": "Simply Right Checking",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://www.santanderbank.com/pages/personal/checking-accounts-bau-a",
+      "quoted_supporting_evidence": "NH MA RI CT DE NY NJ PA and FL Miami-Dade/Monroe/Broward or Collier ZIP 34141.",
+      "evidence_method": "Transcribed from the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "included_states",
+      "geography_states": [
+        "CT",
+        "DE",
+        "FL",
+        "MA",
+        "NH",
+        "NJ",
+        "NY",
+        "PA",
+        "RI"
+      ],
+      "geography_note": "FL limited to Miami-Dade, Monroe or Broward counties, or Collier ZIP 34141."
+    },
+    {
+      "offer_id": "santander-simply-right-500",
+      "bank_name": "Santander",
+      "account_name": "Simply Right Checking",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://www.santanderbank.com/pages/personal/checking-accounts-bau-a",
+      "quoted_supporting_evidence": "NH MA RI CT DE NY NJ PA and FL Miami-Dade/Monroe/Broward or Collier ZIP 34141.",
+      "evidence_method": "Transcribed from the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "included_states",
+      "geography_states": [
+        "CT",
+        "DE",
+        "FL",
+        "MA",
+        "NH",
+        "NJ",
+        "NY",
+        "PA",
+        "RI"
+      ],
+      "geography_note": "FL limited to Miami-Dade, Monroe or Broward counties, or Collier ZIP 34141."
+    },
+    {
+      "offer_id": "air-academy-rewards-250",
+      "bank_name": "Air Academy Credit Union",
+      "account_name": "Cash Back Rewards Checking",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://www.aacu.com/local.html",
+      "quoted_supporting_evidence": "Colorado residents",
+      "evidence_method": "Transcribed from the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "included_states",
+      "geography_states": [
+        "CO"
+      ],
+      "geography_note": ""
+    },
+    {
+      "offer_id": "safe1-checking-200",
+      "bank_name": "Safe 1 Credit Union",
+      "account_name": "Free Checking",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://www.safe1.org/checking-account-promotion/",
+      "quoted_supporting_evidence": "Must reside Kern/Kings/Tulare/Fresno County CA; membership and checking approval required.",
+      "evidence_method": "Transcribed from the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "included_states",
+      "geography_states": [
+        "CA"
+      ],
+      "geography_note": "Must reside in Kern, Kings, Tulare or Fresno County"
+    },
+    {
+      "offer_id": "greater-nevada-greaterperks-250",
+      "bank_name": "Greater Nevada Credit Union",
+      "account_name": "First Checking (GreaterPerks)",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://www.gncu.org/Resources/GreaterPerks",
+      "quoted_supporting_evidence": "Only employees of participating companies or students at University of Nevada Reno/Western Nevada College. No existing checking or checking closed within 12 months. Membership NV live/work or immediate family",
+      "evidence_method": "Transcribed from the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "included_states",
+      "geography_states": [
+        "NV"
+      ],
+      "geography_note": "Only employees of participating companies or University of Nevada Reno/Western Nevada College students; membership: live/work in Nevada or immediate family"
+    },
+    {
+      "offer_id": "wecu-spend-plus-400",
+      "bank_name": "WECU",
+      "account_name": "Spend Plus Checking",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://www.wecu.com/offer/",
+      "quoted_supporting_evidence": "You and your family can become members if you live, work, worship, or attend school in Washington.",
+      "evidence_method": "Read from the first-party offer or account disclosure page during transcription.",
+      "verified_first_party": true,
+      "geography": "included_states",
+      "geography_states": [
+        "WA"
+      ],
+      "geography_note": "Membership: live, work, worship or attend school in Washington, or family of a member"
+    },
+    {
+      "offer_id": "freedom-pa-referred-member-200",
+      "bank_name": "Freedom Credit Union (PA)",
+      "account_name": "Referred New Membership",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://freedomcu.org/refer-a-member/",
+      "quoted_supporting_evidence": "your referred friend or family member must live, work, worship, volunteer or go to school in Bucks, Chester, Delaware, Montgomery, or Philadelphia County",
+      "evidence_method": "Read from the first-party offer or account disclosure page during transcription.",
+      "verified_first_party": true,
+      "geography": "included_states",
+      "geography_states": [
+        "PA"
+      ],
+      "geography_note": "Membership: live, work, worship, volunteer or go to school in Bucks, Chester, Delaware, Montgomery or Philadelphia County"
+    },
+    {
+      "offer_id": "mcu-everyday-hero-150",
+      "bank_name": "Municipal Credit Union",
+      "account_name": "Everyday Hero Checking",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://www.nymcu.org/personal-banking/everyday-hero",
+      "quoted_supporting_evidence": "Live/work/worship/study NYC, NY-based state/federal employee, immediate family/household of member.",
+      "evidence_method": "Transcribed from the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "included_states",
+      "geography_states": [
+        "NY"
+      ],
+      "geography_note": "Membership: live, work, worship or study in NYC, NY-based state/federal employee, or immediate family/household of a member"
+    },
+    {
+      "offer_id": "mcu-everyday-hero-250",
+      "bank_name": "Municipal Credit Union",
+      "account_name": "Everyday Hero Checking",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://www.nymcu.org/personal-banking/everyday-hero",
+      "quoted_supporting_evidence": "Live/work/worship/study NYC, NY-based state/federal employee, immediate family/household of member.",
+      "evidence_method": "Transcribed from the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "included_states",
+      "geography_states": [
+        "NY"
+      ],
+      "geography_note": "Membership: live, work, worship or study in NYC, NY-based state/federal employee, or immediate family/household of a member"
+    },
+    {
+      "offer_id": "mcu-everyday-hero-350",
+      "bank_name": "Municipal Credit Union",
+      "account_name": "Everyday Hero Checking",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://www.nymcu.org/personal-banking/everyday-hero",
+      "quoted_supporting_evidence": "Live/work/worship/study NYC, NY-based state/federal employee, immediate family/household of member.",
+      "evidence_method": "Transcribed from the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "included_states",
+      "geography_states": [
+        "NY"
+      ],
+      "geography_note": "Membership: live, work, worship or study in NYC, NY-based state/federal employee, or immediate family/household of a member"
+    },
+    {
+      "offer_id": "seacoast-checking-400",
+      "bank_name": "Seacoast Bank",
+      "account_name": "Consumer Checking",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://www.seacoastbank.com/switch600",
+      "quoted_supporting_evidence": "FL/GA residents 18+",
+      "evidence_method": "Transcribed from the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "included_states",
+      "geography_states": [
+        "FL",
+        "GA"
+      ],
+      "geography_note": ""
+    },
+    {
+      "offer_id": "seacoast-premier-savings-200",
+      "bank_name": "Seacoast Bank",
+      "account_name": "Premier Savings",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://www.seacoastbank.com/switch600",
+      "quoted_supporting_evidence": "FL/GA residents 18+",
+      "evidence_method": "Transcribed from the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "included_states",
+      "geography_states": [
+        "FL",
+        "GA"
+      ],
+      "geography_note": ""
+    },
+    {
+      "offer_id": "seacoast-bundle-600",
+      "bank_name": "Seacoast Bank",
+      "account_name": "Checking + Premier Savings",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://www.seacoastbank.com/switch600",
+      "quoted_supporting_evidence": "FL/GA residents 18+",
+      "evidence_method": "Transcribed from the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "included_states",
+      "geography_states": [
+        "FL",
+        "GA"
+      ],
+      "geography_note": ""
+    },
+    {
+      "offer_id": "credit-human-checking-300",
+      "bank_name": "Credit Human",
+      "account_name": "Free Checking",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://www.credithuman.com/checking-promo-2026",
+      "quoted_supporting_evidence": "Offer limited to residents of San Antonio, TX, Houston, TX and New Orleans, LA.",
+      "evidence_method": "Read from the first-party offer or account disclosure page during transcription.",
+      "verified_first_party": true,
+      "geography": "included_states",
+      "geography_states": [
+        "LA",
+        "TX"
+      ],
+      "geography_note": "Residents of San Antonio TX, Houston TX or New Orleans LA only"
+    },
+    {
+      "offer_id": "addition-free-checking-200",
+      "bank_name": "Addition Financial",
+      "account_name": "Free Checking",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://pages.additionfi.com/checking-400",
+      "quoted_supporting_evidence": "New members; GA or FL residence and membership eligibility; one promotional offer per individual; no combining.",
+      "evidence_method": "Transcribed from the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "included_states",
+      "geography_states": [
+        "FL",
+        "GA"
+      ],
+      "geography_note": "Membership eligibility also required"
+    },
+    {
+      "offer_id": "addition-classic-checking-300",
+      "bank_name": "Addition Financial",
+      "account_name": "Classic Checking",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://pages.additionfi.com/checking-400",
+      "quoted_supporting_evidence": "New members; GA or FL residence and membership eligibility; one promotional offer per individual; no combining.",
+      "evidence_method": "Transcribed from the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "included_states",
+      "geography_states": [
+        "FL",
+        "GA"
+      ],
+      "geography_note": "Membership eligibility also required"
+    },
+    {
+      "offer_id": "addition-benefits-checking-400",
+      "bank_name": "Addition Financial",
+      "account_name": "Benefits Checking",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://pages.additionfi.com/checking-400",
+      "quoted_supporting_evidence": "New members; GA or FL residence and membership eligibility; one promotional offer per individual; no combining.",
+      "evidence_method": "Transcribed from the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "included_states",
+      "geography_states": [
+        "FL",
+        "GA"
+      ],
+      "geography_note": "Membership eligibility also required"
+    },
+    {
+      "offer_id": "bank-of-hawaii-convenience-100",
+      "bank_name": "Bank of Hawaii",
+      "account_name": "Convenience Checking",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://www.boh.com/personal/bank-accounts/pr/checking-offer",
+      "quoted_supporting_evidence": "Accounts opened online are only available to applicants with a physical address in the 50 United States, Guam, Saipan, Palau or American Samoa (for existing customers).",
+      "evidence_method": "Read from the first-party offer or account disclosure page during transcription.",
+      "verified_first_party": true,
+      "geography": "nationwide",
+      "geography_states": [],
+      "geography_note": ""
+    },
+    {
+      "offer_id": "bank-of-hawaii-bankohana-i-300",
+      "bank_name": "Bank of Hawaii",
+      "account_name": "Bankohana Level I Checking",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://www.boh.com/personal/bank-accounts/pr/checking-offer",
+      "quoted_supporting_evidence": "Accounts opened online are only available to applicants with a physical address in the 50 United States, Guam, Saipan, Palau or American Samoa (for existing customers).",
+      "evidence_method": "Read from the first-party offer or account disclosure page during transcription.",
+      "verified_first_party": true,
+      "geography": "nationwide",
+      "geography_states": [],
+      "geography_note": ""
+    },
+    {
+      "offer_id": "cefcu-california-checking-250",
+      "bank_name": "CEFCU",
+      "account_name": "Checking California",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://www.cefcu.com/promos/specialpricing",
+      "quoted_supporting_evidence": "California residents only.",
+      "evidence_method": "Transcribed from the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "included_states",
+      "geography_states": [
+        "CA"
+      ],
+      "geography_note": ""
+    },
+    {
+      "offer_id": "cefcu-california-checking-275",
+      "bank_name": "CEFCU",
+      "account_name": "Checking California",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://www.cefcu.com/promos/specialpricing",
+      "quoted_supporting_evidence": "California residents only.",
+      "evidence_method": "Transcribed from the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "included_states",
+      "geography_states": [
+        "CA"
+      ],
+      "geography_note": ""
+    },
+    {
+      "offer_id": "america-first-credit-union-checking-150",
+      "bank_name": "America First Credit Union",
+      "account_name": "Savings plus Checking",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://www.americafirst.com/350-offer.html",
+      "quoted_supporting_evidence": "Current $350 page restricts new members to AZ/NV, unlike broader DoC title.",
+      "evidence_method": "Transcribed from the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "included_states",
+      "geography_states": [
+        "AZ",
+        "NV"
+      ],
+      "geography_note": ""
+    },
+    {
+      "offer_id": "america-first-credit-union-checking-350",
+      "bank_name": "America First Credit Union",
+      "account_name": "Savings plus Checking with DD",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://www.americafirst.com/350-offer.html",
+      "quoted_supporting_evidence": "New members AZ/NV; primary account ownership past 12 months and employees/volunteers/business/secondary/special accounts ineligible.",
+      "evidence_method": "Transcribed from the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "included_states",
+      "geography_states": [
+        "AZ",
+        "NV"
+      ],
+      "geography_note": ""
+    },
+    {
+      "offer_id": "california-coast-credit-union-checking-100",
+      "bank_name": "California Coast Credit Union",
+      "account_name": "Free Checking with eStatements",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://www.calcoastcu.org/200",
+      "quoted_supporting_evidence": "Live/work San Diego, Riverside, Imperial, Orange, Los Angeles, Ventura or San Bernardino counties.",
+      "evidence_method": "Transcribed from the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "included_states",
+      "geography_states": [
+        "CA"
+      ],
+      "geography_note": "Membership: live or work in San Diego, Riverside, Imperial, Orange, Los Angeles, Ventura or San Bernardino County"
+    },
+    {
+      "offer_id": "california-coast-credit-union-checking-150",
+      "bank_name": "California Coast Credit Union",
+      "account_name": "Free Checking with eStatements",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://www.calcoastcu.org/200",
+      "quoted_supporting_evidence": "Live/work San Diego, Riverside, Imperial, Orange, Los Angeles, Ventura or San Bernardino counties.",
+      "evidence_method": "Transcribed from the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "included_states",
+      "geography_states": [
+        "CA"
+      ],
+      "geography_note": "Membership: live or work in San Diego, Riverside, Imperial, Orange, Los Angeles, Ventura or San Bernardino County"
+    },
+    {
+      "offer_id": "verity-checking-referral-100",
+      "bank_name": "Verity Credit Union",
+      "account_name": "Referred member checking",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://www.veritycu.com/about-us/new-member/refer-a-friend.html",
+      "quoted_supporting_evidence": "Washington live/work/worship/school or immediate family.",
+      "evidence_method": "Transcribed from the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "included_states",
+      "geography_states": [
+        "WA"
+      ],
+      "geography_note": "Membership: live, work, worship or attend school in Washington, or immediate family of a member"
+    },
+    {
+      "offer_id": "neighborhood-cash-back-checking-neighbor-300",
+      "bank_name": "Neighborhood Credit Union",
+      "account_name": "Cash Back Checking NEIGHBOR",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://www.myncu.com/bank/checking/cash-bonus",
+      "quoted_supporting_evidence": "Anyone who lives in the state of Texas is eligible to open an account at Neighborhood Credit Union.",
+      "evidence_method": "Read from the first-party offer or account disclosure page during transcription.",
+      "verified_first_party": true,
+      "geography": "included_states",
+      "geography_states": [
+        "TX"
+      ],
+      "geography_note": "Membership: Texas residents; other membership paths not stated"
+    },
+    {
+      "offer_id": "bank-of-texas-access-checking-san-antonio-450",
+      "bank_name": "Bank of Texas",
+      "account_name": "Access Checking",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://www.bankoftexas.com/landing-pages/san-antonio-checking-savings",
+      "quoted_supporting_evidence": "Customer's primary address on the account must be in San Antonio MSA.",
+      "evidence_method": "Read from the first-party offer or account disclosure page during transcription.",
+      "verified_first_party": true,
+      "geography": "included_states",
+      "geography_states": [
+        "TX"
+      ],
+      "geography_note": "Primary address must be in the San Antonio MSA"
+    },
+    {
+      "offer_id": "bank-of-texas-premier-checking-san-antonio-650",
+      "bank_name": "Bank of Texas",
+      "account_name": "Premier Checking",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://www.bankoftexas.com/landing-pages/san-antonio-checking-savings",
+      "quoted_supporting_evidence": "Customer's primary address on the account must be in San Antonio MSA.",
+      "evidence_method": "Read from the first-party offer or account disclosure page during transcription.",
+      "verified_first_party": true,
+      "geography": "included_states",
+      "geography_states": [
+        "TX"
+      ],
+      "geography_note": "Primary address must be in the San Antonio MSA"
+    },
+    {
+      "offer_id": "bank-of-texas-personal-savings-san-antonio-200",
+      "bank_name": "Bank of Texas",
+      "account_name": "Personal Savings",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://www.bankoftexas.com/landing-pages/san-antonio-checking-savings",
+      "quoted_supporting_evidence": "Customer's primary address on the account must be in San Antonio MSA.",
+      "evidence_method": "Read from the first-party offer or account disclosure page during transcription.",
+      "verified_first_party": true,
+      "geography": "included_states",
+      "geography_states": [
+        "TX"
+      ],
+      "geography_note": "Primary address must be in the San Antonio MSA"
+    },
+    {
+      "offer_id": "bank-of-texas-access-checking-savings-san-antonio-650",
+      "bank_name": "Bank of Texas",
+      "account_name": "Access Checking + Personal Savings",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://www.bankoftexas.com/landing-pages/san-antonio-checking-savings",
+      "quoted_supporting_evidence": "Customer's primary address on the account must be in San Antonio MSA.",
+      "evidence_method": "Read from the first-party offer or account disclosure page during transcription.",
+      "verified_first_party": true,
+      "geography": "included_states",
+      "geography_states": [
+        "TX"
+      ],
+      "geography_note": "Primary address must be in the San Antonio MSA"
+    },
+    {
+      "offer_id": "bank-of-texas-premier-checking-savings-san-antonio-850",
+      "bank_name": "Bank of Texas",
+      "account_name": "Premier Checking + Personal Savings",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://www.bankoftexas.com/landing-pages/san-antonio-checking-savings",
+      "quoted_supporting_evidence": "Customer's primary address on the account must be in San Antonio MSA.",
+      "evidence_method": "Read from the first-party offer or account disclosure page during transcription.",
+      "verified_first_party": true,
+      "geography": "included_states",
+      "geography_states": [
+        "TX"
+      ],
+      "geography_note": "Primary address must be in the San Antonio MSA"
+    },
+    {
+      "offer_id": "picatinny-free-checking-dd-250",
+      "bank_name": "Picatinny Federal Credit Union",
+      "account_name": "New member free checking bonus",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://www.picacreditunion.com/checking/",
+      "quoted_supporting_evidence": "Membership live/work/worship/school Morris, Essex, Somerset, Union NJ counties or immediate family.",
+      "evidence_method": "Transcribed from the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "included_states",
+      "geography_states": [
+        "NJ"
+      ],
+      "geography_note": "Membership: live, work, worship or attend school in Morris, Essex, Somerset or Union County, or immediate family of a member"
+    },
+    {
+      "offer_id": "elevations-peak-perks-500",
+      "bank_name": "Elevations Credit Union",
+      "account_name": "Peak Perks Checking",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://www.elevationscu.com/peakperks350",
+      "quoted_supporting_evidence": "Colorado residents; new members only; one per household lifetime",
+      "evidence_method": "Transcribed from the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "included_states",
+      "geography_states": [
+        "CO"
+      ],
+      "geography_note": ""
+    },
+    {
+      "offer_id": "crbt-maxx-425",
+      "bank_name": "Cedar Rapids Bank & Trust",
+      "account_name": "MAXX Checking",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://crbt.bank/bonus",
+      "quoted_supporting_evidence": "Bonus offer is only available to residents of Iowa.",
+      "evidence_method": "Read from the first-party offer or account disclosure page during transcription.",
+      "verified_first_party": true,
+      "geography": "included_states",
+      "geography_states": [
+        "IA"
+      ],
+      "geography_note": ""
+    },
+    {
+      "offer_id": "crbt-step-up-teen-425",
+      "bank_name": "Cedar Rapids Bank & Trust",
+      "account_name": "Step Up Teen Checking",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://crbt.bank/bonus",
+      "quoted_supporting_evidence": "Bonus offer is only available to residents of Iowa.",
+      "evidence_method": "Read from the first-party offer or account disclosure page during transcription.",
+      "verified_first_party": true,
+      "geography": "included_states",
+      "geography_states": [
+        "IA"
+      ],
+      "geography_note": ""
+    },
+    {
+      "offer_id": "adelfi-harvest-checking-100",
+      "bank_name": "AdelFi Credit Union",
+      "account_name": "Harvest High-Yield Checking",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://www.adelfibanking.com/bee-b/",
+      "quoted_supporting_evidence": "Bonus offer available to U.S. residents who are new members and meet the product requirements.",
+      "evidence_method": "Read from the first-party offer or account disclosure page during transcription.",
+      "verified_first_party": true,
+      "geography": "nationwide",
+      "geography_states": [],
+      "geography_note": "Membership: affiliation with a qualifying Christian church, ministry or school required."
+    },
+    {
+      "offer_id": "adelfi-harvest-savings-100",
+      "bank_name": "AdelFi Credit Union",
+      "account_name": "Harvest High-Yield Savings",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://www.adelfibanking.com/bee-b/",
+      "quoted_supporting_evidence": "Bonus offer available to U.S. residents who are new members and meet the product requirements.",
+      "evidence_method": "Read from the first-party offer or account disclosure page during transcription.",
+      "verified_first_party": true,
+      "geography": "nationwide",
+      "geography_states": [],
+      "geography_note": "Membership: affiliation with a qualifying Christian church, ministry or school required."
+    },
+    {
+      "offer_id": "x-money-ny-dd-300",
+      "bank_name": "X Money / X Payments LLC",
+      "account_name": "Individual Stored Value Account",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://money.x.com/en/i/direct-deposit-bonus",
+      "quoted_supporting_evidence": "Only New York residents currently; individual stored-value account; one account/user; proof of residency may be required.",
+      "evidence_method": "Transcribed from the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "included_states",
+      "geography_states": [
+        "NY"
+      ],
+      "geography_note": ""
+    },
+    {
+      "offer_id": "forest-area-referred-50",
+      "bank_name": "Forest Area Federal Credit Union",
+      "account_name": "Regular Share",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://forestarea.com/resources/security-center/bring-your-own-bestie-promo-terms-and-conditions.html",
+      "quoted_supporting_evidence": "Persons who live, work, worship, or attend school in, as well as businesses and other legal entities located in the following counties: Alcona, Alpena, Antrim, Arenac, Benzie, Charlevoix, Cheboygan, Chippewa, Clare, Crawford, Emmet, Gladwin, Grand Traverse, Iosco, Kalkaska, Lake, Leelanau, Mackinac, Manistee, Mason, Missaukee, Montmorency, Ogemaw, Osceola, Oscoda, Otsego, Presque Isle, Roscommon, or Wexford Counties, Michigan.",
+      "evidence_method": "Read from the first-party offer or account disclosure page during transcription.",
+      "verified_first_party": true,
+      "geography": "included_states",
+      "geography_states": [
+        "MI"
+      ],
+      "geography_note": "Membership: live, work, worship or attend school in Alcona, Alpena, Antrim, Arenac, Benzie, Charlevoix, Cheboygan, Chippewa, Clare, Crawford, Emmet, Gladwin, Grand Traverse, Iosco, Kalkaska, Lake, Leelanau, Mackinac, Manistee, Mason, Missaukee, Montmorency, Ogemaw, Osceola, Oscoda, Otsego, Presque Isle, Roscommon or Wexford County"
+    },
+    {
+      "offer_id": "forest-area-referred-100",
+      "bank_name": "Forest Area Federal Credit Union",
+      "account_name": "Regular Share + Superior Checking",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://forestarea.com/resources/security-center/bring-your-own-bestie-promo-terms-and-conditions.html",
+      "quoted_supporting_evidence": "Persons who live, work, worship, or attend school in, as well as businesses and other legal entities located in the following counties: Alcona, Alpena, Antrim, Arenac, Benzie, Charlevoix, Cheboygan, Chippewa, Clare, Crawford, Emmet, Gladwin, Grand Traverse, Iosco, Kalkaska, Lake, Leelanau, Mackinac, Manistee, Mason, Missaukee, Montmorency, Ogemaw, Osceola, Oscoda, Otsego, Presque Isle, Roscommon, or Wexford Counties, Michigan.",
+      "evidence_method": "Read from the first-party offer or account disclosure page during transcription.",
+      "verified_first_party": true,
+      "geography": "included_states",
+      "geography_states": [
+        "MI"
+      ],
+      "geography_note": "Membership: live, work, worship or attend school in Alcona, Alpena, Antrim, Arenac, Benzie, Charlevoix, Cheboygan, Chippewa, Clare, Crawford, Emmet, Gladwin, Grand Traverse, Iosco, Kalkaska, Lake, Leelanau, Mackinac, Manistee, Mason, Missaukee, Montmorency, Ogemaw, Osceola, Oscoda, Otsego, Presque Isle, Roscommon or Wexford County"
+    },
+    {
+      "offer_id": "forest-area-referred-300",
+      "bank_name": "Forest Area Federal Credit Union",
+      "account_name": "Regular Share + Superior Checking",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://forestarea.com/resources/security-center/bring-your-own-bestie-promo-terms-and-conditions.html",
+      "quoted_supporting_evidence": "Persons who live, work, worship, or attend school in, as well as businesses and other legal entities located in the following counties: Alcona, Alpena, Antrim, Arenac, Benzie, Charlevoix, Cheboygan, Chippewa, Clare, Crawford, Emmet, Gladwin, Grand Traverse, Iosco, Kalkaska, Lake, Leelanau, Mackinac, Manistee, Mason, Missaukee, Montmorency, Ogemaw, Osceola, Oscoda, Otsego, Presque Isle, Roscommon, or Wexford Counties, Michigan.",
+      "evidence_method": "Read from the first-party offer or account disclosure page during transcription.",
+      "verified_first_party": true,
+      "geography": "included_states",
+      "geography_states": [
+        "MI"
+      ],
+      "geography_note": "Membership: live, work, worship or attend school in Alcona, Alpena, Antrim, Arenac, Benzie, Charlevoix, Cheboygan, Chippewa, Clare, Crawford, Emmet, Gladwin, Grand Traverse, Iosco, Kalkaska, Lake, Leelanau, Mackinac, Manistee, Mason, Missaukee, Montmorency, Ogemaw, Osceola, Oscoda, Otsego, Presque Isle, Roscommon or Wexford County"
+    },
+    {
+      "offer_id": "grand-simple-125",
+      "bank_name": "Grand Bank",
+      "account_name": "Simple Checking",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://grand.bank/checking-offer-250/",
+      "quoted_supporting_evidence": "MS residents18+; new Grand checking clients, no checking in60days; one/person/account; employees excluded.",
+      "evidence_method": "Transcribed from the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "included_states",
+      "geography_states": [
+        "MS"
+      ],
+      "geography_note": ""
+    },
+    {
+      "offer_id": "grand-simple-250",
+      "bank_name": "Grand Bank",
+      "account_name": "Simple Checking",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://grand.bank/checking-offer-250/",
+      "quoted_supporting_evidence": "MS residents18+; new Grand checking clients, no checking in60days; one/person/account; employees excluded.",
+      "evidence_method": "Transcribed from the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "included_states",
+      "geography_states": [
+        "MS"
+      ],
+      "geography_note": ""
+    },
+    {
+      "offer_id": "lmcu-referral-checking-110",
+      "bank_name": "Lake Michigan Credit Union",
+      "account_name": "Free Checking - new-member referral",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://refer.lmcu.org/zone/terms?journey.campaign_id=7468656301963247169",
+      "quoted_supporting_evidence": "Advocate and Friend must be 18 years or older and USA residents. Residents of California are not eligible to be Advocates or Friends for the Program.",
+      "evidence_method": "Read from the first-party offer or account disclosure page during transcription.",
+      "verified_first_party": true,
+      "geography": "excluded_states",
+      "geography_states": [
+        "CA"
+      ],
+      "geography_note": ""
     }
   ],
   "notes": [
     "Parent independently verified live browser disclosures. Huntington extraction was stale (June campaign / 13 states); the live September 30 campaign explicitly lists 21 states. Use live campaign evidence, not stale extraction.",
     "Capital One campaign links account-specific disclosures; APO/FPO is an additional route not modeled by residence codes.",
     "This file is provenance, not a runtime override; CSV fields are authoritative. Publish parser support before the companion feed."
-  ]
+  ],
+  "transcribed_at_utc": "2026-09-11T04:36:11.442Z"
 }

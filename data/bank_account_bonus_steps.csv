@@ -1,0 +1,1094 @@
+offer_id,step,type,start_day,due_day,due_date,hold_days,hold_until_day,hold_until_date,amount_cents,count,min_each_cents,note
+wells-fargo-everyday-500,1,direct_deposit,,90,,,,,100000,,,"Qualifying electronic deposits totaling $1,000; no count or per-deposit minimum. Ordinary transfers and Zelle do not qualify."
+chase-total-checking-300,1,direct_deposit,,90,,,,,,1,,"Qualifying payroll, pension or government-benefit direct deposit; no minimum amount stated. Checking component only of the combined offer."
+chase-savings-200,1,balance,30,30,,,90,,1500000,,,"$15,000 new money directly into savings within 30 days of coupon enrollment; maintain at least $15,000 for 90 days from coupon enrollment (not 90 days after deposit)."
+chase-checking-savings-900,1,balance,30,30,,,90,,1500000,,,"Savings leg: $15,000 new money into savings within 30 days of coupon enrollment; hold for 90 days from enrollment."
+chase-checking-savings-900,2,direct_deposit,,90,,,,,,1,,"Checking leg: Qualifying payroll, pension or government-benefit direct deposit; no minimum amount stated."
+us-bank-smartly-450,1,direct_deposit,,90,,,,,800000,2,,"At least two payroll or government direct deposits totaling $8,000; no per-deposit minimum. Fund at least $25 within 60 days to prevent closure (can be part of the DD)."
+us-bank-smartly-450,2,other,,90,,,,,,,,Enroll in U.S. Bank online banking or the U.S. Bank Mobile App within 90 days of opening.
+psecu-checking-300,1,direct_deposit,,100,,,,,100000,2,50000,"Two recurring qualifying payroll, Social Security or pension direct deposits of $500+ each into new PSECU savings or checking; transfers between personal accounts do not count."
+capital-one-performance-savings-300,1,balance,16,15,,,105,,2000000,,,"External new money (source not affiliated with Capital One before 1/1/2025) within the first 15 days; hold for 90 days after the funding period, through 11:59 pm ET on the final hold day."
+capital-one-performance-savings-750,1,balance,16,15,,,105,,5000000,,,"External new money (source not affiliated with Capital One before 1/1/2025) within the first 15 days; hold for 90 days after the funding period, through 11:59 pm ET on the final hold day."
+capital-one-performance-savings-1500,1,balance,16,15,,,105,,10000000,,,"External new money (source not affiliated with Capital One before 1/1/2025) within the first 15 days; hold for 90 days after the funding period, through 11:59 pm ET on the final hold day."
+bank-of-hawaii-savings-75,1,balance,31,30,,,90,,500000,,,"New money of $5,000 (external check, wire, ACH credit or online external transfer) within 30 days; $100 opening deposit counts. Maintain the qualifying daily balance from day 31 through day 90."
+bank-of-hawaii-savings-150,1,balance,31,30,,,90,,1000000,,,"New money of $10,000 (external check, wire, ACH credit or online external transfer) within 30 days; $100 opening deposit counts. Maintain the qualifying daily balance from day 31 through day 90."
+bank-of-hawaii-savings-300,1,balance,31,30,,,90,,2000000,,,"New money of $20,000 (external check, wire, ACH credit or online external transfer) within 30 days; $100 opening deposit counts. Maintain the qualifying daily balance from day 31 through day 90."
+wells-fargo-initiate-business-400,1,balance,30,30,,,60,,250000,,,"Deposit $2,500 by day 30 and maintain it through day 60; the $25 minimum opening deposit counts toward the balance."
+wells-fargo-initiate-business-400,2,transactions,,60,,,,,,5,,"Five qualifying posted transactions: debit card purchases, Bill Pay or qualifying deposits."
+wells-fargo-initiate-business-550,1,balance,30,30,,,60,,1000000,,,"Deposit $10,000 by day 30 and maintain it through day 60; the $25 minimum opening deposit counts toward the balance."
+wells-fargo-initiate-business-550,2,transactions,,60,,,,,,5,,"Five qualifying posted transactions: debit card purchases, Bill Pay or qualifying deposits."
+wells-fargo-initiate-business-825,1,balance,30,30,,,60,,2500000,,,"Deposit $25,000 by day 30 and maintain it through day 60; the $25 minimum opening deposit counts toward the balance."
+wells-fargo-initiate-business-825,2,transactions,,60,,,,,,5,,"Five qualifying posted transactions: debit card purchases, Bill Pay or qualifying deposits."
+bank-of-america-business-400,1,balance,31,30,,,90,,500000,,,"Deposit $5,000 new money within 30 days; maintain the qualifying balance from day 31 through day 90. No direct deposit required."
+bank-of-america-business-750,1,balance,31,30,,,90,,1500000,,,"Deposit $15,000 new money within 30 days; maintain the qualifying balance from day 31 through day 90. No direct deposit required."
+bank-of-america-business-1000,1,balance,31,30,,,90,,5000000,,,"Deposit $50,000 new money within 30 days; maintain the qualifying balance from day 31 through day 90. No direct deposit required."
+bank-of-america-business-1500,1,balance,31,30,,,90,,10000000,,,"Deposit $100,000 new money within 30 days; maintain the qualifying balance from day 31 through day 90. No direct deposit required."
+bank-of-america-business-2500,1,balance,31,30,,,90,,25000000,,,"Deposit $250,000 new money within 30 days; maintain the qualifying balance from day 31 through day 90. No direct deposit required."
+trustone-checking-250,1,direct_deposit,,60,,,,,100000,,,"Direct deposits totaling $1,000 within 60 days of opening; no count or per-deposit minimum stated."
+trustone-checking-250,2,other,,60,,,,,,,,Enroll in e-statements within 60 days of opening ($50 of the advertised total).
+trustone-checking-350,1,direct_deposit,,60,,,,,250000,,,"Direct deposits totaling $2,500 within 60 days of opening; no count or per-deposit minimum stated."
+trustone-checking-350,2,other,,60,,,,,,,,Enroll in e-statements within 60 days of opening ($50 of the advertised total).
+trustone-checking-500,1,direct_deposit,,60,,,,,500000,,,"Direct deposits totaling $5,000 within 60 days of opening; no count or per-deposit minimum stated."
+trustone-checking-500,2,other,,60,,,,,,,,Enroll in e-statements within 60 days of opening ($50 of the advertised total).
+percapita-checking-300,1,transactions,0,30,,,,,30000,,,"Month 1 of 12; $300 qualifying debit purchases in the calendar month; calendar-month timing approximated as 30-day windows. Cash substitutes, ATM withdrawals and money movement excluded; balance must stay positive."
+percapita-checking-300,2,transactions,31,60,,,,,30000,,,Month 2 of 12; $300 qualifying debit purchases in the calendar month; calendar-month timing approximated as 30-day windows.
+percapita-checking-300,3,transactions,61,90,,,,,30000,,,Month 3 of 12; $300 qualifying debit purchases in the calendar month; calendar-month timing approximated as 30-day windows.
+percapita-checking-300,4,transactions,91,120,,,,,30000,,,Month 4 of 12; $300 qualifying debit purchases in the calendar month; calendar-month timing approximated as 30-day windows.
+percapita-checking-300,5,transactions,121,150,,,,,30000,,,Month 5 of 12; $300 qualifying debit purchases in the calendar month; calendar-month timing approximated as 30-day windows.
+percapita-checking-300,6,transactions,151,180,,,,,30000,,,Month 6 of 12; $300 qualifying debit purchases in the calendar month; calendar-month timing approximated as 30-day windows.
+percapita-checking-300,7,transactions,181,210,,,,,30000,,,Month 7 of 12; $300 qualifying debit purchases in the calendar month; calendar-month timing approximated as 30-day windows.
+percapita-checking-300,8,transactions,211,240,,,,,30000,,,Month 8 of 12; $300 qualifying debit purchases in the calendar month; calendar-month timing approximated as 30-day windows.
+percapita-checking-300,9,transactions,241,270,,,,,30000,,,Month 9 of 12; $300 qualifying debit purchases in the calendar month; calendar-month timing approximated as 30-day windows.
+percapita-checking-300,10,transactions,271,300,,,,,30000,,,Month 10 of 12; $300 qualifying debit purchases in the calendar month; calendar-month timing approximated as 30-day windows.
+percapita-checking-300,11,transactions,301,330,,,,,30000,,,Month 11 of 12; $300 qualifying debit purchases in the calendar month; calendar-month timing approximated as 30-day windows.
+percapita-checking-300,12,transactions,331,360,,,,,30000,,,Month 12 of 12; $300 qualifying debit purchases in the calendar month; calendar-month timing approximated as 30-day windows.
+chase-total-checking-400,1,direct_deposit,,90,,,,,100000,,,"Payroll, pension or government direct deposits totaling $1,000 within 90 days of coupon enrollment (enroll by 10/14/2026)."
+bank-of-america-personal-dd-100,1,direct_deposit,,90,,,,,200000,,,"Cumulative qualifying regular-income direct deposits of $2,000 within 90 days; SafeBalance accounts excluded from the DD offer."
+bank-of-america-personal-dd-300,1,direct_deposit,,90,,,,,500000,,,"Cumulative qualifying regular-income direct deposits of $5,000 within 90 days; SafeBalance accounts excluded from the DD offer."
+bank-of-america-personal-dd-500,1,direct_deposit,,90,,,,,1000000,,,"Cumulative qualifying regular-income direct deposits of $10,000 within 90 days; SafeBalance accounts excluded from the DD offer."
+bank-of-america-safebalance-100,1,transactions,,60,,,,,,20,,20 posted qualifying debit card purchases/payments or Zelle sent/received transactions; no amount minimum stated.
+sofi-checking-savings-50,1,direct_deposit,,,,,,,100000,,,"First eligible recurring payroll, pension or government ACH direct deposit ($1+) by 12/31/2026; eligible DDs must total $1,000 within 25 calendar days of that first DD (window anchored to the first DD, not opening)."
+sofi-checking-savings-400,1,direct_deposit,,,,,,,500000,,,"First eligible recurring payroll, pension or government ACH direct deposit ($1+) by 12/31/2026; eligible DDs must total $5,000 within 25 calendar days of that first DD (window anchored to the first DD, not opening)."
+fourleaf-checking-350,1,direct_deposit,,90,,,,,50000,1,50000,"Initial recurring direct deposit of at least $500 posts within 90 days ($350). Free, Smart or Student checking opened 2/2/2026-12/31/2026; $5 membership savings required."
+fourleaf-checking-450,1,direct_deposit,,90,,,,,50000,1,50000,"Initial recurring direct deposit of at least $500 posts within 90 days ($350). Free, Smart or Student checking opened 2/2/2026-12/31/2026; $5 membership savings required."
+fourleaf-checking-450,2,direct_deposit,,,,,,,50000,1,50000,Month 1 of 12 consecutive months after the initial DD: a $500+ direct deposit (additional $100). No fixed day window; timing follows the month the initial DD posts.
+fourleaf-checking-450,3,direct_deposit,,,,,,,50000,1,50000,Month 2 of 12 consecutive months after the initial DD: a $500+ direct deposit (additional $100). No fixed day window; timing follows the month the initial DD posts.
+fourleaf-checking-450,4,direct_deposit,,,,,,,50000,1,50000,Month 3 of 12 consecutive months after the initial DD: a $500+ direct deposit (additional $100). No fixed day window; timing follows the month the initial DD posts.
+fourleaf-checking-450,5,direct_deposit,,,,,,,50000,1,50000,Month 4 of 12 consecutive months after the initial DD: a $500+ direct deposit (additional $100). No fixed day window; timing follows the month the initial DD posts.
+fourleaf-checking-450,6,direct_deposit,,,,,,,50000,1,50000,Month 5 of 12 consecutive months after the initial DD: a $500+ direct deposit (additional $100). No fixed day window; timing follows the month the initial DD posts.
+fourleaf-checking-450,7,direct_deposit,,,,,,,50000,1,50000,Month 6 of 12 consecutive months after the initial DD: a $500+ direct deposit (additional $100). No fixed day window; timing follows the month the initial DD posts.
+fourleaf-checking-450,8,direct_deposit,,,,,,,50000,1,50000,Month 7 of 12 consecutive months after the initial DD: a $500+ direct deposit (additional $100). No fixed day window; timing follows the month the initial DD posts.
+fourleaf-checking-450,9,direct_deposit,,,,,,,50000,1,50000,Month 8 of 12 consecutive months after the initial DD: a $500+ direct deposit (additional $100). No fixed day window; timing follows the month the initial DD posts.
+fourleaf-checking-450,10,direct_deposit,,,,,,,50000,1,50000,Month 9 of 12 consecutive months after the initial DD: a $500+ direct deposit (additional $100). No fixed day window; timing follows the month the initial DD posts.
+fourleaf-checking-450,11,direct_deposit,,,,,,,50000,1,50000,Month 10 of 12 consecutive months after the initial DD: a $500+ direct deposit (additional $100). No fixed day window; timing follows the month the initial DD posts.
+fourleaf-checking-450,12,direct_deposit,,,,,,,50000,1,50000,Month 11 of 12 consecutive months after the initial DD: a $500+ direct deposit (additional $100). No fixed day window; timing follows the month the initial DD posts.
+fourleaf-checking-450,13,direct_deposit,,,,,,,50000,1,50000,Month 12 of 12 consecutive months after the initial DD: a $500+ direct deposit (additional $100). No fixed day window; timing follows the month the initial DD posts.
+fourleaf-checking-550,1,direct_deposit,,90,,,,,50000,1,50000,"Initial recurring direct deposit of at least $500 posts within 90 days ($350). Free, Smart or Student checking opened 2/2/2026-12/31/2026; $5 membership savings required."
+fourleaf-checking-550,2,direct_deposit,,,,,,,50000,1,50000,"Month 1 of 24 consecutive months after the initial DD: a $500+ direct deposit (additional $100 after month 12, another $100 after month 24). No fixed day window; timing follows the month the initial DD posts."
+fourleaf-checking-550,3,direct_deposit,,,,,,,50000,1,50000,"Month 2 of 24 consecutive months after the initial DD: a $500+ direct deposit (additional $100 after month 12, another $100 after month 24). No fixed day window; timing follows the month the initial DD posts."
+fourleaf-checking-550,4,direct_deposit,,,,,,,50000,1,50000,"Month 3 of 24 consecutive months after the initial DD: a $500+ direct deposit (additional $100 after month 12, another $100 after month 24). No fixed day window; timing follows the month the initial DD posts."
+fourleaf-checking-550,5,direct_deposit,,,,,,,50000,1,50000,"Month 4 of 24 consecutive months after the initial DD: a $500+ direct deposit (additional $100 after month 12, another $100 after month 24). No fixed day window; timing follows the month the initial DD posts."
+fourleaf-checking-550,6,direct_deposit,,,,,,,50000,1,50000,"Month 5 of 24 consecutive months after the initial DD: a $500+ direct deposit (additional $100 after month 12, another $100 after month 24). No fixed day window; timing follows the month the initial DD posts."
+fourleaf-checking-550,7,direct_deposit,,,,,,,50000,1,50000,"Month 6 of 24 consecutive months after the initial DD: a $500+ direct deposit (additional $100 after month 12, another $100 after month 24). No fixed day window; timing follows the month the initial DD posts."
+fourleaf-checking-550,8,direct_deposit,,,,,,,50000,1,50000,"Month 7 of 24 consecutive months after the initial DD: a $500+ direct deposit (additional $100 after month 12, another $100 after month 24). No fixed day window; timing follows the month the initial DD posts."
+fourleaf-checking-550,9,direct_deposit,,,,,,,50000,1,50000,"Month 8 of 24 consecutive months after the initial DD: a $500+ direct deposit (additional $100 after month 12, another $100 after month 24). No fixed day window; timing follows the month the initial DD posts."
+fourleaf-checking-550,10,direct_deposit,,,,,,,50000,1,50000,"Month 9 of 24 consecutive months after the initial DD: a $500+ direct deposit (additional $100 after month 12, another $100 after month 24). No fixed day window; timing follows the month the initial DD posts."
+fourleaf-checking-550,11,direct_deposit,,,,,,,50000,1,50000,"Month 10 of 24 consecutive months after the initial DD: a $500+ direct deposit (additional $100 after month 12, another $100 after month 24). No fixed day window; timing follows the month the initial DD posts."
+fourleaf-checking-550,12,direct_deposit,,,,,,,50000,1,50000,"Month 11 of 24 consecutive months after the initial DD: a $500+ direct deposit (additional $100 after month 12, another $100 after month 24). No fixed day window; timing follows the month the initial DD posts."
+fourleaf-checking-550,13,direct_deposit,,,,,,,50000,1,50000,"Month 12 of 24 consecutive months after the initial DD: a $500+ direct deposit (additional $100 after month 12, another $100 after month 24). No fixed day window; timing follows the month the initial DD posts."
+fourleaf-checking-550,14,direct_deposit,,,,,,,50000,1,50000,"Month 13 of 24 consecutive months after the initial DD: a $500+ direct deposit (additional $100 after month 12, another $100 after month 24). No fixed day window; timing follows the month the initial DD posts."
+fourleaf-checking-550,15,direct_deposit,,,,,,,50000,1,50000,"Month 14 of 24 consecutive months after the initial DD: a $500+ direct deposit (additional $100 after month 12, another $100 after month 24). No fixed day window; timing follows the month the initial DD posts."
+fourleaf-checking-550,16,direct_deposit,,,,,,,50000,1,50000,"Month 15 of 24 consecutive months after the initial DD: a $500+ direct deposit (additional $100 after month 12, another $100 after month 24). No fixed day window; timing follows the month the initial DD posts."
+fourleaf-checking-550,17,direct_deposit,,,,,,,50000,1,50000,"Month 16 of 24 consecutive months after the initial DD: a $500+ direct deposit (additional $100 after month 12, another $100 after month 24). No fixed day window; timing follows the month the initial DD posts."
+fourleaf-checking-550,18,direct_deposit,,,,,,,50000,1,50000,"Month 17 of 24 consecutive months after the initial DD: a $500+ direct deposit (additional $100 after month 12, another $100 after month 24). No fixed day window; timing follows the month the initial DD posts."
+fourleaf-checking-550,19,direct_deposit,,,,,,,50000,1,50000,"Month 18 of 24 consecutive months after the initial DD: a $500+ direct deposit (additional $100 after month 12, another $100 after month 24). No fixed day window; timing follows the month the initial DD posts."
+fourleaf-checking-550,20,direct_deposit,,,,,,,50000,1,50000,"Month 19 of 24 consecutive months after the initial DD: a $500+ direct deposit (additional $100 after month 12, another $100 after month 24). No fixed day window; timing follows the month the initial DD posts."
+fourleaf-checking-550,21,direct_deposit,,,,,,,50000,1,50000,"Month 20 of 24 consecutive months after the initial DD: a $500+ direct deposit (additional $100 after month 12, another $100 after month 24). No fixed day window; timing follows the month the initial DD posts."
+fourleaf-checking-550,22,direct_deposit,,,,,,,50000,1,50000,"Month 21 of 24 consecutive months after the initial DD: a $500+ direct deposit (additional $100 after month 12, another $100 after month 24). No fixed day window; timing follows the month the initial DD posts."
+fourleaf-checking-550,23,direct_deposit,,,,,,,50000,1,50000,"Month 22 of 24 consecutive months after the initial DD: a $500+ direct deposit (additional $100 after month 12, another $100 after month 24). No fixed day window; timing follows the month the initial DD posts."
+fourleaf-checking-550,24,direct_deposit,,,,,,,50000,1,50000,"Month 23 of 24 consecutive months after the initial DD: a $500+ direct deposit (additional $100 after month 12, another $100 after month 24). No fixed day window; timing follows the month the initial DD posts."
+fourleaf-checking-550,25,direct_deposit,,,,,,,50000,1,50000,"Month 24 of 24 consecutive months after the initial DD: a $500+ direct deposit (additional $100 after month 12, another $100 after month 24). No fixed day window; timing follows the month the initial DD posts."
+citi-regular-checking-325,1,direct_deposit,,90,,,,,300000,2,,"At least two Enhanced Direct Deposits totaling $3,000 within 90 days of opening; EDD includes qualifying ACH payroll and P2P/Zelle, not instant or debit-card transfers."
+citi-checking-savings-475,1,direct_deposit,,45,,,,,300000,2,,"At least two Enhanced Direct Deposits totaling $3,000 within 45 days of opening."
+citi-checking-savings-475,2,balance,,45,,,,,500000,,,"Deposit $5,000 New-to-Citibank funds within 45 days and maintain a total $5,000 across the new checking and savings; maintenance end not established."
+affinity-referral-checking-100,1,direct_deposit,,60,,,,,50000,,,"Recurring qualifying ACH direct deposits (payroll, Social Security, unemployment, pension) totaling $500+ in one calendar month, within 60 days of opening. Genuine referral and $5 membership share required."
+live-oak-personal-savings-300,1,balance,,,2026-10-16,,,2027-01-13,2000000,,,"Open 9/8-10/16/2026; fund $20,000 external new money by 5pm ET 10/16/2026 and keep at least $20,000 for 90 consecutive days from the day the balance reaches $20,000 (hold end assumes funding on the deadline)."
+ameriprise-checking-400,1,direct_deposit,,90,,,,,150000,,,"Cumulative new recurring payroll, pension or government ACH direct deposits."
+ameriprise-savings-350,1,balance,31,30,,,120,,2500000,,,"Eligible deposits within 30 days (external funds, qualifying brokerage pass-through, specified money-market redemptions); maintain tier daily balance for the 90 calendar days after the funding period (days 31-120)."
+ameriprise-savings-650,1,balance,31,30,,,120,,5000000,,,"Eligible deposits within 30 days (external funds, qualifying brokerage pass-through, specified money-market redemptions); maintain tier daily balance for the 90 calendar days after the funding period (days 31-120)."
+ameriprise-savings-1000,1,balance,31,30,,,120,,10000000,,,"Eligible deposits within 30 days (external funds, qualifying brokerage pass-through, specified money-market redemptions); maintain tier daily balance for the 90 calendar days after the funding period (days 31-120)."
+hsbc-premier-net-new-500,1,balance,,,2026-12-31,,,2027-03-31,5000000,,,"Net new assets to eligible Premier checking/savings, Managed Portfolio or Spectrum; both eligible-account balance and baseline must increase by the tier and the net increase be maintained through 3/31/2027. Lowest maintained increase sets the tier; existing baseline balances must also be preserved."
+hsbc-premier-net-new-500,2,other,,,2027-03-31,,,,,,,Opt into HSBC marketing communications by 3/31/2027 and stay opted in through the 5/31/2027 payout.
+hsbc-premier-net-new-1500,1,balance,,,2026-12-31,,,2027-03-31,15000000,,,"Net new assets to eligible Premier checking/savings, Managed Portfolio or Spectrum; both eligible-account balance and baseline must increase by the tier and the net increase be maintained through 3/31/2027. Lowest maintained increase sets the tier; existing baseline balances must also be preserved."
+hsbc-premier-net-new-1500,2,other,,,2027-03-31,,,,,,,Opt into HSBC marketing communications by 3/31/2027 and stay opted in through the 5/31/2027 payout.
+hsbc-premier-net-new-2500,1,balance,,,2026-12-31,,,2027-03-31,25000000,,,"Net new assets to eligible Premier checking/savings, Managed Portfolio or Spectrum; both eligible-account balance and baseline must increase by the tier and the net increase be maintained through 3/31/2027. Lowest maintained increase sets the tier; existing baseline balances must also be preserved."
+hsbc-premier-net-new-2500,2,other,,,2027-03-31,,,,,,,Opt into HSBC marketing communications by 3/31/2027 and stay opted in through the 5/31/2027 payout.
+hsbc-premier-net-new-3500,1,balance,,,2026-12-31,,,2027-03-31,50000000,,,"Net new assets to eligible Premier checking/savings, Managed Portfolio or Spectrum; both eligible-account balance and baseline must increase by the tier and the net increase be maintained through 3/31/2027. Lowest maintained increase sets the tier; existing baseline balances must also be preserved."
+hsbc-premier-net-new-3500,2,other,,,2027-03-31,,,,,,,Opt into HSBC marketing communications by 3/31/2027 and stay opted in through the 5/31/2027 payout.
+hsbc-premier-net-new-7000,1,balance,,,2026-12-31,,,2027-03-31,100000000,,,"Net new assets to eligible Premier checking/savings, Managed Portfolio or Spectrum; both eligible-account balance and baseline must increase by the tier and the net increase be maintained through 3/31/2027. Lowest maintained increase sets the tier; existing baseline balances must also be preserved."
+hsbc-premier-net-new-7000,2,other,,,2027-03-31,,,,,,,Opt into HSBC marketing communications by 3/31/2027 and stay opted in through the 5/31/2027 payout.
+hsbc-premier-net-new-10000,1,balance,,,2026-12-31,,,2027-03-31,250000000,,,"Net new assets to eligible Premier checking/savings, Managed Portfolio or Spectrum; both eligible-account balance and baseline must increase by the tier and the net increase be maintained through 3/31/2027. Lowest maintained increase sets the tier; existing baseline balances must also be preserved."
+hsbc-premier-net-new-10000,2,other,,,2027-03-31,,,,,,,Opt into HSBC marketing communications by 3/31/2027 and stay opted in through the 5/31/2027 payout.
+raisin-stack-10000-base,1,balance,,,,,,,1000000,,,Reach the tier total in qualifying partner-bank deposits within 14 days of the initial deposit (initiated 9/1-9/30/2026) and maintain through 90 days from the initial deposit; the initial-deposit anchor is not an account-opening day offset.
+raisin-stack-10000-boost,1,balance,,,,,,,1000000,,,Reach the tier total in qualifying partner-bank deposits within 14 days of the initial deposit (initiated 9/1-9/30/2026) and maintain through 90 days from the initial deposit; the initial-deposit anchor is not an account-opening day offset.
+raisin-stack-10000-boost,2,other,,,,,,,,,,"Deposit at least $1,000 in a second qualifying product category within 14 days of the initial deposit and keep over $1,000 in both categories through day 90; part of the tier total, not added capital."
+raisin-stack-25000-base,1,balance,,,,,,,2500000,,,Reach the tier total in qualifying partner-bank deposits within 14 days of the initial deposit (initiated 9/1-9/30/2026) and maintain through 90 days from the initial deposit; the initial-deposit anchor is not an account-opening day offset.
+raisin-stack-25000-boost,1,balance,,,,,,,2500000,,,Reach the tier total in qualifying partner-bank deposits within 14 days of the initial deposit (initiated 9/1-9/30/2026) and maintain through 90 days from the initial deposit; the initial-deposit anchor is not an account-opening day offset.
+raisin-stack-25000-boost,2,other,,,,,,,,,,"Deposit at least $1,000 in a second qualifying product category within 14 days of the initial deposit and keep over $1,000 in both categories through day 90; part of the tier total, not added capital."
+raisin-stack-50000-base,1,balance,,,,,,,5000000,,,Reach the tier total in qualifying partner-bank deposits within 14 days of the initial deposit (initiated 9/1-9/30/2026) and maintain through 90 days from the initial deposit; the initial-deposit anchor is not an account-opening day offset.
+raisin-stack-50000-boost,1,balance,,,,,,,5000000,,,Reach the tier total in qualifying partner-bank deposits within 14 days of the initial deposit (initiated 9/1-9/30/2026) and maintain through 90 days from the initial deposit; the initial-deposit anchor is not an account-opening day offset.
+raisin-stack-50000-boost,2,other,,,,,,,,,,"Deposit at least $1,000 in a second qualifying product category within 14 days of the initial deposit and keep over $1,000 in both categories through day 90; part of the tier total, not added capital."
+raisin-stack-100000-base,1,balance,,,,,,,10000000,,,Reach the tier total in qualifying partner-bank deposits within 14 days of the initial deposit (initiated 9/1-9/30/2026) and maintain through 90 days from the initial deposit; the initial-deposit anchor is not an account-opening day offset.
+raisin-stack-100000-boost,1,balance,,,,,,,10000000,,,Reach the tier total in qualifying partner-bank deposits within 14 days of the initial deposit (initiated 9/1-9/30/2026) and maintain through 90 days from the initial deposit; the initial-deposit anchor is not an account-opening day offset.
+raisin-stack-100000-boost,2,other,,,,,,,,,,"Deposit at least $1,000 in a second qualifying product category within 14 days of the initial deposit and keep over $1,000 in both categories through day 90; part of the tier total, not added capital."
+raisin-stack-200000-base,1,balance,,,,,,,20000000,,,Reach the tier total in qualifying partner-bank deposits within 14 days of the initial deposit (initiated 9/1-9/30/2026) and maintain through 90 days from the initial deposit; the initial-deposit anchor is not an account-opening day offset.
+raisin-stack-200000-boost,1,balance,,,,,,,20000000,,,Reach the tier total in qualifying partner-bank deposits within 14 days of the initial deposit (initiated 9/1-9/30/2026) and maintain through 90 days from the initial deposit; the initial-deposit anchor is not an account-opening day offset.
+raisin-stack-200000-boost,2,other,,,,,,,,,,"Deposit at least $1,000 in a second qualifying product category within 14 days of the initial deposit and keep over $1,000 in both categories through day 90; part of the tier total, not added capital."
+chase-business-complete-400,1,balance,,30,,,60,,200000,,,New money deposited within 30 days of offer enrollment; maintain the tier balance for 60 days from enrollment.
+chase-business-complete-400,2,transactions,,90,,,,,,5,,"Qualifying transactions: ACH credits, check deposits, debit card purchases, wires, bill pay or QuickAccept."
+chase-business-complete-500,1,balance,,30,,,60,,1000000,,,New money deposited within 30 days of offer enrollment; maintain the tier balance for 60 days from enrollment.
+chase-business-complete-500,2,transactions,,90,,,,,,5,,"Qualifying transactions: ACH credits, check deposits, debit card purchases, wires, bill pay or QuickAccept."
+capital-one-business-500,1,balance,,30,,60,,,500000,,,"External funds within 30 days; keep a minimum end-of-day $5,000 balance for at least 60 days within the first 90 days."
+capital-one-business-500,2,transactions,,90,,,,,,10,,"Qualifying electronic wires, remote check deposits, ACH or instant transfers."
+citi-business-checking-300,1,other,,,2026-10-06,,,,,,,Ask a Citi business specialist to enroll the account in the offer by 10/6/2026.
+citi-business-checking-300,2,balance,46,45,,,90,,500000,,,New-to-Citibank available funds by day 45; maintain the tier daily balance days 46-90 inclusive. May combine the new checking and a same-TIN IMMA; if day 45 is a nonbusiness day the next business day counts.
+citi-business-checking-500,1,other,,,2026-10-06,,,,,,,Ask a Citi business specialist to enroll the account in the offer by 10/6/2026.
+citi-business-checking-500,2,balance,46,45,,,90,,2000000,,,New-to-Citibank available funds by day 45; maintain the tier daily balance days 46-90 inclusive. May combine the new checking and a same-TIN IMMA; if day 45 is a nonbusiness day the next business day counts.
+citi-business-checking-1000,1,other,,,2026-10-06,,,,,,,Ask a Citi business specialist to enroll the account in the offer by 10/6/2026.
+citi-business-checking-1000,2,balance,46,45,,,90,,5000000,,,New-to-Citibank available funds by day 45; maintain the tier daily balance days 46-90 inclusive. May combine the new checking and a same-TIN IMMA; if day 45 is a nonbusiness day the next business day counts.
+citi-business-checking-1500,1,other,,,2026-10-06,,,,,,,Ask a Citi business specialist to enroll the account in the offer by 10/6/2026.
+citi-business-checking-1500,2,balance,46,45,,,90,,10000000,,,New-to-Citibank available funds by day 45; maintain the tier daily balance days 46-90 inclusive. May combine the new checking and a same-TIN IMMA; if day 45 is a nonbusiness day the next business day counts.
+citi-business-checking-2000,1,other,,,2026-10-06,,,,,,,Ask a Citi business specialist to enroll the account in the offer by 10/6/2026.
+citi-business-checking-2000,2,balance,46,45,,,90,,20000000,,,New-to-Citibank available funds by day 45; maintain the tier daily balance days 46-90 inclusive. May combine the new checking and a same-TIN IMMA; if day 45 is a nonbusiness day the next business day counts.
+us-bank-business-400,1,balance,30,30,,,60,,500000,,,External new money deposited within 30 days; maintain the daily balance through day 60.
+us-bank-business-400,2,transactions,,60,,,,,,6,,"Posted qualifying transactions: debit card, ACH, wire, Zelle, mobile check deposit, checks, business bill pay or Payment Solutions; internal and credit card transfers excluded."
+us-bank-business-1200,1,balance,30,30,,,60,,2500000,,,External new money deposited within 30 days; maintain the daily balance through day 60.
+us-bank-business-1200,2,transactions,,60,,,,,,6,,"Posted qualifying transactions: debit card, ACH, wire, Zelle, mobile check deposit, checks, business bill pay or Payment Solutions; internal and credit card transfers excluded."
+us-bank-business-900-state-farm,1,balance,30,30,,,60,,1000000,,,External new money deposited within 30 days; maintain the daily balance through day 60.
+us-bank-business-900-state-farm,2,transactions,,60,,,,,,6,,"Posted qualifying transactions: debit card, ACH, wire, Zelle, mobile check deposit, checks, business bill pay or Payment Solutions; internal and credit card transfers excluded."
+us-bank-business-1500-state-farm,1,balance,30,30,,,60,,2500000,,,External new money deposited within 30 days; maintain the daily balance through day 60.
+us-bank-business-1500-state-farm,2,transactions,,60,,,,,,6,,"Posted qualifying transactions: debit card, ACH, wire, Zelle, mobile check deposit, checks, business bill pay or Payment Solutions; internal and credit card transfers excluded."
+bluevine-business-nw500,1,balance,31,30,,,120,,500000,,,"Deposit $5,000 within 30 days; maintain a $5,000 minimum daily balance for the next 90 days."
+bluevine-business-nw500,2,transactions,31,60,,,,,200000,,,"Period 1 of 3 of the 90-day balance period: $2,000 eligible Bluevine debit/credit card purchases. Alternatives: receive $5,000 eligible merchant deposits or send $5,000 payroll via an eligible provider."
+bluevine-business-nw500,3,transactions,61,90,,,,,200000,,,"Period 2 of 3 of the 90-day balance period: $2,000 eligible Bluevine debit/credit card purchases. Alternatives: receive $5,000 eligible merchant deposits or send $5,000 payroll via an eligible provider."
+bluevine-business-nw500,4,transactions,91,120,,,,,200000,,,"Period 3 of 3 of the 90-day balance period: $2,000 eligible Bluevine debit/credit card purchases. Alternatives: receive $5,000 eligible merchant deposits or send $5,000 payroll via an eligible provider."
+simmons-business-bc2-300,1,other,,,,,,,,,,Enroll in online banking and access it at least every 90 days.
+simmons-business-bc2-300,2,balance,,,,,,,750000,,,Average daily balance in 3 of the first 5 statement cycles (first partial calendar month counts); each qualifying cycle pays $100 on the statement date.
+simmons-business-bc2-450,1,other,,,,,,,,,,Enroll in online banking and access it at least every 90 days.
+simmons-business-bc2-450,2,balance,,,,,,,1000000,,,Average daily balance in 3 of the first 5 statement cycles (first partial calendar month counts); each qualifying cycle pays $150 on the statement date.
+simmons-business-bc2-900,1,other,,,,,,,,,,Enroll in online banking and access it at least every 90 days.
+simmons-business-bc2-900,2,balance,,,,,,,1500000,,,Average daily balance in 3 of the first 5 statement cycles (first partial calendar month counts); each qualifying cycle pays $300 on the statement date.
+fnbo-free-business-250,1,deposit,,30,,,,,100000,,,"Cumulative qualifying deposits within 31 calendar days beginning on opening day: electronic ACH or cash/check in branch; bank/brokerage, P2P and internal transfers excluded. Alternative: post and clear 10 qualifying debit purchases."
+grasshopper-business-referral-200,1,balance,,90,,,90,,200000,,,"Day-90 balance snapshot, not a full 90-day hold; eligible existing-customer referral code required before opening."
+found-business-nav-125,1,balance,,30,,30,,,500000,,,"Deposit $5,000 within 30 days of account creation and maintain it for 30 days; inclusive endpoint not specified."
+found-business-1800accountant-250,1,direct_deposit,,,,,,,250000,,,"Eligible Stripe or Square platform deposits totaling $2,500; ordinary transfers and reversed/disputed deposits excluded. No completion deadline stated; no per-deposit minimum or count."
+found-business-mileiq-200,1,direct_deposit,,60,,,,,200000,,,"Eligible business-income platform deposits totaling $2,000; ordinary transfers and reversed/disputed deposits excluded. No per-deposit minimum or count stated."
+found-business-faire500-250,1,direct_deposit,,60,,,,,250000,,,"Eligible Faire platform deposits totaling $2,500; ordinary transfers and reversed/disputed deposits excluded. Faire $500 total includes the first $250, not additive."
+found-business-faire500-500,1,direct_deposit,,60,,,,,500000,,,"Eligible Faire platform deposits totaling $5,000; ordinary transfers and reversed/disputed deposits excluded. Faire $500 total includes the first $250, not additive."
+citizens-business-300,1,balance,,,,,,,500000,,,"Single $5,000 new-money deposit, maintained until the offer schedule date; exact funding/withdrawal dates depend on the opening-month payment table (not recovered)."
+citizens-business-300,2,transactions,,,,,,,,5,,Five qualifying transactions in the two scheduled months per the offer payment table; qualifying types and per-month split not recovered.
+citizens-business-500,1,balance,,,,,,,1500000,,,"Single $15,000 new-money deposit, maintained until the offer schedule date; exact funding/withdrawal dates depend on the opening-month payment table (not recovered)."
+citizens-business-500,2,transactions,,,,,,,,5,,Five qualifying transactions in the two scheduled months per the offer payment table; qualifying types and per-month split not recovered.
+citizens-business-750,1,balance,,,,,,,3000000,,,"Single $30,000 new-money deposit, maintained until the offer schedule date; exact funding/withdrawal dates depend on the opening-month payment table (not recovered)."
+citizens-business-750,2,transactions,,,,,,,,5,,Five qualifying transactions in the two scheduled months per the offer payment table; qualifying types and per-month split not recovered.
+citizens-business-1500,1,balance,,,,,,,10000000,,,"Single $100,000 new-money deposit, maintained until the offer schedule date; exact funding/withdrawal dates depend on the opening-month payment table (not recovered)."
+citizens-business-1500,2,transactions,,,,,,,,5,,Five qualifying transactions in the two scheduled months per the offer payment table; qualifying types and per-month split not recovered.
+acnb-business-1000,1,other,,60,,,,,,,,Establish and log into online banking.
+acnb-business-1000,2,other,,60,,,,,,,,Enroll in eDocuments.
+acnb-business-1000,3,transactions,,60,,,,,,10,,Establish Mastercard debit card and make 10 unique debit card transactions.
+acnb-business-1000,4,balance,,,,,,,1000000,,,"$10,000 average monthly balance for 3 consecutive months following the first statement cycle; statement timing unverified, not modeled as 90 days."
+acnb-business-2000,1,other,,60,,,,,,,,Establish and log into online banking.
+acnb-business-2000,2,other,,60,,,,,,,,Enroll in eDocuments.
+acnb-business-2000,3,transactions,,60,,,,,,10,,Establish Mastercard debit card and make 10 unique debit card transactions.
+acnb-business-2000,4,balance,,,,,,,2500000,,,"$25,000 average monthly balance for 3 consecutive months following the first statement cycle; statement timing unverified, not modeled as 90 days."
+acnb-business-3000,1,other,,60,,,,,,,,Establish and log into online banking.
+acnb-business-3000,2,other,,60,,,,,,,,Enroll in eDocuments.
+acnb-business-3000,3,transactions,,60,,,,,,10,,Establish Mastercard debit card and make 10 unique debit card transactions.
+acnb-business-3000,4,balance,,,,,,,5000000,,,"$50,000 average monthly balance for 3 consecutive months following the first statement cycle; statement timing unverified, not modeled as 90 days."
+equity-business-biz1000,1,deposit,,60,,,,,2000000,,,"Combined qualifying external deposits of $20,000 within 60 days; transfers from existing Equity Bank accounts excluded. No hold stated; $100 opening deposit may be required."
+equity-business-biz1000,2,transactions,,60,,,,,,1,,Activate and use the Equity Bank debit card within 60 days.
+bok-colorado-business-500,1,balance,31,30,,,90,,500000,,,"Deposit $5,000 external new money during the first 30 calendar days; maintain that average daily balance during the following 60-day Evaluation Phase."
+bok-colorado-business-1000,1,balance,31,30,,,90,,2500000,,,"Deposit $25,000 external new money during the first 30 calendar days; maintain that average daily balance during the following 60-day Evaluation Phase."
+bok-colorado-business-1500,1,balance,31,30,,,90,,10000000,,,"Deposit $100,000 external new money during the first 30 calendar days; maintain that average daily balance during the following 60-day Evaluation Phase."
+bank-of-colorado-business-750,1,deposit,,90,,,,,500000,,,"Receive $5,000 in ACH deposits within 90 days (not specifically payroll). Alternative: 15 debit card purchases within 90 days. $100 minimum opening deposit."
+key-business-reward-1000,1,balance,30,30,,,119,,2500000,,,"$25 opening deposit; $25,000 total deposits within 30 days; keep $25,000 end-of-day balance for at least 90 consecutive days from first reaching it; any drop disqualifies."
+hancock-whitney-business-500,1,balance,31,30,,,90,,500000,,,"Deposit $5,000 external new money within 30 days; maintain $5,000 daily minimum balance days 31-90."
+hancock-whitney-business-merchant-750,1,balance,31,30,,,90,,500000,,,"Deposit $5,000 external new money within 30 days; maintain $5,000 daily minimum balance days 31-90."
+hancock-whitney-business-merchant-750,2,transactions,,,,,,,,,,"Merchant Services: apply/be approved before expiry and process at least $20 by end of second full calendar month after approval. Sales volume, not principal."
+hancock-whitney-business-merchant-1000,1,balance,31,30,,,90,,500000,,,"Deposit $5,000 external new money within 30 days; maintain $5,000 daily minimum balance days 31-90."
+hancock-whitney-business-merchant-1000,2,transactions,,,,,,,,,,"Merchant Services: apply/be approved before expiry and process at least $5,000 (source page tier: $5,000-$7,499) by end of second full calendar month after approval. Sales volume, not principal."
+hancock-whitney-business-merchant-1250,1,balance,31,30,,,90,,500000,,,"Deposit $5,000 external new money within 30 days; maintain $5,000 daily minimum balance days 31-90."
+hancock-whitney-business-merchant-1250,2,transactions,,,,,,,,,,"Merchant Services on the Clover platform: apply/be approved before expiry and process at least $7,500 by end of second full calendar month after approval. Sales volume, not principal."
+hancock-whitney-business-merchant-1250,3,other,,,,,,,,,,Enroll in Melio Pay Bills or Clover Payroll by ADP.
+provident-business-seed475,1,deposit,,60,,,,,250000,,,"$2,500 total deposits within 60 days; $100 checking opening deposit counts. No held balance stated. Business Savings with $5 minimum also required."
+provident-business-seed475,2,transactions,31,60,,,,,40000,,,Month 1 of 2: $400 debit and/or credit card purchases in the month after opening; calendar-month timing approximated as 30-day windows.
+provident-business-seed475,3,transactions,61,90,,,,,40000,,,Month 2 of 2: $400 debit and/or credit card purchases in the next consecutive month; calendar-month timing approximated as 30-day windows.
+provident-business-seed475,4,other,,,,,,,,,,Enroll in online banking with a valid email.
+provident-business-seed475,5,other,,,,,,,,,,Enroll in eDocuments.
+axos-basic-business-start200,1,balance,,,,,,,300000,,,"$3,000 average daily balance in each qualifying statement cycle; $50 per cycle in any 4 of the first 5 calendar statement cycles (opening partial cycle counts). Fund within 60 days to avoid automatic closure."
+keypoint-elite-business-500,1,balance,16,15,,,105,,200000,,,"Open with $100; reach $2,000 within 15 calendar days, then maintain $2,000 average daily balance for 90 days after that deadline."
+keypoint-elite-business-500,2,transactions,16,105,,,,,,20,500,"20 qualifying transactions of at least $5 in the same 90 days: debit card purchases, ACH, wire, Zelle or RDC deposits; ATM and reversed transactions excluded."
+truist-simple-business-400,1,balance,30,30,,,90,,250000,,,"Deposit $2,500 within 30 days; daily Current (ledger) Balance at least $2,500 day 30 through day 90 inclusive."
+truist-simple-business-800,1,balance,30,30,,,90,,1000000,,,"Deposit $10,000 within 30 days; daily Current (ledger) Balance at least $10,000 day 30 through day 90 inclusive. $800 paid as two $400 payments."
+mt-business-300,1,balance,,,,,,,500000,,,"Maintain $5,000 average ledger balance during the third full calendar month after opening; exact dates depend on the opening date."
+mt-business-300-merchant-250,1,balance,,,,,,,500000,,,"Maintain $5,000 average ledger balance during the third full calendar month after opening; exact dates depend on the opening date."
+mt-business-300-merchant-250,2,transactions,,,2026-09-30,,,,,1,,"Open merchant account with code MSHC326 and process a transaction by September 30, 2026."
+mt-business-300-merchant-250,3,other,,,,,,,,,,"Sign a 1-, 2- or 3-year merchant services contract."
+mt-business-300-merchant-250,4,transactions,,,,,,,,,,"Merchant processing volume in the first 2 full months more than $2,000 but below $100,000. Sales volume, not principal."
+mt-business-300-merchant-500,1,balance,,,,,,,500000,,,"Maintain $5,000 average ledger balance during the third full calendar month after opening; exact dates depend on the opening date."
+mt-business-300-merchant-500,2,transactions,,,2026-09-30,,,,,1,,"Open merchant account with code MSHC326 and process a transaction by September 30, 2026."
+mt-business-300-merchant-500,3,other,,,,,,,,,,"Sign a 1-, 2- or 3-year merchant services contract."
+mt-business-300-merchant-500,4,transactions,,,,,,,,,,"Merchant processing volume in the first 2 full months of at least $100,000. Sales volume, not principal."
+mt-business-500,1,balance,,,,,,,1500000,,,"Maintain $15,000 average ledger balance during the third full calendar month after opening; exact dates depend on the opening date."
+mt-business-500-merchant-250,1,balance,,,,,,,1500000,,,"Maintain $15,000 average ledger balance during the third full calendar month after opening; exact dates depend on the opening date."
+mt-business-500-merchant-250,2,transactions,,,2026-09-30,,,,,1,,"Open merchant account with code MSHC326 and process a transaction by September 30, 2026."
+mt-business-500-merchant-250,3,other,,,,,,,,,,"Sign a 1-, 2- or 3-year merchant services contract."
+mt-business-500-merchant-250,4,transactions,,,,,,,,,,"Merchant processing volume in the first 2 full months more than $2,000 but below $100,000. Sales volume, not principal."
+mt-business-500-merchant-500,1,balance,,,,,,,1500000,,,"Maintain $15,000 average ledger balance during the third full calendar month after opening; exact dates depend on the opening date."
+mt-business-500-merchant-500,2,transactions,,,2026-09-30,,,,,1,,"Open merchant account with code MSHC326 and process a transaction by September 30, 2026."
+mt-business-500-merchant-500,3,other,,,,,,,,,,"Sign a 1-, 2- or 3-year merchant services contract."
+mt-business-500-merchant-500,4,transactions,,,,,,,,,,"Merchant processing volume in the first 2 full months of at least $100,000. Sales volume, not principal."
+mt-business-750,1,balance,,,,,,,3000000,,,"Maintain $30,000 average ledger balance during the third full calendar month after opening; exact dates depend on the opening date."
+mt-business-750-merchant-250,1,balance,,,,,,,3000000,,,"Maintain $30,000 average ledger balance during the third full calendar month after opening; exact dates depend on the opening date."
+mt-business-750-merchant-250,2,transactions,,,2026-09-30,,,,,1,,"Open merchant account with code MSHC326 and process a transaction by September 30, 2026."
+mt-business-750-merchant-250,3,other,,,,,,,,,,"Sign a 1-, 2- or 3-year merchant services contract."
+mt-business-750-merchant-250,4,transactions,,,,,,,,,,"Merchant processing volume in the first 2 full months more than $2,000 but below $100,000. Sales volume, not principal."
+mt-business-750-merchant-500,1,balance,,,,,,,3000000,,,"Maintain $30,000 average ledger balance during the third full calendar month after opening; exact dates depend on the opening date."
+mt-business-750-merchant-500,2,transactions,,,2026-09-30,,,,,1,,"Open merchant account with code MSHC326 and process a transaction by September 30, 2026."
+mt-business-750-merchant-500,3,other,,,,,,,,,,"Sign a 1-, 2- or 3-year merchant services contract."
+mt-business-750-merchant-500,4,transactions,,,,,,,,,,"Merchant processing volume in the first 2 full months of at least $100,000. Sales volume, not principal."
+mt-business-1500,1,balance,,,,,,,10000000,,,"Maintain $100,000 average ledger balance during the third full calendar month after opening; exact dates depend on the opening date."
+mt-business-1500-merchant-250,1,balance,,,,,,,10000000,,,"Maintain $100,000 average ledger balance during the third full calendar month after opening; exact dates depend on the opening date."
+mt-business-1500-merchant-250,2,transactions,,,2026-09-30,,,,,1,,"Open merchant account with code MSHC326 and process a transaction by September 30, 2026."
+mt-business-1500-merchant-250,3,other,,,,,,,,,,"Sign a 1-, 2- or 3-year merchant services contract."
+mt-business-1500-merchant-250,4,transactions,,,,,,,,,,"Merchant processing volume in the first 2 full months more than $2,000 but below $100,000. Sales volume, not principal."
+mt-business-1500-merchant-500,1,balance,,,,,,,10000000,,,"$100,000 average ledger balance during the third full calendar month after opening; calendar-month timing not converted to day offsets."
+mt-business-1500-merchant-500,2,other,,,2026-09-30,,,,,,,"Merchant bonus (code MSHC326): open an M&T merchant account, sign a 1/2/3-year contract and process a transaction by September 30, 2026."
+mt-business-1500-merchant-500,3,transactions,,,,,,,,,,"Merchant card processing volume of at least $100,000 total in the first 2 full months; card sales processed, not debit spend or principal."
+huntington-unlimited-business-400,1,deposit,,60,,,,,500000,,,"$5,000 total new money within 60 days; no balance hold stated."
+huntington-unlimited-plus-business-1000,1,balance,31,30,,,90,,2000000,,,"Deposit $20,000 external new money within 30 days, then maintain a $20,000 daily balance for 60 days after meeting the deposit requirement."
+pnc-business-400,1,balance,,,,,,,200000,,,"$2,000 average ledger balance in EACH of the first 3 monthly statement cycles; statement endpoints unverified."
+pnc-business-400,2,transactions,,,,,,,,10,,"10 qualifying transactions TOTAL across the first 3 statement cycles: debit purchases, ACH/wire/Zelle debits or credits, bill pay, remote or merchant deposits, checks. Marketing says 10 each cycle; legal says total."
+pnc-business-1000,1,balance,,,,,,,3000000,,,"$30,000 average ledger balance in EACH of the first 3 monthly statement cycles; only master account balances count, not linked beneficiary funds."
+st-basic-business-400,1,balance,,,,,,,200000,,,"Fund $2,000 within the first 5 BUSINESS days; never overdrawn; daily balance of at least $2,000 on November 2, 2026 (snapshot, not a continuous hold)."
+st-basic-business-400-positive-pay,1,balance,,,,,,,200000,,,"Fund $2,000 within the first 5 BUSINESS days; never overdrawn; daily balance of at least $2,000 on November 2, 2026 (snapshot, not a continuous hold)."
+st-basic-business-400-positive-pay,2,other,,,2026-11-02,,,,,,,"Establish S&T Positive Pay and/or ACH Positive Pay on the new account, activated by November 2, 2026 (one additional $300 per business)."
+st-basic-business-600,1,balance,,,,,,,2500000,,,"Fund $25,000 within the first 5 BUSINESS days; never overdrawn; daily balance of at least $25,000 on November 2, 2026 (snapshot, not a continuous hold)."
+st-basic-business-600-positive-pay,1,balance,,,,,,,2500000,,,"Fund $25,000 within the first 5 BUSINESS days; never overdrawn; daily balance of at least $25,000 on November 2, 2026 (snapshot, not a continuous hold)."
+st-basic-business-600-positive-pay,2,other,,,2026-11-02,,,,,,,"Establish S&T Positive Pay and/or ACH Positive Pay on the new account, activated by November 2, 2026 (one additional $300 per business)."
+broadway-business-300,1,balance,,,,,,,200000,,,"Maintain $2,000 average monthly COLLECTED balance throughout the first 90 days; at least $2,000 external new funds must post within 30 days. Statement calendar unverified."
+broadway-business-300,2,transactions,,90,,,,,,10,,"Qualifying withdrawals: debit purchases, ACH, checks, signature POS/online purchases; ATM, teller, wire and cash advance excluded."
+broadway-business-500,1,balance,,,,,,,2500000,,,"Maintain $25,000 average monthly COLLECTED balance throughout the first 90 days; at least $2,000 external new funds must post within 30 days. Statement calendar unverified."
+broadway-business-500,2,transactions,,90,,,,,,10,,"Qualifying withdrawals: debit purchases, ACH, checks, signature POS/online purchases; ATM, teller, wire and cash advance excluded."
+broadway-business-1000,1,balance,,,,,,,7500000,,,"Maintain $75,000 average monthly COLLECTED balance throughout the first 90 days; at least $2,000 external new funds must post within 30 days. Statement calendar unverified."
+broadway-business-1000,2,transactions,,90,,,,,,10,,"Qualifying withdrawals: debit purchases, ACH, checks, signature POS/online purchases; ATM, teller, wire and cash advance excluded."
+first-merchants-mich-business-300,1,deposit,,7,,,,,500000,,,"$5,000 total new money within 7 calendar days; no promotional balance hold (the $5,000 monthly average balance only waives the $20 fee)."
+first-merchants-mich-business-750,1,deposit,,7,,,,,1500000,,,"$15,000 total new money within 7 calendar days; no promotional balance hold (the $5,000 monthly average balance only waives the $20 fee)."
+southstate-business-levelup-base,1,deposit,,90,,,,,500000,,,"Cumulative $5,000 ACH credits within 90 calendar days (internal transfers, mobile/debit card deposits, instant payments, branch/ATM deposits excluded). Alternative: 15 posted/cleared debit purchases within 90 days."
+southstate-business-levelup-merchant,1,deposit,,90,,,,,500000,,,"Cumulative $5,000 ACH credits within 90 calendar days (internal transfers, mobile/debit card deposits, instant payments, branch/ATM deposits excluded). Alternative: 15 posted/cleared debit purchases within 90 days."
+southstate-business-levelup-merchant,2,other,,90,,,,,,,,Additional $200: enroll in SouthState Merchant Services.
+southstate-business-levelup-merchant,3,transactions,,90,,,,,,,,"Merchant settlements totaling at least $200 cumulative must post within 90 days; card sales settled, not debit spend."
+southstate-business-levelup-treasury,1,deposit,,90,,,,,500000,,,"Cumulative $5,000 ACH credits within 90 calendar days (internal transfers, mobile/debit card deposits, instant payments, branch/ATM deposits excluded). Alternative: 15 posted/cleared debit purchases within 90 days."
+southstate-business-levelup-treasury,2,other,,90,,,,,,,,Additional $200: enroll in eligible SouthState Treasury Services by the end of the 90-day period with a Treasury Navigator Request/Agreement.
+southstate-business-levelup-treasury-merchant,1,deposit,,90,,,,,500000,,,"Cumulative $5,000 ACH credits within 90 calendar days (internal transfers, mobile/debit card deposits, instant payments, branch/ATM deposits excluded). Alternative: 15 posted/cleared debit purchases within 90 days."
+southstate-business-levelup-treasury-merchant,2,other,,90,,,,,,,,Additional $200: enroll in eligible SouthState Treasury Services by the end of the 90-day period with a Treasury Navigator Request/Agreement.
+southstate-business-levelup-treasury-merchant,3,other,,90,,,,,,,,Additional $200: enroll in SouthState Merchant Services.
+southstate-business-levelup-treasury-merchant,4,transactions,,90,,,,,,,,"Merchant settlements totaling at least $200 cumulative must post within 90 days; card sales settled, not debit spend."
+southstate-business-levelup-balance,1,transactions,,90,,,,,,15,,"15 posted/cleared debit purchases within 90 calendar days. Alternative: cumulative $5,000 ACH credits (internal transfers, mobile/debit card deposits, instant payments, branch/ATM deposits excluded)."
+southstate-business-levelup-balance,2,balance,,90,,,,,5000000,,,"Additional $200: available balance of at least $50,000 at the end of the 90-day qualifying period (snapshot, not a 90-day hold)."
+southstate-business-levelup-balance-merchant,1,transactions,,90,,,,,,15,,"15 posted/cleared debit purchases within 90 calendar days. Alternative: cumulative $5,000 ACH credits (internal transfers, mobile/debit card deposits, instant payments, branch/ATM deposits excluded)."
+southstate-business-levelup-balance-merchant,2,balance,,90,,,,,5000000,,,"Additional $200: available balance of at least $50,000 at the end of the 90-day qualifying period (snapshot, not a 90-day hold)."
+southstate-business-levelup-balance-merchant,3,other,,90,,,,,,,,Additional $200: enroll in SouthState Merchant Services.
+southstate-business-levelup-balance-merchant,4,transactions,,90,,,,,,,,"Merchant settlements totaling at least $200 cumulative must post within 90 days; card sales settled, not debit spend."
+southstate-business-levelup-balance-treasury,1,transactions,,90,,,,,,15,,"15 posted/cleared debit purchases within 90 calendar days. Alternative: cumulative $5,000 ACH credits (internal transfers, mobile/debit card deposits, instant payments, branch/ATM deposits excluded)."
+southstate-business-levelup-balance-treasury,2,balance,,90,,,,,5000000,,,"Additional $200: available balance of at least $50,000 at the end of the 90-day qualifying period (snapshot, not a 90-day hold)."
+southstate-business-levelup-balance-treasury,3,other,,90,,,,,,,,Additional $200: enroll in eligible SouthState Treasury Services by the end of the 90-day period with a Treasury Navigator Request/Agreement.
+southstate-business-levelup-balance-treasury-merchant,1,transactions,,90,,,,,,15,,"15 posted/cleared debit purchases within 90 calendar days. Alternative: cumulative $5,000 ACH credits (internal transfers, mobile/debit card deposits, instant payments, branch/ATM deposits excluded)."
+southstate-business-levelup-balance-treasury-merchant,2,balance,,90,,,,,5000000,,,"Additional $200: available balance of at least $50,000 at the end of the 90-day qualifying period (snapshot, not a 90-day hold)."
+southstate-business-levelup-balance-treasury-merchant,3,other,,90,,,,,,,,Additional $200: enroll in eligible SouthState Treasury Services by the end of the 90-day period with a Treasury Navigator Request/Agreement.
+southstate-business-levelup-balance-treasury-merchant,4,other,,90,,,,,,,,Additional $200: enroll in SouthState Merchant Services.
+southstate-business-levelup-balance-treasury-merchant,5,transactions,,90,,,,,,,,"Merchant settlements totaling at least $200 cumulative must post within 90 days; card sales settled, not debit spend."
+fulton-business-500,1,deposit,,60,,,,,500000,,,"$5,000 new money, cumulatively or once, within 60 days; internal transfers, micro-deposits, debit/NSF/service fee refunds excluded. No balance hold stated."
+fulton-business-500,2,other,,60,,,,,,,,Enroll in online statements within 60 days.
+waterstone-business-300-base,1,balance,,,,,,,500000,,,"Average balance of $5,000-$24,499.99 during the third FULL statement cycle; statement endpoints unverified, not a 90-day hold."
+waterstone-business-300-base,2,transactions,,90,,,,,,10,,10 or more customer-initiated transactions within 90 days of opening.
+waterstone-business-300-merchant,1,balance,,,,,,,500000,,,"Average balance of $5,000-$24,499.99 during the third FULL statement cycle; statement endpoints unverified, not a 90-day hold."
+waterstone-business-300-merchant,2,transactions,,90,,,,,,10,,10 or more customer-initiated transactions within 90 days of opening.
+waterstone-business-300-merchant,3,other,,180,,,,,,,,Establish WaterStone Bank Merchant Services within 180 days.
+waterstone-business-300-positive-pay,1,balance,,,,,,,500000,,,"Average balance of $5,000-$24,499.99 during the third FULL statement cycle; statement endpoints unverified, not a 90-day hold."
+waterstone-business-300-positive-pay,2,transactions,,90,,,,,,10,,10 or more customer-initiated transactions within 90 days of opening.
+waterstone-business-300-positive-pay,3,other,,90,,,,,,,,"Enroll in Positive Pay (Check, ACH or both) within 90 days."
+waterstone-business-300-positive-pay-merchant,1,balance,,,,,,,500000,,,"Average balance of $5,000-$24,499.99 during the third FULL statement cycle; statement endpoints unverified, not a 90-day hold."
+waterstone-business-300-positive-pay-merchant,2,transactions,,90,,,,,,10,,10 or more customer-initiated transactions within 90 days of opening.
+waterstone-business-300-positive-pay-merchant,3,other,,90,,,,,,,,"Enroll in Positive Pay (Check, ACH or both) within 90 days."
+waterstone-business-300-positive-pay-merchant,4,other,,180,,,,,,,,Establish WaterStone Bank Merchant Services within 180 days.
+waterstone-business-500-base,1,balance,,,,,,,2500000,,,"Average balance of $25,000-$49,999.99 during the third FULL statement cycle; statement endpoints unverified, not a 90-day hold."
+waterstone-business-500-base,2,transactions,,90,,,,,,10,,10 or more customer-initiated transactions within 90 days of opening.
+waterstone-business-500-merchant,1,balance,,,,,,,2500000,,,"Average balance of $25,000-$49,999.99 during the third FULL statement cycle; statement endpoints unverified, not a 90-day hold."
+waterstone-business-500-merchant,2,transactions,,90,,,,,,10,,10 or more customer-initiated transactions within 90 days of opening.
+waterstone-business-500-merchant,3,other,,180,,,,,,,,Establish WaterStone Bank Merchant Services within 180 days.
+waterstone-business-500-positive-pay,1,balance,,,,,,,2500000,,,"Average balance of $25,000-$49,999.99 during the third FULL statement cycle; statement endpoints unverified, not a 90-day hold."
+waterstone-business-500-positive-pay,2,transactions,,90,,,,,,10,,10 or more customer-initiated transactions within 90 days of opening.
+waterstone-business-500-positive-pay,3,other,,90,,,,,,,,"Enroll in Positive Pay (Check, ACH or both) within 90 days."
+waterstone-business-500-positive-pay-merchant,1,balance,,,,,,,2500000,,,"Average balance of $25,000-$49,999.99 during the third FULL statement cycle; statement endpoints unverified, not a 90-day hold."
+waterstone-business-500-positive-pay-merchant,2,transactions,,90,,,,,,10,,10 or more customer-initiated transactions within 90 days of opening.
+waterstone-business-500-positive-pay-merchant,3,other,,90,,,,,,,,"Enroll in Positive Pay (Check, ACH or both) within 90 days."
+waterstone-business-500-positive-pay-merchant,4,other,,180,,,,,,,,Establish WaterStone Bank Merchant Services within 180 days.
+waterstone-business-700-base,1,balance,,,,,,,5000000,,,"Average balance of $50,000 or more during the third FULL statement cycle; statement endpoints unverified, not a 90-day hold."
+waterstone-business-700-base,2,transactions,,90,,,,,,10,,10 or more customer-initiated transactions within 90 days of opening.
+waterstone-business-700-merchant,1,balance,,,,,,,5000000,,,"Average balance of $50,000 or more during the third FULL statement cycle; statement endpoints unverified, not a 90-day hold."
+waterstone-business-700-merchant,2,transactions,,90,,,,,,10,,10 or more customer-initiated transactions within 90 days of opening.
+waterstone-business-700-merchant,3,other,,180,,,,,,,,Establish WaterStone Bank Merchant Services within 180 days.
+waterstone-business-700-positive-pay,1,balance,,,,,,,5000000,,,"Average balance of $50,000 or more during the third FULL statement cycle; statement endpoints unverified, not a 90-day hold."
+waterstone-business-700-positive-pay,2,transactions,,90,,,,,,10,,10 or more customer-initiated transactions within 90 days of opening.
+waterstone-business-700-positive-pay,3,other,,90,,,,,,,,"Enroll in Positive Pay (Check, ACH or both) within 90 days."
+waterstone-business-700-positive-pay-merchant,1,balance,,,,,,,5000000,,,"Average balance of $50,000 or more during the third FULL statement cycle; statement endpoints unverified, not a 90-day hold."
+waterstone-business-700-positive-pay-merchant,2,transactions,,90,,,,,,10,,10 or more customer-initiated transactions within 90 days of opening.
+waterstone-business-700-positive-pay-merchant,3,other,,90,,,,,,,,"Enroll in Positive Pay (Check, ACH or both) within 90 days."
+waterstone-business-700-positive-pay-merchant,4,other,,180,,,,,,,,Establish WaterStone Bank Merchant Services within 180 days.
+bell-business-baxbus500,1,balance,,,,90,,,500000,,,"$5,000 minimum daily balance maintained for 90 days; funding deadline and hold anchor not stated."
+bell-business-baxbus500,2,transactions,,,,,,,,10,,10 point-of-sale debit card transactions.
+bar-harbor-personal-200,1,direct_deposit,,,2026-12-31,,,,25000,1,25000,"One qualifying DD from an employer, corporation, government or retirement administrator; individual online/P2P/PayPal/teller/ATM deposits do not count."
+bar-harbor-personal-400,1,direct_deposit,,,2026-12-31,,,,50000,1,50000,"One qualifying DD from an employer, corporation, government or retirement administrator; individual online/P2P/PayPal/teller/ATM deposits do not count."
+bar-harbor-business-400,1,deposit,,,2026-12-31,,,,250000,,,"$2,500 total cash, check or electronic deposits (not limited to direct deposit); transfers from existing Bar Harbor checking excluded."
+hancock-whitney-freestyle-checking-300,1,direct_deposit,,90,,,,,200000,,,"Recurring electronic DD: employer/external agency payroll, pension, Social Security/government or monthly income; own transfers, P2P, tax refunds, wires and branch/ATM/mobile deposits excluded."
+hancock-whitney-freestyle-savings-100,1,balance,,30,,60,,,500000,,,"Deposit $5,000 within 30 days and keep a $5,000 minimum daily balance for 60 days; the terms do not say when the 60 days start."
+hancock-whitney-freestyle-combined-600,1,balance,,30,,60,,,500000,,,"Savings: deposit $5,000 within 30 days and hold it 60 days. Open both accounts at the same time."
+hancock-whitney-freestyle-combined-600,2,direct_deposit,,90,,,,,200000,,,"Checking: Recurring electronic DD: employer/external agency payroll, pension, Social Security/government or monthly income; own transfers, P2P, tax refunds, wires and branch/ATM/mobile deposits excluded."
+1st-united-credit-union-business-checking-100,1,balance,,,,,,,500,,,Required business share savings (membership) $5 minimum balance; checking funding requirement not stated.
+midfirst-bank-momentum-business-checking-300,1,balance,,,,90,,,750000,,,"Average ledger balance of at least $7,500 during the first 90 days after opening (average, not a daily minimum)."
+secu-maryland-interest-earning-business-checking-350,1,balance,,,,,,,500000,,,"Average daily balance of $5,000 over the first two monthly statement cycles; separate $10 share savings required for membership."
+secu-maryland-interest-earning-business-checking-350,2,other,,60,,,,,,,,Enroll in e-statements.
+secu-maryland-interest-earning-business-checking-350,3,other,,60,,,,,,,,Enroll in mobile banking.
+secu-maryland-interest-earning-business-checking-350,4,other,,60,,,,,,,,Enroll in online banking.
+stanford-federal-credit-union-new-member-spending-dd-and-card-spend-reward-500,1,other,,,,,,,,,,Activate this CashBack+ new-member offer before any qualifying activity.
+stanford-federal-credit-union-new-member-spending-dd-and-card-spend-reward-500,2,direct_deposit,0,30,,,,,250000,,,"$2,500 payroll or Social Security DD. Month 1 of 3 (same three consecutive calendar months); calendar-month timing approximated as 30-day windows. Checks, transfers, Venmo, Zelle and PayPal excluded."
+stanford-federal-credit-union-new-member-spending-dd-and-card-spend-reward-500,3,transactions,0,30,,,,,100000,,,"$1,000 combined Stanford FCU debit and credit card purchases. Month 1 of 3 (same three consecutive calendar months); calendar-month timing approximated as 30-day windows. Refunds/returns excluded."
+stanford-federal-credit-union-new-member-spending-dd-and-card-spend-reward-500,4,direct_deposit,31,60,,,,,250000,,,"$2,500 payroll or Social Security DD. Month 2 of 3 (same three consecutive calendar months); calendar-month timing approximated as 30-day windows. Checks, transfers, Venmo, Zelle and PayPal excluded."
+stanford-federal-credit-union-new-member-spending-dd-and-card-spend-reward-500,5,transactions,31,60,,,,,100000,,,"$1,000 combined Stanford FCU debit and credit card purchases. Month 2 of 3 (same three consecutive calendar months); calendar-month timing approximated as 30-day windows. Refunds/returns excluded."
+stanford-federal-credit-union-new-member-spending-dd-and-card-spend-reward-500,6,direct_deposit,61,90,,,,,250000,,,"$2,500 payroll or Social Security DD. Month 3 of 3 (same three consecutive calendar months); calendar-month timing approximated as 30-day windows. Checks, transfers, Venmo, Zelle and PayPal excluded."
+stanford-federal-credit-union-new-member-spending-dd-and-card-spend-reward-500,7,transactions,61,90,,,,,100000,,,"$1,000 combined Stanford FCU debit and credit card purchases. Month 3 of 3 (same three consecutive calendar months); calendar-month timing approximated as 30-day windows. Refunds/returns excluded."
+stanford-federal-credit-union-additional-savings-cash-reward-30,1,other,,,,,,,,,,Activate this CashBack+ new-member offer before any qualifying activity.
+stanford-federal-credit-union-additional-savings-cash-reward-30,2,balance,,,,,,,100000,,,"Open an additional savings or certificate with a minimum $1,000 balance. Complete by the end of the third full calendar month after membership enrollment."
+stanford-federal-credit-union-welcome-appointment-cash-reward-25,1,other,,,,,,,,,,Activate this CashBack+ new-member offer before any qualifying activity.
+stanford-federal-credit-union-welcome-appointment-cash-reward-25,2,other,,,,,,,,,,Attend a new member welcome appointment. Complete by the end of the third full calendar month after membership enrollment.
+stanford-federal-credit-union-estatements-cash-reward-15,1,other,,,,,,,,,,Activate this CashBack+ new-member offer before any qualifying activity.
+stanford-federal-credit-union-estatements-cash-reward-15,2,other,,,,,,,,,,Enroll in eStatements for electronic statements and notifications. Complete by the end of the third full calendar month after membership enrollment.
+stanford-federal-credit-union-digital-alerts-cash-reward-5,1,other,,,,,,,,,,Activate this CashBack+ new-member offer before any qualifying activity.
+stanford-federal-credit-union-digital-alerts-cash-reward-5,2,other,,,,,,,,,,Opt in to digital banking account alerts and set up at least one alert. Complete by the end of the third full calendar month after membership enrollment.
+stanford-federal-credit-union-first-zelle-cash-reward-5,1,other,,,,,,,,,,Activate this CashBack+ new-member offer before any qualifying activity.
+stanford-federal-credit-union-first-zelle-cash-reward-5,2,transactions,,,,,,,,1,,Send money through Zelle for the first time. Complete by the end of the third full calendar month after membership enrollment.
+stanford-federal-credit-union-round-up-cash-reward-5,1,other,,,,,,,,,,Activate this CashBack+ new-member offer before any qualifying activity.
+stanford-federal-credit-union-round-up-cash-reward-5,2,other,,,,,,,,,,Set up Round Up on Stanford FCU debit card purchases. Complete by the end of the third full calendar month after membership enrollment.
+stanford-federal-credit-union-cashback-pay-first-purchase-reward-5,1,other,,,,,,,,,,Activate this CashBack+ new-member offer before any qualifying activity.
+stanford-federal-credit-union-cashback-pay-first-purchase-reward-5,2,transactions,,,,,,,,1,,Make a first purchase in the CashBack+ Pay app. Complete by the end of the third full calendar month after membership enrollment.
+cambridge-savings-bank-simple-checking-one-time-reward-500,1,other,,30,,,,,,,,Enroll in eStatements through CSB Online or Mobile Banking within 30 days of opening and funding.
+cambridge-savings-bank-simple-checking-one-time-reward-500,2,direct_deposit,0,30,,,,,250000,,,"$2,500 cumulative DD in full calendar month 1 of 3 after opening/funding; calendar-month timing approximated as 30-day windows."
+cambridge-savings-bank-simple-checking-one-time-reward-500,3,direct_deposit,31,60,,,,,250000,,,"$2,500 cumulative DD in full calendar month 2 of 3 after opening/funding; calendar-month timing approximated as 30-day windows."
+cambridge-savings-bank-simple-checking-one-time-reward-500,4,direct_deposit,61,90,,,,,250000,,,"$2,500 cumulative DD in full calendar month 3 of 3 after opening/funding; calendar-month timing approximated as 30-day windows."
+cambridge-savings-bank-simple-checking-one-time-reward-500,5,balance,,,,,,,500000,,,"Checking: $5,000 minimum average monthly balance for the first 3 full calendar months after opening/funding; the end date depends on the opening date."
+cambridge-savings-bank-simple-checking-debit-reward-300,1,transactions,0,30,,,,,,10,1000,"Month 1 of 12: 10 debit Mastercard purchases of $10+ ($25 per qualifying month); ATM, cash advances and P2P excluded. Calendar-month timing approximated as 30-day windows."
+cambridge-savings-bank-simple-checking-debit-reward-300,2,transactions,31,60,,,,,,10,1000,"Month 2 of 12: 10 debit Mastercard purchases of $10+ ($25 per qualifying month); ATM, cash advances and P2P excluded. Calendar-month timing approximated as 30-day windows."
+cambridge-savings-bank-simple-checking-debit-reward-300,3,transactions,61,90,,,,,,10,1000,"Month 3 of 12: 10 debit Mastercard purchases of $10+ ($25 per qualifying month); ATM, cash advances and P2P excluded. Calendar-month timing approximated as 30-day windows."
+cambridge-savings-bank-simple-checking-debit-reward-300,4,transactions,91,120,,,,,,10,1000,"Month 4 of 12: 10 debit Mastercard purchases of $10+ ($25 per qualifying month); ATM, cash advances and P2P excluded. Calendar-month timing approximated as 30-day windows."
+cambridge-savings-bank-simple-checking-debit-reward-300,5,transactions,121,150,,,,,,10,1000,"Month 5 of 12: 10 debit Mastercard purchases of $10+ ($25 per qualifying month); ATM, cash advances and P2P excluded. Calendar-month timing approximated as 30-day windows."
+cambridge-savings-bank-simple-checking-debit-reward-300,6,transactions,151,180,,,,,,10,1000,"Month 6 of 12: 10 debit Mastercard purchases of $10+ ($25 per qualifying month); ATM, cash advances and P2P excluded. Calendar-month timing approximated as 30-day windows."
+cambridge-savings-bank-simple-checking-debit-reward-300,7,transactions,181,210,,,,,,10,1000,"Month 7 of 12: 10 debit Mastercard purchases of $10+ ($25 per qualifying month); ATM, cash advances and P2P excluded. Calendar-month timing approximated as 30-day windows."
+cambridge-savings-bank-simple-checking-debit-reward-300,8,transactions,211,240,,,,,,10,1000,"Month 8 of 12: 10 debit Mastercard purchases of $10+ ($25 per qualifying month); ATM, cash advances and P2P excluded. Calendar-month timing approximated as 30-day windows."
+cambridge-savings-bank-simple-checking-debit-reward-300,9,transactions,241,270,,,,,,10,1000,"Month 9 of 12: 10 debit Mastercard purchases of $10+ ($25 per qualifying month); ATM, cash advances and P2P excluded. Calendar-month timing approximated as 30-day windows."
+cambridge-savings-bank-simple-checking-debit-reward-300,10,transactions,271,300,,,,,,10,1000,"Month 10 of 12: 10 debit Mastercard purchases of $10+ ($25 per qualifying month); ATM, cash advances and P2P excluded. Calendar-month timing approximated as 30-day windows."
+cambridge-savings-bank-simple-checking-debit-reward-300,11,transactions,301,330,,,,,,10,1000,"Month 11 of 12: 10 debit Mastercard purchases of $10+ ($25 per qualifying month); ATM, cash advances and P2P excluded. Calendar-month timing approximated as 30-day windows."
+cambridge-savings-bank-simple-checking-debit-reward-300,12,transactions,331,360,,,,,,10,1000,"Month 12 of 12: 10 debit Mastercard purchases of $10+ ($25 per qualifying month); ATM, cash advances and P2P excluded. Calendar-month timing approximated as 30-day windows."
+cambridge-savings-bank-relationship-high-yield-money-market-400,1,balance,,,,,,,2500000,,,"Money market: $25,000 average monthly balance of external new money for the first 3 full calendar months after opening/funding; the end date depends on the opening date."
+cambridge-savings-bank-800-combined,1,other,,30,,,,,,,,Enroll in eStatements through CSB Online or Mobile Banking within 30 days of opening and funding.
+cambridge-savings-bank-800-combined,2,direct_deposit,0,30,,,,,250000,,,"$2,500 cumulative DD in full calendar month 1 of 3 after opening/funding; calendar-month timing approximated as 30-day windows."
+cambridge-savings-bank-800-combined,3,direct_deposit,31,60,,,,,250000,,,"$2,500 cumulative DD in full calendar month 2 of 3 after opening/funding; calendar-month timing approximated as 30-day windows."
+cambridge-savings-bank-800-combined,4,direct_deposit,61,90,,,,,250000,,,"$2,500 cumulative DD in full calendar month 3 of 3 after opening/funding; calendar-month timing approximated as 30-day windows."
+cambridge-savings-bank-800-combined,5,balance,,,,,,,500000,,,"Checking: $5,000 minimum average monthly balance for the first 3 full calendar months after opening/funding; the end date depends on the opening date."
+cambridge-savings-bank-800-combined,6,transactions,0,30,,,,,,10,1000,"Month 1 of 12: 10 debit Mastercard purchases of $10+ ($25 per qualifying month); ATM, cash advances and P2P excluded. Calendar-month timing approximated as 30-day windows."
+cambridge-savings-bank-800-combined,7,transactions,31,60,,,,,,10,1000,"Month 2 of 12: 10 debit Mastercard purchases of $10+ ($25 per qualifying month); ATM, cash advances and P2P excluded. Calendar-month timing approximated as 30-day windows."
+cambridge-savings-bank-800-combined,8,transactions,61,90,,,,,,10,1000,"Month 3 of 12: 10 debit Mastercard purchases of $10+ ($25 per qualifying month); ATM, cash advances and P2P excluded. Calendar-month timing approximated as 30-day windows."
+cambridge-savings-bank-800-combined,9,transactions,91,120,,,,,,10,1000,"Month 4 of 12: 10 debit Mastercard purchases of $10+ ($25 per qualifying month); ATM, cash advances and P2P excluded. Calendar-month timing approximated as 30-day windows."
+cambridge-savings-bank-800-combined,10,transactions,121,150,,,,,,10,1000,"Month 5 of 12: 10 debit Mastercard purchases of $10+ ($25 per qualifying month); ATM, cash advances and P2P excluded. Calendar-month timing approximated as 30-day windows."
+cambridge-savings-bank-800-combined,11,transactions,151,180,,,,,,10,1000,"Month 6 of 12: 10 debit Mastercard purchases of $10+ ($25 per qualifying month); ATM, cash advances and P2P excluded. Calendar-month timing approximated as 30-day windows."
+cambridge-savings-bank-800-combined,12,transactions,181,210,,,,,,10,1000,"Month 7 of 12: 10 debit Mastercard purchases of $10+ ($25 per qualifying month); ATM, cash advances and P2P excluded. Calendar-month timing approximated as 30-day windows."
+cambridge-savings-bank-800-combined,13,transactions,211,240,,,,,,10,1000,"Month 8 of 12: 10 debit Mastercard purchases of $10+ ($25 per qualifying month); ATM, cash advances and P2P excluded. Calendar-month timing approximated as 30-day windows."
+cambridge-savings-bank-800-combined,14,transactions,241,270,,,,,,10,1000,"Month 9 of 12: 10 debit Mastercard purchases of $10+ ($25 per qualifying month); ATM, cash advances and P2P excluded. Calendar-month timing approximated as 30-day windows."
+cambridge-savings-bank-800-combined,15,transactions,271,300,,,,,,10,1000,"Month 10 of 12: 10 debit Mastercard purchases of $10+ ($25 per qualifying month); ATM, cash advances and P2P excluded. Calendar-month timing approximated as 30-day windows."
+cambridge-savings-bank-800-combined,16,transactions,301,330,,,,,,10,1000,"Month 11 of 12: 10 debit Mastercard purchases of $10+ ($25 per qualifying month); ATM, cash advances and P2P excluded. Calendar-month timing approximated as 30-day windows."
+cambridge-savings-bank-800-combined,17,transactions,331,360,,,,,,10,1000,"Month 12 of 12: 10 debit Mastercard purchases of $10+ ($25 per qualifying month); ATM, cash advances and P2P excluded. Calendar-month timing approximated as 30-day windows."
+cambridge-savings-bank-1200-combined,1,other,,30,,,,,,,,Enroll in eStatements through CSB Online or Mobile Banking within 30 days of opening and funding.
+cambridge-savings-bank-1200-combined,2,direct_deposit,0,30,,,,,250000,,,"$2,500 cumulative DD in full calendar month 1 of 3 after opening/funding; calendar-month timing approximated as 30-day windows."
+cambridge-savings-bank-1200-combined,3,direct_deposit,31,60,,,,,250000,,,"$2,500 cumulative DD in full calendar month 2 of 3 after opening/funding; calendar-month timing approximated as 30-day windows."
+cambridge-savings-bank-1200-combined,4,direct_deposit,61,90,,,,,250000,,,"$2,500 cumulative DD in full calendar month 3 of 3 after opening/funding; calendar-month timing approximated as 30-day windows."
+cambridge-savings-bank-1200-combined,5,balance,,,,,,,500000,,,"Checking: $5,000 minimum average monthly balance for the first 3 full calendar months after opening/funding; the end date depends on the opening date."
+cambridge-savings-bank-1200-combined,6,balance,,,,,,,2500000,,,"Money market: $25,000 average monthly balance of external new money for the first 3 full calendar months after opening/funding; the end date depends on the opening date."
+cambridge-savings-bank-1200-combined,7,transactions,0,30,,,,,,10,1000,"Month 1 of 12: 10 debit Mastercard purchases of $10+ ($25 per qualifying month); ATM, cash advances and P2P excluded. Calendar-month timing approximated as 30-day windows."
+cambridge-savings-bank-1200-combined,8,transactions,31,60,,,,,,10,1000,"Month 2 of 12: 10 debit Mastercard purchases of $10+ ($25 per qualifying month); ATM, cash advances and P2P excluded. Calendar-month timing approximated as 30-day windows."
+cambridge-savings-bank-1200-combined,9,transactions,61,90,,,,,,10,1000,"Month 3 of 12: 10 debit Mastercard purchases of $10+ ($25 per qualifying month); ATM, cash advances and P2P excluded. Calendar-month timing approximated as 30-day windows."
+cambridge-savings-bank-1200-combined,10,transactions,91,120,,,,,,10,1000,"Month 4 of 12: 10 debit Mastercard purchases of $10+ ($25 per qualifying month); ATM, cash advances and P2P excluded. Calendar-month timing approximated as 30-day windows."
+cambridge-savings-bank-1200-combined,11,transactions,121,150,,,,,,10,1000,"Month 5 of 12: 10 debit Mastercard purchases of $10+ ($25 per qualifying month); ATM, cash advances and P2P excluded. Calendar-month timing approximated as 30-day windows."
+cambridge-savings-bank-1200-combined,12,transactions,151,180,,,,,,10,1000,"Month 6 of 12: 10 debit Mastercard purchases of $10+ ($25 per qualifying month); ATM, cash advances and P2P excluded. Calendar-month timing approximated as 30-day windows."
+cambridge-savings-bank-1200-combined,13,transactions,181,210,,,,,,10,1000,"Month 7 of 12: 10 debit Mastercard purchases of $10+ ($25 per qualifying month); ATM, cash advances and P2P excluded. Calendar-month timing approximated as 30-day windows."
+cambridge-savings-bank-1200-combined,14,transactions,211,240,,,,,,10,1000,"Month 8 of 12: 10 debit Mastercard purchases of $10+ ($25 per qualifying month); ATM, cash advances and P2P excluded. Calendar-month timing approximated as 30-day windows."
+cambridge-savings-bank-1200-combined,15,transactions,241,270,,,,,,10,1000,"Month 9 of 12: 10 debit Mastercard purchases of $10+ ($25 per qualifying month); ATM, cash advances and P2P excluded. Calendar-month timing approximated as 30-day windows."
+cambridge-savings-bank-1200-combined,16,transactions,271,300,,,,,,10,1000,"Month 10 of 12: 10 debit Mastercard purchases of $10+ ($25 per qualifying month); ATM, cash advances and P2P excluded. Calendar-month timing approximated as 30-day windows."
+cambridge-savings-bank-1200-combined,17,transactions,301,330,,,,,,10,1000,"Month 11 of 12: 10 debit Mastercard purchases of $10+ ($25 per qualifying month); ATM, cash advances and P2P excluded. Calendar-month timing approximated as 30-day windows."
+cambridge-savings-bank-1200-combined,18,transactions,331,360,,,,,,10,1000,"Month 12 of 12: 10 debit Mastercard purchases of $10+ ($25 per qualifying month); ATM, cash advances and P2P excluded. Calendar-month timing approximated as 30-day windows."
+4front-credit-union-straight4ward-rewards-checking-400,1,other,,30,,,,,,,,Enroll in eStatements and stay enrolled through month 3.
+4front-credit-union-straight4ward-rewards-checking-400,2,other,0,30,,,,,,,,Log in to online banking or the 4FrontGo app. Month 1 of 3; monthly timing approximated as 30-day windows.
+4front-credit-union-straight4ward-rewards-checking-400,3,deposit,0,30,,,,,50000,,,Deposit $500 or more; direct deposit not required. Month 1 of 3; monthly timing approximated as 30-day windows.
+4front-credit-union-straight4ward-rewards-checking-400,4,transactions,0,30,,,,,,15,,15 or more 4Front debit Mastercard transactions; no minimum amount stated. Month 1 of 3; monthly timing approximated as 30-day windows.
+4front-credit-union-straight4ward-rewards-checking-400,5,other,31,60,,,,,,,,Log in to online banking or the 4FrontGo app. Month 2 of 3; monthly timing approximated as 30-day windows.
+4front-credit-union-straight4ward-rewards-checking-400,6,deposit,31,60,,,,,50000,,,Deposit $500 or more; direct deposit not required. Month 2 of 3; monthly timing approximated as 30-day windows.
+4front-credit-union-straight4ward-rewards-checking-400,7,transactions,31,60,,,,,,15,,15 or more 4Front debit Mastercard transactions; no minimum amount stated. Month 2 of 3; monthly timing approximated as 30-day windows.
+4front-credit-union-straight4ward-rewards-checking-400,8,other,61,90,,,,,,,,Log in to online banking or the 4FrontGo app. Month 3 of 3; monthly timing approximated as 30-day windows.
+4front-credit-union-straight4ward-rewards-checking-400,9,deposit,61,90,,,,,50000,,,Deposit $500 or more; direct deposit not required. Month 3 of 3; monthly timing approximated as 30-day windows.
+4front-credit-union-straight4ward-rewards-checking-400,10,transactions,61,90,,,,,,15,,15 or more 4Front debit Mastercard transactions; no minimum amount stated. Month 3 of 3; monthly timing approximated as 30-day windows.
+eastern-bank-free-checking-350,1,direct_deposit,,90,,,,,300000,2,,"Two or more recurring payroll, pension or government DD totaling $3,000; ordinary transfers and P2P excluded."
+eastern-bank-statement-savings-250,1,balance,31,30,,,120,,1500000,,,"Deposit $15,000 within 30 days; the $15,000 is an average daily balance over the 90 days starting day 31, modeled as a constant balance."
+eastern-bank-free-checking-and-statement-savings-combined-750,1,balance,31,30,,,120,,1500000,,,"Savings: Deposit $15,000 within 30 days; the $15,000 is an average daily balance over the 90 days starting day 31, modeled as a constant balance. Open both accounts within three business days."
+eastern-bank-free-checking-and-statement-savings-combined-750,2,direct_deposit,,90,,,,,300000,2,,"Checking: Two or more recurring payroll, pension or government DD totaling $3,000; ordinary transfers and P2P excluded."
+trunorth-bank-get-real-checking-initial-dd-reward-150,1,other,,90,,,,,,,,Enroll in eStatements.
+trunorth-bank-get-real-checking-initial-dd-reward-150,2,direct_deposit,,90,,,,,100000,,,"$1,000 aggregate DD. Alternative: 25 POS debit card purchases of $10+ each within 90 days."
+trunorth-bank-get-real-checking-initial-and-loyalty-total-300,1,other,,90,,,,,,,,Enroll in eStatements and keep enrolled through the 12-month loyalty reward.
+trunorth-bank-get-real-checking-initial-and-loyalty-total-300,2,transactions,,90,,,,,,25,1000,"Initial reward: 25 debit purchases of $10+ within 90 days, or $1,000 aggregate direct deposits instead."
+trunorth-bank-get-real-checking-initial-and-loyalty-total-300,3,transactions,335,365,,,,,,5,1000,"Loyalty reward: 5 debit purchases of $10+ in the twelfth month, or a recurring direct deposit instead; month approximated as a 30-day window."
+associated-bank-access-checking-1000-balance-tier-300,1,balance,31,,,,90,,100000,,,"Average of all eligible same-primary-holder personal deposit balances over days 31-90 must reach $1,000; evaluated day 90 or the prior business day. Existing balances count."
+associated-bank-access-checking-1000-balance-tier-300,2,direct_deposit,,90,,,,,50000,,,Recurring qualifying employer or government DD totaling $500.
+associated-bank-access-checking-5000-balance-tier-400,1,balance,31,,,,90,,500000,,,"Average of all eligible same-primary-holder personal deposit balances over days 31-90 must reach $5,000; evaluated day 90 or the prior business day. Existing balances count."
+associated-bank-access-checking-5000-balance-tier-400,2,direct_deposit,,90,,,,,50000,,,Recurring qualifying employer or government DD totaling $500.
+associated-bank-access-checking-10000-balance-tier-600,1,balance,31,,,,90,,1000000,,,"Average of all eligible same-primary-holder personal deposit balances over days 31-90 must reach $10,000; evaluated day 90 or the prior business day. Existing balances count."
+associated-bank-access-checking-10000-balance-tier-600,2,direct_deposit,,90,,,,,50000,,,Recurring qualifying employer or government DD totaling $500.
+fulton-bank-simply-checking-targeted-digital-ad-offer-400,1,direct_deposit,,90,,,,,100000,2,50000,"Paycheck, pension, Social Security or unemployment DD from employer or government; wires, funds transfers and Zelle/P2P excluded."
+fulton-bank-simply-checking-targeted-digital-ad-offer-400,2,other,,90,,,,,,,,Enroll in Online Statements.
+regions-bank-lifegreen-checking-400,1,direct_deposit,,90,,,,,100000,,,"New qualifying ACH payroll or government DD totaling $1,000. Register for the offer with matching name/email before opening."
+old-national-bank-everyday-checking-3500-dd-tier-300,1,direct_deposit,,,,,,,350000,3,,"At least 3 recurring payroll, pension or government DD during the first four calendar months including the opening month (not a fixed 120 days)."
+old-national-bank-everyday-checking-12000-dd-tier-600,1,direct_deposit,,,,,,,1200000,3,,"At least 3 recurring payroll, pension or government DD during the first four calendar months including the opening month (not a fixed 120 days)."
+midflorida-credit-union-free-checking-200-tier-200,1,direct_deposit,,75,,,,,200000,,,"Cumulative qualifying payroll, pension or government DD posted within 75 days."
+midflorida-credit-union-free-checking-200-tier-200,2,other,,75,,,,,,,,Accept and open Online Banking.
+midflorida-credit-union-free-checking-200-tier-200,3,other,,75,,,,,,,,Enroll in eStatements.
+midflorida-credit-union-free-checking-200-tier-200,4,other,,75,,,,,,,,Open and activate a debit card.
+midflorida-credit-union-free-checking-200-tier-200,5,transactions,,75,,,,,,20,,20 debit card purchases posted within 75 days; no minimum amount stated.
+midflorida-credit-union-free-checking-400-tier-400,1,direct_deposit,,75,,,,,400000,,,"Cumulative qualifying payroll, pension or government DD posted within 75 days."
+midflorida-credit-union-free-checking-400-tier-400,2,other,,75,,,,,,,,Accept and open Online Banking.
+midflorida-credit-union-free-checking-400-tier-400,3,other,,75,,,,,,,,Enroll in eStatements.
+midflorida-credit-union-free-checking-400-tier-400,4,other,,75,,,,,,,,Open and activate a debit card.
+midflorida-credit-union-free-checking-400-tier-400,5,transactions,,75,,,,,,40,,40 debit card purchases posted within 75 days; no minimum amount stated.
+republic-bank-personal-checking-adv-400,1,direct_deposit,,90,,,,,,3,,3 or more ACH credits/direct deposits; no minimum amount stated.
+republic-bank-personal-checking-adv-400,2,transactions,,90,,,,,,10,,10 or more POS debit transactions; no minimum amount stated.
+republic-bank-business-checking-adv-400,1,direct_deposit,,90,,,,,,3,,3 or more ACH credits/direct deposits; no minimum amount stated.
+republic-bank-business-checking-adv-400,2,transactions,,90,,,,,,10,,10 or more POS debit transactions; no minimum amount stated.
+bank-five-nine-grafton-performing-arts-mascot-checking-150,1,transactions,,120,,,,,,15,500,"15 signature debit purchases of $5+. Alternatives (meet ONE): three payroll/government/pension deposits of $100+ in 3 consecutive months (DD/mobile/branch; not online transfers or cash), or 3 bank bill payments of $25+ excluding personal payments."
+secu-maryland-total-checking-and-rewards-350,1,other,,90,,,,,,,,Enroll in eStatements.
+secu-maryland-total-checking-and-rewards-350,2,direct_deposit,,90,,,,,,2,,"Two separate qualifying payroll, pension or Social Security direct deposits; amount not specified."
+midfirst-bank-livefree-checking-350,1,direct_deposit,,90,,,,,100000,,,"Cumulative payroll, pension or government direct deposits."
+alltru-credit-union-basic-checking-300,1,direct_deposit,,60,,,,,100000,2,50000,"Paycheck, pension, Social Security or other government benefit direct deposits of $500+ each."
+alltru-credit-union-basic-checking-300,2,transactions,,60,,,,,,15,,Debit card purchases; no dollar minimum stated.
+alltru-credit-union-basic-checking-300,3,other,,60,,,,,,,,Enroll in Online Banking.
+alltru-credit-union-basic-checking-300,4,other,,60,,,,,,,,Enroll in eStatements.
+canandaigua-national-bank-optimum-or-e-ssentials-online-checking-300,1,other,,30,,,,,,,,Enroll in eStatements within the first 30 days.
+canandaigua-national-bank-optimum-or-e-ssentials-online-checking-300,2,direct_deposit,31,60,,,,,,1,,Days 31-60: one direct deposit; no minimum amount stated.
+canandaigua-national-bank-optimum-or-e-ssentials-online-checking-300,3,transactions,31,60,,,,,,5,,Days 31-60: five POS Debit Mastercard purchases; no minimum amount stated.
+canandaigua-national-bank-optimum-or-e-ssentials-online-checking-300,4,direct_deposit,61,90,,,,,,1,,Days 61-90: one direct deposit; no minimum amount stated.
+canandaigua-national-bank-optimum-or-e-ssentials-online-checking-300,5,transactions,61,90,,,,,,5,,Days 61-90: five POS Debit Mastercard purchases; no minimum amount stated.
+florida-credit-union-new-member-checking-300,1,direct_deposit,,60,,,,,50000,,,"Cumulative payroll, pension or government direct deposits."
+florida-credit-union-new-member-checking-300,2,other,,,,,,,,,,Full-service checking: set up a debit card and online banking/eStatements.
+unity-bank-everyday-checking-300,1,direct_deposit,,180,,,,,600000,4,150000,"At least four qualifying payroll, pension or government direct deposits of $1,500 each."
+unity-bank-rewards-checking-400,1,direct_deposit,,180,,,,,1000000,4,250000,"At least four qualifying payroll, pension or government direct deposits of $2,500 each."
+bok-financial-access-checking-450,1,direct_deposit,,90,,,,,300000,,,"Aggregate qualifying recurring payroll, pension or government direct deposits; transfers, P2P, wire, branch and mobile deposits excluded."
+bok-financial-premier-checking-750,1,direct_deposit,,90,,,,,800000,,,"Aggregate qualifying recurring payroll, pension or government direct deposits; transfers, P2P, wire, branch and mobile deposits excluded."
+bok-financial-personal-savings-200,1,balance,31,30,,,90,,1000000,,,"Deposit $10,000 new funds within 30 days; keep at least $10,000 from day 31 until day 90."
+bok-financial-access-checking-and-personal-savings-combined-650,1,direct_deposit,,90,,,,,300000,,,"Access Checking tier. Aggregate qualifying recurring payroll, pension or government direct deposits; transfers, P2P, wire, branch and mobile deposits excluded."
+bok-financial-access-checking-and-personal-savings-combined-650,2,balance,31,30,,,90,,1000000,,,"Deposit $10,000 new funds within 30 days; keep at least $10,000 from day 31 until day 90."
+bok-financial-premier-checking-and-personal-savings-combined-950,1,direct_deposit,,90,,,,,800000,,,"Premier Checking tier. Aggregate qualifying recurring payroll, pension or government direct deposits; transfers, P2P, wire, branch and mobile deposits excluded."
+bok-financial-premier-checking-and-personal-savings-combined-950,2,balance,31,30,,,90,,1000000,,,"Deposit $10,000 new funds within 30 days; keep at least $10,000 from day 31 until day 90."
+pittsfield-cooperative-bank-interest-checking-15-debit-tier-500,1,other,,,,,,,,,,Enroll the Pittsfield Cooperative Bank Mastercard debit card in uChoose Rewards.
+pittsfield-cooperative-bank-interest-checking-15-debit-tier-500,2,direct_deposit,0,30,,,,,50000,,50000,Month 1 of 6: minimum $500 direct deposit; statement-cycle timing approximated as 30-day windows.
+pittsfield-cooperative-bank-interest-checking-15-debit-tier-500,3,direct_deposit,31,60,,,,,50000,,50000,Month 2 of 6: minimum $500 direct deposit; statement-cycle timing approximated as 30-day windows.
+pittsfield-cooperative-bank-interest-checking-15-debit-tier-500,4,direct_deposit,61,90,,,,,50000,,50000,Month 3 of 6: minimum $500 direct deposit; statement-cycle timing approximated as 30-day windows.
+pittsfield-cooperative-bank-interest-checking-15-debit-tier-500,5,direct_deposit,91,120,,,,,50000,,50000,Month 4 of 6: minimum $500 direct deposit; statement-cycle timing approximated as 30-day windows.
+pittsfield-cooperative-bank-interest-checking-15-debit-tier-500,6,direct_deposit,121,150,,,,,50000,,50000,Month 5 of 6: minimum $500 direct deposit; statement-cycle timing approximated as 30-day windows.
+pittsfield-cooperative-bank-interest-checking-15-debit-tier-500,7,direct_deposit,151,180,,,,,50000,,50000,Month 6 of 6: minimum $500 direct deposit; statement-cycle timing approximated as 30-day windows.
+pittsfield-cooperative-bank-interest-checking-15-debit-tier-500,8,transactions,,180,,,,,,15,,POS signature or PIN debit transactions during the cycle period (per-month vs total not specified); online/ATM excluded unless eligible Mastercard Checkout/uChoose/mobile-wallet routes.
+pittsfield-cooperative-bank-interest-checking-25-debit-tier-750,1,other,,,,,,,,,,Enroll the Pittsfield Cooperative Bank Mastercard debit card in uChoose Rewards.
+pittsfield-cooperative-bank-interest-checking-25-debit-tier-750,2,direct_deposit,0,30,,,,,50000,,50000,Month 1 of 6: minimum $500 direct deposit; statement-cycle timing approximated as 30-day windows.
+pittsfield-cooperative-bank-interest-checking-25-debit-tier-750,3,direct_deposit,31,60,,,,,50000,,50000,Month 2 of 6: minimum $500 direct deposit; statement-cycle timing approximated as 30-day windows.
+pittsfield-cooperative-bank-interest-checking-25-debit-tier-750,4,direct_deposit,61,90,,,,,50000,,50000,Month 3 of 6: minimum $500 direct deposit; statement-cycle timing approximated as 30-day windows.
+pittsfield-cooperative-bank-interest-checking-25-debit-tier-750,5,direct_deposit,91,120,,,,,50000,,50000,Month 4 of 6: minimum $500 direct deposit; statement-cycle timing approximated as 30-day windows.
+pittsfield-cooperative-bank-interest-checking-25-debit-tier-750,6,direct_deposit,121,150,,,,,50000,,50000,Month 5 of 6: minimum $500 direct deposit; statement-cycle timing approximated as 30-day windows.
+pittsfield-cooperative-bank-interest-checking-25-debit-tier-750,7,direct_deposit,151,180,,,,,50000,,50000,Month 6 of 6: minimum $500 direct deposit; statement-cycle timing approximated as 30-day windows.
+pittsfield-cooperative-bank-interest-checking-25-debit-tier-750,8,transactions,,180,,,,,,25,,POS signature or PIN debit transactions during the cycle period (per-month vs total not specified); online/ATM excluded unless eligible Mastercard Checkout/uChoose/mobile-wallet routes.
+cn-4suits-300,1,transactions,31,60,,,,,,12,,"Month 1 of 6 (starting the month after opening): 12 qualifying transactions; calendar-month timing approximated as 30-day windows. Alternative: three consecutive months of direct deposits totaling at least $1,000 within the first six months."
+cn-4suits-300,2,transactions,61,90,,,,,,12,,"Month 2 of 6 (starting the month after opening): 12 qualifying transactions; calendar-month timing approximated as 30-day windows. Alternative: three consecutive months of direct deposits totaling at least $1,000 within the first six months."
+cn-4suits-300,3,transactions,91,120,,,,,,12,,"Month 3 of 6 (starting the month after opening): 12 qualifying transactions; calendar-month timing approximated as 30-day windows. Alternative: three consecutive months of direct deposits totaling at least $1,000 within the first six months."
+cn-4suits-300,4,transactions,121,150,,,,,,12,,"Month 4 of 6 (starting the month after opening): 12 qualifying transactions; calendar-month timing approximated as 30-day windows. Alternative: three consecutive months of direct deposits totaling at least $1,000 within the first six months."
+cn-4suits-300,5,transactions,151,180,,,,,,12,,"Month 5 of 6 (starting the month after opening): 12 qualifying transactions; calendar-month timing approximated as 30-day windows. Alternative: three consecutive months of direct deposits totaling at least $1,000 within the first six months."
+cn-4suits-300,6,transactions,181,210,,,,,,12,,"Month 6 of 6 (starting the month after opening): 12 qualifying transactions; calendar-month timing approximated as 30-day windows. Alternative: three consecutive months of direct deposits totaling at least $1,000 within the first six months."
+cn-4suits-600,1,transactions,31,60,,,,,,12,,"Month 1 of 6 (starting the month after opening): 12 qualifying transactions; calendar-month timing approximated as 30-day windows. Alternative: three consecutive months of direct deposits totaling at least $1,000 within the first six months."
+cn-4suits-600,2,transactions,61,90,,,,,,12,,"Month 2 of 6 (starting the month after opening): 12 qualifying transactions; calendar-month timing approximated as 30-day windows. Alternative: three consecutive months of direct deposits totaling at least $1,000 within the first six months."
+cn-4suits-600,3,transactions,91,120,,,,,,12,,"Month 3 of 6 (starting the month after opening): 12 qualifying transactions; calendar-month timing approximated as 30-day windows. Alternative: three consecutive months of direct deposits totaling at least $1,000 within the first six months."
+cn-4suits-600,4,transactions,121,150,,,,,,12,,"Month 4 of 6 (starting the month after opening): 12 qualifying transactions; calendar-month timing approximated as 30-day windows. Alternative: three consecutive months of direct deposits totaling at least $1,000 within the first six months."
+cn-4suits-600,5,transactions,151,180,,,,,,12,,"Month 5 of 6 (starting the month after opening): 12 qualifying transactions; calendar-month timing approximated as 30-day windows. Alternative: three consecutive months of direct deposits totaling at least $1,000 within the first six months."
+cn-4suits-600,6,transactions,181,210,,,,,,12,,"Month 6 of 6 (starting the month after opening): 12 qualifying transactions; calendar-month timing approximated as 30-day windows. Alternative: three consecutive months of direct deposits totaling at least $1,000 within the first six months."
+cn-4suits-600,7,deposit,,14,,,,,1000000,,,"Open Key Savings, Consumer Super Money Fund or CD with $10,000 new money within 14 days of checking opening; no maintenance period stated."
+cn-4suits-600-heloc,1,transactions,31,60,,,,,,12,,"Month 1 of 6 (starting the month after opening): 12 qualifying transactions; calendar-month timing approximated as 30-day windows. Alternative: three consecutive months of direct deposits totaling at least $1,000 within the first six months."
+cn-4suits-600-heloc,2,transactions,61,90,,,,,,12,,"Month 2 of 6 (starting the month after opening): 12 qualifying transactions; calendar-month timing approximated as 30-day windows. Alternative: three consecutive months of direct deposits totaling at least $1,000 within the first six months."
+cn-4suits-600-heloc,3,transactions,91,120,,,,,,12,,"Month 3 of 6 (starting the month after opening): 12 qualifying transactions; calendar-month timing approximated as 30-day windows. Alternative: three consecutive months of direct deposits totaling at least $1,000 within the first six months."
+cn-4suits-600-heloc,4,transactions,121,150,,,,,,12,,"Month 4 of 6 (starting the month after opening): 12 qualifying transactions; calendar-month timing approximated as 30-day windows. Alternative: three consecutive months of direct deposits totaling at least $1,000 within the first six months."
+cn-4suits-600-heloc,5,transactions,151,180,,,,,,12,,"Month 5 of 6 (starting the month after opening): 12 qualifying transactions; calendar-month timing approximated as 30-day windows. Alternative: three consecutive months of direct deposits totaling at least $1,000 within the first six months."
+cn-4suits-600-heloc,6,transactions,181,210,,,,,,12,,"Month 6 of 6 (starting the month after opening): 12 qualifying transactions; calendar-month timing approximated as 30-day windows. Alternative: three consecutive months of direct deposits totaling at least $1,000 within the first six months."
+cn-4suits-600-heloc,7,other,,180,,,,,,,,"Open Home Equity Line&Lock with a $20,000 minimum draw at loan opening within six months of checking opening (approximated as 180 days); credit approval, primary residence."
+cn-4suits-600-heloc,8,other,,,,,,,,,,Set up automatic loan payment from the C&N checking account.
+cn-4suits-1000-heloc,1,transactions,31,60,,,,,,12,,"Month 1 of 6 (starting the month after opening): 12 qualifying transactions; calendar-month timing approximated as 30-day windows. Alternative: three consecutive months of direct deposits totaling at least $1,000 within the first six months."
+cn-4suits-1000-heloc,2,transactions,61,90,,,,,,12,,"Month 2 of 6 (starting the month after opening): 12 qualifying transactions; calendar-month timing approximated as 30-day windows. Alternative: three consecutive months of direct deposits totaling at least $1,000 within the first six months."
+cn-4suits-1000-heloc,3,transactions,91,120,,,,,,12,,"Month 3 of 6 (starting the month after opening): 12 qualifying transactions; calendar-month timing approximated as 30-day windows. Alternative: three consecutive months of direct deposits totaling at least $1,000 within the first six months."
+cn-4suits-1000-heloc,4,transactions,121,150,,,,,,12,,"Month 4 of 6 (starting the month after opening): 12 qualifying transactions; calendar-month timing approximated as 30-day windows. Alternative: three consecutive months of direct deposits totaling at least $1,000 within the first six months."
+cn-4suits-1000-heloc,5,transactions,151,180,,,,,,12,,"Month 5 of 6 (starting the month after opening): 12 qualifying transactions; calendar-month timing approximated as 30-day windows. Alternative: three consecutive months of direct deposits totaling at least $1,000 within the first six months."
+cn-4suits-1000-heloc,6,transactions,181,210,,,,,,12,,"Month 6 of 6 (starting the month after opening): 12 qualifying transactions; calendar-month timing approximated as 30-day windows. Alternative: three consecutive months of direct deposits totaling at least $1,000 within the first six months."
+cn-4suits-1000-heloc,7,deposit,,14,,,,,1000000,,,"Open Key Savings, Consumer Super Money Fund or CD with $10,000 new money within 14 days of checking opening; no maintenance period stated."
+cn-4suits-1000-heloc,8,other,,180,,,,,,,,"Open Home Equity Line&Lock with a $20,000 minimum draw at loan opening within six months of checking opening (approximated as 180 days); credit approval, primary residence."
+cn-4suits-1000-heloc,9,other,,,,,,,,,,Set up automatic loan payment from the C&N checking account.
+fidelity-pa-personal-online-150,1,direct_deposit,0,30,,,,,150000,,,"Month 1 of 3: $1,500 qualifying recurring direct deposits in the month; three consecutive months within 120 days, statement-cycle timing approximated as 30-day windows."
+fidelity-pa-personal-online-150,2,direct_deposit,31,60,,,,,150000,,,"Month 2 of 3: $1,500 qualifying recurring direct deposits in the month; three consecutive months within 120 days, statement-cycle timing approximated as 30-day windows."
+fidelity-pa-personal-online-150,3,direct_deposit,61,90,,,,,150000,,,"Month 3 of 3: $1,500 qualifying recurring direct deposits in the month; three consecutive months within 120 days, statement-cycle timing approximated as 30-day windows."
+fidelity-pa-personal-online-150,4,transactions,,120,,,,,,45,,POS debit card purchases over the three consecutive DD months (marketing says 15 per month); no dollar minimum stated.
+fidelity-pa-personal-online-150,5,other,,120,,,,,,,,Enroll in online banking.
+fidelity-pa-personal-online-150,6,other,,120,,,,,,,,Enroll in EZ statements.
+fidelity-pa-personal-online-savings-400,1,direct_deposit,0,30,,,,,150000,,,"Month 1 of 3: $1,500 qualifying recurring direct deposits in the month; three consecutive months within 120 days, statement-cycle timing approximated as 30-day windows."
+fidelity-pa-personal-online-savings-400,2,direct_deposit,31,60,,,,,150000,,,"Month 2 of 3: $1,500 qualifying recurring direct deposits in the month; three consecutive months within 120 days, statement-cycle timing approximated as 30-day windows."
+fidelity-pa-personal-online-savings-400,3,direct_deposit,61,90,,,,,150000,,,"Month 3 of 3: $1,500 qualifying recurring direct deposits in the month; three consecutive months within 120 days, statement-cycle timing approximated as 30-day windows."
+fidelity-pa-personal-online-savings-400,4,transactions,,120,,,,,,45,,POS debit card purchases over the three consecutive DD months (marketing says 15 per month); no dollar minimum stated.
+fidelity-pa-personal-online-savings-400,5,other,,120,,,,,,,,Enroll in online banking.
+fidelity-pa-personal-online-savings-400,6,other,,120,,,,,,,,Enroll in EZ statements.
+fidelity-pa-personal-online-savings-400,7,balance,,0,,,,,1000000,,,"Open Statement Savings at the same time with $10,000 new money and maintain a $10,000 daily balance during each of the first three months (calendar months; no day count stated)."
+fidelity-pa-personal-branch-100,1,direct_deposit,0,30,,,,,150000,,,"Month 1 of 3: $1,500 qualifying recurring direct deposits in the month; three consecutive months within 120 days, statement-cycle timing approximated as 30-day windows."
+fidelity-pa-personal-branch-100,2,direct_deposit,31,60,,,,,150000,,,"Month 2 of 3: $1,500 qualifying recurring direct deposits in the month; three consecutive months within 120 days, statement-cycle timing approximated as 30-day windows."
+fidelity-pa-personal-branch-100,3,direct_deposit,61,90,,,,,150000,,,"Month 3 of 3: $1,500 qualifying recurring direct deposits in the month; three consecutive months within 120 days, statement-cycle timing approximated as 30-day windows."
+fidelity-pa-personal-branch-100,4,transactions,,120,,,,,,45,,POS debit card purchases over the three consecutive DD months (marketing says 15 per month); no dollar minimum stated.
+fidelity-pa-personal-branch-100,5,other,,120,,,,,,,,Enroll in online banking.
+fidelity-pa-personal-branch-100,6,other,,120,,,,,,,,Enroll in EZ statements.
+fidelity-pa-personal-branch-savings-350,1,direct_deposit,0,30,,,,,150000,,,"Month 1 of 3: $1,500 qualifying recurring direct deposits in the month; three consecutive months within 120 days, statement-cycle timing approximated as 30-day windows."
+fidelity-pa-personal-branch-savings-350,2,direct_deposit,31,60,,,,,150000,,,"Month 2 of 3: $1,500 qualifying recurring direct deposits in the month; three consecutive months within 120 days, statement-cycle timing approximated as 30-day windows."
+fidelity-pa-personal-branch-savings-350,3,direct_deposit,61,90,,,,,150000,,,"Month 3 of 3: $1,500 qualifying recurring direct deposits in the month; three consecutive months within 120 days, statement-cycle timing approximated as 30-day windows."
+fidelity-pa-personal-branch-savings-350,4,transactions,,120,,,,,,45,,POS debit card purchases over the three consecutive DD months (marketing says 15 per month); no dollar minimum stated.
+fidelity-pa-personal-branch-savings-350,5,other,,120,,,,,,,,Enroll in online banking.
+fidelity-pa-personal-branch-savings-350,6,other,,120,,,,,,,,Enroll in EZ statements.
+fidelity-pa-personal-branch-savings-350,7,balance,,0,,,,,1000000,,,"Open Statement Savings at the same time with $10,000 new money and maintain a $10,000 daily balance during each of the first three months (calendar months; no day count stated)."
+fidelity-pa-business-450-branch,1,balance,,0,,,,,1000000,,,"Maintain a $10,000 daily balance during each of the first three months (calendar months; no day count stated)."
+fidelity-pa-business-450-branch,2,other,,120,,,,,,,,Enroll in business online banking.
+fidelity-pa-business-450-branch,3,other,,120,,,,,,,,Enroll in EZ statements.
+fidelity-pa-business-550-branch,1,balance,,0,,,,,1000000,,,"Maintain a $10,000 daily balance during each of the first three months (calendar months; no day count stated)."
+fidelity-pa-business-550-branch,2,other,,120,,,,,,,,Enroll in business online banking.
+fidelity-pa-business-550-branch,3,other,,120,,,,,,,,Enroll in EZ statements.
+fidelity-pa-business-550-branch,4,other,,45,,,,,,,,"Add Merchant Services and process $1,000-$5,000 in credit-card sales during the first 45 days."
+fidelity-pa-business-650-branch,1,balance,,0,,,,,1000000,,,"Maintain a $10,000 daily balance during each of the first three months (calendar months; no day count stated)."
+fidelity-pa-business-650-branch,2,other,,120,,,,,,,,Enroll in business online banking.
+fidelity-pa-business-650-branch,3,other,,120,,,,,,,,Enroll in EZ statements.
+fidelity-pa-business-650-branch,4,other,,45,,,,,,,,"Add Merchant Services and process $5,000.01-$10,000 in credit-card sales during the first 45 days."
+fidelity-pa-business-750-branch,1,balance,,0,,,,,1000000,,,"Maintain a $10,000 daily balance during each of the first three months (calendar months; no day count stated)."
+fidelity-pa-business-750-branch,2,other,,120,,,,,,,,Enroll in business online banking.
+fidelity-pa-business-750-branch,3,other,,120,,,,,,,,Enroll in EZ statements.
+fidelity-pa-business-750-branch,4,other,,45,,,,,,,,"Add Merchant Services and process over $10,000 in credit-card sales during the first 45 days."
+fidelity-pa-business-500-online,1,balance,,0,,,,,1000000,,,"Maintain a $10,000 daily balance during each of the first three months (calendar months; no day count stated)."
+fidelity-pa-business-500-online,2,other,,120,,,,,,,,Enroll in business online banking.
+fidelity-pa-business-500-online,3,other,,120,,,,,,,,Enroll in EZ statements.
+fidelity-pa-business-600-online,1,balance,,0,,,,,1000000,,,"Maintain a $10,000 daily balance during each of the first three months (calendar months; no day count stated)."
+fidelity-pa-business-600-online,2,other,,120,,,,,,,,Enroll in business online banking.
+fidelity-pa-business-600-online,3,other,,120,,,,,,,,Enroll in EZ statements.
+fidelity-pa-business-600-online,4,other,,45,,,,,,,,"Add Merchant Services and process $1,000-$5,000 in credit-card sales during the first 45 days."
+fidelity-pa-business-700-online,1,balance,,0,,,,,1000000,,,"Maintain a $10,000 daily balance during each of the first three months (calendar months; no day count stated)."
+fidelity-pa-business-700-online,2,other,,120,,,,,,,,Enroll in business online banking.
+fidelity-pa-business-700-online,3,other,,120,,,,,,,,Enroll in EZ statements.
+fidelity-pa-business-700-online,4,other,,45,,,,,,,,"Add Merchant Services and process $5,000.01-$10,000 in credit-card sales during the first 45 days."
+fidelity-pa-business-800-online,1,balance,,0,,,,,1000000,,,"Maintain a $10,000 daily balance during each of the first three months (calendar months; no day count stated)."
+fidelity-pa-business-800-online,2,other,,120,,,,,,,,Enroll in business online banking.
+fidelity-pa-business-800-online,3,other,,120,,,,,,,,Enroll in EZ statements.
+fidelity-pa-business-800-online,4,other,,45,,,,,,,,"Add Merchant Services and process over $10,000 in credit-card sales during the first 45 days."
+truist-one-checking-500,1,direct_deposit,,120,,,,,200000,2,501,"At least two qualifying ACH direct deposits totaling $2,000; each must exceed $5."
+truist-one-checking-500,2,transactions,,120,,,,,,20,,Qualifying debit card purchases; no dollar minimum stated.
+first-horizon-firstview-450,1,direct_deposit,,90,,,,,200000,,,"Qualifying recurring payroll, pension or Social Security direct deposits; no fixed count."
+first-horizon-checking-savings-700,1,direct_deposit,,90,,,,,200000,,,"Qualifying recurring payroll, pension or Social Security direct deposits; no fixed count."
+first-horizon-checking-savings-700,2,balance,,30,,90,,,300000,,,"Deposit $3,000 new external funds directly into Traditional Savings (not via First Horizon checking) within 30 days; maintain $3,000 daily collected balance for 90 days from deposit."
+clearview-absolute-checking-412,1,other,,60,,,,,,,,Enroll in digital banking and eStatements.
+clearview-absolute-checking-412,2,transactions,,60,,,,,,4,,Debit transactions; no dollar minimum stated.
+clearview-absolute-checking-412,3,deposit,,60,,,,,41200,,,Electronically deposit at least $412 (not limited to payroll direct deposit).
+bankhometown-get-real-150,1,other,,90,,,,,,,,Enroll in eStatements.
+bankhometown-get-real-150,2,direct_deposit,,90,,,,,100000,,,Aggregate direct deposits. Alternative: 25 POS debit card purchases of at least $10 each within 90 days.
+bankhometown-get-real-300,1,other,,90,,,,,,,,Enroll in eStatements (keep enrolled through the 12-month loyalty reward).
+bankhometown-get-real-300,2,transactions,,90,,,,,,25,1000,"POS debit card purchases of at least $10 each. Alternative: $1,000 aggregate direct deposits within 90 days."
+bankhometown-get-real-300,3,transactions,335,365,,,,,,5,1000,"Loyalty reward: 5 POS purchases of $10+ in the last statement cycle before 12 months (cycle approximated as days 335-365), still enrolled in eStatements. Alternative: an active recurring direct deposit posted in that cycle."
+citizens-checking-semc5-300,1,direct_deposit,,60,,,,,50000,1,50000,One qualifying recurring-income direct deposit of $500 or more; P2P deposits may not qualify.
+citizens-checking-savings-semc5-400,1,direct_deposit,,60,,,,,50000,1,50000,One qualifying recurring-income direct deposit of $500 or more; P2P deposits may not qualify.
+citizens-checking-savings-semc5-400,2,deposit,0,30,,,,,10000,,,Month 1 of 3: deposit at least $100 into the new savings (series may start in the opening month or the following month); calendar-month timing approximated as 30-day windows.
+citizens-checking-savings-semc5-400,3,deposit,31,60,,,,,10000,,,Month 2 of 3: deposit at least $100 into the new savings (series may start in the opening month or the following month); calendar-month timing approximated as 30-day windows.
+citizens-checking-savings-semc5-400,4,deposit,61,90,,,,,10000,,,Month 3 of 3: deposit at least $100 into the new savings (series may start in the opening month or the following month); calendar-month timing approximated as 30-day windows.
+citizens-checking-savings-semc5-400,5,balance,,90,,,90,,30000,,,Savings balance at least $300 at the end of the third deposit month; checking must remain open or the savings bonus is forfeited.
+citizens-savings-semc5-100,1,deposit,0,30,,,,,10000,,,Month 1 of 3: deposit at least $100 to the new savings; months may start with the opening month or the following month; approximated as 30-day windows.
+citizens-savings-semc5-100,2,deposit,31,60,,,,,10000,,,Month 2 of 3: deposit at least $100 to the new savings; months may start with the opening month or the following month; approximated as 30-day windows.
+citizens-savings-semc5-100,3,deposit,61,90,,,,,10000,,,Month 3 of 3: deposit at least $100 to the new savings; months may start with the opening month or the following month; approximated as 30-day windows.
+citizens-savings-semc5-100,4,balance,,90,,,,,30000,,,"Savings balance at least $300 at the end of the third month. Same-day personal checking must also be open, active and positive through checking payout (amount unspecified); checking direct deposit not required for this reward."
+huntington-400,1,direct_deposit,,90,,,,,50000,,,"Qualifying regular ACH direct deposits totaling $500; RTP, P2P and internal transfers excluded."
+huntington-600,1,deposit,,90,,,,,2500000,,,"Total $25,000 new money; money already at Huntington excluded except maturing personal CDs. No balance hold stated beyond keeping the account open."
+middlesex-freedom-blue-250,1,other,,90,,,,,,,,Enroll in eStatements.
+middlesex-freedom-blue-250,2,transactions,,90,,,,,10000,8,,At least 8 debit card purchases totaling $100.
+middlesex-freedom-blue-250,3,direct_deposit,,90,,,,,50000,2,,Two qualifying payroll/government direct deposits. Fine print says totaling $500; marketing says two deposits of $500 or more each (conflict unresolved).
+middlesex-freedom-gold-350,1,other,,90,,,,,,,,Enroll in eStatements.
+middlesex-freedom-gold-350,2,transactions,,90,,,,,10000,8,,At least 8 debit card purchases totaling $100.
+middlesex-freedom-gold-350,3,direct_deposit,,90,,,,,50000,2,,Two qualifying payroll/government direct deposits. Fine print says totaling $500; marketing says two deposits of $500 or more each (conflict unresolved).
+middlesex-freedom-platinum-350,1,other,,90,,,,,,,,Enroll in eStatements.
+middlesex-freedom-platinum-350,2,transactions,,90,,,,,10000,8,,At least 8 debit card purchases totaling $100.
+middlesex-freedom-platinum-350,3,direct_deposit,,90,,,,,50000,2,,Two qualifying payroll/government direct deposits. Fine print says totaling $500; marketing says two deposits of $500 or more each (conflict unresolved).
+numerica-bonus-checking-300,1,transactions,0,30,,,,,,12,500,Cycle 1 of 2 consecutive monthly cycles within the first three months: 12 settled Numerica Visa debit or credit card transactions of $5+; cycle timing approximated as 30-day windows.
+numerica-bonus-checking-300,2,transactions,31,60,,,,,,12,500,Cycle 2 of 2 consecutive monthly cycles within the first three months: 12 settled Numerica Visa debit or credit card transactions of $5+; cycle timing approximated as 30-day windows.
+numerica-bonus-checking-300,3,other,,30,,,,,,,,Receive statements electronically (eStatements) during both qualifying cycles.
+frontwave-new-member-350,1,other,,90,,,,,,,,Enroll in eStatements.
+frontwave-new-member-350,2,deposit,,90,,,,,100000,,,"Recurring external DD or ACH transfers totaling $1,000 posting within one calendar month; internal/debit-wallet transfers excluded."
+metro-checking-200,1,direct_deposit,0,30,,,,,,1,,Month 1 of 3: recurring direct deposit at least once per month during the 90-day qualification period; amount unspecified; approximated as 30-day windows.
+metro-checking-200,2,direct_deposit,31,60,,,,,,1,,Month 2 of 3: recurring direct deposit at least once per month during the 90-day qualification period; amount unspecified; approximated as 30-day windows.
+metro-checking-200,3,direct_deposit,61,90,,,,,,1,,Month 3 of 3: recurring direct deposit at least once per month during the 90-day qualification period; amount unspecified; approximated as 30-day windows.
+metro-checking-200,4,other,,60,,,,,,,,Enroll in eStatements within 60 days of account opening.
+bankers-trust-breakfree-plus-400,1,transactions,,60,,,,,,25,,"25 debit transactions: ACH debits, bill pay, checks or debit purchases; ATM withdrawals excluded. Amounts unspecified."
+bankers-trust-breakfree-plus-400,2,deposit,,60,,,,,20000,,,"Deposit 1 of 2: direct deposit or mobile deposit of at least $200; ATM, in-person and account-to-account transfers excluded."
+bankers-trust-breakfree-plus-400,3,deposit,,60,,,,,20000,,,"Deposit 2 of 2: direct deposit or mobile deposit of at least $200; ATM, in-person and account-to-account transfers excluded."
+travis-free-checking-275,1,direct_deposit,,90,,,,,150000,,,"New-money payroll/pension/government ACH direct deposits; external non-employer ACH, account-to-account, P2P and card credits excluded."
+travis-free-checking-375,1,direct_deposit,,90,,,,,500000,,,"New-money payroll/pension/government ACH direct deposits; external non-employer ACH, account-to-account, P2P and card credits excluded."
+travis-free-checking-475,1,direct_deposit,,90,,,,,1000000,,,"New-money payroll/pension/government ACH direct deposits; external non-employer ACH, account-to-account, P2P and card credits excluded."
+redstone-easy-checking-475,1,balance,,0,,,,,500,,,Primary Share Savings $5 membership minimum maintained at all times through payout; not bonus capital.
+redstone-easy-checking-475,2,other,,60,,,,,,,,Log in to online banking at least once.
+redstone-easy-checking-475,3,transactions,,60,,,,,,5,,5 POS debit card purchases; ATM withdrawals excluded; amounts unspecified.
+redstone-rewards-checking-475,1,balance,,0,,,,,500,,,Primary Share Savings $5 membership minimum maintained at all times through payout; not bonus capital.
+redstone-rewards-checking-475,2,other,,60,,,,,,,,Log in to online banking at least once.
+redstone-rewards-checking-475,3,transactions,,60,,,,,,5,,5 POS debit card purchases; ATM withdrawals excluded; amounts unspecified.
+redstone-safeguard-checking-475,1,balance,,0,,,,,500,,,Primary Share Savings $5 membership minimum maintained at all times through payout; not bonus capital.
+redstone-safeguard-checking-475,2,other,,60,,,,,,,,Log in to online banking at least once.
+redstone-safeguard-checking-475,3,transactions,,60,,,,,,5,,5 POS debit card purchases; ATM withdrawals excluded; amounts unspecified.
+redstone-youth-savings-200,1,balance,0,,,,,,20000,,,"Bonus matches the average daily balance over the first 30 days, up to $200; a smaller average earns a smaller bonus. $5 share minimum maintained at all times through payout."
+first-merchants-mi-400,1,direct_deposit,,90,,,,,50000,1,50000,"One employer/outside-agency direct deposit of $500+; multiple smaller deposits do not qualify; transfers, Zelle, branch/ATM deposits excluded."
+first-merchants-mi-600,1,balance,8,7,,,90,,2500000,,,"Deposit $25,000 new money within 7 calendar days; maintain a minimum daily balance of $25,000 from day 8 through day 90."
+first-commonwealth-fcu-cashback-400,1,other,,90,,,,,,,,Primary member enrolls in Digital Banking.
+first-commonwealth-fcu-cashback-400,2,direct_deposit,0,30,,,,,100000,,,"Month 1 of 2 consecutive months within 90 days: at least $1,000 qualifying DD (monthly aggregate); no cash, check, internal transfer or P2P; approximated as 30-day windows."
+first-commonwealth-fcu-cashback-400,3,direct_deposit,31,60,,,,,100000,,,"Month 2 of 2 consecutive months within 90 days: at least $1,000 qualifying DD (monthly aggregate); no cash, check, internal transfer or P2P; approximated as 30-day windows."
+byline-simple-checking-150,1,direct_deposit,31,120,,,,,100000,,,"Any one of statement cycles 2-4: at least $1,000 cumulative qualifying direct deposits in the statement cycle; transfers from other banks/brokerages and P2P excluded; cycle timing approximated as 30-day windows."
+byline-simple-checking-300,1,direct_deposit,31,60,,,,,100000,,,"Statement cycle 2 (qualifying cycle 1 of 2): at least $1,000 cumulative qualifying direct deposits in the statement cycle; transfers from other banks/brokerages and P2P excluded; cycle timing approximated as 30-day windows."
+byline-simple-checking-300,2,direct_deposit,61,90,,,,,100000,,,"Statement cycle 3 (qualifying cycle 2 of 2): at least $1,000 cumulative qualifying direct deposits in the statement cycle; transfers from other banks/brokerages and P2P excluded; cycle timing approximated as 30-day windows."
+byline-simple-checking-450,1,direct_deposit,31,60,,,,,100000,,,"Statement cycle 2 (qualifying cycle 1 of 3): at least $1,000 cumulative qualifying direct deposits in the statement cycle; transfers from other banks/brokerages and P2P excluded; cycle timing approximated as 30-day windows."
+byline-simple-checking-450,2,direct_deposit,61,90,,,,,100000,,,"Statement cycle 3 (qualifying cycle 2 of 3): at least $1,000 cumulative qualifying direct deposits in the statement cycle; transfers from other banks/brokerages and P2P excluded; cycle timing approximated as 30-day windows."
+byline-simple-checking-450,3,direct_deposit,91,120,,,,,100000,,,"Statement cycle 4 (qualifying cycle 3 of 3): at least $1,000 cumulative qualifying direct deposits in the statement cycle; transfers from other banks/brokerages and P2P excluded; cycle timing approximated as 30-day windows."
+wsecu-cash-back-checking-500,1,direct_deposit,,90,,,,,100000,,,"Qualifying payroll/government/retirement direct deposit of $1,000 or more per month during the first 90 days; number of qualifying months not stated, so no cumulative amount is recorded."
+wsecu-cash-back-checking-500,2,transactions,,90,,,,,,25,,25 eligible debit card transactions; no dollar minimum stated.
+oneaz-free-checking-375,1,transactions,,60,,,,,,25,500,"25 qualifying debit card purchases of $5 or more, posted and cleared."
+keypoint-money4me-50,1,direct_deposit,0,30,,,,,100000,,,"Consecutive month 1 of 1: at least $1,000 recurring payroll/pension/government DD; first DD must post within 60 days; external bank transfers, P2P, card credits excluded; approximated as 30-day windows."
+keypoint-money4me-100,1,direct_deposit,0,30,,,,,100000,,,"Consecutive month 1 of 2: at least $1,000 recurring payroll/pension/government DD; first DD must post within 60 days; external bank transfers, P2P, card credits excluded; approximated as 30-day windows."
+keypoint-money4me-100,2,direct_deposit,31,60,,,,,100000,,,"Consecutive month 2 of 2: at least $1,000 recurring payroll/pension/government DD; first DD must post within 60 days; external bank transfers, P2P, card credits excluded; approximated as 30-day windows."
+keypoint-money4me-150,1,direct_deposit,0,30,,,,,100000,,,"Consecutive month 1 of 3: at least $1,000 recurring payroll/pension/government DD; first DD must post within 60 days; external bank transfers, P2P, card credits excluded; approximated as 30-day windows."
+keypoint-money4me-150,2,direct_deposit,31,60,,,,,100000,,,"Consecutive month 2 of 3: at least $1,000 recurring payroll/pension/government DD; first DD must post within 60 days; external bank transfers, P2P, card credits excluded; approximated as 30-day windows."
+keypoint-money4me-150,3,direct_deposit,61,90,,,,,100000,,,"Consecutive month 3 of 3: at least $1,000 recurring payroll/pension/government DD; first DD must post within 60 days; external bank transfers, P2P, card credits excluded; approximated as 30-day windows."
+keypoint-money4me-200,1,direct_deposit,0,30,,,,,100000,,,"Consecutive month 1 of 4: at least $1,000 recurring payroll/pension/government DD; first DD must post within 60 days; external bank transfers, P2P, card credits excluded; approximated as 30-day windows."
+keypoint-money4me-200,2,direct_deposit,31,60,,,,,100000,,,"Consecutive month 2 of 4: at least $1,000 recurring payroll/pension/government DD; first DD must post within 60 days; external bank transfers, P2P, card credits excluded; approximated as 30-day windows."
+keypoint-money4me-200,3,direct_deposit,61,90,,,,,100000,,,"Consecutive month 3 of 4: at least $1,000 recurring payroll/pension/government DD; first DD must post within 60 days; external bank transfers, P2P, card credits excluded; approximated as 30-day windows."
+keypoint-money4me-200,4,direct_deposit,91,120,,,,,100000,,,"Consecutive month 4 of 4: at least $1,000 recurring payroll/pension/government DD; first DD must post within 60 days; external bank transfers, P2P, card credits excluded; approximated as 30-day windows."
+keypoint-money4me-250,1,direct_deposit,0,30,,,,,100000,,,"Consecutive month 1 of 5: at least $1,000 recurring payroll/pension/government DD; first DD must post within 60 days; external bank transfers, P2P, card credits excluded; approximated as 30-day windows."
+keypoint-money4me-250,2,direct_deposit,31,60,,,,,100000,,,"Consecutive month 2 of 5: at least $1,000 recurring payroll/pension/government DD; first DD must post within 60 days; external bank transfers, P2P, card credits excluded; approximated as 30-day windows."
+keypoint-money4me-250,3,direct_deposit,61,90,,,,,100000,,,"Consecutive month 3 of 5: at least $1,000 recurring payroll/pension/government DD; first DD must post within 60 days; external bank transfers, P2P, card credits excluded; approximated as 30-day windows."
+keypoint-money4me-250,4,direct_deposit,91,120,,,,,100000,,,"Consecutive month 4 of 5: at least $1,000 recurring payroll/pension/government DD; first DD must post within 60 days; external bank transfers, P2P, card credits excluded; approximated as 30-day windows."
+keypoint-money4me-250,5,direct_deposit,121,150,,,,,100000,,,"Consecutive month 5 of 5: at least $1,000 recurring payroll/pension/government DD; first DD must post within 60 days; external bank transfers, P2P, card credits excluded; approximated as 30-day windows."
+keypoint-money4me-300,1,direct_deposit,0,30,,,,,100000,,,"Consecutive month 1 of 6: at least $1,000 recurring payroll/pension/government DD; first DD must post within 60 days; external bank transfers, P2P, card credits excluded; approximated as 30-day windows."
+keypoint-money4me-300,2,direct_deposit,31,60,,,,,100000,,,"Consecutive month 2 of 6: at least $1,000 recurring payroll/pension/government DD; first DD must post within 60 days; external bank transfers, P2P, card credits excluded; approximated as 30-day windows."
+keypoint-money4me-300,3,direct_deposit,61,90,,,,,100000,,,"Consecutive month 3 of 6: at least $1,000 recurring payroll/pension/government DD; first DD must post within 60 days; external bank transfers, P2P, card credits excluded; approximated as 30-day windows."
+keypoint-money4me-300,4,direct_deposit,91,120,,,,,100000,,,"Consecutive month 4 of 6: at least $1,000 recurring payroll/pension/government DD; first DD must post within 60 days; external bank transfers, P2P, card credits excluded; approximated as 30-day windows."
+keypoint-money4me-300,5,direct_deposit,121,150,,,,,100000,,,"Consecutive month 5 of 6: at least $1,000 recurring payroll/pension/government DD; first DD must post within 60 days; external bank transfers, P2P, card credits excluded; approximated as 30-day windows."
+keypoint-money4me-300,6,direct_deposit,151,180,,,,,100000,,,"Consecutive month 6 of 6: at least $1,000 recurring payroll/pension/government DD; first DD must post within 60 days; external bank transfers, P2P, card credits excluded; approximated as 30-day windows."
+union-savings-basic-450,1,balance,,,,,,,250000,,,"Average monthly balance of $2,500 from the first through the third complete monthly statement; not a daily minimum. Statement dates set the window."
+union-savings-basic-450,2,transactions,,,,,,,,15,,"15 qualifying ACH, ATM, debit, check, bill pay or wire deposit/withdrawal transactions during the first through third complete statements."
+union-savings-relationship-450,1,balance,,,,,,,1500000,,,"Average monthly balance of $15,000 from the first through the third complete monthly statement; not a daily minimum. Statement dates set the window."
+flagstar-ready-checking-400,1,direct_deposit,0,30,,,,,50000,,,"Calendar month 1 of 3 following opening: recurring income ACH deposits totaling $500 (monthly aggregate, not per deposit); approximated as 30-day windows within 90 days."
+flagstar-ready-checking-400,2,direct_deposit,31,60,,,,,50000,,,"Calendar month 2 of 3 following opening: recurring income ACH deposits totaling $500 (monthly aggregate, not per deposit); approximated as 30-day windows within 90 days."
+flagstar-ready-checking-400,3,direct_deposit,61,90,,,,,50000,,,"Calendar month 3 of 3 following opening: recurring income ACH deposits totaling $500 (monthly aggregate, not per deposit); approximated as 30-day windows within 90 days."
+flagstar-elite-checking-500,1,direct_deposit,0,30,,,,,250000,,,"Calendar month 1 of 3 following opening: recurring income ACH deposits totaling $2,500 (monthly aggregate, not per deposit); approximated as 30-day windows within 90 days."
+flagstar-elite-checking-500,2,direct_deposit,31,60,,,,,250000,,,"Calendar month 2 of 3 following opening: recurring income ACH deposits totaling $2,500 (monthly aggregate, not per deposit); approximated as 30-day windows within 90 days."
+flagstar-elite-checking-500,3,direct_deposit,61,90,,,,,250000,,,"Calendar month 3 of 3 following opening: recurring income ACH deposits totaling $2,500 (monthly aggregate, not per deposit); approximated as 30-day windows within 90 days."
+santander-simply-right-300,1,balance,0,,,,90,,200000,,,"$2,000 average daily balance over the first 90 days (period begins opening day or next business day); average, not a constant daily minimum. Disclosure also says complete qualifying activities by 12/18/2026."
+santander-simply-right-300,2,direct_deposit,,90,,,,,,1,,At least one qualifying payroll/pension/government direct deposit; amount unspecified.
+santander-simply-right-500,1,balance,0,,,,90,,500000,,,"$5,000 average daily balance over the first 90 days (period begins opening day or next business day); average, not a constant daily minimum. Disclosure also says complete qualifying activities by 12/18/2026."
+santander-simply-right-500,2,direct_deposit,,90,,,,,,1,,At least one qualifying payroll/pension/government direct deposit; amount unspecified.
+equity-begin-checking-savings-400,1,deposit,,45,,,,,,,,Fund the new checking; minimum may be $100 (unresolved).
+equity-begin-checking-savings-400,2,deposit,,45,,,,,,,,Open and fund the new savings within 45 days of checking; minimum may be $100 (unresolved).
+equity-begin-checking-savings-400,3,direct_deposit,,45,,,,,100000,,,"At least $1,000 combined qualifying direct deposits into checking."
+equity-begin-checking-savings-400,4,transactions,,45,,,,,,1,,Activate and use the Equity Bank debit card.
+air-academy-rewards-250,1,deposit,,,,,,,20000,,,Open with $200 (mention LOCALBONUS).
+air-academy-rewards-250,2,direct_deposit,,90,,,,,150000,,,"Recurring direct deposits totaling $1,500."
+air-academy-rewards-250,3,transactions,,90,,,,,,1,,One cleared Visa debit card purchase; amount unspecified.
+pecu-atx-flex-200,1,other,,,,,,,,,,Register for online banking.
+pecu-atx-flex-200,2,transactions,,60,,,,,,5,1000,Signature debit card purchases of $10 or more each.
+old-second-total-50,1,other,,90,,,,,,,,Activate debit card.
+old-second-total-50,2,other,,90,,,,,,,,Enroll in eStatements.
+old-second-total-50,3,other,,90,,,,,,,,On day 90: checking balance positive (at least $0.01) with debit card and eStatements still active.
+old-second-total-150,1,other,,90,,,,,,,,Activate debit card.
+old-second-total-150,2,other,,90,,,,,,,,Enroll in eStatements.
+old-second-total-150,3,direct_deposit,,90,,,,,50000,2,,At least two qualifying direct deposits totaling $500.
+old-second-total-150,4,other,,90,,,,,,,,On day 90: checking balance positive (at least $0.01) with debit card and eStatements still active.
+old-second-total-200,1,other,,90,,,,,,,,Activate debit card.
+old-second-total-200,2,other,,90,,,,,,,,Enroll in eStatements.
+old-second-total-200,3,deposit,,,,,,,100000,,,"Open Money Builder Savings with $1,000; deadline relative to checking opening not stated; counts toward the $5,000 balance."
+old-second-total-200,4,balance,,90,,,90,,500000,,,"Money Builder Savings balance of $5,000 on day 90 after checking opening, including the $1,000 opening deposit."
+old-second-total-200,5,other,,90,,,,,,,,On day 90: checking balance positive (at least $0.01) with debit card and eStatements still active.
+old-second-total-300,1,other,,90,,,,,,,,Activate debit card.
+old-second-total-300,2,other,,90,,,,,,,,Enroll in eStatements.
+old-second-total-300,3,direct_deposit,,90,,,,,50000,2,,At least two qualifying direct deposits totaling $500.
+old-second-total-300,4,deposit,,,,,,,100000,,,"Open Money Builder Savings with $1,000; deadline relative to checking opening not stated; counts toward the $5,000 balance."
+old-second-total-300,5,balance,,90,,,90,,500000,,,"Money Builder Savings balance of $5,000 on day 90 after checking opening, including the $1,000 opening deposit."
+old-second-total-300,6,other,,90,,,,,,,,On day 90: checking balance positive (at least $0.01) with debit card and eStatements still active.
+oostburg-checking-300,1,direct_deposit,0,30,,,,,50000,1,50000,Month 1 of 6: qualifying direct deposit of at least $500; calendar-month timing approximated as 30-day windows.
+oostburg-checking-300,2,direct_deposit,31,60,,,,,50000,1,50000,Month 2 of 6: qualifying direct deposit of at least $500; calendar-month timing approximated as 30-day windows.
+oostburg-checking-300,3,direct_deposit,61,90,,,,,50000,1,50000,Month 3 of 6: qualifying direct deposit of at least $500; calendar-month timing approximated as 30-day windows.
+oostburg-checking-300,4,direct_deposit,91,120,,,,,50000,1,50000,Month 4 of 6: qualifying direct deposit of at least $500; calendar-month timing approximated as 30-day windows.
+oostburg-checking-300,5,direct_deposit,121,150,,,,,50000,1,50000,Month 5 of 6: qualifying direct deposit of at least $500; calendar-month timing approximated as 30-day windows.
+oostburg-checking-300,6,direct_deposit,151,180,,,,,50000,1,50000,Month 6 of 6: qualifying direct deposit of at least $500; calendar-month timing approximated as 30-day windows.
+oostburg-checking-300,7,balance,0,,,,180,,75000,,,Average monthly balance of $750 or more for six consecutive months; months approximated as 30-day windows.
+westmark-true-blue-50,1,transactions,,90,,,,,,15,,15 debit card transactions; minimum amount unspecified.
+westmark-true-blue-150,1,deposit,,90,,,,,100000,,,"Deposit $1,000 or more; not specified as direct deposit."
+westmark-true-blue-150,2,transactions,,90,,,,,,15,,15 debit card transactions; minimum amount unspecified.
+safe1-checking-200,1,other,,60,,,,,,,,Enroll in eDocuments.
+safe1-checking-200,2,transactions,,60,,,,,,10,,At least ten debit card transactions; alternative: recurring direct deposit of $500+ per month (number of months unclear).
+first-national-texas-power-300,1,direct_deposit,,,,,,,250000,,,"Eligible ACH direct deposits totaling $2,500 within 60 banking days of opening; calendar day count not stated."
+greater-nevada-greaterperks-250,1,direct_deposit,,60,,,,,,1,,At least one direct deposit; no minimum amount stated.
+greater-nevada-greaterperks-250,2,other,,60,,,,,,,,Enroll in Digital Banking.
+greater-nevada-greaterperks-250,3,other,,60,,,,,,,,Enroll in eStatements.
+inova-checking-250,1,deposit,,,,,,,1000,,,Open with $10.
+inova-checking-250,2,direct_deposit,,60,,,,,20000,1,20000,At least one direct deposit of $200 or more.
+inova-checking-250,3,transactions,,60,,,,,,8,,Eight debit card transactions; amount unspecified.
+wecu-spend-plus-400,1,direct_deposit,,60,,,,,100000,1,100000,"Direct deposit of $1,000 or more."
+columbia-nj-advantage-dd-500,1,direct_deposit,,60,,,,,200000,,,"ACH credits totaling $2,000; internal transfers excluded."
+columbia-nj-balance-build-250,1,balance,16,15,,,135,,500000,,,"New money not previously held by Columbia Bank, deposited within 15 calendar days and maintained for the 120-day seasoning period after funding."
+columbia-nj-combined-750,1,balance,16,15,,,135,,500000,,,"New money not previously held by Columbia Bank, deposited within 15 calendar days and maintained for the 120-day seasoning period after funding."
+columbia-nj-combined-750,2,direct_deposit,,60,,,,,200000,,,"ACH credits totaling $2,000; internal transfers excluded."
+columbia-nj-balance-build-500,1,balance,16,15,,,135,,1000000,,,"New money not previously held by Columbia Bank, deposited within 15 calendar days and maintained for the 120-day seasoning period after funding."
+columbia-nj-combined-1000,1,balance,16,15,,,135,,1000000,,,"New money not previously held by Columbia Bank, deposited within 15 calendar days and maintained for the 120-day seasoning period after funding."
+columbia-nj-combined-1000,2,direct_deposit,,60,,,,,200000,,,"ACH credits totaling $2,000; internal transfers excluded."
+freedom-pa-referred-member-200,1,balance,,,,,,,500,,,Open and maintain $5 Primary Savings.
+freedom-pa-referred-member-200,2,direct_deposit,,60,,,,,10000,2,,Two payroll direct deposits totaling at least $100.
+cibc-us-ican-200,1,direct_deposit,31,60,,,,,50000,,,Month 1 of 3: direct deposits totaling $500+ in a calendar month after the opening month; calendar-month timing approximated as 30-day windows within the 120-day period.
+cibc-us-ican-200,2,direct_deposit,61,90,,,,,50000,,,Month 2 of 3: direct deposits totaling $500+ in a calendar month after the opening month; calendar-month timing approximated as 30-day windows within the 120-day period.
+cibc-us-ican-200,3,direct_deposit,91,120,,,,,50000,,,Month 3 of 3: direct deposits totaling $500+ in a calendar month after the opening month; calendar-month timing approximated as 30-day windows within the 120-day period.
+cibc-us-ican-200,4,other,,120,,,,,,,,Enroll in eStatements.
+keybank-key-smart-checking-300,1,direct_deposit,,90,,,,,200000,,,"Eligible ACH payroll, pension or government direct deposits totaling $2,000."
+keybank-key-select-checking-500,1,direct_deposit,,90,,,,,500000,,,"Eligible ACH payroll, pension or government direct deposits totaling $5,000."
+keybank-select-annual-100,1,direct_deposit,,,,,,,6000000,,,"Eligible direct deposits totaling $60,000 over a 12-calendar-month evaluation starting the first day of the second full month after opening; at least one qualifying deposit in the final two months."
+heritage-community-opening-100,1,deposit,,,,,,,2500,,,"Open checking with $25 using code 5002026CK by September 30, 2026."
+heritage-community-debit-300,1,transactions,,60,,,,,,40,,40 qualifying debit card purchases; amount unspecified. Also open with $25.
+heritage-community-dd-300,1,direct_deposit,,60,,,,,50000,,,"Recurring ACH payroll, pension or government direct deposits totaling $500 per month; number of months not specified. Also open with $25."
+heritage-community-combined-500,1,transactions,,60,,,,,,40,,40 qualifying debit card purchases; amount unspecified.
+heritage-community-combined-500,2,direct_deposit,,60,,,,,50000,,,"Recurring ACH payroll, pension or government direct deposits totaling $500 per month; number of months not specified."
+bok-financial-college-access-300,1,deposit,,90,,,,,20000,,,Deposits totaling $200 from any source; not limited to direct deposit.
+bok-financial-college-access-300,2,transactions,,90,,,,,,10,,"Ten debit card transactions; ATM transactions, returns and refunds excluded."
+bok-financial-college-access-300,3,other,,90,,,,,,,,Provide proof of school acceptance or enrollment (at opening in branch/phone; by email with account number within 90 days if opened online).
+mcu-everyday-hero-150,1,direct_deposit,,90,,,,,100000,3,,"Three or more recurring payroll, pension or government ACH direct deposits, at least one every 30 days; no per-deposit minimum."
+mcu-everyday-hero-250,1,direct_deposit,,90,,,,,200000,3,,"Three or more recurring payroll, pension or government ACH direct deposits, at least one every 30 days; no per-deposit minimum."
+mcu-everyday-hero-350,1,direct_deposit,,90,,,,,300000,3,,"Three or more recurring payroll, pension or government ACH direct deposits, at least one every 30 days; no per-deposit minimum."
+seacoast-checking-400,1,direct_deposit,,90,,,,,,,,"Recurring payroll, pension or benefit direct deposit of $1,000+; count, and whether $1,000 is per deposit or aggregate, not stated."
+seacoast-premier-savings-200,1,balance,,,,90,,,1500000,,,"$15,000 new money deposited within 10 business days of opening, kept at $15,000+ for 90 days; 90-day anchor not explicit."
+seacoast-bundle-600,1,direct_deposit,,90,,,,,100000,,,"Recurring payroll, pension or benefit direct deposit of $1,000+; count, and whether $1,000 is per deposit or aggregate, not stated."
+seacoast-bundle-600,2,balance,,,,90,,,1500000,,,"$15,000 new money deposited within 10 business days of opening, kept at $15,000+ for 90 days; 90-day anchor not explicit."
+everwise-simply-checking-250,1,other,,60,,,,,,,,Enroll in eStatements.
+everwise-simply-checking-250,2,transactions,,60,,,,,,10,,Ten Debit Mastercard purchases; amount unspecified.
+everwise-simply-checking-250,3,deposit,,60,,,,,50000,,,"Qualifying electronic deposits totaling $500 (e.g. payroll, Social Security, pension, investment/brokerage); not all ordinary transfers count."
+credit-human-checking-300,1,direct_deposit,,,,,,,100000,2,,Two recurring direct deposits of at least $500 each; no separate deadline stated (payout within 90 days of opening). $500 each.
+credit-human-checking-300,2,transactions,,,,,,,,10,1000,Point-of-sale debit card purchases of at least $10 each (at least $100 consumed spending).
+credit-human-checking-300,3,other,,,,,,,,,,Enroll in digital banking and online statements (eStatements).
+broadway-free-checking-300,1,direct_deposit,,90,,,,,200000,2,,"Two or more employer/payroll/benefit ACH deposits totaling $2,000."
+broadway-free-checking-300,2,transactions,,90,,,,,,15,,Qualifying debit card purchases; no minimum amount stated.
+st-bank-checking-300,1,direct_deposit,,90,,,,,100000,2,50000,"Recurring payroll, pension or Social Security direct deposits to checking; checking must never be overdrawn and must be open with a balance above $0 on 2027-01-08."
+st-bank-checking-350,1,direct_deposit,,90,,,,,100000,2,50000,"Recurring payroll, pension or Social Security direct deposits to checking; checking must never be overdrawn and must be open with a balance above $0 on 2027-01-08."
+st-bank-combined-400,1,direct_deposit,,90,,,,,100000,2,50000,"Recurring payroll, pension or Social Security direct deposits to checking; checking must never be overdrawn and must be open with a balance above $0 on 2027-01-08."
+st-bank-combined-400,2,balance,,,2026-09-30,,,2027-01-08,200000,,,"Fund new Statement Savings with $2,000 new money (not held at S&T in the prior 30 days); balance must be at least that amount on 2027-01-08."
+st-bank-combined-500,1,direct_deposit,,90,,,,,100000,2,50000,"Recurring payroll, pension or Social Security direct deposits to checking; checking must never be overdrawn and must be open with a balance above $0 on 2027-01-08."
+st-bank-combined-500,2,balance,,,2026-09-30,,,2027-01-08,500000,,,"Fund new Preferred Savings with $5,000 new money (not held at S&T in the prior 30 days); balance must be at least that amount on 2027-01-08."
+st-bank-combined-600,1,direct_deposit,,90,,,,,100000,2,50000,"Recurring payroll, pension or Social Security direct deposits to checking; checking must never be overdrawn and must be open with a balance above $0 on 2027-01-08."
+st-bank-combined-600,2,balance,,,2026-09-30,,,2027-01-08,1000000,,,"Fund new Preferred Savings with $10,000 new money (not held at S&T in the prior 30 days); balance must be at least that amount on 2027-01-08."
+tower-free-checking-300,1,direct_deposit,,90,,,,,,,100000,"Recurring payroll, pension or government direct deposits of $1,000 or more each; recurrence count not fixed. Qualifying recurring deposits must continue for six months or the bonus may be recouped."
+orange-county-checking-100,1,other,,60,,,,,,,,Enroll in eStatements and keep the eStatement preference for 90 days.
+orange-county-checking-100,2,other,,60,,,,,,,,Qualify for a debit card.
+orange-county-checking-100,3,direct_deposit,,60,,,,,,,,Direct deposit with no minimum amount stated; Social Security qualifies.
+horizon-checking-200,1,deposit,,,,,,,25000,,,Fund at least $250 within five business days of opening (business-day deadline not converted to a day offset).
+horizon-checking-200,2,transactions,,60,,,,,,15,,Debit card transactions; no minimum amount stated.
+horizon-checking-200,3,other,,60,,,,,,,,Elect electronic statements.
+aaacu-adult-member-250,1,other,,14,,,,,,,,Obtain a debit card with the new checking account.
+aaacu-adult-member-250,2,other,,14,,,,,,,,Enroll in eStatements.
+aaacu-adult-member-250,3,other,,14,,,,,,,,Enroll in SavvyMoney Credit Score Solution.
+aaacu-youth-member-100,1,other,,,,,,,,,,Obtain a debit card with the new checking account.
+aaacu-youth-member-100,2,other,,,,,,,,,,Enroll in eStatements.
+northwest-affinity-checking-400,1,direct_deposit,,,,,,,100000,,,"Direct deposits (ACH credits such as payroll, pension or government payments) totaling $1,000+ within a single statement cycle among the first three statement cycles; cycles not converted to days."
+st-marys-checking-300,1,direct_deposit,,90,,,,,100000,2,,At least two recurring payroll/pension/government direct deposits to checking within 90 calendar days (next business day if day 90 is not a business day). New checking and savings must be opened together.
+st-marys-savings-200,1,balance,,30,,,,,200000,,,"Fund new savings with $2,000 new money; maintain a $2,000 minimum average daily balance for six consecutive months (maintenance anchor unspecified)."
+st-marys-savings-200,2,other,,30,,,,,,,,Establish a recurring monthly deposit of at least $25 into savings and maintain it for six consecutive months.
+st-marys-combined-500,1,direct_deposit,,90,,,,,100000,2,,At least two recurring payroll/pension/government direct deposits to checking within 90 calendar days (next business day if day 90 is not a business day). New checking and savings must be opened together.
+st-marys-combined-500,2,balance,,30,,,,,200000,,,"Fund new savings with $2,000 new money; maintain a $2,000 minimum average daily balance for six consecutive months (maintenance anchor unspecified)."
+st-marys-combined-500,3,deposit,0,30,,,,,2500,,,"Recurring monthly deposit of at least $25, month 1 of 6; months approximated as 30-day windows."
+st-marys-combined-500,4,deposit,31,60,,,,,2500,,,"Recurring monthly deposit of at least $25, month 2 of 6; months approximated as 30-day windows."
+st-marys-combined-500,5,deposit,61,90,,,,,2500,,,"Recurring monthly deposit of at least $25, month 3 of 6; months approximated as 30-day windows."
+st-marys-combined-500,6,deposit,91,120,,,,,2500,,,"Recurring monthly deposit of at least $25, month 4 of 6; months approximated as 30-day windows."
+st-marys-combined-500,7,deposit,121,150,,,,,2500,,,"Recurring monthly deposit of at least $25, month 5 of 6; months approximated as 30-day windows."
+st-marys-combined-500,8,deposit,151,180,,,,,2500,,,"Recurring monthly deposit of at least $25, month 6 of 6; months approximated as 30-day windows."
+monterra-premium-checking-150,1,transactions,,,,,,,,10,,Debit and/or same-membership credit card purchases during the qualifying full calendar month (terms conflict on whether it is the month after opening or the month after that).
+monterra-premium-checking-150,2,direct_deposit,,,,,,,,1,,"One direct deposit, payroll or external ACH deposit in the qualifying calendar month; no amount specified."
+monterra-premium-checking-150,3,other,,,,,,,,,,Enroll in eStatements for the qualifying calendar month.
+california-cu-echecking-250,1,other,,120,,,,,,,,Enroll in Digital Banking and eStatements.
+california-cu-echecking-250,2,direct_deposit,,120,,,,,40000,,,Month 1 of 3: establish a recurring direct deposit of at least $400 per month within 120 days of membership opening; the monthly total may be split across deposits.
+california-cu-echecking-250,3,direct_deposit,121,150,,,,,40000,,,Month 2 of 3: at least $400 in direct deposits in the next month; calendar-month timing not converted to days.
+california-cu-echecking-250,4,direct_deposit,151,180,,,,,40000,,,Month 3 of 3: at least $400 in direct deposits in the next month; calendar-month timing not converted to days.
+wintrust-total-access-300,1,direct_deposit,31,60,,,,,50000,,,Month 1 of 2: qualifying direct deposits totaling $500 in the first full calendar month after the account-opening month; timing not converted to days.
+wintrust-total-access-300,2,direct_deposit,61,90,,,,,50000,,,Month 2 of 2: qualifying direct deposits totaling $500 in the next consecutive calendar month.
+wintrust-total-access-300,3,other,,90,,,,,,,,Enroll in online banking and eStatements within the qualification period.
+wintrust-total-access-500,1,direct_deposit,31,60,,,,,200000,,,"Month 1 of 2: qualifying direct deposits totaling $2,000 in the first full calendar month after the account-opening month; timing not converted to days."
+wintrust-total-access-500,2,direct_deposit,61,90,,,,,200000,,,"Month 2 of 2: qualifying direct deposits totaling $2,000 in the next consecutive calendar month."
+wintrust-total-access-500,3,other,,90,,,,,,,,Enroll in online banking and eStatements within the qualification period.
+addition-free-checking-200,1,direct_deposit,,90,,,,,100000,,,"Verified regularly scheduled payroll/pension/government direct deposit with a monthly cumulative amount of $1,000; number of qualifying months unspecified. Savings and checking opened the same day."
+addition-classic-checking-300,1,direct_deposit,,90,,,,,100000,,,"Verified regularly scheduled payroll/pension/government direct deposit with a monthly cumulative amount of $1,000; number of qualifying months unspecified. Savings and checking opened the same day."
+addition-benefits-checking-400,1,direct_deposit,,90,,,,,200000,,,"Verified regularly scheduled payroll/pension/government direct deposit with a monthly cumulative amount of $2,000; number of qualifying months unspecified. Savings and checking opened the same day."
+td-complete-checking-200,1,direct_deposit,,60,,,,,50000,,25000,Payroll/pension/government direct deposits of at least $250 each; ordinary bank or P2P transfers do not qualify.
+td-beyond-checking-300,1,direct_deposit,,60,,,,,250000,,25000,Payroll/pension/government direct deposits of at least $250 each; ordinary bank or P2P transfers do not qualify.
+td-complete-signature-combined-400,1,direct_deposit,,60,,,,,50000,,25000,Payroll/pension/government direct deposits of at least $250 each; ordinary bank or P2P transfers do not qualify.
+td-complete-signature-combined-400,2,balance,21,20,,,110,,1000000,,,"Deposit $10,000 into new Signature Savings within 20 days; maintain at least $10,000 for 90 additional days (through day 110)."
+td-beyond-signature-combined-500,1,direct_deposit,,60,,,,,250000,,25000,Payroll/pension/government direct deposits of at least $250 each; ordinary bank or P2P transfers do not qualify.
+td-beyond-signature-combined-500,2,balance,21,20,,,110,,1000000,,,"Deposit $10,000 into new Signature Savings within 20 days; maintain at least $10,000 for 90 additional days (through day 110)."
+penn-community-checking-400-dd,1,direct_deposit,,60,,,,,150000,,,"Qualifying payroll/Social Security/pension/government direct deposits totaling $1,500. Alternative route: 20 debit card purchases of $20+ each within 60 days."
+penn-community-checking-400-debit,1,transactions,,60,,,,,,20,2000,"Debit card purchases of $20 or more each. Alternative route: $1,500 qualifying direct deposits within 60 days."
+community-first-fl-checking-200,1,deposit,,90,,,,,100000,,,"Deposits totaling $1,000 or more posting within 90 days; no hold stated."
+community-first-fl-checking-200,2,transactions,,90,,,,,,10,,Qualifying debit card transactions; no minimum amount stated.
+bank-of-hawaii-convenience-100,1,deposit,,0,,,,,50000,,,$500 opening deposit made during the application; it does not count as qualifying direct deposit.
+bank-of-hawaii-convenience-100,2,direct_deposit,,59,,,,,200000,,,"Qualifying direct deposits within 60 days; the bank counts the account open date as day 1, so day 60 is offset 59."
+bank-of-hawaii-bankohana-i-300,1,deposit,,0,,,,,50000,,,$500 opening deposit made during the application; it does not count as qualifying direct deposit.
+bank-of-hawaii-bankohana-i-300,2,direct_deposit,,59,,,,,350000,,,"Qualifying direct deposits within 60 days; the bank counts the account open date as day 1, so day 60 is offset 59. Branch openings need the banker to opt in within 30 days."
+arapahoe-referred-checking-100,1,other,,60,,,,,,,,Obtain a debit card with the new checking account (automatic review at day 60).
+arapahoe-referred-checking-100,2,transactions,,60,,,,,,1,,One debit card transaction; no minimum. Reviewed automatically at day 60; later qualification requires contacting the credit union.
+arapahoe-referred-checking-125,1,other,,60,,,,,,,,Obtain a debit card with the new checking account (automatic review at day 60).
+arapahoe-referred-checking-125,2,transactions,,60,,,,,,1,,One debit card transaction; no minimum. Reviewed automatically at day 60; later qualification requires contacting the credit union.
+arapahoe-referred-checking-125,3,other,,60,,,,,,,,Fully register the CardControl app.
+arapahoe-referred-checking-175,1,other,,60,,,,,,,,Obtain a debit card with the new checking account (automatic review at day 60).
+arapahoe-referred-checking-175,2,transactions,,60,,,,,,1,,One debit card transaction; no minimum. Reviewed automatically at day 60; later qualification requires contacting the credit union.
+arapahoe-referred-checking-175,3,direct_deposit,,60,,,,,,1,,Initial electronic payroll direct deposit; no amount stated (alternative qualifying loan not modeled).
+arapahoe-referred-checking-200,1,other,,60,,,,,,,,Obtain a debit card with the new checking account (automatic review at day 60).
+arapahoe-referred-checking-200,2,transactions,,60,,,,,,1,,One debit card transaction; no minimum. Reviewed automatically at day 60; later qualification requires contacting the credit union.
+arapahoe-referred-checking-200,3,other,,60,,,,,,,,Fully register the CardControl app.
+arapahoe-referred-checking-200,4,direct_deposit,,60,,,,,,1,,Initial electronic payroll direct deposit; no amount stated (alternative qualifying loan not modeled).
+blaze-free-checking-250,1,transactions,,60,,,,,,1,,Set up an automatic payment; alternative: receive a direct deposit instead. No minimum amount stated.
+blaze-free-checking-250,2,transactions,,60,,,,,,6,,"Debit card transactions, excluding ATM transactions."
+ent-wings-rockon-checking-200,1,balance,,30,,,,,500,,,$5 savings membership share; must stay held for good standing (release date unspecified).
+ent-wings-rockon-checking-200,2,deposit,,30,,,,,10000,,,Deposit $100 into No Strings Checking within 30 days; no hold stated.
+ent-wings-rockon-checking-200,3,other,,30,,,,,,,,Activate the debit card.
+cornerstone-community-financial-credit-union-checking-300,1,direct_deposit,0,30,,,,,50000,,,Month 1 of 3: monthly direct deposit of $500+. Qualification periods are full calendar months (1st to last day); timing approximated as 30-day windows. Deposit $500+ each.
+cornerstone-community-financial-credit-union-checking-300,2,transactions,0,30,,,,,,10,,"Month 1 of 3: 10 posted debit or credit card transactions without a PIN (signature, tap-to-pay, digital wallet)."
+cornerstone-community-financial-credit-union-checking-300,3,other,0,30,,,,,,,,Month 1 of 3: log in once to online or mobile banking.
+cornerstone-community-financial-credit-union-checking-300,4,direct_deposit,31,60,,,,,50000,,,Month 2 of 3: monthly direct deposit of $500+; calendar-month timing approximated as 30-day windows. Deposit $500+ each.
+cornerstone-community-financial-credit-union-checking-300,5,transactions,31,60,,,,,,10,,Month 2 of 3: 10 posted debit or credit card transactions without a PIN.
+cornerstone-community-financial-credit-union-checking-300,6,other,31,60,,,,,,,,Month 2 of 3: log in once to online or mobile banking.
+cornerstone-community-financial-credit-union-checking-300,7,direct_deposit,61,90,,,,,50000,,,Month 3 of 3: monthly direct deposit of $500+; calendar-month timing approximated as 30-day windows. Deposit $500+ each.
+cornerstone-community-financial-credit-union-checking-300,8,transactions,61,90,,,,,,10,,Month 3 of 3: 10 posted debit or credit card transactions without a PIN.
+cornerstone-community-financial-credit-union-checking-300,9,other,61,90,,,,,,,,Month 3 of 3: log in once to online or mobile banking.
+cornerstone-community-financial-credit-union-checking-300,10,other,,30,,,,,,,,Enroll in eStatements (must stay enrolled each qualifying month).
+propell-credit-union-checking-250,1,direct_deposit,,30,,,,,25000,1,25000,"First employer, payroll or benefits ACH direct deposit; bonus matches it dollar for dollar up to $250."
+summit-wi-checking-200,1,transactions,,60,,,,,,20,,Qualifying debit card purchases; ATM transactions excluded.
+jovia-financial-credit-union-checking-150,1,direct_deposit,,90,,,,,150000,3,50000,"Three recurring qualifying direct deposits, each at least $500."
+jovia-financial-credit-union-checking-150,2,other,,,,,,,,,,Enroll in paperless statements.
+grow-financial-federal-credit-union-checking-300,1,direct_deposit,,90,,,,,100000,2,50000,"Two new qualifying recurring direct deposits, each $500."
+grow-financial-federal-credit-union-checking-300,2,other,,90,,,,,,,,Register for online banking and mobile banking.
+kitsap-credit-union-checking-330,1,other,,90,,,,,,,,Enroll in eStatements.
+kitsap-credit-union-checking-330,2,direct_deposit,,90,,,,,66002,2,33001,"Two separate qualifying ACH direct deposits, each greater than $330; account funding deposits, internal, A2A and P2P transfers excluded."
+cefcu-checking-200,1,other,,,2026-12-31,,,,,,,Enroll in Savings eStatements.
+cefcu-checking-200,2,transactions,0,30,,,,,,5,1500,"Five debit card purchases of $15+ in the first full calendar month; timing approximated as a 30-day window. Alternatives that month: $500 total direct deposits, or $5,000 individual/$10,000 household balance."
+cefcu-checking-225,1,other,,,2026-12-31,,,,,,,Enroll in Savings eStatements.
+cefcu-checking-225,2,transactions,0,30,,,,,,5,1500,"Month 1 of 3: five debit card purchases of $15+ (also meets the base reward; base alternatives are $500 total DD or $5,000 individual/$10,000 household balance). Full calendar months approximated as 30-day windows."
+cefcu-checking-225,3,transactions,31,60,,,,,,5,1500,Month 2 of 3: five debit card purchases of $15+ for the additional $25; calendar-month timing approximated as 30-day windows.
+cefcu-checking-225,4,transactions,61,90,,,,,,5,1500,Month 3 of 3: five debit card purchases of $15+ for the additional $25; calendar-month timing approximated as 30-day windows.
+cefcu-california-checking-250,1,other,,,2026-12-31,,,,,,,Enroll in Savings eStatements.
+cefcu-california-checking-250,2,transactions,0,30,,,,,,5,1500,"Five debit card purchases of $15+ in the first full calendar month; timing approximated as a 30-day window. Alternatives that month: $500 total direct deposits, or $5,000 individual/$10,000 household balance."
+cefcu-california-checking-275,1,other,,,2026-12-31,,,,,,,Enroll in Savings eStatements.
+cefcu-california-checking-275,2,transactions,0,30,,,,,,5,1500,"Month 1 of 3: five debit card purchases of $15+ (also meets the base reward; base alternatives are $500 total DD or $5,000 individual/$10,000 household balance). Full calendar months approximated as 30-day windows."
+cefcu-california-checking-275,3,transactions,31,60,,,,,,5,1500,Month 2 of 3: five debit card purchases of $15+ for the additional $25; calendar-month timing approximated as 30-day windows.
+cefcu-california-checking-275,4,transactions,61,90,,,,,,5,1500,Month 3 of 3: five debit card purchases of $15+ for the additional $25; calendar-month timing approximated as 30-day windows.
+u-of-i-community-credit-union-checking-150,1,transactions,,60,,,,,,30,,Debit card purchases.
+u-of-i-community-credit-union-checking-150,2,other,,60,,,,,,,,Log in to Digital Banking.
+reliant-community-credit-union-checking-150,1,balance,,0,,,90,,10000,,,Open with $100 and keep a $100 average daily balance for at least 90 days; first safe withdrawal not verified.
+reliant-community-credit-union-checking-150,2,direct_deposit,,,,,,,,,,Enroll in direct deposit; amount and count unspecified. DD must be received and verified before payout (within 100 days of opening).
+reliant-community-credit-union-checking-150,3,other,,,,,,,,,,Enroll in online banking.
+reliant-community-credit-union-checking-150,4,other,,,,,,,,,,Enroll in eStatements.
+desert-financial-credit-union-checking-100,1,transactions,,90,,,,,,30,,30 posted checking account transactions.
+desert-financial-credit-union-checking-100,2,direct_deposit,,90,,,,,,,,Qualifying direct deposit; amount unspecified.
+community-choice-credit-union-checking-100,1,direct_deposit,,60,,,,,30000,,,$300 total direct deposits; count unspecified. Alternative: 20 combined debit/credit Mastercard transactions within 60 days.
+america-first-credit-union-checking-350,1,direct_deposit,,60,,,,,100000,,,"At least $1,000 in qualifying direct deposits; count unspecified."
+hawthorn-bank-checking-300,1,direct_deposit,,90,,,,,50000,2,,Two or more direct deposits totaling at least $500 (not $500 each).
+service-1st-federal-credit-union-checking-150,1,other,,,,,,,,,,Enroll in a Service 1st Visa debit card.
+service-1st-federal-credit-union-checking-150,2,other,,,,,,,,,,Enroll in Digital Banking.
+service-1st-federal-credit-union-checking-150,3,other,,,,,,,,,,Enroll in eStatements.
+service-1st-federal-credit-union-checking-150,4,transactions,,,,,,,,1,,"Debit card transaction within 30 days of MEMBERSHIP opening (not checking opening), so no day offset is set."
+service-1st-federal-credit-union-checking-300,1,other,,,,,,,,,,Enroll in a Service 1st Visa debit card.
+service-1st-federal-credit-union-checking-300,2,other,,,,,,,,,,Enroll in Digital Banking.
+service-1st-federal-credit-union-checking-300,3,other,,,,,,,,,,Enroll in eStatements.
+service-1st-federal-credit-union-checking-300,4,transactions,,,,,,,,1,,"Debit card transaction within 30 days of MEMBERSHIP opening (not checking opening), so no day offset is set."
+service-1st-federal-credit-union-checking-300,5,direct_deposit,,30,,,,,25000,,,"Establish a recurring qualifying direct deposit of at least $250 (employer or government) within 30 days of checking opening, for the additional $150. Deposit at least $250."
+1st-advantage-federal-credit-union-checking-200,1,other,,,,,,,,,,Enroll in eStatements.
+1st-advantage-federal-credit-union-checking-200,2,direct_deposit,,,,,,,,,,One monthly recurring direct deposit; amount unspecified.
+1st-advantage-federal-credit-union-checking-200,3,transactions,,60,,,,,20000,,,"Debit Mastercard purchases totaling $200 within 60 days of opening (cumulative, not monthly)."
+california-coast-credit-union-checking-100,1,other,,60,,,,,,,,Enroll in eStatements.
+california-coast-credit-union-checking-100,2,balance,,60,,,,,5000,,,Maintain $50; maintenance duration unspecified.
+california-coast-credit-union-checking-100,3,other,,60,,,,,,,,"Set up direct deposit, Online/Mobile Banking or Bill Pay (any one)."
+california-coast-credit-union-checking-150,1,other,,60,,,,,,,,Enroll in eStatements.
+california-coast-credit-union-checking-150,2,balance,,60,,,,,5000,,,Maintain $50; maintenance duration unspecified.
+california-coast-credit-union-checking-150,3,other,,60,,,,,,,,"Set up direct deposit, Online/Mobile Banking or Bill Pay (any one)."
+california-coast-credit-union-checking-150,4,transactions,,90,,,,,,30,,Debit card purchases for the additional $50; alternative: 10 debit purchases in each of 3 months.
+the-summit-federal-credit-union-checking-150,1,other,,,2026-09-15,,,,,,,"Order a new Summit Visa debit card with the new checking account (July 15 to September 15, 2026)."
+the-summit-federal-credit-union-checking-150,2,transactions,,,2026-11-15,,,,,50,,Posted point-of-sale debit card transactions.
+red-canoe-credit-union-checking-150,1,other,,45,,,,,,,,Enroll in eStatements.
+red-canoe-credit-union-checking-150,2,transactions,,45,,,,,,10,,"Qualifying checking transactions: ACH debits or credits, check clearings, bill payments, debit/credit card transactions; ATM and cash deposits excluded."
+pfcu-checking-100,1,direct_deposit,,30,,,,,10000,1,10000,Direct deposit of $100 or more.
+pfcu-checking-100,2,other,,30,,,,,,,,Enroll in and use online banking.
+pfcu-checking-100,3,other,,30,,,,,,,,Enroll in eStatements.
+verity-checking-referral-100,1,other,,,,,,,,,,Enroll in and sign in to digital banking.
+verity-checking-referral-100,2,transactions,,60,,,,,,12,,Posted debit card purchases; minimum amount unspecified.
+first-us-better-than-free-checking-btf300,1,direct_deposit,,90,,,,,50000,1,50000,"Qualifying direct deposit of $500+; transfers, P2P and debit card credits excluded."
+ithink-checking-dd-earn500-125,1,direct_deposit,,60,,,,,100000,,,"At least $1,000 in qualifying direct deposits; upper disclosure says within 90 days, footer says 60, so 60 is used as the safe deadline. Transfers, ATM, wires and P2P excluded."
+ithink-checking-earn500-adb1500-225,1,direct_deposit,,60,,,,,100000,,,"At least $1,000 in qualifying direct deposits; upper disclosure says within 90 days, footer says 60, so 60 is used as the safe deadline."
+ithink-checking-earn500-adb1500-225,2,balance,0,,,,90,,150000,,,"Initial 90-day average daily balance of $1,500+ in total deposits; qualifying accounts unconfirmed."
+ithink-checking-earn500-adb1500-225,3,transactions,,90,,,,,300000,,,"Purchases on an approved myRewards Visa Signature credit card; terms list it among the required steps, confirm it applies to the cash tier."
+ithink-checking-earn500-adb10000-350,1,direct_deposit,,60,,,,,100000,,,"At least $1,000 in qualifying direct deposits; upper disclosure says within 90 days, footer says 60, so 60 is used as the safe deadline."
+ithink-checking-earn500-adb10000-350,2,balance,0,,,,90,,1000000,,,"Initial 90-day average daily balance of $10,000+ in total deposits; qualifying accounts unconfirmed."
+ithink-checking-earn500-adb10000-350,3,transactions,,90,,,,,300000,,,"Purchases on an approved myRewards Visa Signature credit card; terms list it among the required steps, confirm it applies to the cash tier."
+ithink-checking-earn500-adb20000-400,1,direct_deposit,,60,,,,,100000,,,"At least $1,000 in qualifying direct deposits; upper disclosure says within 90 days, footer says 60, so 60 is used as the safe deadline."
+ithink-checking-earn500-adb20000-400,2,balance,0,,,,90,,2000000,,,"Initial 90-day average daily balance of $20,000+ in total deposits; qualifying accounts unconfirmed."
+ithink-checking-earn500-adb20000-400,3,transactions,,90,,,,,300000,,,"Purchases on an approved myRewards Visa Signature credit card; terms list it among the required steps, confirm it applies to the cash tier."
+financial-partners-checking-referral-100,1,balance,,0,,,,,2500,,,Open and maintain savings with at least $25.
+financial-partners-checking-referral-100,2,direct_deposit,,,,,,,,,50000,Monthly direct deposit of at least $500; number of months unspecified.
+financial-partners-checking-referral-100,3,transactions,,60,,,,,30000,,,"Debit card purchases totaling at least $300 within 60 days (cumulative, not monthly)."
+kohler-checking-referral-100,1,direct_deposit,,90,,,,,300000,,,"$3,000 cumulative direct deposits; count and per-deposit minimum unspecified."
+kohler-checking-referral-100,2,other,,90,,,,,,,,Enroll in eStatements.
+kohler-checking-referral-100,3,transactions,,90,,,,,,3,2001,"Debit card purchases, each over $20."
+western-state-free-personal-checking-hometown-100,1,direct_deposit,,,,,,,,,,"Enroll in direct deposit; amount, count and deadline unspecified. Reward paid within 60 days after the DD is received."
+western-state-free-personal-checking-hometown-100,2,other,,,,,,,,,,Enroll in eStatements.
+western-state-free-personal-checking-hometown-100,3,other,,,,,,,,,,Get a Western debit card.
+western-state-vip-checking-hometown-250,1,direct_deposit,,,,,,,,,,"Enroll in direct deposit; amount, count and deadline unspecified. Reward paid within 60 days after the DD is received."
+western-state-vip-checking-hometown-250,2,other,,,,,,,,,,Enroll in eStatements.
+western-state-vip-checking-hometown-250,3,other,,,,,,,,,,Get a Western debit card.
+western-state-vip-checking-hometown-250,4,balance,,,,,,,50000,,,"VIP: maintain $500 in any combination of deposit accounts, or $5,000 in loans or deposits; duration unspecified."
+western-state-vip-plus-checking-hometown-250,1,direct_deposit,,,,,,,,,,"Enroll in direct deposit; amount, count and deadline unspecified. Reward paid within 60 days after the DD is received."
+western-state-vip-plus-checking-hometown-250,2,other,,,,,,,,,,Enroll in eStatements.
+western-state-vip-plus-checking-hometown-250,3,other,,,,,,,,,,Get a Western debit card.
+western-state-vip-plus-checking-hometown-250,4,balance,,,,,,,1000000,,,"VIP Plus: maintain $10,000 in any combination of deposit accounts, or $25,000 in deposits and loans; duration unspecified."
+neighborhood-cash-back-checking-neighbor-300,1,direct_deposit,,90,,,,,200000,,,"Aggregate employer/government paycheck, pension or benefit DD."
+neighborhood-cash-back-checking-neighbor-300,2,transactions,,90,,,,,,25,500,Debit card purchases of $5+; PayPal/Venmo/P2P excluded.
+bank-of-texas-access-checking-san-antonio-450,1,direct_deposit,,90,,,,,300000,,,Aggregate DD; Zelle/P2P and bank-to-bank transfers excluded.
+bank-of-texas-premier-checking-san-antonio-650,1,direct_deposit,,90,,,,,800000,,,Aggregate DD; Zelle/P2P and bank-to-bank transfers excluded.
+bank-of-texas-personal-savings-san-antonio-200,1,balance,31,30,,,90,,1000000,,,"New funds not already at the bank; balance at or above $10,000 from day 31 through day 90."
+bank-of-texas-access-checking-savings-san-antonio-650,1,direct_deposit,,90,,,,,300000,,,Access Checking: aggregate DD; P2P and bank-to-bank transfers excluded.
+bank-of-texas-access-checking-savings-san-antonio-650,2,balance,31,30,,,90,,1000000,,,"Personal Savings: external new funds, maintained day 31 through day 90."
+bank-of-texas-premier-checking-savings-san-antonio-850,1,direct_deposit,,90,,,,,800000,,,Premier Checking: aggregate DD; P2P and bank-to-bank transfers excluded.
+bank-of-texas-premier-checking-savings-san-antonio-850,2,balance,31,30,,,90,,1000000,,,"Personal Savings: external new funds, maintained day 31 through day 90."
+picatinny-free-checking-dd-250,1,direct_deposit,,60,,,,,,,50000,"Repeating employer/Social Security/pension DD of at least $500 a month, initiated within 60 days; number of months not stated."
+picatinny-break-through-savings-match-50,1,deposit,,0,,,,,5000,,,Initial deposit matched dollar-for-dollar up to $50.
+picatinny-youth-savings-match-50,1,deposit,,0,,,,,5000,,,Initial deposit matched dollar-for-dollar up to $50.
+city-national-bank-checking-dd-200,1,direct_deposit,,90,,,,,,,20000,Recurring payroll/pension/Social Security or similar electronic DD of $200+; count not stated.
+valley-strong-checking-250,1,direct_deposit,,,,,,,,,,Set up direct deposit; amount and count not stated.
+valley-strong-checking-250,2,other,,,,,,,,,,Activate debit card.
+valley-strong-checking-250,3,other,,,,,,,,,,Enroll in online banking.
+valley-strong-checking-250,4,other,,,,,,,,,,Enroll in eStatements.
+first-horizon-private-client-1000,1,other,,,,,,,,,,Meet with a Private Client Relationship Manager.
+first-horizon-private-client-1000,2,balance,46,45,,,135,,10000000,,,New money in qualifying checking and/or Private Client Money Market; maintain tier daily for the next 90 days.
+first-horizon-private-client-1000,3,direct_deposit,46,135,,,,,,2,,Enroll DD within 90 days; at least two employer/payroll/government ACH deposits during the maintenance period; per-deposit minimum not stated.
+first-horizon-private-client-2000,1,other,,,,,,,,,,Meet with a Private Client Relationship Manager.
+first-horizon-private-client-2000,2,balance,46,45,,,135,,25000000,,,New money in qualifying checking and/or Private Client Money Market; maintain tier daily for the next 90 days.
+first-horizon-private-client-2000,3,direct_deposit,46,135,,,,,,2,,Enroll DD within 90 days; at least two employer/payroll/government ACH deposits during the maintenance period; per-deposit minimum not stated.
+first-horizon-private-client-3000,1,other,,,,,,,,,,Meet with a Private Client Relationship Manager.
+first-horizon-private-client-3000,2,balance,46,45,,,135,,50000000,,,New money in qualifying checking and/or Private Client Money Market; maintain tier daily for the next 90 days.
+first-horizon-private-client-3000,3,direct_deposit,46,135,,,,,,2,,Enroll DD within 90 days; at least two employer/payroll/government ACH deposits during the maintenance period; per-deposit minimum not stated.
+spruce-kickstart-100,1,direct_deposit,,45,,,,,50000,,,Qualifying direct deposits totaling $500; per-deposit minimum and count not stated. Non-referral signup only.
+members-exchange-kasasa-match-200,1,direct_deposit,,,,,,,20000,,,"Set up DD; credit union matches DD up to $200, so the full bonus needs $200. DD deadline not separately stated."
+members-exchange-kasasa-match-200,2,transactions,,60,,,,,,15,,Debit card purchases; dollar minimum not stated.
+guaranty-mo-business-500,1,other,,60,,,,,,,,Enroll in eStatements.
+guaranty-mo-business-500,2,transactions,,60,,,,,,30,,Qualifying debit/credit card transactions posted and settled.
+guaranty-mo-business-500,3,deposit,,60,,,,,250000,,,"Total qualifying deposits of $2,500; no maintenance hold stated."
+elevations-peak-perks-500,1,other,,90,,,,,,,,Log in to online banking.
+elevations-peak-perks-500,2,direct_deposit,0,30,,,,,100000,,,"Month 1 of 2: $1,000 aggregate DD; two consecutive months within 90 days, approximated as 30-day windows."
+elevations-peak-perks-500,3,direct_deposit,31,60,,,,,100000,,,"Month 2 of 2: $1,000 aggregate DD; two consecutive months within 90 days, approximated as 30-day windows."
+north-shore-business-500,1,balance,31,30,,,90,,200000,,,"Deposit $2,000 new money days 1-30; maintain minimum daily balance of $2,000 days 31-90."
+north-shore-business-500,2,transactions,1,90,,,,,,10,,Business Debit Mastercard purchases posting days 1-90; dollar minimum not stated.
+visions-flex-200,1,direct_deposit,,90,,,,,100000,2,,"Recurring (two or more) payroll/pension/government ACH DD totaling $1,000-$2,999.99; tier set by day-90 total."
+visions-flex-300,1,direct_deposit,,90,,,,,300000,2,,"Recurring (two or more) payroll/pension/government ACH DD totaling $3,000-$4,999.99; tier set by day-90 total."
+visions-flex-500,1,direct_deposit,,90,,,,,500000,2,,"Recurring (two or more) payroll/pension/government ACH DD totaling $5,000 or more; tier set by day-90 total."
+sidney-boost-250,1,direct_deposit,,60,,,,,250000,,,"$2,500+ DD in one calendar month; all three requirements in the same month within 60 days."
+sidney-boost-250,2,transactions,,60,,,,,,15,,Debit card purchases in the same month; no rollovers; dollar minimum not stated.
+sidney-boost-250,3,other,,60,,,,,,,,Enroll in eStatements.
+media-city-referred-checking-100,1,direct_deposit,,60,,,,,,,,"Monthly payroll/pension/government DD of $500 or more beginning within 60 days; activity kept at least 90 days; number of deposits not stated, so capital is left unknown."
+media-city-referred-checking-100,2,transactions,,90,,,,,,10,,"10 qualifying debit, ACH or bill pay transactions monthly; activity kept at least 90 days."
+media-city-referred-checking-100,3,other,,,,,,,,,,Enroll in eStatements.
+langley-targeted-checking-300,1,direct_deposit,0,30,,,,,100000,,,"Month 1 of 3: $1,000 payroll/pension/SS/recurring ACH income; statement-cycle timing approximated as 30-day windows."
+langley-targeted-checking-300,2,direct_deposit,31,60,,,,,100000,,,"Month 2 of 3: $1,000 payroll/pension/SS/recurring ACH income; statement-cycle timing approximated as 30-day windows."
+langley-targeted-checking-300,3,direct_deposit,61,90,,,,,100000,,,"Month 3 of 3: $1,000 payroll/pension/SS/recurring ACH income; statement-cycle timing approximated as 30-day windows."
+langley-targeted-savings-50,1,balance,,,,,180,,500000,,,"Average daily balance of at least $5,000 over the first 180 account days; fund at opening to meet the average."
+langley-targeted-savings-150,1,balance,,,,,180,,1000000,,,"Average daily balance of at least $10,000 over the first 180 account days; fund at opening to meet the average."
+langley-targeted-savings-250,1,balance,,,,,180,,2500000,,,"Average daily balance of at least $25,000 over the first 180 account days; fund at opening to meet the average."
+golden1-business-100,1,deposit,,15,,,,,200000,,,"At least $2,000 new money; counts toward the average balance below."
+golden1-business-100,2,balance,,,,,90,,200000,,,"Average daily balance of at least $2,000 over the first 90 days."
+golden1-business-400,1,deposit,,15,,,,,200000,,,"At least $2,000 new money; counts toward the average balance below."
+golden1-business-400,2,balance,,,,,90,,1000000,,,"Average daily balance of at least $10,000 over the first 90 days; a day-15 deposit alone won't meet the average."
+golden1-business-750,1,deposit,,15,,,,,200000,,,"At least $2,000 new money; counts toward the average balance below."
+golden1-business-750,2,balance,,,,,90,,1500000,,,"Average daily balance of at least $15,000 over the first 90 days; a day-15 deposit alone won't meet the average."
+golden1-business-100-clover,1,deposit,,15,,,,,200000,,,"At least $2,000 new money; counts toward the average balance below."
+golden1-business-100-clover,2,balance,,,,,90,,200000,,,"Average daily balance of at least $2,000 over the first 90 days."
+golden1-business-100-clover,3,other,,90,,,,,,,,Open and activate a Merchant Services Clover account before the 90-day qualifying period ends (extra $100).
+golden1-business-400-clover,1,deposit,,15,,,,,200000,,,"At least $2,000 new money; counts toward the average balance below."
+golden1-business-400-clover,2,balance,,,,,90,,1000000,,,"Average daily balance of at least $10,000 over the first 90 days."
+golden1-business-400-clover,3,other,,90,,,,,,,,Open and activate a Merchant Services Clover account before the 90-day qualifying period ends (extra $100).
+golden1-business-750-clover,1,deposit,,15,,,,,200000,,,"At least $2,000 new money; counts toward the average balance below."
+golden1-business-750-clover,2,balance,,,,,90,,1500000,,,"Average daily balance of at least $15,000 over the first 90 days."
+golden1-business-750-clover,3,other,,90,,,,,,,,Open and activate a Merchant Services Clover account before the 90-day qualifying period ends (extra $100).
+crbt-maxx-425,1,direct_deposit,,90,,,,,50000,,,Aggregate qualifying DD.
+crbt-maxx-425,2,transactions,,90,,,,,,15,,Qualifying Visa debit card purchases; dollar minimum not stated.
+crbt-step-up-teen-425,1,transactions,,90,,,,,,5,,Qualifying Visa debit card purchases; dollar minimum not stated.
+california-bank-trust-gold-350,1,direct_deposit,,90,,,,,750000,,,Total direct deposits within the first 90 days of opening.
+town-country-star-300,1,direct_deposit,,60,,,,,100000,,,"Qualifying direct deposits totaling $1,000 or more within 60 days of opening; count and per-deposit minimum not stated."
+town-country-star-300,2,other,,60,,,,,,,,Enroll in eStatements.
+town-country-star-300,3,transactions,,60,,,,,,12,,12 debit card transactions; no dollar minimum stated.
+adelfi-harvest-checking-100,1,balance,,0,,,,,10000,,,$100 opening deposit; no minimum balance or hold stated after opening.
+adelfi-harvest-checking-100,2,other,,,,,,,,,,Register for digital banking.
+adelfi-harvest-checking-100,3,other,,,,,,,,,,Enroll in eStatements.
+adelfi-harvest-savings-100,1,balance,,30,,,30,,500000,,,"Balance of at least $5,000 within 30 days of opening (snapshot at day 30, not a 30-day hold); the $100 opening deposit counts toward it."
+adelfi-harvest-savings-100,2,other,,,,,,,,,,Keep online banking active.
+amex-rewards-checking-300,1,direct_deposit,,90,,,,,750000,,,"Total of $7,500 qualifying employer/government ACH direct deposits (paycheck, pension, benefits, tax refund); P2P, bank transfers, checks and points redemptions excluded."
+x-money-ny-dd-300,1,direct_deposit,,90,,,,,300000,,,"$3,000 qualifying deposits within 90 days: ACH SEC code PPD or eligible X Creator payouts."
+forest-area-referred-50,1,balance,,,,,,,1000,,,"$10 minimum opening deposit and $10 minimum Regular Share balance to establish and maintain membership, through reward payment."
+forest-area-referred-100,1,balance,,,,,,,1000,,,"$10 minimum opening deposit and $10 minimum Regular Share balance to establish and maintain membership, through reward payment."
+forest-area-referred-300,1,balance,,,,,,,1000,,,"$10 minimum opening deposit and $10 minimum Regular Share balance to establish and maintain membership, through reward payment."
+forest-area-referred-300,2,transactions,,60,,,,,,10,,At least 10 debit card transactions in one monthly cycle within 60 days of membership.
+forest-area-referred-300,3,other,,60,,,,,,,,Sign on to online banking at least 4 times in the same monthly cycle within 60 days of membership.
+forest-area-referred-300,4,direct_deposit,,60,,,,,10000,1,10000,A direct deposit of $100 or more in the same monthly cycle within 60 days of membership.
+forest-area-referred-300,5,other,,60,,,,,,,,Enroll in e-statements.
+grand-simple-125,1,transactions,0,30,,,,,,5,,Month 1: 5 debit card transactions (the FAQ says 5 total; doing 5 each month is the conservative reading).
+grand-simple-125,2,transactions,31,60,,,,,,5,,Month 2: 5 debit card transactions; month approximated as a 30-day window.
+grand-simple-250,1,transactions,0,30,,,,,,5,,Month 1: 5 debit card transactions (the FAQ says 5 total; doing 5 each month is the conservative reading).
+grand-simple-250,2,transactions,31,60,,,,,,5,,Month 2: 5 debit card transactions; month approximated as a 30-day window.
+grand-simple-250,3,direct_deposit,,,,,,,100000,,,"Qualifying direct deposit or monthly external ACH transfer of at least $1,000 per month; the number of months is not stated. Additional $125 within 75 days of completion."
+great-plains-checking-300-dd,1,direct_deposit,,90,,,,,50000,,,"$500 or more direct deposited within 90 days; count and per-deposit minimum not stated. Alternative: $2,500 average balance (separate row)."
+great-plains-checking-300-dd,2,transactions,,90,,,,,,3,,"3 online bill pays or ACH payments. Two of: 20 debit card transactions, 3 online bill pays/ACH payments, eStatements enrollment. Alternative: 20 debit card transactions."
+great-plains-checking-300-dd,3,other,,90,,,,,,,,Enroll in eStatements (one of the two chosen actions).
+great-plains-checking-300-balance,1,balance,,,,,,,250000,,,"$2,500 average balance within 90 days; averaging period start/end not defined. Alternative to the $500 direct deposit route."
+great-plains-checking-300-balance,2,transactions,,90,,,,,,3,,"3 online bill pays or ACH payments. Two of: 20 debit card transactions, 3 online bill pays/ACH payments, eStatements enrollment. Alternative: 20 debit card transactions."
+great-plains-checking-300-balance,3,other,,90,,,,,,,,Enroll in eStatements (one of the two chosen actions).
+central-bank-business-500-targeted,1,balance,90,90,,,90,,300000,,,"$3,000 balance measured 90 days after opening (snapshot, not a 90-day hold); $50 opening deposit counts toward it."
+keybank-business-500-targeted,1,balance,,30,,90,,,500000,,,"Deposit $5,000 within 30 days; maintain end-of-day balance of $5,000 for 90 consecutive days starting when reached (next business day if weekend/holiday). $25 opening deposit overlaps."
+first-federal-enhanced-200,1,direct_deposit,,60,,,,,100000,,,"Qualifying payroll, pension, Social Security or government benefit ACH deposits totaling at least $1,000 in a single calendar month within 60 days of opening."
+first-national-ar-tn-checking-200,1,direct_deposit,,90,,,,,,,,Set up recurring direct deposit to the new checking; amount and count not stated. Account must be active with a positive balance at the day-90 evaluation.
+first-national-plus-one-200,1,deposit,,,,,,,2500000,,,"$25,000 aggregate new money from outside the bank across a new CD (minimum $1,000) and new checking; allocation and funding deadline not stated. Accounts must have positive balances at the day-90 evaluation; CD early-withdrawal penalty applies."
+first-national-plus-one-350,1,deposit,,,,,,,5000000,,,"$50,000 aggregate new money from outside the bank across a new CD (minimum $1,000) and new checking; allocation and funding deadline not stated. Accounts must have positive balances at the day-90 evaluation; CD early-withdrawal penalty applies."
+first-national-plus-one-500,1,deposit,,,,,,,10000000,,,"$100,000 aggregate new money from outside the bank across a new CD (minimum $1,000) and new checking; allocation and funding deadline not stated. Accounts must have positive balances at the day-90 evaluation; CD early-withdrawal penalty applies."
+sovereign-red-white-rewarded-250,1,deposit,,0,,,,,2500,,,$25 opening deposit; not the offer's capital.
+sovereign-red-white-rewarded-250,2,direct_deposit,0,30,,,,,,1,,One qualifying direct deposit; no minimum stated. Month 1 of 3; monthly timing approximated as 30-day windows within the first 90 days.
+sovereign-red-white-rewarded-250,3,transactions,0,30,,,,,,1,,One ACH transaction (direction and amount not stated). Month 1 of 3; monthly timing approximated as 30-day windows within the first 90 days.
+sovereign-red-white-rewarded-250,4,transactions,0,30,,,,,,6,,Six PIN-based debit card purchases; no minimum stated. Month 1 of 3; monthly timing approximated as 30-day windows within the first 90 days.
+sovereign-red-white-rewarded-250,5,direct_deposit,31,60,,,,,,1,,One qualifying direct deposit; no minimum stated. Month 2 of 3; monthly timing approximated as 30-day windows within the first 90 days.
+sovereign-red-white-rewarded-250,6,transactions,31,60,,,,,,1,,One ACH transaction (direction and amount not stated). Month 2 of 3; monthly timing approximated as 30-day windows within the first 90 days.
+sovereign-red-white-rewarded-250,7,transactions,31,60,,,,,,6,,Six PIN-based debit card purchases; no minimum stated. Month 2 of 3; monthly timing approximated as 30-day windows within the first 90 days.
+sovereign-red-white-rewarded-250,8,direct_deposit,61,90,,,,,,1,,One qualifying direct deposit; no minimum stated. Month 3 of 3; monthly timing approximated as 30-day windows within the first 90 days.
+sovereign-red-white-rewarded-250,9,transactions,61,90,,,,,,1,,One ACH transaction (direction and amount not stated). Month 3 of 3; monthly timing approximated as 30-day windows within the first 90 days.
+sovereign-red-white-rewarded-250,10,transactions,61,90,,,,,,6,,Six PIN-based debit card purchases; no minimum stated. Month 3 of 3; monthly timing approximated as 30-day windows within the first 90 days.
+lmcu-referral-checking-110,1,direct_deposit,,60,,,,,50000,,,Recurring direct deposits totaling at least $500 during the first 60 days the account is open; count not stated.
+lmcu-referral-checking-110,2,other,,,,,,,,,,Keep the $5 minimum membership savings share balance.
+verve-public-200,1,direct_deposit,,,,,,,100000,,,"Qualifying ACH direct deposits into checking totaling at least $1,000 within the first two full calendar months of opening; no fixed day offset."
+verve-public-200,2,other,,,,,,,,,,Maintain the $5 membership share.
+verve-public-400,1,direct_deposit,,,,,,,100000,,,"Qualifying ACH direct deposits into checking totaling at least $1,000 within the first two full calendar months of opening; no fixed day offset."
+verve-public-400,2,balance,,,,,,,1000000,,,"Average monthly balance of at least $10,000 in qualifying Verve deposit accounts (checking, savings, money markets, certificates, IRAs, HSAs) for the first 3 full calendar months."
+verve-public-400,3,other,,,,,,,,,,Maintain the $5 membership share.
+verve-public-600,1,direct_deposit,,,,,,,100000,,,"Qualifying ACH direct deposits into checking totaling at least $1,000 within the first two full calendar months of opening; no fixed day offset."
+verve-public-600,2,balance,,,,,,,1000000,,,"Average monthly balance of at least $10,000 in qualifying Verve deposit accounts (checking, savings, money markets, certificates, IRAs, HSAs) for the first 12 full calendar months; the three-month and twelve-month components are each paid within 30 days after their period."
+verve-public-600,3,other,,,,,,,,,,Maintain the $5 membership share.
+verve-targeted-200,1,direct_deposit,,,,,,,100000,,,"Qualifying ACH direct deposits into checking totaling at least $1,000 within the first two full calendar months of opening; no fixed day offset."
+verve-targeted-200,2,other,,,,,,,,,,Maintain the $5 membership share.
+verve-targeted-600,1,direct_deposit,,,,,,,100000,,,"Qualifying ACH direct deposits into checking totaling at least $1,000 within the first two full calendar months of opening; no fixed day offset."
+verve-targeted-600,2,balance,,,,,,,1000000,,,"Average monthly balance of at least $10,000 in qualifying Verve deposit accounts (checking, savings, money markets, certificates, IRAs, HSAs) for the first 3 full calendar months."
+verve-targeted-600,3,other,,,,,,,,,,Maintain the $5 membership share.
+verve-targeted-1000,1,direct_deposit,,,,,,,100000,,,"Qualifying ACH direct deposits into checking totaling at least $1,000 within the first two full calendar months of opening; no fixed day offset."
+verve-targeted-1000,2,balance,,,,,,,1000000,,,"Average monthly balance of at least $10,000 in qualifying Verve deposit accounts (checking, savings, money markets, certificates, IRAs, HSAs) for the first 12 full calendar months; the three-month and twelve-month components are each paid within 30 days after their period."
+verve-targeted-1000,3,other,,,,,,,,,,Maintain the $5 membership share.
+omb-kansas-city-checking-250,1,direct_deposit,0,30,,,,,,1,,"At least one recurring-income ACH credit (salary, wages, pension, government benefits); no minimum stated. Statement cycle 1 of 3; cycle timing approximated as 30-day windows. The disclosure says the opening cycle automatically qualifies."
+omb-kansas-city-checking-250,2,direct_deposit,31,60,,,,,,1,,"At least one recurring-income ACH credit (salary, wages, pension, government benefits); no minimum stated. Statement cycle 2 of 3; cycle timing approximated as 30-day windows."
+omb-kansas-city-checking-250,3,direct_deposit,61,90,,,,,,1,,"At least one recurring-income ACH credit (salary, wages, pension, government benefits); no minimum stated. Statement cycle 3 of 3; cycle timing approximated as 30-day windows."
+omb-kansas-city-checking-250,4,other,,,,,,,,,,Maintain at least a $0.01 balance and good standing through day 90.
