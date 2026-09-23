@@ -1,0 +1,249 @@
+{
+  "retrieval_date_utc": "2026-09-23",
+  "definition": "Whether ChexSystems is reportedly consulted when opening this deposit account. EWS use, hard/soft credit pulls, adverse reporting, and accepting bad history are separate. Unknown includes absent, qualified, conflicting, and mixed evidence.",
+  "first_party_research": {
+    "url": "https://www.bmo.com/en-us/articles/checking-accounts/why-your-account-application-may-have-been-declined/",
+    "retrieval_date_utc": "2026-09-23",
+    "method": "web_extract",
+    "quoted_excerpt": "When you apply for a bank account, the bank may use a reporting system like ChexSystems to look at your previous banking history.",
+    "disposition": "Not used to assign yes: general educational wording says may and does not precisely commit BMO Smart Advantage to a screening policy. Targeted first-party searches for TruStone, PSECU, KeyBank and Capital One did not yield precise usable policy; no result is not evidence of no screening."
+  },
+  "retrieval_limitations": [
+    "Repeated web extracts returned inconsistent/truncated article bodies and omitted the screening fields. Live rendered browser pages were captured and are the authoritative quotations for assignments.",
+    "No selected yes/no is claimed as issuer-confirmed. Secondary DoC fields can be stale even when campaign updates are current.",
+    "Do not alter general last_verified or offer requirements on the basis of screening-only research."
+  ],
+  "campaigns": [
+    {
+      "campaign_id": "bmo-smart-advantage-202609",
+      "offer_ids": [
+        "bmo-smart-advantage-202609-100",
+        "bmo-smart-advantage-202609-200",
+        "bmo-smart-advantage-202609-300",
+        "bmo-smart-advantage-202609-400",
+        "bmo-smart-advantage-202609-500",
+        "bmo-smart-advantage-202609-600"
+      ],
+      "chexsystems": "yes",
+      "evidence_kind": "secondary_reported_not_guaranteed",
+      "evidence": [
+        {
+          "url": "https://www.doctorofcredit.com/il-wi-mn-in-az-fl-ks-mo-bmo-harris-350-checking-300-savings-bonus/",
+          "quoted_excerpt": "Hard/soft pull: Soft\nChexSystems: Yes",
+          "retrieved_at": "2026-09-23T00:42:35.639083+00:00",
+          "retrieval_date_utc": "2026-09-23",
+          "method": "live_browser_document_body_innerText"
+        }
+      ],
+      "caveats": [
+        "Explicit yes in the current September 2026 campaign article. Secondary reported screening, not a bank guarantee. Applied only to the six Smart Advantage checking tiers, not the separate Savings Builder product."
+      ],
+      "csv_offers": [
+        {
+          "offer_id": "bmo-smart-advantage-202609-100",
+          "bank_name": "BMO",
+          "account_name": "Smart Advantage Checking (1 qualifying months; $100 total)",
+          "source_url": "https://www.bmo.com/en-us/main/personal/checking-accounts/digital-offer/",
+          "offer_url": "https://www.bmo.com/en-us/main/personal/checking-accounts/digital-offer/",
+          "expiration_date": "2026-12-15"
+        },
+        {
+          "offer_id": "bmo-smart-advantage-202609-200",
+          "bank_name": "BMO",
+          "account_name": "Smart Advantage Checking (2 qualifying months; $200 total)",
+          "source_url": "https://www.bmo.com/en-us/main/personal/checking-accounts/digital-offer/",
+          "offer_url": "https://www.bmo.com/en-us/main/personal/checking-accounts/digital-offer/",
+          "expiration_date": "2026-12-15"
+        },
+        {
+          "offer_id": "bmo-smart-advantage-202609-300",
+          "bank_name": "BMO",
+          "account_name": "Smart Advantage Checking (3 qualifying months; $300 total)",
+          "source_url": "https://www.bmo.com/en-us/main/personal/checking-accounts/digital-offer/",
+          "offer_url": "https://www.bmo.com/en-us/main/personal/checking-accounts/digital-offer/",
+          "expiration_date": "2026-12-15"
+        },
+        {
+          "offer_id": "bmo-smart-advantage-202609-400",
+          "bank_name": "BMO",
+          "account_name": "Smart Advantage Checking (4 qualifying months; $400 total)",
+          "source_url": "https://www.bmo.com/en-us/main/personal/checking-accounts/digital-offer/",
+          "offer_url": "https://www.bmo.com/en-us/main/personal/checking-accounts/digital-offer/",
+          "expiration_date": "2026-12-15"
+        },
+        {
+          "offer_id": "bmo-smart-advantage-202609-500",
+          "bank_name": "BMO",
+          "account_name": "Smart Advantage Checking (5 qualifying months; $500 total)",
+          "source_url": "https://www.bmo.com/en-us/main/personal/checking-accounts/digital-offer/",
+          "offer_url": "https://www.bmo.com/en-us/main/personal/checking-accounts/digital-offer/",
+          "expiration_date": "2026-12-15"
+        },
+        {
+          "offer_id": "bmo-smart-advantage-202609-600",
+          "bank_name": "BMO",
+          "account_name": "Smart Advantage Checking (6 qualifying months; $600 total)",
+          "source_url": "https://www.bmo.com/en-us/main/personal/checking-accounts/digital-offer/",
+          "offer_url": "https://www.bmo.com/en-us/main/personal/checking-accounts/digital-offer/",
+          "expiration_date": "2026-12-15"
+        }
+      ]
+    },
+    {
+      "campaign_id": "huntington-personal-400-600",
+      "offer_ids": [
+        "huntington-400",
+        "huntington-600"
+      ],
+      "chexsystems": "no",
+      "evidence_kind": "secondary_reported_not_guaranteed",
+      "evidence": [
+        {
+          "url": "https://www.doctorofcredit.com/oh-mi-pa-ky-wv-huntington-bank-200-checking-promotion-no-direct-deposit-requirement/",
+          "quoted_excerpt": "U.S. Citizenship Required: Yes. Maybe not in branch?\nChexsystems: No, but do use EWS",
+          "retrieved_at": "2026-09-23T00:42:06.373495+00:00",
+          "retrieval_date_utc": "2026-09-23",
+          "method": "live_browser_document_body_innerText"
+        }
+      ],
+      "caveats": [
+        "Explicit No in DoC field; the EWS statement is separate and is not the basis for No. Article has a current September 30, 2026 extension but stale historical values elsewhere in the overview; screening field has no separate effective date. Reported, not guaranteed; confirm before applying. Do not extend this finding to business accounts."
+      ],
+      "csv_offers": [
+        {
+          "offer_id": "huntington-400",
+          "bank_name": "Huntington Bank",
+          "account_name": "Perks Checking",
+          "source_url": "https://www.huntington.com/checking-account-promotions-bonuses-offers",
+          "offer_url": "https://www.huntington.com/checking-account-promotions-bonuses-offers",
+          "expiration_date": "2026-09-30"
+        },
+        {
+          "offer_id": "huntington-600",
+          "bank_name": "Huntington Bank",
+          "account_name": "Platinum Perks Checking",
+          "source_url": "https://www.huntington.com/checking-account-promotions-bonuses-offers",
+          "offer_url": "https://www.huntington.com/checking-account-promotions-bonuses-offers",
+          "expiration_date": "2026-09-30"
+        }
+      ]
+    },
+    {
+      "campaign_id": "keybank-personal-300-500",
+      "offer_ids": [
+        "keybank-key-smart-checking-300",
+        "keybank-key-select-checking-500"
+      ],
+      "chexsystems": "unknown",
+      "evidence_kind": "secondary_explicit_unknown_or_mixed",
+      "evidence": [
+        {
+          "url": "https://www.doctorofcredit.com/unknown-location-restrictions-keybank-200-checking-bonus/",
+          "quoted_excerpt": "Hard/soft pull: Soft pull\nChexSystems: Mixed DP, most likely does. Also reports of being ChexSystems sensitive. ",
+          "retrieved_at": "2026-09-23T00:42:20.126722+00:00",
+          "retrieval_date_utc": "2026-09-23",
+          "method": "live_browser_document_body_innerText"
+        }
+      ],
+      "caveats": [
+        "Mixed reports remain unknown even though author says most likely does and reports inquiry sensitivity. Article has old terms alongside a December 2026 extension. Neither probability nor sensitivity is an unqualified yes."
+      ],
+      "csv_offers": [
+        {
+          "offer_id": "keybank-key-smart-checking-300",
+          "bank_name": "KeyBank",
+          "account_name": "Key Smart Checking",
+          "source_url": "https://www.key.com/personal/checking/checking-account-bonus-offers.html",
+          "offer_url": "https://www.key.com/personal/checking/checking-account-bonus-offers.html",
+          "expiration_date": "2026-12-11"
+        },
+        {
+          "offer_id": "keybank-key-select-checking-500",
+          "bank_name": "KeyBank",
+          "account_name": "Key Select Checking",
+          "source_url": "https://www.key.com/personal/checking/checking-account-bonus-offers.html",
+          "offer_url": "https://www.key.com/personal/checking/checking-account-bonus-offers.html",
+          "expiration_date": "2026-12-11"
+        }
+      ]
+    },
+    {
+      "campaign_id": "rogue-myrewards-checking-500",
+      "offer_ids": [
+        "rogue-myrewards-checking-500"
+      ],
+      "chexsystems": "unknown",
+      "evidence_kind": "secondary_explicit_unknown_or_mixed",
+      "evidence": [
+        {
+          "url": "https://www.doctorofcredit.com/or-id-northern-ca-rogue-credit-union-500-checking-bonus-direct-deposit-not-required/",
+          "quoted_excerpt": "Hard/soft pull: Soft pull\nChexSystems: Unknown",
+          "retrieved_at": "2026-09-23T00:42:07.403992+00:00",
+          "retrieval_date_utc": "2026-09-23",
+          "method": "live_browser_document_body_innerText"
+        }
+      ],
+      "caveats": [
+        "Explicit Unknown. Nearby soft-pull field is a credit-pull statement, not ChexSystems evidence. No determination of account-opening ChexSystems screening is supported."
+      ],
+      "csv_offers": [
+        {
+          "offer_id": "rogue-myrewards-checking-500",
+          "bank_name": "Rogue Credit Union",
+          "account_name": "MyRewards Checking Welcome Bonus+",
+          "source_url": "https://www.doctorofcredit.com/or-id-northern-ca-rogue-credit-union-500-checking-bonus-direct-deposit-not-required/",
+          "offer_url": "https://www.roguecu.org/personal-services/personal-deposit-accounts/checking/myrewards-checking/welcome-bonus-plus",
+          "expiration_date": "2026-09-30"
+        }
+      ]
+    },
+    {
+      "campaign_id": "trustone-value-checking-250-500",
+      "offer_ids": [
+        "trustone-checking-250",
+        "trustone-checking-350",
+        "trustone-checking-500"
+      ],
+      "chexsystems": "unknown",
+      "evidence_kind": "secondary_explicit_unknown_or_mixed",
+      "evidence": [
+        {
+          "url": "https://www.doctorofcredit.com/wi-mn-only-trustone-financial-350-checking-bonus/",
+          "quoted_excerpt": "Hard/soft pull: Soft\nChexSystems: Unknown, sensitive",
+          "retrieved_at": "2026-09-23T00:42:06.882801+00:00",
+          "retrieval_date_utc": "2026-09-23",
+          "method": "live_browser_document_body_innerText"
+        }
+      ],
+      "caveats": [
+        "Explicit Unknown, sensitive remains unknown. Do not convert sensitivity or successful/failed approvals into a definitive screening policy. Current January 2026 extension coexists with historical 2022 overview dates and old amounts; no separate screening effective date."
+      ],
+      "csv_offers": [
+        {
+          "offer_id": "trustone-checking-250",
+          "bank_name": "TruStone Financial",
+          "account_name": "Value Checking ($1,000 direct-deposit tier)",
+          "source_url": "https://trustonefinancial.org/checking-and-savings/checking-accounts/",
+          "offer_url": "https://trustonefinancial.org/checking-and-savings/checking-accounts/",
+          "expiration_date": "2026-12-31"
+        },
+        {
+          "offer_id": "trustone-checking-350",
+          "bank_name": "TruStone Financial",
+          "account_name": "Value Checking ($2,500 direct-deposit tier)",
+          "source_url": "https://trustonefinancial.org/checking-and-savings/checking-accounts/",
+          "offer_url": "https://trustonefinancial.org/checking-and-savings/checking-accounts/",
+          "expiration_date": "2026-12-31"
+        },
+        {
+          "offer_id": "trustone-checking-500",
+          "bank_name": "TruStone Financial",
+          "account_name": "Value Checking ($5,000 direct-deposit tier)",
+          "source_url": "https://trustonefinancial.org/checking-and-savings/checking-accounts/",
+          "offer_url": "https://trustonefinancial.org/checking-and-savings/checking-accounts/",
+          "expiration_date": "2026-12-31"
+        }
+      ]
+    }
+  ]
+}

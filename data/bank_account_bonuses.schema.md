@@ -241,6 +241,35 @@ keep-open days, and creates one requirement per step (see
 `docs/bank-bonus-tracking.md`). Personal offers stay personal even when the view
 includes a selected business.
 
+## ChexSystems account-opening screening
+
+Optional columns (both feed formats): `chexsystems` is exactly `yes`, `no`, or
+`unknown`; missing or blank means **unknown**, never no. Codes are not trimmed or
+case-normalized. `chexsystems_source_url` is HTTPS, `chexsystems_checked` is a valid
+YYYY-MM-DD source-check date, and `chexsystems_note` records the explicit statement
+and qualifications. Reported yes/no requires all three evidence fields. Unknown
+may carry evidence explaining conflicting, mixed or unavailable reports.
+
+This means reportedly consulting ChexSystems at account opening, not approval,
+ChexSystems sensitivity, adverse reporting, EWS use, or a hard/soft credit pull.
+Never infer one from another. UI labels are **ChexSystems screening**, **Reported
+yes**, **Reported no**, and **Unknown**. All includes unknown; filters only refine
+bank browsing, do not modify tracking/eligibility or card offers, and use the
+existing per-tab session persistence. Clear resets this filter; Reset filters
+resets the bank view, including search. Source, checked date and notes appear in
+Details. Source-check dates do not advance general `last_verified`.
+
+The compact `bank_account_bonuses.chexsystems.json` ledger preserves the exact
+researched tier mappings, article excerpts and limitations. Only six BMO Smart
+Advantage tiers and two Huntington personal tiers have reported yes/no; other
+rows remain unknown, including mixed KeyBank and unknown Rogue/TruStone reports.
+These secondary reports may be stale and do not guarantee approval.
+
+ChexSystems headers require app v0.1.135 or newer. Older strict clients reject
+them atomically and retain their existing cache; update the app before refreshing.
+An old cached feed continues to return unknown until refreshed with explicit
+screening fields. Seeding never overwrites an existing cache. No schema migration.
+
 ## Cache and compatibility
 
 Seeding fills an absent cache with the bundled pair; it never replaces an existing
