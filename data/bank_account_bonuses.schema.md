@@ -260,10 +260,18 @@ resets the bank view, including search. Source, checked date and notes appear in
 Details. Source-check dates do not advance general `last_verified`.
 
 The compact `bank_account_bonuses.chexsystems.json` ledger preserves the exact
-researched tier mappings, article excerpts and limitations. Only six BMO Smart
-Advantage tiers and two Huntington personal tiers have reported yes/no; other
-rows remain unknown, including mixed KeyBank and unknown Rogue/TruStone reports.
-These secondary reports may be stale and do not guarantee approval.
+researched tier mappings, article excerpts and limitations. Every reported yes/no
+row traces to one ledger campaign whose quote was re-fetched and matched on its
+cited page. Sources are Doctor of Credit article ChexSystems fields, DoC reader
+datapoints where the field is unknown or absent, DoC's do/don't-pull list, or
+quoted bank terms; each note says which. Mixed, conflicting, sensitivity-only and
+single-comment "no" reports stay unknown (including KeyBank, Rogue and TruStone).
+Offers pinned by exact-source hold, mixed-funding or funding-hold reviews stay
+unknown for now: those reviews compare every column, so changing screening would
+drop the review on installed clients. Their researched findings wait under
+`deferred_exact_source_reviewed` until the review match ignores screening columns
+and that client has shipped. These secondary reports may be stale and do not
+guarantee approval.
 
 ChexSystems headers require app v0.1.135 or newer. Older strict clients reject
 them atomically and retain their existing cache; update the app before refreshing.
