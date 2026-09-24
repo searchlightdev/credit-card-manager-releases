@@ -2276,6 +2276,36 @@
         "WI"
       ],
       "geography_note": ""
+    },
+    {
+      "offer_id": "midflorida-credit-union-free-checking-200-tier-200",
+      "bank_name": "MIDFLORIDA Credit Union",
+      "account_name": "Free Checking 200 tier",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://www.midflorida.com/current-offers/$400-bonus-free-checking",
+      "quoted_supporting_evidence": "Florida membership eligibility",
+      "evidence_method": "Operator instruction (2026-09-24) that the offer is limited to Florida, consistent with the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "included_states",
+      "geography_states": [
+        "FL"
+      ],
+      "geography_note": "MIDFLORIDA Credit Union membership eligibility required."
+    },
+    {
+      "offer_id": "midflorida-credit-union-free-checking-400-tier-400",
+      "bank_name": "MIDFLORIDA Credit Union",
+      "account_name": "Free Checking 400 tier",
+      "geography_scope": "personal applicant residence",
+      "source_url": "https://www.midflorida.com/current-offers/$400-bonus-free-checking",
+      "quoted_supporting_evidence": "Florida membership eligibility",
+      "evidence_method": "Operator instruction (2026-09-24) that the offer is limited to Florida, consistent with the audited eligibility terms already recorded in the bundled feed.",
+      "verified_first_party": false,
+      "geography": "included_states",
+      "geography_states": [
+        "FL"
+      ],
+      "geography_note": "MIDFLORIDA Credit Union membership eligibility required."
     }
   ],
   "notes": [
