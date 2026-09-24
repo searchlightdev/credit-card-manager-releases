@@ -266,12 +266,11 @@ cited page. Sources are Doctor of Credit article ChexSystems fields, DoC reader
 datapoints where the field is unknown or absent, DoC's do/don't-pull list, or
 quoted bank terms; each note says which. Mixed, conflicting, sensitivity-only and
 single-comment "no" reports stay unknown (including KeyBank, Rogue and TruStone).
-Offers pinned by exact-source hold, mixed-funding or funding-hold reviews stay
-unknown for now: those reviews compare every column, so changing screening would
-drop the review on installed clients. Their researched findings wait under
-`deferred_exact_source_reviewed` until the review match ignores screening columns
-and that client has shipped. These secondary reports may be stale and do not
-guarantee approval.
+Exact-source hold, mixed-funding and funding-hold reviews compare every column
+except these four screening columns (v0.1.164+), so screening research never
+invalidates a reviewed funding model. Clients before v0.1.164 compare screening
+too and drop those reviews when screening changes on a reviewed offer. These
+secondary reports may be stale and do not guarantee approval.
 
 ChexSystems headers require app v0.1.135 or newer. Older strict clients reject
 them atomically and retain their existing cache; update the app before refreshing.

@@ -2669,450 +2669,796 @@
       "caveats": [
         "DoC article ChexSystems field, 2026-09-20. DoC field on the GBC Bank $300 checking post, which is the same personal checking line but a different amount than the $400 Fall Into Cash offer. Secondary reported screening, not a bank guarantee."
       ]
+    },
+    {
+      "campaign_id": "fnbo-business-reviewed-202609",
+      "offer_ids": [
+        "fnbo-free-business-250"
+      ],
+      "chexsystems": "yes",
+      "evidence_kind": "secondary_reported_not_guaranteed",
+      "evidence": [
+        {
+          "url": "https://www.doctorofcredit.com/il-ne-ks-tx-co-in-branch-fnbo-bank-250-business-checking-bonus/",
+          "quoted_excerpt": "Tried to open in a branch but pulled Chex and denied me for recent inquiries (LOL/6).",
+          "retrieval_date_utc": "2026-09-24",
+          "method": "agent_research_quote_reverified_by_fetch"
+        }
+      ],
+      "caveats": [
+        "DoC reader datapoints (article field unknown or absent), 2025-09-25. The business article field says 'Unknown, sensitive'. New applicants report Chex pulls; existing customers report opening with Chex frozen and no pull, and DoC's Chex list has FNBO under 'Does pull'. Secondary reported screening, not a bank guarantee."
+      ]
+    },
+    {
+      "campaign_id": "first-horizon-bank-personal-reviewed-202609",
+      "offer_ids": [
+        "first-horizon-checking-savings-700"
+      ],
+      "chexsystems": "yes",
+      "evidence_kind": "secondary_reported_not_guaranteed",
+      "evidence": [
+        {
+          "url": "https://www.doctorofcredit.com/tn-ar-ms-al-ga-ky-fl-nc-va-first-horizon-bank-450-checking-bonus-direct-deposit-not-required/",
+          "quoted_excerpt": "FYI, they pulled my chex on 04/21/2026",
+          "retrieval_date_utc": "2026-09-24",
+          "method": "agent_research_quote_reverified_by_fetch"
+        }
+      ],
+      "caveats": [
+        "DoC reader datapoints (article field unknown or absent), 2026-08-29. DoC field says 'Unknown, sensitive'. Multiple 2026 comments report Chex pulls and Chex denials online, though some report in-branch opening with Chex frozen; DoC's Chex list has First Horizon under 'Does pull'. Applies to the Private Client offers too (a comment there says 'Chex: Yes, sensitive'). Secondary reported screening, not a bank guarantee."
+      ]
+    },
+    {
+      "campaign_id": "frontwave-credit-union-personal-reviewed-202609",
+      "offer_ids": [
+        "frontwave-new-member-350"
+      ],
+      "chexsystems": "yes",
+      "evidence_kind": "secondary_reported_not_guaranteed",
+      "evidence": [
+        {
+          "url": "https://www.doctorofcredit.com/ca-frontwave-credit-union-200-checking-bonus/",
+          "quoted_excerpt": "FYI: they do pull Chex.",
+          "retrieval_date_utc": "2026-09-24",
+          "method": "agent_research_quote_reverified_by_fetch"
+        }
+      ],
+      "caveats": [
+        "DoC reader datapoints (article field unknown or absent), 2025-08-17. DoC field is Unknown; this comment is explicit, and a 2024 comment reports a Chex override. Secondary reported screening, not a bank guarantee."
+      ]
+    },
+    {
+      "campaign_id": "secu-maryland-business-reviewed-202609",
+      "offer_ids": [
+        "secu-maryland-interest-earning-business-checking-350"
+      ],
+      "chexsystems": "yes",
+      "evidence_kind": "secondary_reported_not_guaranteed",
+      "evidence": [
+        {
+          "url": "https://www.doctorofcredit.com/md-pa-de-wv-va-d-c-secu-350-business-checking-bonus/",
+          "quoted_excerpt": "ChexSystems: Yes",
+          "retrieval_date_utc": "2026-09-24",
+          "method": "agent_research_quote_reverified_by_fetch"
+        }
+      ],
+      "caveats": [
+        "DoC article ChexSystems field, 2026-07-26. DoC business checking article; a July 2026 comment confirms 'Chex was pulled'. Secondary reported screening, not a bank guarantee."
+      ]
+    },
+    {
+      "campaign_id": "stanford-federal-credit-union-personal-reviewed-202609",
+      "offer_ids": [
+        "stanford-federal-credit-union-additional-savings-cash-reward-30"
+      ],
+      "chexsystems": "yes",
+      "evidence_kind": "secondary_reported_not_guaranteed",
+      "evidence": [
+        {
+          "url": "https://www.doctorofcredit.com/ca-only-stanford-federal-credit-union-100-checking-bonus/",
+          "quoted_excerpt": "Does pull Chex.",
+          "retrieval_date_utc": "2026-09-24",
+          "method": "agent_research_quote_reverified_by_fetch"
+        }
+      ],
+      "caveats": [
+        "DoC reader datapoints (article field unknown or absent), 2026-06-09. The article has no Chex field. 2026 comments report a Chex pull and Chex denials, and DoC's Chex list has Stanford Credit Union under 'Does pull'. Secondary reported screening, not a bank guarantee."
+      ]
+    },
+    {
+      "campaign_id": "1st-united-credit-union-business-reviewed-202609",
+      "offer_ids": [
+        "1st-united-credit-union-business-checking-100"
+      ],
+      "chexsystems": "yes",
+      "evidence_kind": "secondary_reported_not_guaranteed",
+      "evidence": [
+        {
+          "url": "https://www.doctorofcredit.com/ymmv-select-ca-areas-only-1st-united-credit-union-200-business-checking-bonus/",
+          "quoted_excerpt": "Checking account and debit card establishment are subject to approval through ChexSystems.",
+          "retrieval_date_utc": "2026-09-24",
+          "method": "agent_research_quote_reverified_by_fetch"
+        }
+      ],
+      "caveats": [
+        "DoC ChexSystems do/don't-pull list or quoted bank terms, 2022-02-09. Bank's own offer terms quoted in an older (2022) DoC business-checking article; the article's own field says 'ChexSystems: Unknown', but the quoted bank terms state ChexSystems approval explicitly. Secondary reported screening, not a bank guarantee."
+      ]
+    },
+    {
+      "campaign_id": "arapahoe-credit-union-personal-reviewed-202609",
+      "offer_ids": [
+        "arapahoe-referred-checking-100",
+        "arapahoe-referred-checking-125"
+      ],
+      "chexsystems": "yes",
+      "evidence_kind": "secondary_reported_not_guaranteed",
+      "evidence": [
+        {
+          "url": "https://www.doctorofcredit.com/co-arapahoe-credit-union-200-referral-bonus/#comment-2280141",
+          "quoted_excerpt": "Confirmed verbally with a banker that they do pull ChexSystems for new accounts.",
+          "retrieval_date_utc": "2026-09-24",
+          "method": "agent_research_quote_reverified_by_fetch"
+        }
+      ],
+      "caveats": [
+        "DoC reader datapoints (article field unknown or absent), 2026-03-19. DoC referral article lists ChexSystems: Unknown; single recent uncontradicted commenter datapoint (banker confirmation) says they pull Chex. Secondary reported screening, not a bank guarantee."
+      ]
+    },
+    {
+      "campaign_id": "raisin-personal-reviewed-202609",
+      "offer_ids": [
+        "raisin-stack-10000-base",
+        "raisin-stack-10000-boost",
+        "raisin-stack-25000-base",
+        "raisin-stack-25000-boost",
+        "raisin-stack-50000-base",
+        "raisin-stack-50000-boost",
+        "raisin-stack-100000-base",
+        "raisin-stack-100000-boost",
+        "raisin-stack-200000-base",
+        "raisin-stack-200000-boost"
+      ],
+      "chexsystems": "no",
+      "evidence_kind": "secondary_reported_not_guaranteed",
+      "evidence": [
+        {
+          "url": "https://www.doctorofcredit.com/raisin-up-to-200-savings-bonus-referral-savebetter/#comment-2145767",
+          "quoted_excerpt": "Raisin doesn’t use Chex.",
+          "retrieval_date_utc": "2026-09-24",
+          "method": "agent_research_quote_reverified_by_fetch"
+        }
+      ],
+      "caveats": [
+        "DoC reader datapoints (article field unknown or absent), 2025-09-16. DoC Raisin article has no ChexSystems field; commenters consistently report Raisin doesn't pull Chex (applied with Chex frozen). Secondary reported screening, not a bank guarantee."
+      ]
+    },
+    {
+      "campaign_id": "safe-1-credit-union-personal-reviewed-202609",
+      "offer_ids": [
+        "safe1-checking-200"
+      ],
+      "chexsystems": "yes",
+      "evidence_kind": "secondary_reported_not_guaranteed",
+      "evidence": [
+        {
+          "url": "https://www.doctorofcredit.com/ca-safe-1-credit-union-200-checking-bonus-no-direct-deposit-required/#comment-2092798",
+          "quoted_excerpt": "Denied – Chex cited.",
+          "retrieval_date_utc": "2026-09-24",
+          "method": "agent_research_quote_reverified_by_fetch"
+        }
+      ],
+      "caveats": [
+        "DoC reader datapoints (article field unknown or absent), 2025-07-05. DoC article lists ChexSystems: Unknown; multiple July 2025 commenters report Chex pulled at application and a Chex-cited denial. Secondary reported screening, not a bank guarantee."
+      ]
+    },
+    {
+      "campaign_id": "fidelity-bank-pa-business-reviewed-202609",
+      "offer_ids": [
+        "fidelity-pa-business-450-branch",
+        "fidelity-pa-business-550-branch",
+        "fidelity-pa-business-650-branch",
+        "fidelity-pa-business-750-branch",
+        "fidelity-pa-business-500-online",
+        "fidelity-pa-business-600-online",
+        "fidelity-pa-business-700-online",
+        "fidelity-pa-business-800-online"
+      ],
+      "chexsystems": "yes",
+      "evidence_kind": "secondary_reported_not_guaranteed",
+      "evidence": [
+        {
+          "url": "https://www.doctorofcredit.com/northeastern-pa-fidelity-bank-200-business-checking-promotion/",
+          "quoted_excerpt": "ChexSystems: Yes",
+          "retrieval_date_utc": "2026-09-24",
+          "method": "agent_research_quote_reverified_by_fetch"
+        }
+      ],
+      "caveats": [
+        "DoC article ChexSystems field, 2017-06-06. Older article (2016/2017) for Fidelity Bank (PA) business checking says Yes; the 2026 Fidelity PA personal checking article also says Yes. Secondary reported screening, not a bank guarantee."
+      ]
+    },
+    {
+      "campaign_id": "first-merchants-bank-business-reviewed-202609",
+      "offer_ids": [
+        "first-merchants-mich-business-300",
+        "first-merchants-mich-business-750"
+      ],
+      "chexsystems": "yes",
+      "evidence_kind": "secondary_reported_not_guaranteed",
+      "evidence": [
+        {
+          "url": "https://www.doctorofcredit.com/mi-first-merchants-bank-300-750-business-checking-bonus/",
+          "quoted_excerpt": "ChexSystems: Yes",
+          "retrieval_date_utc": "2026-09-24",
+          "method": "agent_research_quote_reverified_by_fetch"
+        }
+      ],
+      "caveats": [
+        "DoC article ChexSystems field, 2026-07-18. DoC's MI business checking article (same offer) says Yes; all personal First Merchants articles also say Yes. Secondary reported screening, not a bank guarantee."
+      ]
+    },
+    {
+      "campaign_id": "picatinny-federal-credit-union-personal-reviewed-202609",
+      "offer_ids": [
+        "picatinny-break-through-savings-match-50",
+        "picatinny-youth-savings-match-50"
+      ],
+      "chexsystems": "yes",
+      "evidence_kind": "secondary_reported_not_guaranteed",
+      "evidence": [
+        {
+          "url": "https://www.doctorofcredit.com/picatinny-credit-union-150-checking-bonus-morris-county-nj/",
+          "quoted_excerpt": "ChexSystems: Yes , not sensitive",
+          "retrieval_date_utc": "2026-09-24",
+          "method": "agent_research_quote_reverified_by_fetch"
+        }
+      ],
+      "caveats": [
+        "DoC article ChexSystems field, 2026-04-30. DoC checking article says Yes (not sensitive); applies to personal side (savings match offers are same personal side). Secondary reported screening, not a bank guarantee."
+      ]
+    },
+    {
+      "campaign_id": "southstate-bank-business-reviewed-202609",
+      "offer_ids": [
+        "southstate-business-levelup-base",
+        "southstate-business-levelup-merchant",
+        "southstate-business-levelup-treasury",
+        "southstate-business-levelup-treasury-merchant",
+        "southstate-business-levelup-balance",
+        "southstate-business-levelup-balance-merchant",
+        "southstate-business-levelup-balance-treasury",
+        "southstate-business-levelup-balance-treasury-merchant"
+      ],
+      "chexsystems": "yes",
+      "evidence_kind": "secondary_reported_not_guaranteed",
+      "evidence": [
+        {
+          "url": "https://www.doctorofcredit.com/ga-nc-sc-va-fl-al-south-state-bank-400-business-checking-bonus/",
+          "quoted_excerpt": "ChexSystems: Yes",
+          "retrieval_date_utc": "2026-09-24",
+          "method": "agent_research_quote_reverified_by_fetch"
+        }
+      ],
+      "caveats": [
+        "DoC article ChexSystems field, 2026-05-02. DoC business checking ($400 LEVELUP) article says Yes. Secondary reported screening, not a bank guarantee."
+      ]
+    },
+    {
+      "campaign_id": "td-bank-personal-reviewed-202609",
+      "offer_ids": [
+        "td-complete-signature-combined-400",
+        "td-beyond-signature-combined-500"
+      ],
+      "chexsystems": "no",
+      "evidence_kind": "secondary_reported_not_guaranteed",
+      "evidence": [
+        {
+          "url": "https://www.doctorofcredit.com/in-branch-nyc-only-td-bank-400-checking-1000-savings/",
+          "quoted_excerpt": "ChexSystems: No",
+          "retrieval_date_utc": "2026-09-24",
+          "method": "agent_research_quote_reverified_by_fetch"
+        }
+      ],
+      "caveats": [
+        "DoC article ChexSystems field, 2026-09-07. Two 2026 DoC TD personal articles say No and DoC's list has TD under 'Doesn't pull' (4 datapoints); the general $400 checking article lists Unknown rather than contradicting. Secondary reported screening, not a bank guarantee."
+      ]
+    },
+    {
+      "campaign_id": "acnb-bank-business-reviewed-202609",
+      "offer_ids": [
+        "acnb-business-1000",
+        "acnb-business-2000",
+        "acnb-business-3000"
+      ],
+      "chexsystems": "no",
+      "evidence_kind": "secondary_reported_not_guaranteed",
+      "evidence": [
+        {
+          "url": "https://www.doctorofcredit.com/pa-md-only-acnb-1000-2000-checking-bonus/",
+          "quoted_excerpt": "ChexSystems: Doesn’t pull",
+          "retrieval_date_utc": "2026-09-24",
+          "method": "agent_research_quote_reverified_by_fetch"
+        }
+      ],
+      "caveats": [
+        "DoC article ChexSystems field, 2026-03-08. DoC business checking article fine print says Chex not pulled; DoC Chex list also lists ACNB under 'Don’t Pull'. Some commenters ask about Chex sensitivity but no pull DPs reported. Secondary reported screening, not a bank guarantee."
+      ]
+    },
+    {
+      "campaign_id": "axos-bank-business-reviewed-202609",
+      "offer_ids": [
+        "axos-basic-business-start200"
+      ],
+      "chexsystems": "yes",
+      "evidence_kind": "secondary_reported_not_guaranteed",
+      "evidence": [
+        {
+          "url": "https://www.doctorofcredit.com/axos-bank-600-business-checking-savings-bonus/",
+          "quoted_excerpt": "ChexSystems: Yes",
+          "retrieval_date_utc": "2026-09-24",
+          "method": "agent_research_quote_reverified_by_fetch"
+        }
+      ],
+      "caveats": [
+        "DoC article ChexSystems field, 2025-10-12 (updated 2026-07-05). Newest DoC Axos business checking article says Chex Yes; a 2026-07 comment on the $200 business post reports a business denial citing ChexSystems. Secondary reported screening, not a bank guarantee."
+      ]
+    },
+    {
+      "campaign_id": "found-lead-bank-business-reviewed-202609",
+      "offer_ids": [
+        "found-business-nav-125"
+      ],
+      "chexsystems": "no",
+      "evidence_kind": "secondary_reported_not_guaranteed",
+      "evidence": [
+        {
+          "url": "https://www.doctorofcredit.com/found-125-business-checking-bonus/",
+          "quoted_excerpt": "ChexSystems: No",
+          "retrieval_date_utc": "2026-09-24",
+          "method": "agent_research_quote_reverified_by_fetch"
+        }
+      ],
+      "caveats": [
+        "DoC article ChexSystems field, 2026-06-11. DoC article says No; comments report applying with Chex frozen and no inquiry on disclosure; also on DoC Chex list under 'Don’t Pull'. Secondary reported screening, not a bank guarantee."
+      ]
+    },
+    {
+      "campaign_id": "horizon-credit-union-personal-reviewed-202609",
+      "offer_ids": [
+        "horizon-checking-200"
+      ],
+      "chexsystems": "yes",
+      "evidence_kind": "secondary_reported_not_guaranteed",
+      "evidence": [
+        {
+          "url": "https://www.doctorofcredit.com/wa-id-mt-or-horizon-credit-union-200-checking-bonus-direct-deposit-not-required/#comment-2102320",
+          "quoted_excerpt": "Experian and Chex hard pulls.",
+          "retrieval_date_utc": "2026-09-24",
+          "method": "agent_research_quote_reverified_by_fetch"
+        }
+      ],
+      "caveats": [
+        "DoC reader datapoints (article field unknown or absent), 2025-07-18. Older article (2023-06) field is Unknown; comments from 2023 and 2025 explicitly report a Chex pull plus Experian hard pull. Secondary reported screening, not a bank guarantee."
+      ]
+    },
+    {
+      "campaign_id": "old-second-national-bank-personal-reviewed-202609",
+      "offer_ids": [
+        "old-second-total-50"
+      ],
+      "chexsystems": "yes",
+      "evidence_kind": "secondary_reported_not_guaranteed",
+      "evidence": [
+        {
+          "url": "https://www.doctorofcredit.com/il-only-old-second-bank-300-checking-bonus/#comment-2246637",
+          "quoted_excerpt": "Chex inquiry sensitive. Got denied due to Chex trying to go for this bonus.",
+          "retrieval_date_utc": "2026-09-24",
+          "method": "agent_research_quote_reverified_by_fetch"
+        }
+      ],
+      "caveats": [
+        "DoC reader datapoints (article field unknown or absent), 2026-02-03. Article field is Unknown; comments report Chex-based denials and DoC Chex list lists Old Second under 'Does pull'. Secondary reported screening, not a bank guarantee."
+      ]
+    },
+    {
+      "campaign_id": "redstone-federal-credit-union-personal-reviewed-202609",
+      "offer_ids": [
+        "redstone-youth-savings-200"
+      ],
+      "chexsystems": "yes",
+      "evidence_kind": "secondary_reported_not_guaranteed",
+      "evidence": [
+        {
+          "url": "https://www.doctorofcredit.com/al-tn-redstone-federal-credit-union-600-checking-bonus-direct-deposit-not-required/",
+          "quoted_excerpt": "ChexSystems: Yes, not sensitive",
+          "retrieval_date_utc": "2026-09-24",
+          "method": "agent_research_quote_reverified_by_fetch"
+        }
+      ],
+      "caveats": [
+        "DoC article ChexSystems field, 2026-06-06. DoC checking article says Yes; also on DoC Chex list 'Does pull'. Youth savings offer is on the same personal side but not specifically covered. One comment reports OOS approval with Chex frozen for a non-bonus account. Secondary reported screening, not a bank guarantee."
+      ]
+    },
+    {
+      "campaign_id": "s-t-bank-personal-reviewed-202609",
+      "offer_ids": [
+        "st-bank-combined-400",
+        "st-bank-combined-500",
+        "st-bank-combined-600"
+      ],
+      "chexsystems": "yes",
+      "evidence_kind": "secondary_reported_not_guaranteed",
+      "evidence": [
+        {
+          "url": "https://www.doctorofcredit.com/pa-oh-st-bank-350-checking-bonus-no-direct-deposit/#comment-2113954",
+          "quoted_excerpt": "Just a note, they are definitely pulling chex.",
+          "retrieval_date_utc": "2026-09-24",
+          "method": "agent_research_quote_reverified_by_fetch"
+        }
+      ],
+      "caveats": [
+        "DoC reader datapoints (article field unknown or absent), 2025-08-07. Article field is Unknown; comments from 2025-2026 report Chex pulls and DoC Chex list lists S&T under 'Does pull'. Secondary reported screening, not a bank guarantee."
+      ]
+    },
+    {
+      "campaign_id": "seacoast-bank-personal-reviewed-202609",
+      "offer_ids": [
+        "seacoast-premier-savings-200"
+      ],
+      "chexsystems": "yes",
+      "evidence_kind": "secondary_reported_not_guaranteed",
+      "evidence": [
+        {
+          "url": "https://www.doctorofcredit.com/fl-in-branch-only-seacoast-bank-350-checking-150-savings-bonus/#comment-2372431",
+          "quoted_excerpt": "I unfroze my Chex and applied and it got approved instantly and they did pull my Chex.",
+          "retrieval_date_utc": "2026-09-24",
+          "method": "agent_research_quote_reverified_by_fetch"
+        }
+      ],
+      "caveats": [
+        "DoC reader datapoints (article field unknown or absent), 2026-07-21. Article field is Unknown; recent comments report Chex pulls and requests to unfreeze Chex; DoC Chex list lists Seacoast under 'Does pull'. Secondary reported screening, not a bank guarantee."
+      ]
+    },
+    {
+      "campaign_id": "ithink-financial-personal-reviewed-202609",
+      "offer_ids": [
+        "ithink-checking-earn500-50"
+      ],
+      "chexsystems": "yes",
+      "evidence_kind": "secondary_reported_not_guaranteed",
+      "evidence": [
+        {
+          "url": "https://www.doctorofcredit.com/fl-ga-ithink-financial-125-checking-bonus/#comment-2120404",
+          "quoted_excerpt": "P1 received SM via email on Aug 6 that their account could not be opened due to CHEX history.",
+          "retrieval_date_utc": "2026-09-24",
+          "method": "agent_research_quote_reverified_by_fetch"
+        }
+      ],
+      "caveats": [
+        "DoC reader datapoints (article field unknown or absent), 2025-08-15. Article field is Unknown; multiple 2025 comments report accounts closed/declined due to Chex; DoC Chex list lists iTHINK under 'Does pull'. Secondary reported screening, not a bank guarantee."
+      ]
+    },
+    {
+      "campaign_id": "america-first-credit-union-personal-reviewed-202609",
+      "offer_ids": [
+        "america-first-credit-union-checking-150"
+      ],
+      "chexsystems": "yes",
+      "evidence_kind": "secondary_reported_not_guaranteed",
+      "evidence": [
+        {
+          "url": "https://www.doctorofcredit.com/ut-nv-az-id-or-nm-ca-america-first-credit-union-150-savings-200-checking-bonus/#comment-2350854",
+          "quoted_excerpt": "They do pull Chex, and the system flagged my account immediately.",
+          "retrieval_date_utc": "2026-09-24",
+          "method": "agent_research_quote_reverified_by_fetch"
+        }
+      ],
+      "caveats": [
+        "DoC reader datapoints (article field unknown or absent), 2026-06-23. DoC article field says ChexSystems: Unknown (hard pull); a June 2026 commenter on the same offer reports Chex was pulled and flagged, and another reports unfreezing Chex for the application. Secondary reported screening, not a bank guarantee."
+      ]
+    },
+    {
+      "campaign_id": "bmo-personal-reviewed-202609",
+      "offer_ids": [
+        "bmo-savings-builder-60"
+      ],
+      "chexsystems": "yes",
+      "evidence_kind": "secondary_reported_not_guaranteed",
+      "evidence": [
+        {
+          "url": "https://www.doctorofcredit.com/il-wi-mn-in-az-fl-ks-mo-bmo-harris-350-checking-300-savings-bonus/",
+          "quoted_excerpt": "ChexSystems: Yes",
+          "retrieval_date_utc": "2026-09-24",
+          "method": "agent_research_quote_reverified_by_fetch"
+        }
+      ],
+      "caveats": [
+        "DoC article ChexSystems field, 2026-09-10. DoC article covers BMO personal checking + savings bonuses (same personal line as Savings Builder); many 2026 comments confirm Chex pulls on personal checking. Secondary reported screening, not a bank guarantee."
+      ]
+    },
+    {
+      "campaign_id": "c-n-bank-personal-reviewed-202609",
+      "offer_ids": [
+        "cn-4suits-600",
+        "cn-4suits-1000-heloc"
+      ],
+      "chexsystems": "yes",
+      "evidence_kind": "secondary_reported_not_guaranteed",
+      "evidence": [
+        {
+          "url": "https://www.doctorofcredit.com/pa-ny-cn-bank-400-checking-bonus/#comment-2322470",
+          "quoted_excerpt": "Rejected due to Chex in May 2026, live in PA 3 miles from a branch.",
+          "retrieval_date_utc": "2026-09-24",
+          "method": "agent_research_quote_reverified_by_fetch"
+        }
+      ],
+      "caveats": [
+        "DoC reader datapoints (article field unknown or absent), 2026-05-14. DoC article field says 'Unknown, sensitive', but multiple comments (2022-2026) report denials/closures citing ChexSystems, so Chex is used. Secondary reported screening, not a bank guarantee."
+      ]
+    },
+    {
+      "campaign_id": "cambridge-savings-bank-personal-reviewed-202609",
+      "offer_ids": [
+        "cambridge-savings-bank-relationship-high-yield-money-market-400"
+      ],
+      "chexsystems": "yes",
+      "evidence_kind": "secondary_reported_not_guaranteed",
+      "evidence": [
+        {
+          "url": "https://www.doctorofcredit.com/ma-ct-me-nh-ri-vt-cambridge-savings-bank-400-checking-bonus/",
+          "quoted_excerpt": "ChexSystems:Yes, looks to be ChexSystems sensitive as well",
+          "retrieval_date_utc": "2026-09-24",
+          "method": "agent_research_quote_reverified_by_fetch"
+        }
+      ],
+      "caveats": [
+        "DoC article ChexSystems field, 2026-08-09. DoC article (checking + money market) lists ChexSystems: Yes; 2025-2026 comments report Chex pulls in branch and online. Secondary reported screening, not a bank guarantee."
+      ]
+    },
+    {
+      "campaign_id": "huntington-bank-business-reviewed-202609",
+      "offer_ids": [
+        "huntington-unlimited-business-400"
+      ],
+      "chexsystems": "no",
+      "evidence_kind": "secondary_reported_not_guaranteed",
+      "evidence": [
+        {
+          "url": "https://www.doctorofcredit.com/oh-mi-pa-ky-wv-il-wi-huntington-bank-500-750-business-checking-bonuses/",
+          "quoted_excerpt": "ChexSystems: No",
+          "retrieval_date_utc": "2026-09-24",
+          "method": "agent_research_quote_reverified_by_fetch"
+        }
+      ],
+      "caveats": [
+        "DoC article ChexSystems field, 2026-05-13. DoC Huntington business checking article lists ChexSystems: No; comments report business opens with Chex frozen, none report a Chex pull. Secondary reported screening, not a bank guarantee."
+      ]
+    },
+    {
+      "campaign_id": "m-t-bank-business-reviewed-202609",
+      "offer_ids": [
+        "mt-business-300",
+        "mt-business-300-merchant-250",
+        "mt-business-300-merchant-500",
+        "mt-business-500",
+        "mt-business-500-merchant-250",
+        "mt-business-500-merchant-500",
+        "mt-business-750",
+        "mt-business-750-merchant-250",
+        "mt-business-750-merchant-500",
+        "mt-business-1500",
+        "mt-business-1500-merchant-250",
+        "mt-business-1500-merchant-500"
+      ],
+      "chexsystems": "yes",
+      "evidence_kind": "secondary_reported_not_guaranteed",
+      "evidence": [
+        {
+          "url": "https://www.doctorofcredit.com/ct-de-d-c-md-nj-ny-pa-va-wv-in-branch-mt-bank-400-business-checking-bonus/",
+          "quoted_excerpt": "ChexSystems:Yes",
+          "retrieval_date_utc": "2026-09-24",
+          "method": "agent_research_quote_reverified_by_fetch"
+        }
+      ],
+      "caveats": [
+        "DoC article ChexSystems field, 2026-07-05. DoC M&T business checking article lists ChexSystems: Yes; most comments report pulls, though a couple of 2026 DPs saw no Chex pull (YMMV). Secondary reported screening, not a bank guarantee."
+      ]
+    },
+    {
+      "campaign_id": "pnc-bank-business-reviewed-202609",
+      "offer_ids": [
+        "pnc-business-400",
+        "pnc-business-1000"
+      ],
+      "chexsystems": "no",
+      "evidence_kind": "secondary_reported_not_guaranteed",
+      "evidence": [
+        {
+          "url": "https://www.doctorofcredit.com/pnc-up-to-500-business-checking-bonus-al-dc-de-fl-ga-il-in-ky-md-mi-mo-nc-nj-ny-oh-pa-sc-va-wi-and-wv/#comment-2263776",
+          "quoted_excerpt": "They pull EWS, no Chex.",
+          "retrieval_date_utc": "2026-09-24",
+          "method": "agent_research_quote_reverified_by_fetch"
+        }
+      ],
+      "caveats": [
+        "DoC reader datapoints (article field unknown or absent), 2026-02-24. DoC business checking article field says ChexSystems: Unknown; multiple 2024-2026 business DPs report no Chex pull (EWS instead). Comment-based, not an article field. Secondary reported screening, not a bank guarantee."
+      ]
+    },
+    {
+      "campaign_id": "s-t-bank-business-reviewed-202609",
+      "offer_ids": [
+        "st-basic-business-400",
+        "st-basic-business-400-positive-pay",
+        "st-basic-business-600",
+        "st-basic-business-600-positive-pay"
+      ],
+      "chexsystems": "yes",
+      "evidence_kind": "secondary_reported_not_guaranteed",
+      "evidence": [
+        {
+          "url": "https://www.doctorofcredit.com/pa-oh-st-bank-600-business-checking-bonus-requires-payment-processing/#comment-2360084",
+          "quoted_excerpt": "Declined for Chex (5 in past 30 days plus “over 50 recently” lol), plus I’m just over 25 miles from a branch.",
+          "retrieval_date_utc": "2026-09-24",
+          "method": "agent_research_quote_reverified_by_fetch"
+        }
+      ],
+      "caveats": [
+        "DoC reader datapoints (article field unknown or absent), 2026-07-06. DoC business checking article field says ChexSystems: Unknown; a July 2026 commenter on this business offer was declined for Chex. Single recent DP. Secondary reported screening, not a bank guarantee."
+      ]
+    },
+    {
+      "campaign_id": "service-1st-federal-credit-union-personal-reviewed-202609",
+      "offer_ids": [
+        "service-1st-federal-credit-union-checking-150"
+      ],
+      "chexsystems": "yes",
+      "evidence_kind": "secondary_reported_not_guaranteed",
+      "evidence": [
+        {
+          "url": "https://www.doctorofcredit.com/pa-service-1st-federal-credit-union-300-checking-bonus/#comment-2385512",
+          "quoted_excerpt": "My Chex now shows they did inquire, but it’s listed under “Inquiries viewed by only you”.",
+          "retrieval_date_utc": "2026-09-24",
+          "method": "agent_research_quote_reverified_by_fetch"
+        }
+      ],
+      "caveats": [
+        "DoC reader datapoints (article field unknown or absent), 2026-08-08. DoC article field says ChexSystems: Unknown; an Aug 2026 commenter found a Service 1st Chex inquiry, and a 2024 comment reports a denial due to Chex. Secondary reported screening, not a bank guarantee."
+      ]
+    },
+    {
+      "campaign_id": "westmark-credit-union-personal-reviewed-202609",
+      "offer_ids": [
+        "westmark-true-blue-25",
+        "westmark-true-blue-50"
+      ],
+      "chexsystems": "yes",
+      "evidence_kind": "secondary_reported_not_guaranteed",
+      "evidence": [
+        {
+          "url": "https://www.doctorofcredit.com/id-only-westmark-credit-union-250-checking-bonus-direct-deposit-not-required/#comment-2187740",
+          "quoted_excerpt": "And they pull chex.",
+          "retrieval_date_utc": "2026-09-24",
+          "method": "agent_research_quote_reverified_by_fetch"
+        }
+      ],
+      "caveats": [
+        "DoC reader datapoints (article field unknown or absent), 2025-11-12. DoC article (Nov 2025) field says ChexSystems: Unknown; 2025 comments state Westmark pulls Chex. Comment-based. Secondary reported screening, not a bank guarantee."
+      ]
+    },
+    {
+      "campaign_id": "adelfi-credit-union-personal-reviewed-202609",
+      "offer_ids": [
+        "adelfi-harvest-checking-100"
+      ],
+      "chexsystems": "yes",
+      "evidence_kind": "secondary_reported_not_guaranteed",
+      "evidence": [
+        {
+          "url": "https://www.doctorofcredit.com/must-be-a-member-of-a-christian-ministry-christian-community-credit-union-100-checking-100-savings/",
+          "quoted_excerpt": "ChexSystems: Yes, might be inquiry sensitive",
+          "retrieval_date_utc": "2026-09-24",
+          "method": "agent_research_quote_reverified_by_fetch"
+        }
+      ],
+      "caveats": [
+        "DoC article ChexSystems field, 2026-09-03. DoC fine print for the current AdelFi $100 checking & $100 savings post. Secondary reported screening, not a bank guarantee."
+      ]
+    },
+    {
+      "campaign_id": "bok-financial-personal-reviewed-202609",
+      "offer_ids": [
+        "bok-financial-access-checking-and-personal-savings-combined-650",
+        "bok-financial-premier-checking-and-personal-savings-combined-950"
+      ],
+      "chexsystems": "yes",
+      "evidence_kind": "secondary_reported_not_guaranteed",
+      "evidence": [
+        {
+          "url": "https://www.doctorofcredit.com/co-only-bok-financial-950-checking-savings-bonus/#comment-2239272",
+          "quoted_excerpt": "DP (P1 + P2): P1: Opened in-branch. Pulled ChexSystems.",
+          "retrieval_date_utc": "2026-09-24",
+          "method": "agent_research_quote_reverified_by_fetch"
+        }
+      ],
+      "caveats": [
+        "DoC reader datapoints (article field unknown or absent), 2026-01-26. Article field says Unknown, but several Jan 2026 comments on the CO $950 checking/savings post report a Chex pull, uncontradicted. College Access Checking is a different product (Bank of Oklahoma/Texas college post has mixed DPs); same personal side. Secondary reported screening, not a bank guarantee. Not applied to bok-financial-college-access-300: College Access Checking has mixed reports on its own DoC post."
+      ]
+    },
+    {
+      "campaign_id": "camden-national-bank-personal-reviewed-202609",
+      "offer_ids": [
+        "camden-national-savings-200"
+      ],
+      "chexsystems": "yes",
+      "evidence_kind": "secondary_reported_not_guaranteed",
+      "evidence": [
+        {
+          "url": "https://www.doctorofcredit.com/me-nh-camden-national-bank-300-checking-bonus-2/#comment-2319120",
+          "quoted_excerpt": "Got a Chex pull immediately, went pending. Declined about 3 hours later due to Chex.",
+          "retrieval_date_utc": "2026-09-24",
+          "method": "agent_research_quote_reverified_by_fetch"
+        }
+      ],
+      "caveats": [
+        "DoC reader datapoints (article field unknown or absent), 2026-05-10. Article field is Unknown, but recent comments report Chex pulls/denials (Chex-sensitive); DoC's ChexSystems list also lists Camden as does pull. Secondary reported screening, not a bank guarantee."
+      ]
+    },
+    {
+      "campaign_id": "hancock-whitney-personal-reviewed-202609",
+      "offer_ids": [
+        "hancock-whitney-freestyle-savings-100"
+      ],
+      "chexsystems": "no",
+      "evidence_kind": "secondary_reported_not_guaranteed",
+      "evidence": [
+        {
+          "url": "https://www.doctorofcredit.com/la-ms-fl-al-tx-hancock-whitney-bank-600-checking-savings-bonus/",
+          "quoted_excerpt": "ChexSystems: No",
+          "retrieval_date_utc": "2026-09-24",
+          "method": "agent_research_quote_reverified_by_fetch"
+        }
+      ],
+      "caveats": [
+        "DoC article ChexSystems field, 2026-09-12. Personal checking+savings post; comments agree (openings with Chex frozen, Equifax is the bureau used). Secondary reported screening, not a bank guarantee."
+      ]
+    },
+    {
+      "campaign_id": "st-mary-s-bank-personal-reviewed-202609",
+      "offer_ids": [
+        "st-marys-savings-200"
+      ],
+      "chexsystems": "yes",
+      "evidence_kind": "secondary_reported_not_guaranteed",
+      "evidence": [
+        {
+          "url": "https://www.doctorofcredit.com/st-marys-bank-300-checking-bonus/#comment-1881468",
+          "quoted_excerpt": "Based on information received in your chexsystems report, we are not able to open this account electronically",
+          "retrieval_date_utc": "2026-09-24",
+          "method": "agent_research_quote_reverified_by_fetch"
+        }
+      ],
+      "caveats": [
+        "DoC reader datapoints (article field unknown or absent), 2024-07-24. Article field Unknown; comments (2024-2025) report Chex-based denials and in-branch questioning about Chex inquiries. Secondary reported screening, not a bank guarantee."
+      ]
+    },
+    {
+      "campaign_id": "u-of-i-community-credit-union-personal-reviewed-202609",
+      "offer_ids": [
+        "u-of-i-community-credit-union-checking-150"
+      ],
+      "chexsystems": "yes",
+      "evidence_kind": "secondary_reported_not_guaranteed",
+      "evidence": [
+        {
+          "url": "https://www.doctorofcredit.com/il-only-u-of-i-community-credit-union-150-checking-bonus-direct-deposit-not-required/",
+          "quoted_excerpt": "ChexSystems: Yes",
+          "retrieval_date_utc": "2026-09-24",
+          "method": "agent_research_quote_reverified_by_fetch"
+        }
+      ],
+      "caveats": [
+        "DoC article ChexSystems field, 2026-08-01. DoC fine print for the U of I Community CU $150 checking bonus. Secondary reported screening, not a bank guarantee."
+      ]
     }
-  ],
-  "deferred_exact_source_reviewed": {
-    "reason": "These offers are pinned by exact-source hold/mixed/funding reviews that compare every CSV column, including screening. Publishing screening values would silently drop those reviews on installed clients, so the researched findings are held here until the review match ignores screening columns and that client has shipped.",
-    "findings": [
-      {
-        "offer_ids": [
-          "fnbo-free-business-250"
-        ],
-        "chexsystems": "yes",
-        "url": "https://www.doctorofcredit.com/il-ne-ks-tx-co-in-branch-fnbo-bank-250-business-checking-bonus/",
-        "quoted_excerpt": "Tried to open in a branch but pulled Chex and denied me for recent inquiries (LOL/6).",
-        "retrieval_date_utc": "2026-09-24",
-        "caveat": "DoC reader datapoints (article field unknown or absent), 2025-09-25. The business article field says 'Unknown, sensitive'. New applicants report Chex pulls; existing customers report opening with Chex frozen and no pull, and DoC's Chex list has FNBO under 'Does pull'. Secondary reported screening, not a bank guarantee."
-      },
-      {
-        "offer_ids": [
-          "first-horizon-checking-savings-700"
-        ],
-        "chexsystems": "yes",
-        "url": "https://www.doctorofcredit.com/tn-ar-ms-al-ga-ky-fl-nc-va-first-horizon-bank-450-checking-bonus-direct-deposit-not-required/",
-        "quoted_excerpt": "FYI, they pulled my chex on 04/21/2026",
-        "retrieval_date_utc": "2026-09-24",
-        "caveat": "DoC reader datapoints (article field unknown or absent), 2026-08-29. DoC field says 'Unknown, sensitive'. Multiple 2026 comments report Chex pulls and Chex denials online, though some report in-branch opening with Chex frozen; DoC's Chex list has First Horizon under 'Does pull'. Applies to the Private Client offers too (a comment there says 'Chex: Yes, sensitive'). Secondary reported screening, not a bank guarantee."
-      },
-      {
-        "offer_ids": [
-          "frontwave-new-member-350"
-        ],
-        "chexsystems": "yes",
-        "url": "https://www.doctorofcredit.com/ca-frontwave-credit-union-200-checking-bonus/",
-        "quoted_excerpt": "FYI: they do pull Chex.",
-        "retrieval_date_utc": "2026-09-24",
-        "caveat": "DoC reader datapoints (article field unknown or absent), 2025-08-17. DoC field is Unknown; this comment is explicit, and a 2024 comment reports a Chex override. Secondary reported screening, not a bank guarantee."
-      },
-      {
-        "offer_ids": [
-          "secu-maryland-interest-earning-business-checking-350"
-        ],
-        "chexsystems": "yes",
-        "url": "https://www.doctorofcredit.com/md-pa-de-wv-va-d-c-secu-350-business-checking-bonus/",
-        "quoted_excerpt": "ChexSystems: Yes",
-        "retrieval_date_utc": "2026-09-24",
-        "caveat": "DoC article ChexSystems field, 2026-07-26. DoC business checking article; a July 2026 comment confirms 'Chex was pulled'. Secondary reported screening, not a bank guarantee."
-      },
-      {
-        "offer_ids": [
-          "stanford-federal-credit-union-additional-savings-cash-reward-30"
-        ],
-        "chexsystems": "yes",
-        "url": "https://www.doctorofcredit.com/ca-only-stanford-federal-credit-union-100-checking-bonus/",
-        "quoted_excerpt": "Does pull Chex.",
-        "retrieval_date_utc": "2026-09-24",
-        "caveat": "DoC reader datapoints (article field unknown or absent), 2026-06-09. The article has no Chex field. 2026 comments report a Chex pull and Chex denials, and DoC's Chex list has Stanford Credit Union under 'Does pull'. Secondary reported screening, not a bank guarantee."
-      },
-      {
-        "offer_ids": [
-          "1st-united-credit-union-business-checking-100"
-        ],
-        "chexsystems": "yes",
-        "url": "https://www.doctorofcredit.com/ymmv-select-ca-areas-only-1st-united-credit-union-200-business-checking-bonus/",
-        "quoted_excerpt": "Checking account and debit card establishment are subject to approval through ChexSystems.",
-        "retrieval_date_utc": "2026-09-24",
-        "caveat": "DoC ChexSystems do/don't-pull list or quoted bank terms, 2022-02-09. Bank's own offer terms quoted in an older (2022) DoC business-checking article; the article's own field says 'ChexSystems: Unknown', but the quoted bank terms state ChexSystems approval explicitly. Secondary reported screening, not a bank guarantee."
-      },
-      {
-        "offer_ids": [
-          "arapahoe-referred-checking-100",
-          "arapahoe-referred-checking-125"
-        ],
-        "chexsystems": "yes",
-        "url": "https://www.doctorofcredit.com/co-arapahoe-credit-union-200-referral-bonus/#comment-2280141",
-        "quoted_excerpt": "Confirmed verbally with a banker that they do pull ChexSystems for new accounts.",
-        "retrieval_date_utc": "2026-09-24",
-        "caveat": "DoC reader datapoints (article field unknown or absent), 2026-03-19. DoC referral article lists ChexSystems: Unknown; single recent uncontradicted commenter datapoint (banker confirmation) says they pull Chex. Secondary reported screening, not a bank guarantee."
-      },
-      {
-        "offer_ids": [
-          "raisin-stack-10000-base",
-          "raisin-stack-10000-boost",
-          "raisin-stack-25000-base",
-          "raisin-stack-25000-boost",
-          "raisin-stack-50000-base",
-          "raisin-stack-50000-boost",
-          "raisin-stack-100000-base",
-          "raisin-stack-100000-boost",
-          "raisin-stack-200000-base",
-          "raisin-stack-200000-boost"
-        ],
-        "chexsystems": "no",
-        "url": "https://www.doctorofcredit.com/raisin-up-to-200-savings-bonus-referral-savebetter/#comment-2145767",
-        "quoted_excerpt": "Raisin doesn’t use Chex.",
-        "retrieval_date_utc": "2026-09-24",
-        "caveat": "DoC reader datapoints (article field unknown or absent), 2025-09-16. DoC Raisin article has no ChexSystems field; commenters consistently report Raisin doesn't pull Chex (applied with Chex frozen). Secondary reported screening, not a bank guarantee."
-      },
-      {
-        "offer_ids": [
-          "safe1-checking-200"
-        ],
-        "chexsystems": "yes",
-        "url": "https://www.doctorofcredit.com/ca-safe-1-credit-union-200-checking-bonus-no-direct-deposit-required/#comment-2092798",
-        "quoted_excerpt": "Denied – Chex cited.",
-        "retrieval_date_utc": "2026-09-24",
-        "caveat": "DoC reader datapoints (article field unknown or absent), 2025-07-05. DoC article lists ChexSystems: Unknown; multiple July 2025 commenters report Chex pulled at application and a Chex-cited denial. Secondary reported screening, not a bank guarantee."
-      },
-      {
-        "offer_ids": [
-          "fidelity-pa-business-450-branch",
-          "fidelity-pa-business-550-branch",
-          "fidelity-pa-business-650-branch",
-          "fidelity-pa-business-750-branch",
-          "fidelity-pa-business-500-online",
-          "fidelity-pa-business-600-online",
-          "fidelity-pa-business-700-online",
-          "fidelity-pa-business-800-online"
-        ],
-        "chexsystems": "yes",
-        "url": "https://www.doctorofcredit.com/northeastern-pa-fidelity-bank-200-business-checking-promotion/",
-        "quoted_excerpt": "ChexSystems: Yes",
-        "retrieval_date_utc": "2026-09-24",
-        "caveat": "DoC article ChexSystems field, 2017-06-06. Older article (2016/2017) for Fidelity Bank (PA) business checking says Yes; the 2026 Fidelity PA personal checking article also says Yes. Secondary reported screening, not a bank guarantee."
-      },
-      {
-        "offer_ids": [
-          "first-merchants-mich-business-300",
-          "first-merchants-mich-business-750"
-        ],
-        "chexsystems": "yes",
-        "url": "https://www.doctorofcredit.com/mi-first-merchants-bank-300-750-business-checking-bonus/",
-        "quoted_excerpt": "ChexSystems: Yes",
-        "retrieval_date_utc": "2026-09-24",
-        "caveat": "DoC article ChexSystems field, 2026-07-18. DoC's MI business checking article (same offer) says Yes; all personal First Merchants articles also say Yes. Secondary reported screening, not a bank guarantee."
-      },
-      {
-        "offer_ids": [
-          "picatinny-break-through-savings-match-50",
-          "picatinny-youth-savings-match-50"
-        ],
-        "chexsystems": "yes",
-        "url": "https://www.doctorofcredit.com/picatinny-credit-union-150-checking-bonus-morris-county-nj/",
-        "quoted_excerpt": "ChexSystems: Yes , not sensitive",
-        "retrieval_date_utc": "2026-09-24",
-        "caveat": "DoC article ChexSystems field, 2026-04-30. DoC checking article says Yes (not sensitive); applies to personal side (savings match offers are same personal side). Secondary reported screening, not a bank guarantee."
-      },
-      {
-        "offer_ids": [
-          "southstate-business-levelup-base",
-          "southstate-business-levelup-merchant",
-          "southstate-business-levelup-treasury",
-          "southstate-business-levelup-treasury-merchant",
-          "southstate-business-levelup-balance",
-          "southstate-business-levelup-balance-merchant",
-          "southstate-business-levelup-balance-treasury",
-          "southstate-business-levelup-balance-treasury-merchant"
-        ],
-        "chexsystems": "yes",
-        "url": "https://www.doctorofcredit.com/ga-nc-sc-va-fl-al-south-state-bank-400-business-checking-bonus/",
-        "quoted_excerpt": "ChexSystems: Yes",
-        "retrieval_date_utc": "2026-09-24",
-        "caveat": "DoC article ChexSystems field, 2026-05-02. DoC business checking ($400 LEVELUP) article says Yes. Secondary reported screening, not a bank guarantee."
-      },
-      {
-        "offer_ids": [
-          "td-complete-signature-combined-400",
-          "td-beyond-signature-combined-500"
-        ],
-        "chexsystems": "no",
-        "url": "https://www.doctorofcredit.com/in-branch-nyc-only-td-bank-400-checking-1000-savings/",
-        "quoted_excerpt": "ChexSystems: No",
-        "retrieval_date_utc": "2026-09-24",
-        "caveat": "DoC article ChexSystems field, 2026-09-07. Two 2026 DoC TD personal articles say No and DoC's list has TD under 'Doesn't pull' (4 datapoints); the general $400 checking article lists Unknown rather than contradicting. Secondary reported screening, not a bank guarantee."
-      },
-      {
-        "offer_ids": [
-          "acnb-business-1000",
-          "acnb-business-2000",
-          "acnb-business-3000"
-        ],
-        "chexsystems": "no",
-        "url": "https://www.doctorofcredit.com/pa-md-only-acnb-1000-2000-checking-bonus/",
-        "quoted_excerpt": "ChexSystems: Doesn’t pull",
-        "retrieval_date_utc": "2026-09-24",
-        "caveat": "DoC article ChexSystems field, 2026-03-08. DoC business checking article fine print says Chex not pulled; DoC Chex list also lists ACNB under 'Don’t Pull'. Some commenters ask about Chex sensitivity but no pull DPs reported. Secondary reported screening, not a bank guarantee."
-      },
-      {
-        "offer_ids": [
-          "axos-basic-business-start200"
-        ],
-        "chexsystems": "yes",
-        "url": "https://www.doctorofcredit.com/axos-bank-600-business-checking-savings-bonus/",
-        "quoted_excerpt": "ChexSystems: Yes",
-        "retrieval_date_utc": "2026-09-24",
-        "caveat": "DoC article ChexSystems field, 2025-10-12 (updated 2026-07-05). Newest DoC Axos business checking article says Chex Yes; a 2026-07 comment on the $200 business post reports a business denial citing ChexSystems. Secondary reported screening, not a bank guarantee."
-      },
-      {
-        "offer_ids": [
-          "found-business-nav-125"
-        ],
-        "chexsystems": "no",
-        "url": "https://www.doctorofcredit.com/found-125-business-checking-bonus/",
-        "quoted_excerpt": "ChexSystems: No",
-        "retrieval_date_utc": "2026-09-24",
-        "caveat": "DoC article ChexSystems field, 2026-06-11. DoC article says No; comments report applying with Chex frozen and no inquiry on disclosure; also on DoC Chex list under 'Don’t Pull'. Secondary reported screening, not a bank guarantee."
-      },
-      {
-        "offer_ids": [
-          "horizon-checking-200"
-        ],
-        "chexsystems": "yes",
-        "url": "https://www.doctorofcredit.com/wa-id-mt-or-horizon-credit-union-200-checking-bonus-direct-deposit-not-required/#comment-2102320",
-        "quoted_excerpt": "Experian and Chex hard pulls.",
-        "retrieval_date_utc": "2026-09-24",
-        "caveat": "DoC reader datapoints (article field unknown or absent), 2025-07-18. Older article (2023-06) field is Unknown; comments from 2023 and 2025 explicitly report a Chex pull plus Experian hard pull. Secondary reported screening, not a bank guarantee."
-      },
-      {
-        "offer_ids": [
-          "old-second-total-50"
-        ],
-        "chexsystems": "yes",
-        "url": "https://www.doctorofcredit.com/il-only-old-second-bank-300-checking-bonus/#comment-2246637",
-        "quoted_excerpt": "Chex inquiry sensitive. Got denied due to Chex trying to go for this bonus.",
-        "retrieval_date_utc": "2026-09-24",
-        "caveat": "DoC reader datapoints (article field unknown or absent), 2026-02-03. Article field is Unknown; comments report Chex-based denials and DoC Chex list lists Old Second under 'Does pull'. Secondary reported screening, not a bank guarantee."
-      },
-      {
-        "offer_ids": [
-          "redstone-youth-savings-200"
-        ],
-        "chexsystems": "yes",
-        "url": "https://www.doctorofcredit.com/al-tn-redstone-federal-credit-union-600-checking-bonus-direct-deposit-not-required/",
-        "quoted_excerpt": "ChexSystems: Yes, not sensitive",
-        "retrieval_date_utc": "2026-09-24",
-        "caveat": "DoC article ChexSystems field, 2026-06-06. DoC checking article says Yes; also on DoC Chex list 'Does pull'. Youth savings offer is on the same personal side but not specifically covered. One comment reports OOS approval with Chex frozen for a non-bonus account. Secondary reported screening, not a bank guarantee."
-      },
-      {
-        "offer_ids": [
-          "st-bank-combined-400",
-          "st-bank-combined-500",
-          "st-bank-combined-600"
-        ],
-        "chexsystems": "yes",
-        "url": "https://www.doctorofcredit.com/pa-oh-st-bank-350-checking-bonus-no-direct-deposit/#comment-2113954",
-        "quoted_excerpt": "Just a note, they are definitely pulling chex.",
-        "retrieval_date_utc": "2026-09-24",
-        "caveat": "DoC reader datapoints (article field unknown or absent), 2025-08-07. Article field is Unknown; comments from 2025-2026 report Chex pulls and DoC Chex list lists S&T under 'Does pull'. Secondary reported screening, not a bank guarantee."
-      },
-      {
-        "offer_ids": [
-          "seacoast-premier-savings-200"
-        ],
-        "chexsystems": "yes",
-        "url": "https://www.doctorofcredit.com/fl-in-branch-only-seacoast-bank-350-checking-150-savings-bonus/#comment-2372431",
-        "quoted_excerpt": "I unfroze my Chex and applied and it got approved instantly and they did pull my Chex.",
-        "retrieval_date_utc": "2026-09-24",
-        "caveat": "DoC reader datapoints (article field unknown or absent), 2026-07-21. Article field is Unknown; recent comments report Chex pulls and requests to unfreeze Chex; DoC Chex list lists Seacoast under 'Does pull'. Secondary reported screening, not a bank guarantee."
-      },
-      {
-        "offer_ids": [
-          "ithink-checking-earn500-50"
-        ],
-        "chexsystems": "yes",
-        "url": "https://www.doctorofcredit.com/fl-ga-ithink-financial-125-checking-bonus/#comment-2120404",
-        "quoted_excerpt": "P1 received SM via email on Aug 6 that their account could not be opened due to CHEX history.",
-        "retrieval_date_utc": "2026-09-24",
-        "caveat": "DoC reader datapoints (article field unknown or absent), 2025-08-15. Article field is Unknown; multiple 2025 comments report accounts closed/declined due to Chex; DoC Chex list lists iTHINK under 'Does pull'. Secondary reported screening, not a bank guarantee."
-      },
-      {
-        "offer_ids": [
-          "america-first-credit-union-checking-150"
-        ],
-        "chexsystems": "yes",
-        "url": "https://www.doctorofcredit.com/ut-nv-az-id-or-nm-ca-america-first-credit-union-150-savings-200-checking-bonus/#comment-2350854",
-        "quoted_excerpt": "They do pull Chex, and the system flagged my account immediately.",
-        "retrieval_date_utc": "2026-09-24",
-        "caveat": "DoC reader datapoints (article field unknown or absent), 2026-06-23. DoC article field says ChexSystems: Unknown (hard pull); a June 2026 commenter on the same offer reports Chex was pulled and flagged, and another reports unfreezing Chex for the application. Secondary reported screening, not a bank guarantee."
-      },
-      {
-        "offer_ids": [
-          "bmo-savings-builder-60"
-        ],
-        "chexsystems": "yes",
-        "url": "https://www.doctorofcredit.com/il-wi-mn-in-az-fl-ks-mo-bmo-harris-350-checking-300-savings-bonus/",
-        "quoted_excerpt": "ChexSystems: Yes",
-        "retrieval_date_utc": "2026-09-24",
-        "caveat": "DoC article ChexSystems field, 2026-09-10. DoC article covers BMO personal checking + savings bonuses (same personal line as Savings Builder); many 2026 comments confirm Chex pulls on personal checking. Secondary reported screening, not a bank guarantee."
-      },
-      {
-        "offer_ids": [
-          "cn-4suits-600",
-          "cn-4suits-1000-heloc"
-        ],
-        "chexsystems": "yes",
-        "url": "https://www.doctorofcredit.com/pa-ny-cn-bank-400-checking-bonus/#comment-2322470",
-        "quoted_excerpt": "Rejected due to Chex in May 2026, live in PA 3 miles from a branch.",
-        "retrieval_date_utc": "2026-09-24",
-        "caveat": "DoC reader datapoints (article field unknown or absent), 2026-05-14. DoC article field says 'Unknown, sensitive', but multiple comments (2022-2026) report denials/closures citing ChexSystems, so Chex is used. Secondary reported screening, not a bank guarantee."
-      },
-      {
-        "offer_ids": [
-          "cambridge-savings-bank-relationship-high-yield-money-market-400"
-        ],
-        "chexsystems": "yes",
-        "url": "https://www.doctorofcredit.com/ma-ct-me-nh-ri-vt-cambridge-savings-bank-400-checking-bonus/",
-        "quoted_excerpt": "ChexSystems:Yes, looks to be ChexSystems sensitive as well",
-        "retrieval_date_utc": "2026-09-24",
-        "caveat": "DoC article ChexSystems field, 2026-08-09. DoC article (checking + money market) lists ChexSystems: Yes; 2025-2026 comments report Chex pulls in branch and online. Secondary reported screening, not a bank guarantee."
-      },
-      {
-        "offer_ids": [
-          "huntington-unlimited-business-400"
-        ],
-        "chexsystems": "no",
-        "url": "https://www.doctorofcredit.com/oh-mi-pa-ky-wv-il-wi-huntington-bank-500-750-business-checking-bonuses/",
-        "quoted_excerpt": "ChexSystems: No",
-        "retrieval_date_utc": "2026-09-24",
-        "caveat": "DoC article ChexSystems field, 2026-05-13. DoC Huntington business checking article lists ChexSystems: No; comments report business opens with Chex frozen, none report a Chex pull. Secondary reported screening, not a bank guarantee."
-      },
-      {
-        "offer_ids": [
-          "mt-business-300",
-          "mt-business-300-merchant-250",
-          "mt-business-300-merchant-500",
-          "mt-business-500",
-          "mt-business-500-merchant-250",
-          "mt-business-500-merchant-500",
-          "mt-business-750",
-          "mt-business-750-merchant-250",
-          "mt-business-750-merchant-500",
-          "mt-business-1500",
-          "mt-business-1500-merchant-250",
-          "mt-business-1500-merchant-500"
-        ],
-        "chexsystems": "yes",
-        "url": "https://www.doctorofcredit.com/ct-de-d-c-md-nj-ny-pa-va-wv-in-branch-mt-bank-400-business-checking-bonus/",
-        "quoted_excerpt": "ChexSystems:Yes",
-        "retrieval_date_utc": "2026-09-24",
-        "caveat": "DoC article ChexSystems field, 2026-07-05. DoC M&T business checking article lists ChexSystems: Yes; most comments report pulls, though a couple of 2026 DPs saw no Chex pull (YMMV). Secondary reported screening, not a bank guarantee."
-      },
-      {
-        "offer_ids": [
-          "pnc-business-400",
-          "pnc-business-1000"
-        ],
-        "chexsystems": "no",
-        "url": "https://www.doctorofcredit.com/pnc-up-to-500-business-checking-bonus-al-dc-de-fl-ga-il-in-ky-md-mi-mo-nc-nj-ny-oh-pa-sc-va-wi-and-wv/#comment-2263776",
-        "quoted_excerpt": "They pull EWS, no Chex.",
-        "retrieval_date_utc": "2026-09-24",
-        "caveat": "DoC reader datapoints (article field unknown or absent), 2026-02-24. DoC business checking article field says ChexSystems: Unknown; multiple 2024-2026 business DPs report no Chex pull (EWS instead). Comment-based, not an article field. Secondary reported screening, not a bank guarantee."
-      },
-      {
-        "offer_ids": [
-          "st-basic-business-400",
-          "st-basic-business-400-positive-pay",
-          "st-basic-business-600",
-          "st-basic-business-600-positive-pay"
-        ],
-        "chexsystems": "yes",
-        "url": "https://www.doctorofcredit.com/pa-oh-st-bank-600-business-checking-bonus-requires-payment-processing/#comment-2360084",
-        "quoted_excerpt": "Declined for Chex (5 in past 30 days plus “over 50 recently” lol), plus I’m just over 25 miles from a branch.",
-        "retrieval_date_utc": "2026-09-24",
-        "caveat": "DoC reader datapoints (article field unknown or absent), 2026-07-06. DoC business checking article field says ChexSystems: Unknown; a July 2026 commenter on this business offer was declined for Chex. Single recent DP. Secondary reported screening, not a bank guarantee."
-      },
-      {
-        "offer_ids": [
-          "service-1st-federal-credit-union-checking-150"
-        ],
-        "chexsystems": "yes",
-        "url": "https://www.doctorofcredit.com/pa-service-1st-federal-credit-union-300-checking-bonus/#comment-2385512",
-        "quoted_excerpt": "My Chex now shows they did inquire, but it’s listed under “Inquiries viewed by only you”.",
-        "retrieval_date_utc": "2026-09-24",
-        "caveat": "DoC reader datapoints (article field unknown or absent), 2026-08-08. DoC article field says ChexSystems: Unknown; an Aug 2026 commenter found a Service 1st Chex inquiry, and a 2024 comment reports a denial due to Chex. Secondary reported screening, not a bank guarantee."
-      },
-      {
-        "offer_ids": [
-          "westmark-true-blue-25",
-          "westmark-true-blue-50"
-        ],
-        "chexsystems": "yes",
-        "url": "https://www.doctorofcredit.com/id-only-westmark-credit-union-250-checking-bonus-direct-deposit-not-required/#comment-2187740",
-        "quoted_excerpt": "And they pull chex.",
-        "retrieval_date_utc": "2026-09-24",
-        "caveat": "DoC reader datapoints (article field unknown or absent), 2025-11-12. DoC article (Nov 2025) field says ChexSystems: Unknown; 2025 comments state Westmark pulls Chex. Comment-based. Secondary reported screening, not a bank guarantee."
-      },
-      {
-        "offer_ids": [
-          "adelfi-harvest-checking-100"
-        ],
-        "chexsystems": "yes",
-        "url": "https://www.doctorofcredit.com/must-be-a-member-of-a-christian-ministry-christian-community-credit-union-100-checking-100-savings/",
-        "quoted_excerpt": "ChexSystems: Yes, might be inquiry sensitive",
-        "retrieval_date_utc": "2026-09-24",
-        "caveat": "DoC article ChexSystems field, 2026-09-03. DoC fine print for the current AdelFi $100 checking & $100 savings post. Secondary reported screening, not a bank guarantee."
-      },
-      {
-        "offer_ids": [
-          "bok-financial-access-checking-and-personal-savings-combined-650",
-          "bok-financial-premier-checking-and-personal-savings-combined-950"
-        ],
-        "chexsystems": "yes",
-        "url": "https://www.doctorofcredit.com/co-only-bok-financial-950-checking-savings-bonus/#comment-2239272",
-        "quoted_excerpt": "DP (P1 + P2): P1: Opened in-branch. Pulled ChexSystems.",
-        "retrieval_date_utc": "2026-09-24",
-        "caveat": "DoC reader datapoints (article field unknown or absent), 2026-01-26. Article field says Unknown, but several Jan 2026 comments on the CO $950 checking/savings post report a Chex pull, uncontradicted. College Access Checking is a different product (Bank of Oklahoma/Texas college post has mixed DPs); same personal side. Secondary reported screening, not a bank guarantee. Not applied to bok-financial-college-access-300: College Access Checking has mixed reports on its own DoC post."
-      },
-      {
-        "offer_ids": [
-          "camden-national-savings-200"
-        ],
-        "chexsystems": "yes",
-        "url": "https://www.doctorofcredit.com/me-nh-camden-national-bank-300-checking-bonus-2/#comment-2319120",
-        "quoted_excerpt": "Got a Chex pull immediately, went pending. Declined about 3 hours later due to Chex.",
-        "retrieval_date_utc": "2026-09-24",
-        "caveat": "DoC reader datapoints (article field unknown or absent), 2026-05-10. Article field is Unknown, but recent comments report Chex pulls/denials (Chex-sensitive); DoC's ChexSystems list also lists Camden as does pull. Secondary reported screening, not a bank guarantee."
-      },
-      {
-        "offer_ids": [
-          "hancock-whitney-freestyle-savings-100"
-        ],
-        "chexsystems": "no",
-        "url": "https://www.doctorofcredit.com/la-ms-fl-al-tx-hancock-whitney-bank-600-checking-savings-bonus/",
-        "quoted_excerpt": "ChexSystems: No",
-        "retrieval_date_utc": "2026-09-24",
-        "caveat": "DoC article ChexSystems field, 2026-09-12. Personal checking+savings post; comments agree (openings with Chex frozen, Equifax is the bureau used). Secondary reported screening, not a bank guarantee."
-      },
-      {
-        "offer_ids": [
-          "st-marys-savings-200"
-        ],
-        "chexsystems": "yes",
-        "url": "https://www.doctorofcredit.com/st-marys-bank-300-checking-bonus/#comment-1881468",
-        "quoted_excerpt": "Based on information received in your chexsystems report, we are not able to open this account electronically",
-        "retrieval_date_utc": "2026-09-24",
-        "caveat": "DoC reader datapoints (article field unknown or absent), 2024-07-24. Article field Unknown; comments (2024-2025) report Chex-based denials and in-branch questioning about Chex inquiries. Secondary reported screening, not a bank guarantee."
-      },
-      {
-        "offer_ids": [
-          "u-of-i-community-credit-union-checking-150"
-        ],
-        "chexsystems": "yes",
-        "url": "https://www.doctorofcredit.com/il-only-u-of-i-community-credit-union-150-checking-bonus-direct-deposit-not-required/",
-        "quoted_excerpt": "ChexSystems: Yes",
-        "retrieval_date_utc": "2026-09-24",
-        "caveat": "DoC article ChexSystems field, 2026-08-01. DoC fine print for the U of I Community CU $150 checking bonus. Secondary reported screening, not a bank guarantee."
-      }
-    ]
-  }
+  ]
 }
