@@ -1,0 +1,1373 @@
+{
+  "prepared_on": "2026-11-04",
+  "base_commit": "62febad304f9757582fb8eafbd7467278ca0971b",
+  "verification_status": "Updated and added rows were read on 2026-11-04 from raw first-party text: operator browser captures (Southwest Plus, Ameriprise, Navy Federal, U.S. Bank Business Essentials Plus and the U.S. Bank business card comparison page) and raw HTML saved by curl GET (Chase Southwest Premier/Priority, Ink Business Cash/Unlimited, Barclays Wyndham Earner Plus card terms tc49153). Values use the base public signup component; additional, targeted, personalized and referral variants stay in notes.",
+  "scope": "Bundled signup_bonuses.csv only (102 -> 106 rows): 7 rows updated in place (same card_name, same position; 6 offer corrections plus U.S. Bank Business Leverage withdrawn from the default public offers after its Doctor of Credit index removal; its first-party product page returned 404 and it was absent from the U.S. Bank business card list on 2026-11-04, which supports withdrawal from the default public offers but is not definitive evidence of closure, and the closure date is unknown) and 4 rows appended (Ameriprise, Navy Federal, U.S. Bank Business Essentials and Essentials Plus). Exact full before/after rows are under updated and added; tests/helpers/cardFeedHistory.ts replays them to restore the exact 2026-09-16 snapshot. The live companion signup_bonuses.csv was byte-identical to the bundled file at readback (SHA-256 00e0466e5515667553da34563cbf6861f6d2f6c30b879cfe479ceb86bc0a7490).",
+  "window": {
+    "run_timestamp": "2026-11-04T14:40:22-05:00",
+    "run_timestamp_utc": "2026-11-04T19:40:22Z",
+    "timezone": "America/New_York",
+    "dst_note": "DST ended Sunday 2026-11-01 02:00 EDT -> 01:00 EST. The run is in EST (-05:00); the lookback start is in EDT (-04:00).",
+    "calendar_lookback_start": "2026-10-28T14:40:22-04:00",
+    "calendar_lookback_start_utc": "2026-10-28T18:40:22Z",
+    "calendar_lookback_elapsed_hours": 169,
+    "fixed_168h_lookback_start_utc": "2026-10-28T19:40:22Z",
+    "fixed_168h_lookback_start_local": "2026-10-28T15:40:22-04:00",
+    "scanned_boundary_overlap_start": "2026-10-28T00:00:00-04:00",
+    "scanned_boundary_overlap_start_utc": "2026-10-28T04:00:00Z",
+    "scanned_end": "2026-11-04T14:40:22-05:00",
+    "policy": "Every item whose feed pubDate falls on calendar dates 2026-10-28 through 2026-11-04 in America/New_York was dispositioned. Items between 00:00 EDT and 14:40:22 EDT on 10-28 are inside the overlap but before the exact calendar lookback and are flagged boundary_overlap_only. Items after the run timestamp are recorded as post_run."
+  },
+  "scan": {
+    "card_items": [
+      {
+        "n": 1,
+        "pubDate": "2026-11-04T15:00:14Z",
+        "title": "Ameriprise Premier Visa – 2.5% Cashback On All Purchases, $150 Sign Up Bonus",
+        "url": "https://www.doctorofcredit.com/ameriprise-premier-visa-2-5-cashback-on-all-purchases-150-sign-up-bonus/"
+      },
+      {
+        "n": 2,
+        "pubDate": "2026-11-04T14:00:34Z",
+        "title": "Barclays Wyndham Cards – Increased Offers Up To 120,000 Points",
+        "url": "https://www.doctorofcredit.com/barclays-wyndham-cards-increased-offers-up-to-120000-points/"
+      },
+      {
+        "n": 3,
+        "pubDate": "2026-11-03T23:54:32Z",
+        "title": "Navy Federal Credit Union (NFCU) Launches New Flagship Premier Rewards Card [90K Bonus]",
+        "url": "https://www.doctorofcredit.com/navy-federal-credit-union-nfcu-launches-new-flagship-premier-rewards-card/"
+      },
+      {
+        "n": 4,
+        "pubDate": "2026-11-03T23:39:57Z",
+        "title": "Capital One Adds Copa As 2:1.5 Transfer Partner – Launches With 30% Transfer Bonus",
+        "url": "https://www.doctorofcredit.com/capital-one-adds-copa-as-21-5-transfer-partner-launches-with-30-transfer-bonus/"
+      },
+      {
+        "n": 5,
+        "pubDate": "2026-11-03T18:30:47Z",
+        "title": "U.S. Bank Spend Offers (Up To $75 Bonus)",
+        "url": "https://www.doctorofcredit.com/u-s-bank-spend-offers-5-7-bonus/"
+      },
+      {
+        "n": 6,
+        "pubDate": "2026-11-03T17:30:16Z",
+        "title": "Chase Southwest Personal Cards: 80,000 – 90,000 Points Signup Bonus (Referral Links Available)",
+        "url": "https://www.doctorofcredit.com/chase-southwest-personal-cards-80000-90000-points-signup-bonus-2/"
+      },
+      {
+        "n": 7,
+        "pubDate": "2026-11-03T17:25:02Z",
+        "title": "Bank of America Atmos Alaska Airlines Business Card 85,000 Miles",
+        "url": "https://www.doctorofcredit.com/bank-of-america-atmos-alaska-airlines-business-card-85000-miles/"
+      },
+      {
+        "n": 8,
+        "pubDate": "2026-11-02T20:33:23Z",
+        "title": "Synchrony 2% Card: $100 Signup Bonus",
+        "url": "https://www.doctorofcredit.com/synchrony-2-card-100-signup-bonus/"
+      },
+      {
+        "n": 9,
+        "pubDate": "2026-11-02T19:31:27Z",
+        "title": "American Express Transfer Bonus: 30% To Virgin Atlantic",
+        "url": "https://www.doctorofcredit.com/american-express-transfer-bonus-30-to-virgin-atlantic-8/"
+      },
+      {
+        "n": 10,
+        "pubDate": "2026-11-02T19:29:32Z",
+        "title": "American Express To Enroll Charge Cardholders Into 'Pay Over Time' No Opt Out",
+        "url": "https://www.doctorofcredit.com/american-express-to-enroll-charge-cardholders-into-pay-over-time-no-opt-out/"
+      },
+      {
+        "n": 11,
+        "pubDate": "2026-11-02T01:22:38Z",
+        "title": "Discover: Earn 15% Cashback On Capital One Travel Purchases",
+        "url": "https://www.doctorofcredit.com/discover-earn-15-cashback-on-capital-one-travel-purchases/"
+      },
+      {
+        "n": 12,
+        "pubDate": "2026-11-02T01:16:31Z",
+        "title": "[Targeted] Venmo Credit Card: Double Cashback On All Purchases",
+        "url": "https://www.doctorofcredit.com/targeted-venmo-credit-card-double-cashback-on-all-purchases/"
+      },
+      {
+        "n": 13,
+        "pubDate": "2026-11-01T20:15:10Z",
+        "title": "[Targeted] Chase Travel: Spend $600+ & Receive $100 Back",
+        "url": "https://www.doctorofcredit.com/targeted-chase-travel-spend-500-receive-100-back/"
+      },
+      {
+        "n": 14,
+        "pubDate": "2026-11-01T12:00:26Z",
+        "title": "Chase Ultimate Rewards: 30% Transfer Bonus To Avios (1:1.3)",
+        "url": "https://www.doctorofcredit.com/chase-ultimate-rewards-30-transfer-bonus-to-avios-11-3/"
+      },
+      {
+        "n": 15,
+        "pubDate": "2026-11-01T12:00:14Z",
+        "title": "Capital One: 20% Transfer Bonus To AirFrance/KLM Flying Blue (1:1.2)",
+        "url": "https://www.doctorofcredit.com/capital-one-20-transfer-bonus-to-airfrance-klm-flying-blue-11-2-4/"
+      },
+      {
+        "n": 16,
+        "pubDate": "2026-11-01T12:00:07Z",
+        "title": "Chase Ultimate Rewards: 30% Transfer Bonus To Wyndham (1:1.3)",
+        "url": "https://www.doctorofcredit.com/chase-ultimate-rewards-30-transfer-bonus-to-wyndham-11-3-2/"
+      },
+      {
+        "n": 17,
+        "pubDate": "2026-11-01T12:00:05Z",
+        "title": "[Expired] Bilt Rent Day (November 2026): Up to 100% Bonus On Giftcard Redemptions & Up To $150 Off Hotel Bookings",
+        "url": "https://www.doctorofcredit.com/bilt-rent-day-november-2026-up-to-100-bonus-on-giftcard-redemptions-up-to-150-off-hotel-bookings/"
+      },
+      {
+        "n": 18,
+        "pubDate": "2026-10-31T20:21:22Z",
+        "title": "Bank Of America Surveys New/Updated Travel Card, No Annual Fee + Transfer Partners?",
+        "url": "https://www.doctorofcredit.com/bank-of-america-surveys-new-updated-travel-card-no-annual-fee-transfer-partners/"
+      },
+      {
+        "n": 19,
+        "pubDate": "2026-10-30T19:30:22Z",
+        "title": "(Now Live) PenFed Defender Card with 5x on Gas & 3x on Grocery & Dining",
+        "url": "https://www.doctorofcredit.com/launching-soon-penfed-defender-card-with-5x-on-gas-3x-on-grocery-dining/"
+      },
+      {
+        "n": 20,
+        "pubDate": "2026-10-30T16:45:52Z",
+        "title": "[Targeted] Chase INK Cash/Unlimited $1,200 Bonus; INK Preferred 125,000 Points Bonus",
+        "url": "https://www.doctorofcredit.com/targeted-chase-ink-cash-unlimited-1200-bonus-ink-preferred-125000-points-bonus/"
+      },
+      {
+        "n": 21,
+        "pubDate": "2026-10-30T14:00:41Z",
+        "title": "Citi Retail Cards Now Showing In App For Some Cardholders",
+        "url": "https://www.doctorofcredit.com/citi-retail-cards-now-showing-in-app-for-some-cardholders/"
+      },
+      {
+        "n": 22,
+        "pubDate": "2026-10-29T20:15:15Z",
+        "title": "Best Current Credit Card Sign Up Bonuses & Offers For November, 2026",
+        "url": "https://www.doctorofcredit.com/best-current-credit-card-sign-bonuses/"
+      },
+      {
+        "n": 23,
+        "pubDate": "2026-10-29T19:00:32Z",
+        "title": "(Update) PayPal Launches Debit Card That Earns 5% Back On One Category (Up To $1,000)",
+        "url": "https://www.doctorofcredit.com/paypal-launches-debit-card-that-earns-5-back-on-one-category-up-to-1000/",
+        "cross_listed": "Bank Accounts (bank item 25)"
+      },
+      {
+        "n": 24,
+        "pubDate": "2026-10-29T16:17:25Z",
+        "title": "American Express Reward Dollars Can Now Be Redeemed To American Express Deposit Accounts",
+        "url": "https://www.doctorofcredit.com/american-express-reward-dollars-can-now-be-redeemed-to-american-express-deposit-accounts/"
+      },
+      {
+        "n": 25,
+        "pubDate": "2026-10-29T15:56:57Z",
+        "title": "DoorDash to buy Instacart for $17 Billion",
+        "url": "https://www.doctorofcredit.com/doordash-to-buy-instacart-for-17-billion/"
+      },
+      {
+        "n": 26,
+        "pubDate": "2026-10-29T00:09:43Z",
+        "title": "Chase United Explorer $500 Statement Credit + 25,000 Miles + 10,000 Miles For Adding Authorized User",
+        "url": "https://www.doctorofcredit.com/chase-united-explorer-500-statement-credit-25000-miles-10000-miles-for-adding-authorized-user/"
+      },
+      {
+        "n": 27,
+        "pubDate": "2026-10-28T19:30:33Z",
+        "title": "Chase To Open Sapphire Lounge In Seattle-Tacoma International Airport (SEA)",
+        "url": "https://www.doctorofcredit.com/chase-to-open-sapphire-lounge-in-seattle-tacoma-international-airport-sea/"
+      },
+      {
+        "n": 28,
+        "pubDate": "2026-10-28T18:52:05Z",
+        "flag": "inside calendar lookback (14:52:05 EDT)",
+        "title": "(Update) Rakuten Adds Bank Of America Cards To Portal",
+        "url": "https://www.doctorofcredit.com/rakuten-adds-bank-of-america-cards-to-portal-up-to-150/"
+      },
+      {
+        "n": 29,
+        "pubDate": "2026-10-28T16:27:32Z",
+        "flag": "boundary_overlap_only (12:27:32 EDT, before 14:40:22 EDT lookback)",
+        "title": "[Targeted] Chase Sapphire Reserve for Business 300,000 Points Signup Bonus",
+        "url": "https://www.doctorofcredit.com/targeted-chase-sapphire-reserve-for-business-300000-points-signup-bonus/"
+      }
+    ],
+    "out_of_window_context": [
+      {
+        "pubDate": "2026-10-27T20:50:38Z",
+        "title": "[Expired] Citi AAdvantage Executive 125,000 Signup Bonus",
+        "url": "https://www.doctorofcredit.com/citi-aadvantage-executive-125000-signup-bonus/",
+        "reason": "2026-10-27 16:50 EDT, before window"
+      }
+    ]
+  },
+  "dispositions": {
+    "updated": {
+      "Chase Southwest Airlines Plus/Premier/Priority": "https://www.doctorofcredit.com/chase-southwest-personal-cards-80000-90000-points-signup-bonus-2/",
+      "Chase Ink Cash/Unlimited": "public offer is $750/$6,000/3 months (targeted $1,200 offers in https://www.doctorofcredit.com/targeted-chase-ink-cash-unlimited-1200-bonus-ink-preferred-125000-points-bonus/ excluded)",
+      "Barclays Wyndham Earner Plus": "https://www.doctorofcredit.com/barclays-wyndham-cards-increased-offers-up-to-120000-points/ (Earner Premier unchanged: 90,000 + 30,000 components already recorded)"
+    },
+    "added": [
+      "Ameriprise Premier Visa Signature (issuer Elan Financial Services)",
+      "Navy Federal Flagship Premier (public 50,000; preapproved 90,000 in notes)"
+    ],
+    "already_present": {
+      "Bank of America Alaska Atmos Business": "public offer still 70,000 + $99 Companion Fare after $4,000 in 90 days (https://business.bankofamerica.com/en/credit-cards/atmos-rewards, WebFetch only; row not re-dated); the 85,000 promo-code link is excluded"
+    },
+    "unresolved": {
+      "Chase United Explorer": "Chase page rendered a headline inconsistent with its offer details (70,000 + 10,000 AU); the $500-credit variant is link-specific (sourceCode J4G6); row unchanged.",
+      "Synchrony Premier World Mastercard $100": "No first-party source shows the bonus.",
+      "PenFed Defender": "First-party page timed out; third-party sources conflict."
+    },
+    "excluded_count": 19,
+    "cross_listed": 1,
+    "counts": {
+      "in_window_items": 29,
+      "added": 2,
+      "update": 3,
+      "excluded": 19,
+      "already_present": 1,
+      "unresolved": 3,
+      "cross_listed": 1
+    },
+    "index_only_occurrences": {
+      "added": [
+        "U.S. Bank Business Essentials",
+        "U.S. Bank Business Essentials Plus"
+      ],
+      "withdrawn_update": [
+        "U.S. Bank Business Leverage"
+      ]
+    }
+  },
+  "counts": {
+    "before": 102,
+    "after": 106
+  },
+  "updated": [
+    {
+      "card_name": "Chase Ink Cash",
+      "before": {
+        "card_name": "Chase Ink Cash",
+        "issuer": "Chase",
+        "is_business": "true",
+        "network": "Visa",
+        "bonus_amount": "1000",
+        "bonus_currency": "USD",
+        "point_value_cpp": "",
+        "bonus_value_usd": "1000",
+        "min_spend_usd": "8000",
+        "spend_window_months": "4",
+        "annual_fee_usd": "0",
+        "annual_fee_waived_y1": "false",
+        "first_year_credits_usd": "",
+        "estimated_first_year_value_usd": "",
+        "notes": "Audited reward components/tiers: [{\"kind\":\"signup_component\",\"bonus_amount\":1000,\"bonus_currency\":\"USD\",\"min_spend_usd\":8000,\"spend_window_months\":4,\"condition\":\"Eligible purchases from account opening\",\"status\":\"verified_current_first_party\",\"channel\":\"public online issuer product page\"}] Eligibility: ## Business Credit Card Rewards & Benefits ### Earn $750 Strike through $1,000 cash back after you spend $8,000 on purchases in the first 4 months after account opening. * The new cardmember bonus may not be available to you if you have ever had this card or any other Chase for Business card without an annual fee. We may also consider factors pertinent to your business in determining your bonus eligibility. Full captured terms and bonus conditions are retained in the dated audit. Unresolved: Offer application expiration not explicitly stated; do not infer from benefit expiration dates.; Individual approval and bonus eligibility are issuer-determined; no user eligibility certification.; Spend/window of struck-through historical headline not provided. No verified application end date; offer subject to change.",
+        "source": "Chase",
+        "source_url": "https://creditcards.chase.com/business-credit-cards/ink/cash",
+        "source_checked": "2026-09-16",
+        "apply_url": "https://creditcards.chase.com/business-credit-cards/ink/cash",
+        "offer_channel": "public",
+        "verification_status": "verified",
+        "expiration_date": "",
+        "spend_window_days": ""
+      },
+      "after": {
+        "card_name": "Chase Ink Cash",
+        "issuer": "Chase",
+        "is_business": "true",
+        "network": "Visa",
+        "bonus_amount": "750",
+        "bonus_currency": "USD",
+        "point_value_cpp": "",
+        "bonus_value_usd": "750",
+        "min_spend_usd": "6000",
+        "spend_window_months": "3",
+        "annual_fee_usd": "0",
+        "annual_fee_waived_y1": "false",
+        "first_year_credits_usd": "",
+        "estimated_first_year_value_usd": "",
+        "notes": "Audited reward components/tiers: [{\"kind\":\"signup_component\",\"bonus_amount\":750,\"bonus_currency\":\"USD\",\"min_spend_usd\":6000,\"spend_window_months\":3,\"condition\":\"Purchases in the first 3 months from account opening\",\"status\":\"verified_current_first_party\",\"channel\":\"public online issuer product page\",\"verified\":\"2026-11-04\",\"excerpt\":\"Earn $750 cash back after you spend $6,000 on purchases in the first 3 months after account opening.\"}] Eligibility: The new cardmember bonus may not be available if you have ever had this card or any other Chase for Business card without an annual fee; Chase may also consider business factors. The account must be open and not in default at fulfillment. Targeted variant (not public, not recorded as the scalar): Ink Business Cash \"You're Already Approved\" offers of $1,200 after $6,000 in 3 months reported by Doctor of Credit on 2026-10-30 (https://www.doctorofcredit.com/targeted-chase-ink-cash-unlimited-1200-bonus-ink-preferred-125000-points-bonus/). Unresolved: Offer application expiration not explicitly stated; do not infer from benefit expiration dates.; Individual approval and bonus eligibility are issuer-determined; no user eligibility certification. No verified application end date; offer subject to change.",
+        "source": "Chase",
+        "source_url": "https://creditcards.chase.com/business-credit-cards/ink/cash",
+        "source_checked": "2026-11-04",
+        "apply_url": "https://creditcards.chase.com/business-credit-cards/ink/cash",
+        "offer_channel": "public",
+        "verification_status": "verified",
+        "expiration_date": "",
+        "spend_window_days": ""
+      }
+    },
+    {
+      "card_name": "Chase Ink Unlimited",
+      "before": {
+        "card_name": "Chase Ink Unlimited",
+        "issuer": "Chase",
+        "is_business": "true",
+        "network": "Visa",
+        "bonus_amount": "1000",
+        "bonus_currency": "USD",
+        "point_value_cpp": "",
+        "bonus_value_usd": "1000",
+        "min_spend_usd": "8000",
+        "spend_window_months": "4",
+        "annual_fee_usd": "0",
+        "annual_fee_waived_y1": "false",
+        "first_year_credits_usd": "",
+        "estimated_first_year_value_usd": "",
+        "notes": "Audited reward components/tiers: [{\"kind\":\"signup_component\",\"bonus_amount\":1000,\"bonus_currency\":\"USD\",\"min_spend_usd\":8000,\"spend_window_months\":4,\"condition\":\"Eligible purchases from account opening\",\"status\":\"verified_current_first_party\",\"channel\":\"public online issuer product page\"}] Eligibility: The new cardmember bonus may not be available to you if you have ever had this card or any other Chase for Business card without an annual fee. We may also consider factors pertinent to your business in determining your bonus eligibility. Full captured terms and bonus conditions are retained in the dated audit. Unresolved: Offer application expiration not explicitly stated; do not infer from benefit expiration dates.; Individual approval and bonus eligibility are issuer-determined; no user eligibility certification.; Spend/window of struck-through historical headline not provided. No verified application end date; offer subject to change.",
+        "source": "Chase",
+        "source_url": "https://creditcards.chase.com/business-credit-cards/ink/unlimited",
+        "source_checked": "2026-09-16",
+        "apply_url": "https://creditcards.chase.com/business-credit-cards/ink/unlimited",
+        "offer_channel": "public",
+        "verification_status": "verified",
+        "expiration_date": "",
+        "spend_window_days": ""
+      },
+      "after": {
+        "card_name": "Chase Ink Unlimited",
+        "issuer": "Chase",
+        "is_business": "true",
+        "network": "Visa",
+        "bonus_amount": "750",
+        "bonus_currency": "USD",
+        "point_value_cpp": "",
+        "bonus_value_usd": "750",
+        "min_spend_usd": "6000",
+        "spend_window_months": "3",
+        "annual_fee_usd": "0",
+        "annual_fee_waived_y1": "false",
+        "first_year_credits_usd": "",
+        "estimated_first_year_value_usd": "",
+        "notes": "Audited reward components/tiers: [{\"kind\":\"signup_component\",\"bonus_amount\":750,\"bonus_currency\":\"USD\",\"min_spend_usd\":6000,\"spend_window_months\":3,\"condition\":\"Purchases in the first 3 months from account opening\",\"status\":\"verified_current_first_party\",\"channel\":\"public online issuer product page\",\"verified\":\"2026-11-04\",\"excerpt\":\"Earn $750 cash back after you spend $6,000 on purchases in the first 3 months after account opening.\"}] Eligibility: The new cardmember bonus may not be available if you have ever had this card or any other Chase for Business card without an annual fee; Chase may also consider business factors. The account must be open and not in default at fulfillment. Targeted variant (not public, not recorded as the scalar): Ink Business Unlimited \"You're Already Approved\" offers of $1,200 after $6,000 in 3 months reported by Doctor of Credit on 2026-10-30 (https://www.doctorofcredit.com/targeted-chase-ink-cash-unlimited-1200-bonus-ink-preferred-125000-points-bonus/). Unresolved: Offer application expiration not explicitly stated; do not infer from benefit expiration dates.; Individual approval and bonus eligibility are issuer-determined; no user eligibility certification. No verified application end date; offer subject to change.",
+        "source": "Chase",
+        "source_url": "https://creditcards.chase.com/business-credit-cards/ink/unlimited",
+        "source_checked": "2026-11-04",
+        "apply_url": "https://creditcards.chase.com/business-credit-cards/ink/unlimited",
+        "offer_channel": "public",
+        "verification_status": "verified",
+        "expiration_date": "",
+        "spend_window_days": ""
+      }
+    },
+    {
+      "card_name": "Chase Southwest Airlines Premier",
+      "before": {
+        "card_name": "Chase Southwest Airlines Premier",
+        "issuer": "Chase",
+        "is_business": "false",
+        "network": "Visa",
+        "bonus_amount": "55000",
+        "bonus_currency": "Southwest points",
+        "point_value_cpp": "1.3",
+        "bonus_value_usd": "715.0",
+        "min_spend_usd": "1500",
+        "spend_window_months": "3",
+        "annual_fee_usd": "149",
+        "annual_fee_waived_y1": "false",
+        "first_year_credits_usd": "",
+        "estimated_first_year_value_usd": "",
+        "notes": "Audited reward components/tiers: [{\"kind\":\"signup_component\",\"bonus_amount\":55000,\"bonus_currency\":\"Southwest points\",\"min_spend_usd\":1500,\"spend_window_months\":3,\"condition\":\"Eligible purchases from account opening\",\"status\":\"verified_current_first_party\",\"channel\":\"public online issuer product page\"}] Eligibility: This product is available to you if you do not have a current Southwest Rapid Rewards Credit Card and have not received a new Cardmember bonus within the last 24 months. This does not apply to Business Card and Employee Credit Card products. Full captured terms and bonus conditions are retained in the dated audit. Unresolved: Offer application expiration not explicitly stated; do not infer from benefit expiration dates.; Individual approval and bonus eligibility are issuer-determined; no user eligibility certification. No verified application end date; offer subject to change.",
+        "source": "Chase",
+        "source_url": "https://creditcards.chase.com/travel-credit-cards/southwest/premier",
+        "source_checked": "2026-09-16",
+        "apply_url": "https://creditcards.chase.com/travel-credit-cards/southwest/premier",
+        "offer_channel": "public",
+        "verification_status": "verified",
+        "expiration_date": "",
+        "spend_window_days": ""
+      },
+      "after": {
+        "card_name": "Chase Southwest Airlines Premier",
+        "issuer": "Chase",
+        "is_business": "false",
+        "network": "Visa",
+        "bonus_amount": "85000",
+        "bonus_currency": "Southwest points",
+        "point_value_cpp": "1.3",
+        "bonus_value_usd": "1105.0",
+        "min_spend_usd": "2000",
+        "spend_window_months": "3",
+        "annual_fee_usd": "149",
+        "annual_fee_waived_y1": "false",
+        "first_year_credits_usd": "",
+        "estimated_first_year_value_usd": "",
+        "notes": "Audited reward components/tiers: [{\"kind\":\"signup_component\",\"bonus_amount\":85000,\"bonus_currency\":\"Southwest points\",\"min_spend_usd\":2000,\"spend_window_months\":3,\"condition\":\"Purchases in the first 3 months from account opening\",\"status\":\"verified_current_first_party\",\"channel\":\"public online issuer product page\",\"verified\":\"2026-11-04\",\"excerpt\":\"Earn 85,000 bonus points after you spend $2,000 on purchases in the first 3 months from account opening.\"}] Eligibility: Not available to current cardmembers of any Southwest Rapid Rewards Credit Card or to previous cardmembers who received a new Cardmember bonus within the last 24 months (does not apply to the Business Card and Employee Credit Card). The account must be open and not in default at fulfillment; bonus posts 6 to 8 weeks after qualifying. Unresolved: No application end date is stated on the Chase page (Doctor of Credit says 12/2/26; Southwest.com shows that banner with the Priority offer only); not inferred. Referral links show the same applicant bonus per Doctor of Credit; referrer rewards are not recorded. No verified application end date; offer subject to change.",
+        "source": "Chase",
+        "source_url": "https://creditcards.chase.com/travel-credit-cards/southwest/premier",
+        "source_checked": "2026-11-04",
+        "apply_url": "https://creditcards.chase.com/travel-credit-cards/southwest/premier",
+        "offer_channel": "public",
+        "verification_status": "verified",
+        "expiration_date": "",
+        "spend_window_days": ""
+      }
+    },
+    {
+      "card_name": "Chase Southwest Airlines Priority",
+      "before": {
+        "card_name": "Chase Southwest Airlines Priority",
+        "issuer": "Chase",
+        "is_business": "false",
+        "network": "Visa",
+        "bonus_amount": "60000",
+        "bonus_currency": "Southwest points",
+        "point_value_cpp": "",
+        "bonus_value_usd": "",
+        "min_spend_usd": "2000",
+        "spend_window_months": "3",
+        "annual_fee_usd": "229",
+        "annual_fee_waived_y1": "false",
+        "first_year_credits_usd": "",
+        "estimated_first_year_value_usd": "",
+        "notes": "Audited reward components/tiers: [{\"kind\":\"signup_component\",\"bonus_amount\":60000,\"bonus_currency\":\"Southwest points\",\"min_spend_usd\":2000,\"spend_window_months\":3,\"condition\":\"Eligible purchases from account opening\",\"status\":\"verified_current_first_party\",\"channel\":\"public online issuer product page\"}] Eligibility: **The credit card is not available to either (i) current Cardmembers of any Southwest Rapid Rewards® Credit Card, or (ii) previous Cardmembers of any Southwest Rapid Rewards Credit Card who received a new Cardmember bonus within the last 24 months. This does not apply to Cardmembers of the Southwest Rapid Rewards Business Card and Employee Credit Card.** Full captured terms and bonus conditions are retained in the dated audit. Unresolved: Offer application expiration not explicitly stated; do not infer from benefit expiration dates.; Individual approval and bonus eligibility are issuer-determined; no user eligibility certification. No verified application end date; offer subject to change.",
+        "source": "Chase",
+        "source_url": "https://creditcards.chase.com/travel-credit-cards/southwest/priority",
+        "source_checked": "2026-09-16",
+        "apply_url": "https://creditcards.chase.com/travel-credit-cards/southwest/priority",
+        "offer_channel": "public",
+        "verification_status": "verified",
+        "expiration_date": "",
+        "spend_window_days": ""
+      },
+      "after": {
+        "card_name": "Chase Southwest Airlines Priority",
+        "issuer": "Chase",
+        "is_business": "false",
+        "network": "Visa",
+        "bonus_amount": "90000",
+        "bonus_currency": "Southwest points",
+        "point_value_cpp": "",
+        "bonus_value_usd": "",
+        "min_spend_usd": "3000",
+        "spend_window_months": "3",
+        "annual_fee_usd": "229",
+        "annual_fee_waived_y1": "false",
+        "first_year_credits_usd": "",
+        "estimated_first_year_value_usd": "",
+        "notes": "Audited reward components/tiers: [{\"kind\":\"signup_component\",\"bonus_amount\":90000,\"bonus_currency\":\"Southwest points\",\"min_spend_usd\":3000,\"spend_window_months\":3,\"condition\":\"Purchases in the first 3 months from account opening\",\"status\":\"verified_current_first_party\",\"channel\":\"public online issuer product page\",\"verified\":\"2026-11-04\",\"excerpt\":\"Earn 90,000 bonus points after you spend $3,000 on purchases in the first 3 months from account opening.\"}] Eligibility: Not available to current cardmembers of any Southwest Rapid Rewards Credit Card or to previous cardmembers who received a new Cardmember bonus within the last 24 months (does not apply to the Business Card and Employee Credit Card). The account must be open and not in default at fulfillment; bonus posts 6 to 8 weeks after qualifying. Unresolved: No application end date is stated on the Chase page (Doctor of Credit says 12/2/26; Southwest.com shows that banner with the Priority offer only); not inferred. Referral links show the same applicant bonus per Doctor of Credit; referrer rewards are not recorded. No verified application end date; offer subject to change.",
+        "source": "Chase",
+        "source_url": "https://creditcards.chase.com/travel-credit-cards/southwest/priority",
+        "source_checked": "2026-11-04",
+        "apply_url": "https://creditcards.chase.com/travel-credit-cards/southwest/priority",
+        "offer_channel": "public",
+        "verification_status": "verified",
+        "expiration_date": "",
+        "spend_window_days": ""
+      }
+    },
+    {
+      "card_name": "Chase Southwest Airlines Plus",
+      "before": {
+        "card_name": "Chase Southwest Airlines Plus",
+        "issuer": "Chase",
+        "is_business": "false",
+        "network": "Visa",
+        "bonus_amount": "50000",
+        "bonus_currency": "Southwest points",
+        "point_value_cpp": "1.3",
+        "bonus_value_usd": "650.0",
+        "min_spend_usd": "1000",
+        "spend_window_months": "3",
+        "annual_fee_usd": "99",
+        "annual_fee_waived_y1": "false",
+        "first_year_credits_usd": "",
+        "estimated_first_year_value_usd": "",
+        "notes": "Audited reward components/tiers: [{\"kind\":\"signup_component\",\"bonus_amount\":50000,\"bonus_currency\":\"Southwest points\",\"min_spend_usd\":1000,\"spend_window_months\":3,\"condition\":\"Eligible purchases from account opening\",\"status\":\"verified_current_first_party\",\"channel\":\"public online issuer product page\"}] Eligibility: This product is available to you if you do not have a current Southwest Rapid Rewards Credit Card and have not received a new Cardmember bonus within the last 24 months. This does not apply to Business Card and Employee Credit Card products. Full captured terms and bonus conditions are retained in the dated audit. Unresolved: Offer application expiration not explicitly stated; do not infer from benefit expiration dates.; Individual approval and bonus eligibility are issuer-determined; no user eligibility certification. No verified application end date; offer subject to change.",
+        "source": "Chase",
+        "source_url": "https://creditcards.chase.com/travel-credit-cards/southwest/plus",
+        "source_checked": "2026-09-16",
+        "apply_url": "https://creditcards.chase.com/travel-credit-cards/southwest/plus",
+        "offer_channel": "public",
+        "verification_status": "verified",
+        "expiration_date": "",
+        "spend_window_days": ""
+      },
+      "after": {
+        "card_name": "Chase Southwest Airlines Plus",
+        "issuer": "Chase",
+        "is_business": "false",
+        "network": "Visa",
+        "bonus_amount": "80000",
+        "bonus_currency": "Southwest points",
+        "point_value_cpp": "1.3",
+        "bonus_value_usd": "1040.0",
+        "min_spend_usd": "1000",
+        "spend_window_months": "3",
+        "annual_fee_usd": "99",
+        "annual_fee_waived_y1": "false",
+        "first_year_credits_usd": "",
+        "estimated_first_year_value_usd": "",
+        "notes": "Audited reward components/tiers: [{\"kind\":\"signup_component\",\"bonus_amount\":80000,\"bonus_currency\":\"Southwest points\",\"min_spend_usd\":1000,\"spend_window_months\":3,\"condition\":\"Purchases in the first 3 months from account opening\",\"status\":\"verified_current_first_party\",\"channel\":\"public online issuer product page\",\"verified\":\"2026-11-04\",\"excerpt\":\"Earn 80,000 bonus points after you spend $1,000 on purchases in the first 3 months from account opening.\"}] Eligibility: Not available to current cardmembers of any Southwest Rapid Rewards Credit Card or to previous cardmembers who received a new Cardmember bonus within the last 24 months (does not apply to the Business Card and Employee Credit Card). The account must be open and not in default at fulfillment; bonus posts 6 to 8 weeks after qualifying. Unresolved: No application end date is stated on the Chase page (Doctor of Credit says 12/2/26; Southwest.com shows that banner with the Priority offer only); not inferred. Referral links show the same applicant bonus per Doctor of Credit; referrer rewards are not recorded. No verified application end date; offer subject to change.",
+        "source": "Chase",
+        "source_url": "https://creditcards.chase.com/travel-credit-cards/southwest/plus",
+        "source_checked": "2026-11-04",
+        "apply_url": "https://creditcards.chase.com/travel-credit-cards/southwest/plus",
+        "offer_channel": "public",
+        "verification_status": "verified",
+        "expiration_date": "",
+        "spend_window_days": ""
+      }
+    },
+    {
+      "card_name": "U.S. Bank Business Leverage",
+      "before": {
+        "card_name": "U.S. Bank Business Leverage",
+        "issuer": "U.S. Bank",
+        "is_business": "true",
+        "network": "Visa",
+        "bonus_amount": "60000",
+        "bonus_currency": "U.S. Bank points",
+        "point_value_cpp": "",
+        "bonus_value_usd": "",
+        "min_spend_usd": "6000",
+        "spend_window_months": "",
+        "annual_fee_usd": "95",
+        "annual_fee_waived_y1": "true",
+        "first_year_credits_usd": "",
+        "estimated_first_year_value_usd": "",
+        "notes": "Observed product: Business Leverage Visa Signature. Spend window: 120 days from account opening (not calendar months). Audited reward components/tiers: [{\"product\":\"Business Leverage Visa Signature\",\"bonus_amount\":60000,\"bonus_currency\":\"U.S. Bank points\",\"min_spend_usd\":6000,\"spend_window\":{\"length\":120,\"unit\":\"days\",\"anchor\":\"account opening\"},\"annual_fee_usd\":95,\"annual_fee_waived_y1\":true,\"additional_conditions\":\"Account Owner card only; employee-card purchases excluded; advertised as up to $600 rewards.\"}] Account Owner card only; employee-card purchases excluded; advertised as up to $600 rewards. Eligibility: Subject to credit approval; cannot combine with any other bonus offer. Unresolved: repeat_bonus_eligibility; offer_expiration_date_not_stated No verified application end date; offer subject to change.",
+        "source": "U.S. Bank",
+        "source_url": "https://www.usbank.com/business-banking/business-credit-cards/business-leverage-rewards-credit-card.html",
+        "source_checked": "2026-09-16",
+        "apply_url": "https://www.usbank.com/business-banking/business-credit-cards/business-leverage-rewards-credit-card.html",
+        "offer_channel": "public",
+        "verification_status": "verified",
+        "expiration_date": "",
+        "spend_window_days": "120"
+      },
+      "after": {
+        "card_name": "U.S. Bank Business Leverage",
+        "issuer": "U.S. Bank",
+        "is_business": "true",
+        "network": "Visa",
+        "bonus_amount": "",
+        "bonus_currency": "",
+        "point_value_cpp": "",
+        "bonus_value_usd": "",
+        "min_spend_usd": "",
+        "spend_window_months": "",
+        "annual_fee_usd": "95",
+        "annual_fee_waived_y1": "true",
+        "first_year_credits_usd": "",
+        "estimated_first_year_value_usd": "",
+        "notes": "NOT A VERIFIED DEFAULT PUBLIC OFFER: closed_to_new_applications. On 2026-11-04 the U.S. Bank Business Leverage product page returned 404 (https://www.usbank.com/business-banking/business-credit-cards/business-leverage-credit-card.html), the recorded offer URL redirected to the business credit card list, and that list no longer includes Business Leverage. Doctor of Credit removed \"U.S. Bank Leverage Business $750 Bonus\" from its card index on 10/28/26. Prior recorded offer (verified 2026-09-16): 60,000 U.S. Bank points after $6,000 in 120 days, $95 annual fee waived the first year. Unresolved: closure_date.",
+        "source": "U.S. Bank",
+        "source_url": "https://www.usbank.com/business-banking/business-credit-cards/business-leverage-rewards-credit-card.html",
+        "source_checked": "2026-11-04",
+        "apply_url": "https://www.usbank.com/business-banking/business-credit-cards/business-leverage-rewards-credit-card.html",
+        "offer_channel": "historical",
+        "verification_status": "withdrawn",
+        "expiration_date": "",
+        "spend_window_days": ""
+      }
+    },
+    {
+      "card_name": "Barclays Wyndham Earner Plus",
+      "before": {
+        "card_name": "Barclays Wyndham Earner Plus",
+        "issuer": "Barclays",
+        "is_business": "false",
+        "network": "Mastercard",
+        "bonus_amount": "45000",
+        "bonus_currency": "Wyndham points",
+        "point_value_cpp": "1.0",
+        "bonus_value_usd": "450.0",
+        "min_spend_usd": "1000",
+        "spend_window_months": "",
+        "annual_fee_usd": "95",
+        "annual_fee_waived_y1": "false",
+        "first_year_credits_usd": "",
+        "estimated_first_year_value_usd": "",
+        "notes": "Observed product: Wyndham Rewards Earner Plus. Spend window: 90 days from account opening (not calendar months). Audited reward components/tiers: [{\"product\":\"Wyndham Rewards Earner Plus\",\"bonus_amount\":45000,\"bonus_currency\":\"Wyndham Rewards points\",\"min_spend_usd\":1000,\"spend_window\":{\"length\":90,\"unit\":\"days\",\"anchor\":\"account opening\"},\"annual_fee_usd\":95,\"annual_fee_waived_y1\":false,\"additional_conditions\":\"Base component.\"},{\"product\":\"Wyndham Rewards Earner Plus\",\"bonus_amount\":55000,\"bonus_currency\":\"Wyndham Rewards points\",\"min_spend_usd\":500,\"spend_window\":{\"length\":180,\"unit\":\"days\",\"anchor\":\"account opening\"},\"annual_fee_usd\":95,\"annual_fee_waived_y1\":false,\"additional_conditions\":\"Additional component for spending at Hotels by Wyndham, not a standalone alternative.\"}] Base component. Eligibility: Subject to issuer underwriting; detailed bonus eligibility not fully recovered, do not infer from another product. Unresolved: repeat_bonus_eligibility; overlap_of_general_and_hotel_spend; detailed_bonus_eligibility; offer_expiration_date_not_stated No verified application end date; offer subject to change.",
+        "source": "Barclays",
+        "source_url": "https://cards.barclaycardus.com/banking/cards/wyndham-rewards-earner-plus-card/",
+        "source_checked": "2026-09-16",
+        "apply_url": "https://cards.barclaycardus.com/banking/cards/wyndham-rewards-earner-plus-card/",
+        "offer_channel": "public",
+        "verification_status": "verified",
+        "expiration_date": "",
+        "spend_window_days": "90"
+      },
+      "after": {
+        "card_name": "Barclays Wyndham Earner Plus",
+        "issuer": "Barclays",
+        "is_business": "false",
+        "network": "Mastercard",
+        "bonus_amount": "45000",
+        "bonus_currency": "Wyndham points",
+        "point_value_cpp": "1.0",
+        "bonus_value_usd": "450.0",
+        "min_spend_usd": "1000",
+        "spend_window_months": "",
+        "annual_fee_usd": "95",
+        "annual_fee_waived_y1": "true",
+        "first_year_credits_usd": "",
+        "estimated_first_year_value_usd": "",
+        "notes": "Observed product: Wyndham Rewards Earner Plus. Spend window: 90 days from account opening (not calendar months). Audited reward components/tiers: [{\"product\":\"Wyndham Rewards Earner Plus\",\"bonus_amount\":45000,\"bonus_currency\":\"Wyndham Rewards points\",\"min_spend_usd\":1000,\"spend_window\":{\"length\":90,\"unit\":\"days\",\"anchor\":\"account opening\"},\"annual_fee_usd\":95,\"annual_fee_waived_y1\":true,\"additional_conditions\":\"Base component: purchases less credits, returns and adjustments, excluding timeshare down payments.\"},{\"product\":\"Wyndham Rewards Earner Plus\",\"bonus_amount\":45000,\"bonus_currency\":\"Wyndham Rewards points\",\"min_spend_usd\":500,\"spend_window\":{\"length\":180,\"unit\":\"days\",\"anchor\":\"account opening\"},\"annual_fee_usd\":95,\"annual_fee_waived_y1\":true,\"additional_conditions\":\"Additional component for Hotels by Wyndham purchases, not a standalone alternative; previously 55,000 points (2026-09-16 audit).\"}] Annual fee: $0 introductory annual fee the first year, $95 after that (card terms accurate as of 09/30/2026, form WYF - 10/2026). Eligibility: Intended for applicants who are not and have not previously been Wyndham Rewards Earner Plus cardmembers. Unresolved: overlap_of_general_and_hotel_spend; offer_expiration_date_not_stated No verified application end date; offer subject to change.",
+        "source": "Barclays",
+        "source_url": "https://www.barclaycardus.com/applycontent/TnCs.jsp?tc49153",
+        "source_checked": "2026-11-04",
+        "apply_url": "https://cards.barclaycardus.com/banking/cards/wyndham-rewards-earner-plus-card/",
+        "offer_channel": "public",
+        "verification_status": "verified",
+        "expiration_date": "",
+        "spend_window_days": "90"
+      }
+    }
+  ],
+  "added": [
+    {
+      "card_name": "Ameriprise Premier Visa Signature",
+      "issuer": "Elan",
+      "is_business": "false",
+      "network": "Visa",
+      "bonus_amount": "15000",
+      "bonus_currency": "Ameriprise Rewards points",
+      "point_value_cpp": "1.0",
+      "bonus_value_usd": "150.0",
+      "min_spend_usd": "1500",
+      "spend_window_months": "",
+      "annual_fee_usd": "150",
+      "annual_fee_waived_y1": "false",
+      "first_year_credits_usd": "",
+      "estimated_first_year_value_usd": "",
+      "notes": "Observed product: Ameriprise Premier Visa Signature, issued by Elan Financial Services (creditor and issuer); Ameriprise administers the rewards program. Spend window: 90 days from account opening (not calendar months). Audited reward components/tiers: [{\"kind\":\"signup_component\",\"bonus_amount\":15000,\"bonus_currency\":\"Ameriprise Rewards points\",\"min_spend_usd\":1500,\"spend_window\":{\"length\":90,\"unit\":\"days\",\"anchor\":\"account opening\"},\"status\":\"verified_current_first_party\",\"channel\":\"public online issuer product page\",\"verified\":\"2026-11-04\",\"excerpt\":\"Earn 15,000 bonus Rewards Points after you spend $1,500 on eligible everyday purchases in the first 90 days of account opening.\"}] Valuation: 1 point = $0.01 as a statement credit (10,000-point minimum); 1 point = $0.0125 only when redeemed in 30,000-point increments into an Eligible Ameriprise Account, which the 15,000-point bonus alone cannot reach, so 1.0 cpp is used. Annual fee: $150, waived only for Ameriprise Achiever Circle Elite clients on the cardmember anniversary date (not a general first-year waiver). Bonus points post 6-8 weeks after the 90-day period; earning the bonus depends on the credit limit. Eligibility: Designed exclusively for Ameriprise clients; existing and previous Ameriprise Visa cardmembers are not eligible for the bonus. Unresolved: offer_expiration_date_not_stated No verified application end date; offer subject to change.",
+      "source": "Ameriprise / Elan Financial Services",
+      "source_url": "https://www.ameriprise.com/products/ameriprise-bank/credit-cards/premier-visa-signature",
+      "source_checked": "2026-11-04",
+      "apply_url": "https://www.ameriprise.com/products/ameriprise-bank/credit-cards/premier-visa-signature",
+      "offer_channel": "public",
+      "verification_status": "verified",
+      "expiration_date": "",
+      "spend_window_days": "90"
+    },
+    {
+      "card_name": "Navy Federal Flagship Premier",
+      "issuer": "Navy Federal Credit Union",
+      "is_business": "false",
+      "network": "Visa",
+      "bonus_amount": "50000",
+      "bonus_currency": "Navy Federal Rewards points",
+      "point_value_cpp": "1.0",
+      "bonus_value_usd": "500.0",
+      "min_spend_usd": "4000",
+      "spend_window_months": "",
+      "annual_fee_usd": "95",
+      "annual_fee_waived_y1": "false",
+      "first_year_credits_usd": "",
+      "estimated_first_year_value_usd": "",
+      "notes": "Observed product: Navy Federal Flagship Premier Visa Signature. Spend window: 90 days from account opening (not calendar months). Audited reward components/tiers: [{\"kind\":\"signup_component\",\"bonus_amount\":50000,\"bonus_currency\":\"Navy Federal Rewards points\",\"min_spend_usd\":4000,\"spend_window\":{\"length\":90,\"unit\":\"days\",\"anchor\":\"account opening\"},\"status\":\"verified_current_first_party\",\"channel\":\"public online issuer product page\",\"verified\":\"2026-11-04\",\"excerpt\":\"50,000 bonus points (a $500 value) when you spend $4,000 in your first 90 days; offer for members who apply between 9/10/2026 and 1/3/2027.\"}] Valuation: the issuer states 50,000 points are a $500 value, so 1.0 cpp. Annual fee: $95 (not waived). The $100 annual airline credit and up to $120 Global Entry/TSA PreCheck credit are not valued. Personalized variant (not the public scalar): the preapproved landing page https://www.navyfederal.org/premiervip shows 90,000 points after $5,000 in 90 days for applications 10/01/2026-01/03/2027. Eligibility: Navy Federal membership required (armed forces, DoD, veterans and their families); limit one promotional offer at account opening; the account must be open and not in default when the bonus is scheduled to post; points post within 8 weeks after the 90-day period. Eligible purchases (first-party offer terms, 2026-11-04 captures): purchases of goods and services minus returns and credits, excluding fees, interest, balance transfers, gambling, convenience checks, cash advances and cash-equivalent transactions (money orders, gift cards, prepaid cards, person-to-person money transfers, purchases from securities broker-dealers including prediction markets). Unresolved: individual approval and membership eligibility are issuer-determined.",
+      "source": "Navy Federal Credit Union",
+      "source_url": "https://www.navyfederal.org/loans-cards/credit-cards/flagship-premier-visa-signature.htm",
+      "source_checked": "2026-11-04",
+      "apply_url": "https://www.navyfederal.org/loans-cards/credit-cards/flagship-premier-visa-signature.htm",
+      "offer_channel": "public",
+      "verification_status": "verified",
+      "expiration_date": "2027-01-03",
+      "spend_window_days": "90"
+    },
+    {
+      "card_name": "U.S. Bank Business Essentials",
+      "issuer": "U.S. Bank",
+      "is_business": "true",
+      "network": "Visa",
+      "bonus_amount": "50000",
+      "bonus_currency": "U.S. Bank points",
+      "point_value_cpp": "",
+      "bonus_value_usd": "",
+      "min_spend_usd": "5000",
+      "spend_window_months": "",
+      "annual_fee_usd": "0",
+      "annual_fee_waived_y1": "false",
+      "first_year_credits_usd": "",
+      "estimated_first_year_value_usd": "",
+      "notes": "Observed product: U.S. Bank Business Essentials Visa. Spend window: 150 days from account opening (not calendar months). Audited reward components/tiers: [{\"product\":\"U.S. Bank Business Essentials Visa\",\"bonus_amount\":50000,\"bonus_currency\":\"U.S. Bank points\",\"min_spend_usd\":5000,\"spend_window\":{\"length\":150,\"unit\":\"days\",\"anchor\":\"account opening\"},\"annual_fee_usd\":0,\"annual_fee_waived_y1\":false,\"additional_conditions\":\"Eligible Net Purchases (purchases minus credits and returns); all employee card purchases count; points post within 1-2 statement billing cycles.\"}] Issuer text: \"One-time 50,000 bonus points (worth up to $500) will be awarded if eligible Net Purchases totaling $5,000 or more are made to the account within 150 days from account opening.\" The issuer describes the points as \"worth up to\" a dollar amount; no cash value or cpp is recorded here and no U.S. Bank points program is seeded, so the app leaves the bonus unvalued, as for the other U.S. Bank point rows. Eligibility: the creditor and issuer is U.S. Bank National Association and the cards are available to United States residents only; subject to credit approval; the bonus may not be combined with any other credit card bonus offer. A qualified U.S. Bank business checking relationship only changes the ongoing Business Essentials Earning Bonus rate, not the welcome bonus. Unresolved: repeat_bonus_eligibility; offer_expiration_date_not_stated No verified application end date; offer subject to change.",
+      "source": "U.S. Bank",
+      "source_url": "https://www.usbank.com/business-banking/business-credit-cards/offers/business-essentials-compare.html",
+      "source_checked": "2026-11-04",
+      "apply_url": "https://www.usbank.com/business-banking/business-credit-cards/offers/business-essentials-compare.html",
+      "offer_channel": "public",
+      "verification_status": "verified",
+      "expiration_date": "",
+      "spend_window_days": "150"
+    },
+    {
+      "card_name": "U.S. Bank Business Essentials Plus",
+      "issuer": "U.S. Bank",
+      "is_business": "true",
+      "network": "Visa",
+      "bonus_amount": "100000",
+      "bonus_currency": "U.S. Bank points",
+      "point_value_cpp": "",
+      "bonus_value_usd": "",
+      "min_spend_usd": "15000",
+      "spend_window_months": "",
+      "annual_fee_usd": "295",
+      "annual_fee_waived_y1": "false",
+      "first_year_credits_usd": "",
+      "estimated_first_year_value_usd": "",
+      "notes": "Observed product: U.S. Bank Business Essentials Plus Visa Signature. Spend window: 150 days from account opening (not calendar months). Audited reward components/tiers: [{\"product\":\"U.S. Bank Business Essentials Plus Visa Signature\",\"bonus_amount\":100000,\"bonus_currency\":\"U.S. Bank points\",\"min_spend_usd\":15000,\"spend_window\":{\"length\":150,\"unit\":\"days\",\"anchor\":\"account opening\"},\"annual_fee_usd\":295,\"annual_fee_waived_y1\":false,\"additional_conditions\":\"Eligible Net Purchases (purchases minus credits and returns); all employee card purchases count; points post within 1-2 statement billing cycles.\"}] Issuer text: \"One-time 100,000 bonus points (worth up to $1,000) will be awarded if eligible Net Purchases (Purchases minus credits and returns) totaling $15,000 or more are made to the account within 150 days from account opening.\" The issuer describes the points as \"worth up to\" a dollar amount; no cash value or cpp is recorded here and no U.S. Bank points program is seeded, so the app leaves the bonus unvalued, as for the other U.S. Bank point rows. Eligibility: the creditor and issuer is U.S. Bank National Association and the cards are available to United States residents only; subject to credit approval; the bonus may not be combined with any other credit card bonus offer. A qualified U.S. Bank business checking relationship only changes the ongoing Business Essentials Earning Bonus rate, not the welcome bonus. Unresolved: repeat_bonus_eligibility; offer_expiration_date_not_stated No verified application end date; offer subject to change.",
+      "source": "U.S. Bank",
+      "source_url": "https://www.usbank.com/business-banking/business-credit-cards/business-essentials-plus-credit-card.html",
+      "source_checked": "2026-11-04",
+      "apply_url": "https://www.usbank.com/business-banking/business-credit-cards/business-essentials-plus-credit-card.html",
+      "offer_channel": "public",
+      "verification_status": "verified",
+      "expiration_date": "",
+      "spend_window_days": "150"
+    }
+  ],
+  "evidence": {
+    "Chase Southwest Airlines Plus": {
+      "url": "https://creditcards.chase.com/travel-credit-cards/southwest/plus",
+      "retrieved": "2026-11-04T15:05:59.171826-05:00",
+      "method": "operator browser capture of rendered first-party text (out/t_8b862baf/browser)"
+    },
+    "Chase Southwest Airlines Premier": {
+      "url": "https://creditcards.chase.com/travel-credit-cards/southwest/premier",
+      "retrieved": "2026-11-04 (curl GET, 2026-11-04 ~20:09Z)",
+      "method": "raw HTML saved under out/t_8b862baf/raw/pages"
+    },
+    "Chase Southwest Airlines Priority": {
+      "url": "https://creditcards.chase.com/travel-credit-cards/southwest/priority",
+      "retrieved": "2026-11-04 (curl GET, 2026-11-04 ~20:09Z)",
+      "method": "raw HTML saved under out/t_8b862baf/raw/pages"
+    },
+    "Chase Ink Cash": {
+      "url": "https://creditcards.chase.com/business-credit-cards/ink/cash",
+      "retrieved": "2026-11-04 (curl GET, 2026-11-04 ~20:09Z)",
+      "method": "raw HTML saved under out/t_8b862baf/raw/pages"
+    },
+    "Chase Ink Unlimited": {
+      "url": "https://creditcards.chase.com/business-credit-cards/ink/unlimited",
+      "retrieved": "2026-11-04 (curl GET, 2026-11-04 ~20:09Z)",
+      "method": "raw HTML saved under out/t_8b862baf/raw/pages"
+    },
+    "Barclays Wyndham Earner Plus": {
+      "url": "https://www.barclaycardus.com/applycontent/TnCs.jsp?tc49153",
+      "retrieved": "2026-11-04 (curl GET, 2026-11-04 ~20:09Z)",
+      "method": "raw HTML saved under out/t_8b862baf/raw/pages"
+    },
+    "Ameriprise Premier Visa Signature": {
+      "url": "https://www.ameriprise.com/products/ameriprise-bank/credit-cards/premier-visa-signature",
+      "retrieved": "2026-11-04T15:06:07.757556-05:00",
+      "method": "operator browser capture of rendered first-party text (out/t_8b862baf/browser)"
+    },
+    "Navy Federal Flagship Premier": {
+      "url": "https://www.navyfederal.org/loans-cards/credit-cards/flagship-premier-visa-signature.htm.html",
+      "retrieved": "2026-11-04T15:06:24.045798-05:00",
+      "method": "operator browser capture of rendered first-party text (out/t_8b862baf/browser)"
+    },
+    "U.S. Bank Business Essentials": [
+      {
+        "url": "https://www.usbank.com/business-banking/business-credit-cards/business-essentials-plus-credit-card.html",
+        "retrieved": "2026-11-04T15:15:32.591256-05:00",
+        "method": "operator browser capture of rendered first-party text (out/t_8b862baf/browser/usbank-plus.json)"
+      },
+      {
+        "url": "https://www.usbank.com/business-banking/business-credit-cards/offers/business-essentials-compare.html",
+        "retrieved": "2026-11-04T15:15:47.722541-05:00",
+        "method": "operator browser capture of rendered first-party text (out/t_8b862baf/browser/usbank-compare.json)"
+      }
+    ],
+    "U.S. Bank Business Essentials Plus": [
+      {
+        "url": "https://www.usbank.com/business-banking/business-credit-cards/business-essentials-plus-credit-card.html",
+        "retrieved": "2026-11-04T15:15:32.591256-05:00",
+        "method": "operator browser capture of rendered first-party text (out/t_8b862baf/browser/usbank-plus.json)"
+      },
+      {
+        "url": "https://www.usbank.com/business-banking/business-credit-cards/offers/business-essentials-compare.html",
+        "retrieved": "2026-11-04T15:15:47.722541-05:00",
+        "method": "operator browser capture of rendered first-party text (out/t_8b862baf/browser/usbank-compare.json)"
+      }
+    ],
+    "U.S. Bank Business Leverage": [
+      {
+        "url": "https://www.usbank.com/business-banking/business-credit-cards/business-leverage-credit-card.html",
+        "retrieved": "2026-11-04 (curl GET, phase 3)",
+        "method": "raw response saved as out/t_8b862baf/raw/phase3/usbank-leverage.html; HTTP 404"
+      },
+      {
+        "url": "https://www.usbank.com/business-banking/business-credit-cards/business-leverage-rewards-credit-card.html",
+        "retrieved": "2026-11-04 (curl GET, phase 3)",
+        "method": "raw response saved as out/t_8b862baf/raw/phase3/usbank-leverage-rewards.html; redirected to the business credit card list, which no longer names Business Leverage"
+      }
+    ]
+  },
+  "valuation": "App value = points x the seeded program cpp when the currency links to one (Southwest points -> Southwest miles 1.3; Wyndham points 0.7), else the row point_value_cpp. Ameriprise and Navy Federal use 1.0 cpp from issuer-stated values; no cash is invented. U.S. Bank Business Essentials/Essentials Plus record U.S. Bank points with no row cpp or cash value (the issuer says \"worth up to\"); no U.S. Bank points program is seeded, so the app leaves them unvalued, matching the existing U.S. Bank point rows.",
+  "live_publication": {
+    "live_csv": "https://raw.githubusercontent.com/searchlightdev/credit-card-manager-releases/main/data/signup_bonuses.csv",
+    "method": "Because live equalled bundled at readback, publish the bundled file after re-confirming the live SHA-256 is still 00e0466e…a7490; otherwise apply only these 7 row replacements and 4 appends to the newer live file. Re-fetch the public URL and confirm. Not done by this worker."
+  },
+  "discovery": {
+    "card_items": [
+      {
+        "n": 1,
+        "pubDate": "2026-11-04T15:00:14Z",
+        "title": "Ameriprise Premier Visa – 2.5% Cashback On All Purchases, $150 Sign Up Bonus",
+        "url": "https://www.doctorofcredit.com/ameriprise-premier-visa-2-5-cashback-on-all-purchases-150-sign-up-bonus/",
+        "dispositions": [
+          {
+            "disposition": "new_add",
+            "card_name": "Ameriprise Premier Visa Signature",
+            "doc_kind": "original publication; title says $150 while body says 15,000 points",
+            "doc_updates": null,
+            "first_party": {
+              "url": "https://www.ameriprise.com/products/ameriprise-bank/credit-cards/premier-visa-signature",
+              "checked": "2026-11-04"
+            },
+            "reason": null
+          }
+        ]
+      },
+      {
+        "n": 2,
+        "pubDate": "2026-11-04T14:00:34Z",
+        "title": "Barclays Wyndham Cards – Increased Offers Up To 120,000 Points",
+        "url": "https://www.doctorofcredit.com/barclays-wyndham-cards-increased-offers-up-to-120000-points/",
+        "dispositions": [
+          {
+            "disposition": "update",
+            "card_name": "Barclays Wyndham Earner Plus",
+            "doc_kind": null,
+            "doc_updates": null,
+            "first_party": {
+              "url": null,
+              "checked": "2026-11-04"
+            },
+            "reason": null
+          },
+          {
+            "disposition": "already_present_unchanged",
+            "card_name": "Barclays Wyndham Earner Premier",
+            "doc_kind": null,
+            "doc_updates": null,
+            "first_party": {
+              "url": "https://www.barclaycardus.com/applycontent/TnCs.jsp?tc49152",
+              "checked": "2026-11-04"
+            },
+            "reason": "Bundled row already records 90,000/$6,000/120 days plus the 30,000 hotel component. DoC's 'up to 120,000' is the sum of separate components. Landing page says 90 days for the base window; the card terms say 120 days (terms win). Optional: advance source_checked to 2026-11-04 only after browser confirmation."
+          }
+        ]
+      },
+      {
+        "n": 3,
+        "pubDate": "2026-11-03T23:54:32Z",
+        "title": "Navy Federal Credit Union (NFCU) Launches New Flagship Premier Rewards Card [90K Bonus]",
+        "url": "https://www.doctorofcredit.com/navy-federal-credit-union-nfcu-launches-new-flagship-premier-rewards-card/",
+        "dispositions": [
+          {
+            "disposition": "new_add",
+            "card_name": "Navy Federal Flagship Premier Visa Signature",
+            "doc_kind": null,
+            "doc_updates": [
+              "11/3/26 Looks like it's 90,000 points now (originally via mailer)"
+            ],
+            "first_party": {
+              "url": null,
+              "checked": null
+            },
+            "reason": null
+          }
+        ]
+      },
+      {
+        "n": 4,
+        "pubDate": "2026-11-03T23:39:57Z",
+        "title": "Capital One Adds Copa As 2:1.5 Transfer Partner – Launches With 30% Transfer Bonus",
+        "url": "https://www.doctorofcredit.com/capital-one-adds-copa-as-21-5-transfer-partner-launches-with-30-transfer-bonus/",
+        "dispositions": [
+          {
+            "disposition": "excluded",
+            "card_name": null,
+            "doc_kind": null,
+            "doc_updates": null,
+            "first_party": null,
+            "reason": "transfer partner/transfer bonus"
+          }
+        ]
+      },
+      {
+        "n": 5,
+        "pubDate": "2026-11-03T18:30:47Z",
+        "title": "U.S. Bank Spend Offers (Up To $75 Bonus)",
+        "url": "https://www.doctorofcredit.com/u-s-bank-spend-offers-5-7-bonus/",
+        "dispositions": [
+          {
+            "disposition": "excluded",
+            "card_name": null,
+            "doc_kind": null,
+            "doc_updates": null,
+            "first_party": null,
+            "reason": "existing-cardholder spend offers"
+          }
+        ]
+      },
+      {
+        "n": 6,
+        "pubDate": "2026-11-03T17:30:16Z",
+        "title": "Chase Southwest Personal Cards: 80,000 – 90,000 Points Signup Bonus (Referral Links Available)",
+        "url": "https://www.doctorofcredit.com/chase-southwest-personal-cards-80000-90000-points-signup-bonus-2/",
+        "dispositions": [
+          {
+            "disposition": "update",
+            "card_name": null,
+            "doc_kind": null,
+            "doc_updates": [
+              "11/3/26 offers now also on referral links"
+            ],
+            "first_party": {
+              "url": null,
+              "checked": null
+            },
+            "reason": null
+          }
+        ]
+      },
+      {
+        "n": 7,
+        "pubDate": "2026-11-03T17:25:02Z",
+        "title": "Bank of America Atmos Alaska Airlines Business Card 85,000 Miles",
+        "url": "https://www.doctorofcredit.com/bank-of-america-atmos-alaska-airlines-business-card-85000-miles/",
+        "dispositions": [
+          {
+            "disposition": "already_present_unchanged",
+            "card_name": "Bank of America Alaska Atmos Business",
+            "doc_kind": null,
+            "doc_updates": null,
+            "first_party": {
+              "url": "https://business.bankofamerica.com/en/credit-cards/atmos-rewards",
+              "checked": "2026-11-04"
+            },
+            "reason": "Matches bundled 70,000/$4,000/90 days/$95. DoC's 85,000 offer uses https://www.atmosbizvisa85k.com/ (ownership not established) and a 'FA promo code' -> excluded as a non-public/targeted variant."
+          }
+        ]
+      },
+      {
+        "n": 8,
+        "pubDate": "2026-11-02T20:33:23Z",
+        "title": "Synchrony 2% Card: $100 Signup Bonus",
+        "url": "https://www.doctorofcredit.com/synchrony-2-card-100-signup-bonus/",
+        "dispositions": [
+          {
+            "disposition": "unresolved",
+            "card_name": "Synchrony Premier World Mastercard ($100)",
+            "doc_kind": null,
+            "doc_updates": null,
+            "first_party": {
+              "url": "https://www.synchrony.com/financing/synchrony-mastercards",
+              "checked": "2026-11-04"
+            },
+            "reason": "DoC's $100 after $1,000 in 60 days has no first-party source; possibly channel-specific. Not added."
+          }
+        ]
+      },
+      {
+        "n": 9,
+        "pubDate": "2026-11-02T19:31:27Z",
+        "title": "American Express Transfer Bonus: 30% To Virgin Atlantic",
+        "url": "https://www.doctorofcredit.com/american-express-transfer-bonus-30-to-virgin-atlantic-8/",
+        "dispositions": [
+          {
+            "disposition": "excluded",
+            "card_name": null,
+            "doc_kind": null,
+            "doc_updates": null,
+            "first_party": null,
+            "reason": "transfer bonus"
+          }
+        ]
+      },
+      {
+        "n": 10,
+        "pubDate": "2026-11-02T19:29:32Z",
+        "title": "American Express To Enroll Charge Cardholders Into 'Pay Over Time' No Opt Out",
+        "url": "https://www.doctorofcredit.com/american-express-to-enroll-charge-cardholders-into-pay-over-time-no-opt-out/",
+        "dispositions": [
+          {
+            "disposition": "excluded",
+            "card_name": null,
+            "doc_kind": null,
+            "doc_updates": null,
+            "first_party": null,
+            "reason": "product policy news"
+          }
+        ]
+      },
+      {
+        "n": 11,
+        "pubDate": "2026-11-02T01:22:38Z",
+        "title": "Discover: Earn 15% Cashback On Capital One Travel Purchases",
+        "url": "https://www.doctorofcredit.com/discover-earn-15-cashback-on-capital-one-travel-purchases/",
+        "dispositions": [
+          {
+            "disposition": "excluded",
+            "card_name": null,
+            "doc_kind": null,
+            "doc_updates": null,
+            "first_party": null,
+            "reason": "spending offer"
+          }
+        ]
+      },
+      {
+        "n": 12,
+        "pubDate": "2026-11-02T01:16:31Z",
+        "title": "[Targeted] Venmo Credit Card: Double Cashback On All Purchases",
+        "url": "https://www.doctorofcredit.com/targeted-venmo-credit-card-double-cashback-on-all-purchases/",
+        "dispositions": [
+          {
+            "disposition": "excluded",
+            "card_name": null,
+            "doc_kind": null,
+            "doc_updates": null,
+            "first_party": null,
+            "reason": "targeted spending offer"
+          }
+        ]
+      },
+      {
+        "n": 13,
+        "pubDate": "2026-11-01T20:15:10Z",
+        "title": "[Targeted] Chase Travel: Spend $600+ & Receive $100 Back",
+        "url": "https://www.doctorofcredit.com/targeted-chase-travel-spend-500-receive-100-back/",
+        "dispositions": [
+          {
+            "disposition": "excluded",
+            "card_name": null,
+            "doc_kind": null,
+            "doc_updates": null,
+            "first_party": null,
+            "reason": "targeted spending offer"
+          }
+        ]
+      },
+      {
+        "n": 14,
+        "pubDate": "2026-11-01T12:00:26Z",
+        "title": "Chase Ultimate Rewards: 30% Transfer Bonus To Avios (1:1.3)",
+        "url": "https://www.doctorofcredit.com/chase-ultimate-rewards-30-transfer-bonus-to-avios-11-3/",
+        "dispositions": [
+          {
+            "disposition": "excluded",
+            "card_name": null,
+            "doc_kind": null,
+            "doc_updates": null,
+            "first_party": null,
+            "reason": "transfer bonus"
+          }
+        ]
+      },
+      {
+        "n": 15,
+        "pubDate": "2026-11-01T12:00:14Z",
+        "title": "Capital One: 20% Transfer Bonus To AirFrance/KLM Flying Blue (1:1.2)",
+        "url": "https://www.doctorofcredit.com/capital-one-20-transfer-bonus-to-airfrance-klm-flying-blue-11-2-4/",
+        "dispositions": [
+          {
+            "disposition": "excluded",
+            "card_name": null,
+            "doc_kind": null,
+            "doc_updates": null,
+            "first_party": null,
+            "reason": "transfer bonus"
+          }
+        ]
+      },
+      {
+        "n": 16,
+        "pubDate": "2026-11-01T12:00:07Z",
+        "title": "Chase Ultimate Rewards: 30% Transfer Bonus To Wyndham (1:1.3)",
+        "url": "https://www.doctorofcredit.com/chase-ultimate-rewards-30-transfer-bonus-to-wyndham-11-3-2/",
+        "dispositions": [
+          {
+            "disposition": "excluded",
+            "card_name": null,
+            "doc_kind": null,
+            "doc_updates": null,
+            "first_party": null,
+            "reason": "transfer bonus"
+          }
+        ]
+      },
+      {
+        "n": 17,
+        "pubDate": "2026-11-01T12:00:05Z",
+        "title": "[Expired] Bilt Rent Day (November 2026): Up to 100% Bonus On Giftcard Redemptions & Up To $150 Off Hotel Bookings",
+        "url": "https://www.doctorofcredit.com/bilt-rent-day-november-2026-up-to-100-bonus-on-giftcard-redemptions-up-to-150-off-hotel-bookings/",
+        "dispositions": [
+          {
+            "disposition": "excluded",
+            "card_name": null,
+            "doc_kind": null,
+            "doc_updates": null,
+            "first_party": null,
+            "reason": "expired Bilt Rent Day promotion, not a signup bonus"
+          }
+        ]
+      },
+      {
+        "n": 18,
+        "pubDate": "2026-10-31T20:21:22Z",
+        "title": "Bank Of America Surveys New/Updated Travel Card, No Annual Fee + Transfer Partners?",
+        "url": "https://www.doctorofcredit.com/bank-of-america-surveys-new-updated-travel-card-no-annual-fee-transfer-partners/",
+        "dispositions": [
+          {
+            "disposition": "excluded",
+            "card_name": null,
+            "doc_kind": null,
+            "doc_updates": null,
+            "first_party": null,
+            "reason": "survey news"
+          }
+        ]
+      },
+      {
+        "n": 19,
+        "pubDate": "2026-10-30T19:30:22Z",
+        "title": "(Now Live) PenFed Defender Card with 5x on Gas & 3x on Grocery & Dining",
+        "url": "https://www.doctorofcredit.com/launching-soon-penfed-defender-card-with-5x-on-gas-3x-on-grocery-dining/",
+        "dispositions": [
+          {
+            "disposition": "unresolved",
+            "card_name": "PenFed Defender Visa Signature",
+            "doc_kind": null,
+            "doc_updates": null,
+            "first_party": {
+              "url": "https://www.penfed.org/credit-cards/defender-rewards-visa",
+              "checked": "2026-11-04"
+            },
+            "reason": "DoC 10/30/26: 15,000 points after $1,500 within 90 days, $0 fee. Third-party sources conflict (NerdWallet points vs CardHub $100 cash, military-only). Not added."
+          }
+        ]
+      },
+      {
+        "n": 20,
+        "pubDate": "2026-10-30T16:45:52Z",
+        "title": "[Targeted] Chase INK Cash/Unlimited $1,200 Bonus; INK Preferred 125,000 Points Bonus",
+        "url": "https://www.doctorofcredit.com/targeted-chase-ink-cash-unlimited-1200-bonus-ink-preferred-125000-points-bonus/",
+        "dispositions": [
+          {
+            "disposition": "update_triggered_public_rows",
+            "card_name": null,
+            "doc_kind": null,
+            "doc_updates": null,
+            "first_party": {
+              "url": null,
+              "checked": null
+            },
+            "reason": null
+          }
+        ]
+      },
+      {
+        "n": 21,
+        "pubDate": "2026-10-30T14:00:41Z",
+        "title": "Citi Retail Cards Now Showing In App For Some Cardholders",
+        "url": "https://www.doctorofcredit.com/citi-retail-cards-now-showing-in-app-for-some-cardholders/",
+        "dispositions": [
+          {
+            "disposition": "excluded",
+            "card_name": null,
+            "doc_kind": null,
+            "doc_updates": null,
+            "first_party": null,
+            "reason": "app news"
+          }
+        ]
+      },
+      {
+        "n": 22,
+        "pubDate": "2026-10-29T20:15:15Z",
+        "title": "Best Current Credit Card Sign Up Bonuses & Offers For November, 2026",
+        "url": "https://www.doctorofcredit.com/best-current-credit-card-sign-bonuses/",
+        "dispositions": [
+          {
+            "disposition": "excluded",
+            "card_name": null,
+            "doc_kind": null,
+            "doc_updates": null,
+            "first_party": null,
+            "reason": "monthly roundup (never a new offer source)"
+          }
+        ]
+      },
+      {
+        "n": 23,
+        "pubDate": "2026-10-29T19:00:32Z",
+        "title": "(Update) PayPal Launches Debit Card That Earns 5% Back On One Category (Up To $1,000)",
+        "url": "https://www.doctorofcredit.com/paypal-launches-debit-card-that-earns-5-back-on-one-category-up-to-1000/",
+        "cross_listed": "Bank Accounts (bank item 25)",
+        "dispositions": [
+          {
+            "disposition": "cross_listed",
+            "card_name": null,
+            "doc_kind": null,
+            "doc_updates": null,
+            "first_party": null,
+            "reason": "PayPal debit card; dispositioned as bank item 25 (excluded)"
+          }
+        ]
+      },
+      {
+        "n": 24,
+        "pubDate": "2026-10-29T16:17:25Z",
+        "title": "American Express Reward Dollars Can Now Be Redeemed To American Express Deposit Accounts",
+        "url": "https://www.doctorofcredit.com/american-express-reward-dollars-can-now-be-redeemed-to-american-express-deposit-accounts/",
+        "dispositions": [
+          {
+            "disposition": "excluded",
+            "card_name": null,
+            "doc_kind": null,
+            "doc_updates": null,
+            "first_party": null,
+            "reason": "redemption news"
+          }
+        ]
+      },
+      {
+        "n": 25,
+        "pubDate": "2026-10-29T15:56:57Z",
+        "title": "DoorDash to buy Instacart for $17 Billion",
+        "url": "https://www.doctorofcredit.com/doordash-to-buy-instacart-for-17-billion/",
+        "dispositions": [
+          {
+            "disposition": "excluded",
+            "card_name": null,
+            "doc_kind": null,
+            "doc_updates": null,
+            "first_party": null,
+            "reason": "merger news"
+          }
+        ]
+      },
+      {
+        "n": 26,
+        "pubDate": "2026-10-29T00:09:43Z",
+        "title": "Chase United Explorer $500 Statement Credit + 25,000 Miles + 10,000 Miles For Adding Authorized User",
+        "url": "https://www.doctorofcredit.com/chase-united-explorer-500-statement-credit-25000-miles-10000-miles-for-adding-authorized-user/",
+        "dispositions": [
+          {
+            "disposition": "unresolved_update",
+            "card_name": "Chase United Explorer",
+            "doc_kind": null,
+            "doc_updates": [
+              "10/28/26 statement credit back up to $500"
+            ],
+            "first_party": {
+              "url": "https://creditcards.chase.com/travel-credit-cards/united/united-explorer",
+              "checked": "2026-11-04"
+            },
+            "reason": null
+          }
+        ]
+      },
+      {
+        "n": 27,
+        "pubDate": "2026-10-28T19:30:33Z",
+        "title": "Chase To Open Sapphire Lounge In Seattle-Tacoma International Airport (SEA)",
+        "url": "https://www.doctorofcredit.com/chase-to-open-sapphire-lounge-in-seattle-tacoma-international-airport-sea/",
+        "dispositions": [
+          {
+            "disposition": "excluded",
+            "card_name": null,
+            "doc_kind": null,
+            "doc_updates": null,
+            "first_party": null,
+            "reason": "lounge news"
+          }
+        ]
+      },
+      {
+        "n": 28,
+        "pubDate": "2026-10-28T18:52:05Z",
+        "flag": "inside calendar lookback (14:52:05 EDT)",
+        "title": "(Update) Rakuten Adds Bank Of America Cards To Portal",
+        "url": "https://www.doctorofcredit.com/rakuten-adds-bank-of-america-cards-to-portal-up-to-150/",
+        "dispositions": [
+          {
+            "disposition": "excluded",
+            "card_name": null,
+            "doc_kind": null,
+            "doc_updates": null,
+            "first_party": null,
+            "reason": "Rakuten portal cash stacked on BofA applications; portal reward is separate from the issuer bonus (not an issuer offer)"
+          }
+        ]
+      },
+      {
+        "n": 29,
+        "pubDate": "2026-10-28T16:27:32Z",
+        "flag": "boundary_overlap_only (12:27:32 EDT, before 14:40:22 EDT lookback)",
+        "title": "[Targeted] Chase Sapphire Reserve for Business 300,000 Points Signup Bonus",
+        "url": "https://www.doctorofcredit.com/targeted-chase-sapphire-reserve-for-business-300000-points-signup-bonus/",
+        "dispositions": [
+          {
+            "disposition": "excluded_targeted",
+            "card_name": "Chase Sapphire Reserve for Business",
+            "doc_kind": null,
+            "doc_updates": null,
+            "first_party": null,
+            "reason": "300,000 after $30,000 in 4 months via 'You're Already Approved' only; public bundled row (200,000/$30,000/6 months) unchanged and not re-verified here"
+          }
+        ]
+      }
+    ],
+    "index_only": [
+      {
+        "index_date": "2026-10-28",
+        "entry": "Added U.S. Bank Business Essentials Plus Visa Signature Card 100,000 Points",
+        "disposition": "added",
+        "card_names": [
+          "U.S. Bank Business Essentials",
+          "U.S. Bank Business Essentials Plus"
+        ],
+        "original_publication": "Doctor of Credit article first published 2026-09-29 (out/t_8b862baf/browser/doc-usbank-essentials.json); the index listing on 10/28/26 is the in-window lead, not the launch.",
+        "evidence": [
+          {
+            "url": "https://www.usbank.com/business-banking/business-credit-cards/business-essentials-plus-credit-card.html",
+            "retrieved": "2026-11-04T15:15:32.591256-05:00",
+            "method": "operator browser capture of rendered first-party text (out/t_8b862baf/browser/usbank-plus.json)"
+          },
+          {
+            "url": "https://www.usbank.com/business-banking/business-credit-cards/offers/business-essentials-compare.html",
+            "retrieved": "2026-11-04T15:15:47.722541-05:00",
+            "method": "operator browser capture of rendered first-party text (out/t_8b862baf/browser/usbank-compare.json)"
+          }
+        ],
+        "not_needed": "The U.S. Bank investor-relations launch release (ir.usbank.com) returned a Cloudflare challenge; it is not needed because both product terms and full bonus footnotes are first-party."
+      },
+      {
+        "index_date": "2026-10-28",
+        "entry": "Removed U.S. Bank Leverage Business $750 Bonus",
+        "disposition": "withdrawn_update",
+        "card_names": [
+          "U.S. Bank Business Leverage"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.usbank.com/business-banking/business-credit-cards/business-leverage-credit-card.html",
+            "retrieved": "2026-11-04 (curl GET, phase 3)",
+            "method": "raw response saved as out/t_8b862baf/raw/phase3/usbank-leverage.html; HTTP 404"
+          },
+          {
+            "url": "https://www.usbank.com/business-banking/business-credit-cards/business-leverage-rewards-credit-card.html",
+            "retrieved": "2026-11-04 (curl GET, phase 3)",
+            "method": "raw response saved as out/t_8b862baf/raw/phase3/usbank-leverage-rewards.html; redirected to the business credit card list, which no longer names Business Leverage"
+          }
+        ]
+      }
+    ],
+    "all_category_ref": "see data/bank_account_bonuses.refresh-2026-11-04.json discovery.all_category"
+  },
+  "channel_representability": "The public card feed schema carries one offer per product. Targeted, preapproved, promo-code and referral variants (e.g. Navy Federal preapproved 90,000; Chase Ink targeted $1,200; BofA Atmos Business 85,000 promo link; United Explorer link-specific $500 credit) cannot be represented as separate rows, so they are recorded in notes or excluded with reasons here rather than silently dropped."
+}
