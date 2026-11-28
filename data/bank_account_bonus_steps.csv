@@ -471,7 +471,7 @@ offer_id,step,type,start_day,due_day,due_date,hold_days,hold_until_day,hold_unti
 "regions-bank-lifegreen-checking-400","1","direct_deposit","","90","","","","","100000","","","New qualifying ACH payroll or government DD totaling $1,000. Register for the offer with matching name/email before opening."
 "old-national-bank-everyday-checking-3500-dd-tier-300","1","direct_deposit","","","","","","","350000","3","","At least 3 recurring payroll, pension or government DD during the first four calendar months including the opening month (not a fixed 120 days)."
 "old-national-bank-everyday-checking-12000-dd-tier-600","1","direct_deposit","","","","","","","1200000","3","","At least 3 recurring payroll, pension or government DD during the first four calendar months including the opening month (not a fixed 120 days)."
-"midflorida-credit-union-free-checking-200-tier-200","1","direct_deposit","","75","","","","","200000","","","Cumulative qualifying payroll, pension or government DD posted within 75 days."
+"midflorida-credit-union-free-checking-200-tier-200","1","direct_deposit","","75","","","","","200000","","","Cumulative qualifying direct deposit (ACH credit of paycheck, pension or government benefits) of $2,000 posted within 75 days; tax refunds, cash transfer app deposits and transfers from another MIDFLORIDA account do not qualify."
 "midflorida-credit-union-free-checking-200-tier-200","2","other","","75","","","","","","","","Accept and open Online Banking."
 "midflorida-credit-union-free-checking-200-tier-200","3","other","","75","","","","","","","","Enroll in eStatements."
 "midflorida-credit-union-free-checking-200-tier-200","4","other","","75","","","","","","","","Open and activate a debit card."
